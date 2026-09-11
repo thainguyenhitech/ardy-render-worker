@@ -77,9 +77,13 @@ def _nap() -> None:
             for mod in (_m.model.llm, _m.model.flow):
                 mod.to(d)
             # vocoder HiFT tự ép một nhánh sang float64 (generator.py inference) — MPS không có float64:
-            # giữ HiFT ở CPU, chuyển mel về CPU trước khi vào nó
-            _hift = _m.model.hift.inference
-            _m.model.hift.inference = lambda speech_feat, **k: _hift(speech_feat=speech_feat.cpu(), **k)
+            # giữ HiFT ở CPU, chuyển mel về CPU trước khi vào nó. CHỈ với MPS: trên CUDA HiFT nằm ở GPU, ép mel
+            # xuống CPU là "Expected all tensors to be on the same device" (worker RunPod 11/09).
+            if tb == "mps":
+                _hift = _m.model.hift.inference
+                _m.model.hift.inference = lambda speech_feat, **k: _hift(speech_feat=speech_feat.cpu(), **k)
+            else:
+                _m.model.hift.to(d)
         # SỐ BƯỚC ODE của flow (flow.py gán cứng 10): ít bước = nhanh hơn, chất lượng giảm dần.
         buoc = int(os.getenv("COSY_BUOC", "10"))
         if buoc != 10:
