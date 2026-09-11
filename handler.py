@@ -1,120 +1,74 @@
-"""HANDLER RunPod serverless — worker TTS GPU của cụm (xem bootstrap.sh). Chạy trong venv_qwen; Chatterbox ở tiến
-trình con cb_server.py (127.0.0.1:8813). Worker KHÔNG có trạng thái bền: mỗi yêu cầu mang theo mẫu giọng (base64,
-≤10 s) + lời mẫu; prompt clone được cache theo id trong lúc worker còn ấm.
-
-input: {op: "health"} · {op: "doc", engine: "qwen"|"chatterbox", text, ngon_ngu: "fr", mau_b64, loi_mau,
-        ngon_ngu_mau: "vi", id_giong, speed?}  → {audio_b64 (wav PCM16), sr, giay, tieng_s, engine, gpu}
-"""
+"""Handler RunPod serverless — worker TTS GPU của cụm `tts_server/` (11/09, user: "set luôn runpod chạy 2 model vienue
+và cosy, xoá các model còn lại và không cần dùng model chạy local trên mac mini"). Hai engine, mỗi cái một tiến trình con:
+  vieneu (tiếng Việt, vieneu_server.py, 8815) · cosy (ngoại ngữ, cosy_worker.py của cụm, 8814).
+input: {op: "health"} · {op: "log"} · {op: "doc", engine: "vieneu"|"cosy", text, ngon_ngu, id_giong, mau_sha1|mau_b64,
+        loi_mau, ngon_ngu_mau, speed?} → {audio_b64 (wav PCM16), sr, giay, tieng_s, engine, gpu, mau_cache}
+       {op: "ghi_nho", engine, id_giong, mau_*, loi_mau} · {op: "xoa_giong", id_giong} · {op: "emb", mau_*} → {emb}
+MẪU GIỌNG UPLOAD MỘT LẦN: `mau_sha1` trỏ tệp trên volume ($VOL/mau/<sha>.b64), thiếu → {loi: "thieu_mau"} để cụm gửi
+lại kèm `mau_b64` (đường lên máy user ~25–100 KB/s, 640 KB mỗi câu là 6–38 s trong khi GPU đọc 1–4 s).
+Engine con CHƯA NẠP → chờ ≤120 s (worker "ready" là handler lên, con còn nạp 30–60 s — trả 503 ngay là cụm rơi về dự
+phòng dù đã trả tiền cold start)."""
 import base64
 import hashlib
 import io
+import json
 import os
 import time
 import traceback
+import urllib.request
 
 import numpy as np
+import runpod
 import soundfile as sf
 import torch
 
-import runpod
-
-QWEN_ID = os.getenv("QWEN_TTS_ID", "Qwen/Qwen3-TTS-12Hz-1.7B-Base")
-QWEN_MODEL = {"1.7B": "Qwen/Qwen3-TTS-12Hz-1.7B-Base", "0.6B": "Qwen/Qwen3-TTS-12Hz-0.6B-Base"}
 VOL = os.getenv("VOL", "/runpod-volume")
-MAU_DIR = f"{VOL}/mau"            # mẫu giọng đã upload, theo sha1 — sống qua cold start (volume), xem _lay_mau_b64
-NGON_NGU_QWEN = {"zh": "Chinese", "en": "English", "ja": "Japanese", "ko": "Korean", "de": "German", "fr": "French",
-                 "ru": "Russian", "pt": "Portuguese", "es": "Spanish", "it": "Italian"}
-NGON_NGU_CB = ("ar", "da", "de", "el", "en", "es", "fi", "fr", "he", "hi", "it", "ja", "ko", "ms", "nl", "no", "pl", "pt",
-               "ru", "sv", "sw", "tr", "zh")
-_qwen: dict[str, object] = {}         # id model → Qwen3TTSModel (1,7B + 0,6B cùng nạp được trên 24 GB)
-_prompt: dict[str, object] = {}
-_tt = {"qwen": {}, "chatterbox": None, "gpu": torch.cuda.get_device_name(0) if torch.cuda.is_available() else "cpu"}
+MAU_DIR = f"{VOL}/mau"            # mẫu giọng đã upload, theo sha1 — sống qua cold start (volume)
+CONG = {"vieneu": int(os.getenv("VIENEU_CONG", "8815")), "cosy": int(os.getenv("COSY_CONG", "8814"))}
+NGON_NGU_COSY = ("en", "zh", "de", "es", "fr", "it", "ru", "ko")
+_tt = {"gpu": torch.cuda.get_device_name(0) if torch.cuda.is_available() else "cpu"}
+_cosy_da_nho: set[str] = set()
+_mau_url: dict[str, str] = {}
 
 
-def _nap_qwen(mid: str = QWEN_ID):
-    if mid not in _qwen:
-        t0 = time.time()
-        from qwen_tts import Qwen3TTSModel
-        _qwen[mid] = Qwen3TTSModel.from_pretrained(mid, device_map="cuda:0", dtype=torch.bfloat16, attn_implementation="sdpa")
-        _tt["qwen"][mid] = {"nap_s": round(time.time() - t0, 1)}
-    return _qwen[mid]
-
-
-def _duoi_log(ten: str, n: int = 60) -> str:
+def _duoi_log(ten: str, n: int = 40) -> str:
     try:
         return "\n".join(open(f"{VOL}/{ten}", encoding="utf-8", errors="replace").read().splitlines()[-n:])
     except Exception as e:  # noqa: BLE001
         return f"(không đọc được {ten}: {e})"
 
 
-def _health_con(cong: int):
-    import json
-    import urllib.request
+def _json(url: str, d: dict | None = None, timeout: float = 600) -> dict:
+    r = urllib.request.Request(url, headers={"Content-Type": "application/json"},
+                               data=None if d is None else json.dumps(d).encode())
+    return json.load(urllib.request.urlopen(r, timeout=timeout))
+
+
+def _health_con(engine: str) -> dict:
     try:
-        return json.load(urllib.request.urlopen(f"http://127.0.0.1:{cong}/health", timeout=3))
+        return _json(f"http://127.0.0.1:{CONG[engine]}/health", timeout=3)
     except Exception as e:  # noqa: BLE001
         return {"san_sang": False, "loi": str(e)[:100]}
 
 
-def _cb_health():
-    return _health_con(8813)
-
-
-def _cho_con(cong: int, ten: str, toi_da: float = 120.0):
-    """Engine con (Cosy/Chatterbox) nạp ~30 s sau khi handler đã lên: câu tới sớm thì CHỜ chứ không trả 503 ngay
-    (cụm sẽ lùi về engine Mac chậm hơn, phí cold start đã trả — test 11/09)."""
+def _cho_con(engine: str, toi_da: float = 120.0):
+    """Chờ engine con sẵn sàng; lỗi nạp thật (không phải 'chưa lên'/'đang nạp') thì trả ngay."""
     t0 = time.time()
     while time.time() - t0 < toi_da:
-        h = _health_con(cong)
+        h = _health_con(engine)
         if h.get("san_sang"):
             return None
-        if h.get("loi") and "refused" not in str(h.get("loi")) and "đang nạp" not in str(h.get("loi")):
-            return {"loi": f"{ten}: {h['loi']}"}
+        loi = str(h.get("loi") or "")
+        if loi and "refused" not in loi and "đang nạp" not in loi and "Connection" not in loi:
+            return {"loi": f"{engine}: {loi}"}
         time.sleep(3)
-    return {"loi": f"{ten} chưa sẵn sàng sau {toi_da:.0f} s"}
+    return {"loi": f"{engine} chưa sẵn sàng sau {toi_da:.0f} s"}
 
 
-NGON_NGU_COSY = ("en", "zh", "de", "es", "fr", "it", "ru", "ko")
-_cosy_da_nho: set[str] = set()
-
-
-def _doc_cosy(inp):
-    """CosyVoice 3 qua chính cosy_worker.py của cụm (venv_cosy, 127.0.0.1:8814, CUDA): ghi nhớ mẫu theo hash rồi đọc."""
-    import json
-    import urllib.request
-    ma = inp["ngon_ngu"]
-    if ma not in NGON_NGU_COSY:
-        return {"loi": f"cosy không đọc {ma!r}"}
-    if (cho := _cho_con(8814, "cosy")):
-        return cho
-    au, sr, h = _mau(inp)
-    if h not in _cosy_da_nho:
-        os.makedirs("/tmp/cosy_mau", exist_ok=True)
-        p = f"/tmp/cosy_mau/{h}.wav"
-        sf.write(p, au, sr)
-        nn = inp.get("ngon_ngu_mau", "vi")
-        r = urllib.request.Request("http://127.0.0.1:8814/ghi_nho", headers={"Content-Type": "application/json"},
-                                   data=json.dumps({"id": h, "wav": p, "loi": inp.get("loi_mau", "") if nn in NGON_NGU_COSY else "",
-                                                    "ngon_ngu": nn}).encode())
-        urllib.request.urlopen(r, timeout=300).read()
-        _cosy_da_nho.add(h)
-    t0 = time.time()
-    r = urllib.request.Request("http://127.0.0.1:8814/doc", headers={"Content-Type": "application/json"},
-                               data=json.dumps({"text": inp["text"], "giong": h, "ngon_ngu": ma, "speed": float(inp.get("speed") or 1.0)}).encode())
-    wav = urllib.request.urlopen(r, timeout=600).read()
-    giay = time.time() - t0
-    w, out_sr = sf.read(io.BytesIO(wav), dtype="float32")
-    return _goi(np.asarray(w, np.float32), int(out_sr), giay, "cosy", tra_audio=inp.get("tra_audio", True))
-
-
-_mau_url: dict[str, str] = {}
-
-
+# ---------------------------------------------------------------- mẫu giọng
 def _lay_mau_b64(inp) -> str:
-    """Mẫu giọng: `mau_b64` trực tiếp (kèm `mau_sha1` thì LƯU lên volume), hoặc chỉ `mau_sha1` (đã lưu — UPLOAD MỘT LẦN:
-    đường lên máy user ~100 KB/s, 640 KB mỗi câu là 6–38 s trong khi GPU đọc 1–4 s, 11/09), hoặc `mau_url`
-    (tệp text base64 công khai — gọi qua MCP không kèm nổi 400 KB). Thiếu mẫu trên volume → KeyError('thieu_mau')
-    để cụm gửi lại kèm b64."""
+    """`mau_b64` (kèm `mau_sha1` thì LƯU lên volume) · chỉ `mau_sha1` (đã lưu) · `mau_url` (tệp text b64 công khai).
+    Thiếu trên volume → KeyError('thieu_mau') để cụm gửi lại kèm b64."""
     sha = inp.get("mau_sha1")
     if inp.get("mau_b64"):
         if sha:
@@ -134,13 +88,13 @@ def _lay_mau_b64(inp) -> str:
         return inp["mau_b64"]
     u = inp["mau_url"]
     if u not in _mau_url:
-        import urllib.request
         _mau_url[u] = urllib.request.urlopen(u, timeout=60).read().decode().strip()
     inp["mau_b64"] = _mau_url[u]
     return inp["mau_b64"]
 
 
 def _mau(inp):
+    """→ (audio float32 mono, sr, hash16)."""
     raw = base64.b64decode(_lay_mau_b64(inp))
     au, sr = sf.read(io.BytesIO(raw), dtype="float32")
     if au.ndim > 1:
@@ -148,45 +102,14 @@ def _mau(inp):
     return au, sr, hashlib.sha1(raw).hexdigest()[:16]
 
 
-def _doc_qwen(inp):
-    mid = QWEN_MODEL.get(str(inp.get("qwen_model", "")), QWEN_ID)
-    m = _nap_qwen(mid)
-    ma = inp["ngon_ngu"]
-    if ma not in NGON_NGU_QWEN:
-        return {"loi": f"qwen không đọc {ma!r}"}
+def _mau_wav(inp) -> tuple[str, str]:
+    """Ghi mẫu ra /tmp/mau/<hash>.wav (một lần) → (đường dẫn, hash)."""
     au, sr, h = _mau(inp)
-    # mẫu tiếng Việt: Qwen không học tiếng Việt → lời mẫu vô nghĩa với nó; chỉ lấy đặc trưng giọng (x-vector).
-    # LỜI MẪU PHẢI KHỚP ĐÚNG ĐOẠN ÂM THANH: gửi lời của mẫu 17 s kèm âm thanh cắt 6 s là Qwen đọc nốt phần lời thừa
-    # (đo 11/09: câu 4 s ra 15 s, whisper nghe ra lời mẫu).
-    chi_xvec = bool(inp.get("xvec")) or inp.get("ngon_ngu_mau", "vi") not in NGON_NGU_QWEN or not inp.get("loi_mau")
-    k = f"{mid}:{inp.get('id_giong', '')}:{h}:{int(chi_xvec)}"
-    if k not in _prompt:
-        _prompt[k] = m.create_voice_clone_prompt(ref_audio=(au, sr), ref_text=None if chi_xvec else inp["loi_mau"],
-                                                 x_vector_only_mode=chi_xvec)
-    t0 = time.time()
-    with torch.inference_mode():
-        wavs, out_sr = m.generate_voice_clone(text=inp["text"], language=NGON_NGU_QWEN[ma], voice_clone_prompt=_prompt[k])
-    w = np.asarray(wavs[0], np.float32)
-    r = _goi(w, out_sr, time.time() - t0, "qwen", tra_audio=inp.get("tra_audio", True))
-    r.update(model=mid.split("/")[-1], xvec=chi_xvec)
-    return r
-
-
-def _doc_cb(inp):
-    import json
-    import urllib.request
-    if inp["ngon_ngu"] not in NGON_NGU_CB:
-        return {"loi": f"chatterbox không đọc {inp['ngon_ngu']!r}"}
-    if (cho := _cho_con(8813, "chatterbox")):
-        return cho
-    _lay_mau_b64(inp)
-    r = urllib.request.Request("http://127.0.0.1:8813/doc", headers={"Content-Type": "application/json"},
-                               data=json.dumps({k: inp[k] for k in ("text", "ngon_ngu", "mau_b64") if k in inp}
-                                               | {"id_giong": inp.get("id_giong", "")}).encode())
-    d = json.load(urllib.request.urlopen(r, timeout=300))
-    if "loi" in d:
-        return d
-    return {**d, "engine": "chatterbox", "gpu": _tt["gpu"]}
+    os.makedirs("/tmp/mau", exist_ok=True)
+    p = f"/tmp/mau/{h}.wav"
+    if not os.path.exists(p):
+        sf.write(p, au, sr)
+    return p, h
 
 
 def _goi(w, sr, giay, engine, tra_audio=True):
@@ -199,26 +122,95 @@ def _goi(w, sr, giay, engine, tra_audio=True):
     return ra
 
 
+# ---------------------------------------------------------------- CosyVoice 3 (ngoại ngữ)
+def _cosy_ghi_nho(inp) -> str:
+    p, h = _mau_wav(inp)
+    if h not in _cosy_da_nho:
+        nn = inp.get("ngon_ngu_mau", "vi")
+        _json(f"http://127.0.0.1:{CONG['cosy']}/ghi_nho",
+              {"id": h, "wav": p, "loi": inp.get("loi_mau", "") if nn in NGON_NGU_COSY else "", "ngon_ngu": nn}, timeout=300)
+        _cosy_da_nho.add(h)
+    return h
+
+
+def _doc_cosy(inp):
+    ma = inp["ngon_ngu"]
+    if ma not in NGON_NGU_COSY:
+        return {"loi": f"cosy không đọc {ma!r}"}
+    if (cho := _cho_con("cosy")):
+        return cho
+    h = _cosy_ghi_nho(inp)
+    t0 = time.time()
+    r = urllib.request.Request(f"http://127.0.0.1:{CONG['cosy']}/doc", headers={"Content-Type": "application/json"},
+                               data=json.dumps({"text": inp["text"], "giong": h, "ngon_ngu": ma,
+                                                "speed": float(inp.get("speed") or 1.0)}).encode())
+    wav = urllib.request.urlopen(r, timeout=600).read()
+    giay = time.time() - t0
+    w, out_sr = sf.read(io.BytesIO(wav), dtype="float32")
+    return _goi(np.asarray(w, np.float32), int(out_sr), giay, "cosy", tra_audio=inp.get("tra_audio", True))
+
+
+# ---------------------------------------------------------------- VieNeu (tiếng Việt)
+def _vieneu_ghi_nho(inp) -> dict:
+    p, _ = _mau_wav(inp)
+    return _json(f"http://127.0.0.1:{CONG['vieneu']}/ghi_nho",
+                 {"id": inp["id_giong"], "wav": p, "ten": inp.get("ten", ""), "luu": bool(inp.get("luu", True))}, timeout=300)
+
+
+def _doc_vieneu(inp):
+    if (cho := _cho_con("vieneu")):
+        return cho
+    gid = str(inp.get("id_giong") or "")
+    t0 = time.time()
+    d = _json(f"http://127.0.0.1:{CONG['vieneu']}/doc", {"text": inp["text"], "giong": gid})
+    if d.get("loi") == "thieu_giong":
+        # giọng user chưa có trên worker này (volume mới/mất): cụm gửi kèm mẫu thì enroll ngay rồi đọc
+        if not (inp.get("mau_b64") or inp.get("mau_sha1") or inp.get("mau_url")):
+            return {"loi": "thieu_giong", "giong": gid}
+        _vieneu_ghi_nho(inp)
+        d = _json(f"http://127.0.0.1:{CONG['vieneu']}/doc", {"text": inp["text"], "giong": gid})
+    if "loi" in d:
+        return {"loi": f"vieneu: {d['loi']}"}
+    w, sr = sf.read(io.BytesIO(base64.b64decode(d["audio_b64"])), dtype="float32")
+    return _goi(np.asarray(w, np.float32), int(sr), time.time() - t0, "vieneu", tra_audio=inp.get("tra_audio", True))
+
+
+# ---------------------------------------------------------------- handler
 def handler(job):
     inp = job.get("input") or {}
     op = inp.get("op", "doc")
     try:
         if op == "health":
-            return {**_tt, "chatterbox": _cb_health(), "cosy": _health_con(8814), "qwen_nap": sorted(_qwen), "mau_cache": True}
+            return {**_tt, "vieneu": _health_con("vieneu"), "cosy": _health_con("cosy"), "mau_cache": True}
         if op == "log":               # log bootstrap/worker con trên volume (stream log RunPod hay nghẽn)
-            return {"bootstrap": _duoi_log("bootstrap.log"), "cb_server": _duoi_log("cb_server.log", 60),
+            return {"bootstrap": _duoi_log("bootstrap.log"), "vieneu_server": _duoi_log("vieneu_server.log", 60),
                     "cosy_worker": _duoi_log("cosy_worker.log", 60)}
-        if op == "nap":               # hâm: nạp model Qwen (cả 1,7B lẫn 0,6B nếu yêu cầu)
-            for mid in inp.get("qwen_models") or [QWEN_ID]:
-                _nap_qwen(QWEN_MODEL.get(mid, mid))
-            return {**_tt, "chatterbox": _cb_health(), "cosy": _health_con(8814)}
+        e = inp.get("engine", "vieneu")
+        if e not in ("vieneu", "cosy"):
+            return {"loi": f"engine {e!r}? (chỉ vieneu | cosy)"}
         if op == "doc":
-            e = inp.get("engine", "qwen")
-            r = ({"qwen": _doc_qwen, "chatterbox": _doc_cb, "cosy": _doc_cosy}.get(e) or (lambda i: {"loi": f"engine {e!r}?"}))(inp)
+            r = {"vieneu": _doc_vieneu, "cosy": _doc_cosy}[e](inp)
             if isinstance(r, dict):
                 r["mau_cache"] = True          # cờ: worker này hiểu mau_sha1 → cụm thôi gửi b64 mỗi câu
             return r
+        if op == "ghi_nho":
+            if (cho := _cho_con(e)):
+                return cho
+            return {"ok": True, **(_vieneu_ghi_nho(inp) if e == "vieneu" else {"hash": _cosy_ghi_nho(inp)}), "mau_cache": True}
+        if op == "xoa_giong":
+            if e == "vieneu":
+                _json(f"http://127.0.0.1:{CONG['vieneu']}/xoa", {"id": inp["id_giong"]}, timeout=30)
+            return {"ok": True}
+        if op == "emb":
+            if (cho := _cho_con("vieneu")):
+                return cho
+            p, _ = _mau_wav(inp)
+            return _json(f"http://127.0.0.1:{CONG['vieneu']}/emb", {"wav": p}, timeout=120)
         return {"loi": f"op {op!r}?"}
+    except KeyError as e:
+        if "thieu_mau" in str(e):
+            return {"loi": "thieu_mau", "mau_cache": True}
+        return {"loi": f"KeyError: {e}", "trace": traceback.format_exc()[-1500:]}
     except Exception as e:  # noqa: BLE001
         return {"loi": f"{type(e).__name__}: {str(e)[:300]}", "trace": traceback.format_exc()[-1500:]}
 

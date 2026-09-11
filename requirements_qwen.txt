@@ -1,4 +1,0 @@
-qwen-tts==0.1.1
-runpod
-soundfile
-numpy<2.3
