@@ -59,6 +59,20 @@ def _cb_health():
     return _health_con(8813)
 
 
+def _cho_con(cong: int, ten: str, toi_da: float = 120.0):
+    """Engine con (Cosy/Chatterbox) nạp ~30 s sau khi handler đã lên: câu tới sớm thì CHỜ chứ không trả 503 ngay
+    (cụm sẽ lùi về engine Mac chậm hơn, phí cold start đã trả — test 11/09)."""
+    t0 = time.time()
+    while time.time() - t0 < toi_da:
+        h = _health_con(cong)
+        if h.get("san_sang"):
+            return None
+        if h.get("loi") and "refused" not in str(h.get("loi")) and "đang nạp" not in str(h.get("loi")):
+            return {"loi": f"{ten}: {h['loi']}"}
+        time.sleep(3)
+    return {"loi": f"{ten} chưa sẵn sàng sau {toi_da:.0f} s"}
+
+
 NGON_NGU_COSY = ("en", "zh", "de", "es", "fr", "it", "ru", "ko")
 _cosy_da_nho: set[str] = set()
 
@@ -70,6 +84,8 @@ def _doc_cosy(inp):
     ma = inp["ngon_ngu"]
     if ma not in NGON_NGU_COSY:
         return {"loi": f"cosy không đọc {ma!r}"}
+    if (cho := _cho_con(8814, "cosy")):
+        return cho
     au, sr, h = _mau(inp)
     if h not in _cosy_da_nho:
         os.makedirs("/tmp/cosy_mau", exist_ok=True)
@@ -142,6 +158,8 @@ def _doc_cb(inp):
     import urllib.request
     if inp["ngon_ngu"] not in NGON_NGU_CB:
         return {"loi": f"chatterbox không đọc {inp['ngon_ngu']!r}"}
+    if (cho := _cho_con(8813, "chatterbox")):
+        return cho
     _lay_mau_b64(inp)
     r = urllib.request.Request("http://127.0.0.1:8813/doc", headers={"Content-Type": "application/json"},
                                data=json.dumps({k: inp[k] for k in ("text", "ngon_ngu", "mau_b64") if k in inp}
