@@ -21,6 +21,7 @@ import runpod
 QWEN_ID = os.getenv("QWEN_TTS_ID", "Qwen/Qwen3-TTS-12Hz-1.7B-Base")
 QWEN_MODEL = {"1.7B": "Qwen/Qwen3-TTS-12Hz-1.7B-Base", "0.6B": "Qwen/Qwen3-TTS-12Hz-0.6B-Base"}
 VOL = os.getenv("VOL", "/runpod-volume")
+MAU_DIR = f"{VOL}/mau"            # mẫu giọng đã upload, theo sha1 — sống qua cold start (volume), xem _lay_mau_b64
 NGON_NGU_QWEN = {"zh": "Chinese", "en": "English", "ja": "Japanese", "ko": "Korean", "de": "German", "fr": "French",
                  "ru": "Russian", "pt": "Portuguese", "es": "Spanish", "it": "Italian"}
 NGON_NGU_CB = ("ar", "da", "de", "el", "en", "es", "fi", "fr", "he", "hi", "it", "ja", "ko", "ms", "nl", "no", "pl", "pt",
@@ -110,8 +111,26 @@ _mau_url: dict[str, str] = {}
 
 
 def _lay_mau_b64(inp) -> str:
-    """Mẫu giọng: `mau_b64` trực tiếp, hoặc `mau_url` (tệp text base64 công khai — gọi qua MCP không kèm nổi 400 KB)."""
+    """Mẫu giọng: `mau_b64` trực tiếp (kèm `mau_sha1` thì LƯU lên volume), hoặc chỉ `mau_sha1` (đã lưu — UPLOAD MỘT LẦN:
+    đường lên máy user ~100 KB/s, 640 KB mỗi câu là 6–38 s trong khi GPU đọc 1–4 s, 11/09), hoặc `mau_url`
+    (tệp text base64 công khai — gọi qua MCP không kèm nổi 400 KB). Thiếu mẫu trên volume → KeyError('thieu_mau')
+    để cụm gửi lại kèm b64."""
+    sha = inp.get("mau_sha1")
     if inp.get("mau_b64"):
+        if sha:
+            p = f"{MAU_DIR}/{sha}.b64"
+            if not os.path.exists(p):
+                os.makedirs(MAU_DIR, exist_ok=True)
+                with open(p + ".tmp", "w") as f:
+                    f.write(inp["mau_b64"])
+                os.replace(p + ".tmp", p)
+        return inp["mau_b64"]
+    if sha:
+        p = f"{MAU_DIR}/{sha}.b64"
+        if not os.path.exists(p):
+            raise KeyError("thieu_mau")
+        with open(p) as f:
+            inp["mau_b64"] = f.read()
         return inp["mau_b64"]
     u = inp["mau_url"]
     if u not in _mau_url:
@@ -185,7 +204,7 @@ def handler(job):
     op = inp.get("op", "doc")
     try:
         if op == "health":
-            return {**_tt, "chatterbox": _cb_health(), "cosy": _health_con(8814), "qwen_nap": sorted(_qwen)}
+            return {**_tt, "chatterbox": _cb_health(), "cosy": _health_con(8814), "qwen_nap": sorted(_qwen), "mau_cache": True}
         if op == "log":               # log bootstrap/worker con trên volume (stream log RunPod hay nghẽn)
             return {"bootstrap": _duoi_log("bootstrap.log"), "cb_server": _duoi_log("cb_server.log", 60),
                     "cosy_worker": _duoi_log("cosy_worker.log", 60)}
@@ -195,7 +214,10 @@ def handler(job):
             return {**_tt, "chatterbox": _cb_health(), "cosy": _health_con(8814)}
         if op == "doc":
             e = inp.get("engine", "qwen")
-            return ({"qwen": _doc_qwen, "chatterbox": _doc_cb, "cosy": _doc_cosy}.get(e) or (lambda i: {"loi": f"engine {e!r}?"}))(inp)
+            r = ({"qwen": _doc_qwen, "chatterbox": _doc_cb, "cosy": _doc_cosy}.get(e) or (lambda i: {"loi": f"engine {e!r}?"}))(inp)
+            if isinstance(r, dict):
+                r["mau_cache"] = True          # cờ: worker này hiểu mau_sha1 → cụm thôi gửi b64 mỗi câu
+            return r
         return {"loi": f"op {op!r}?"}
     except Exception as e:  # noqa: BLE001
         return {"loi": f"{type(e).__name__}: {str(e)[:300]}", "trace": traceback.format_exc()[-1500:]}
