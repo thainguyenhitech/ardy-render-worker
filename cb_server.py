@@ -20,10 +20,28 @@ MAU = Path("/tmp/cb_mau")
 MAU.mkdir(exist_ok=True)
 
 
+def _va_perth():
+    """Gói `perth` trên PyPI không phải resemble-perth → `perth.PerthImplicitWatermarker` là None, Chatterbox gọi nó lúc
+    nạp → "TypeError: 'NoneType' object is not callable" (11/09, cả trên Mac lẫn worker). Thay bằng watermarker giả."""
+    try:
+        import perth
+    except Exception:  # noqa: BLE001
+        return
+    if getattr(perth, "PerthImplicitWatermarker", None) is None:
+        class _Khong:
+            def apply_watermark(self, wav, sample_rate=None, **k):
+                return wav
+
+            def get_watermark(self, *a, **k):
+                return 0.0
+        perth.PerthImplicitWatermarker = _Khong
+
+
 def _nap():
     global _m
     t0 = time.time()
     try:
+        _va_perth()
         from chatterbox.mtl_tts import ChatterboxMultilingualTTS
         _m = ChatterboxMultilingualTTS.from_pretrained(device="cuda")
         _tt.update(san_sang=True, nap_s=round(time.time() - t0, 1))
