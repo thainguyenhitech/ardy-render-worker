@@ -1,0 +1,2931 @@
+{
+ "thumbs_up": [
+  "Tuyệt vời luôn, làm tốt lắm!",
+  "Oke bà con, quá đỉnh rồi.",
+  "Số một, không có gì để chê.",
+  "Cái này ngon lành cành đào luôn.",
+  "Thumbs up cho cái ý tưởng đó.",
+  "Xịn xò lắm, mình approve liền.",
+  "Đỉnh của chóp, không bàn cãi gì thêm."
+ ],
+ "wave_hand_dismiss": [
+  "Thôi dẹp, tệ lắm, không xem nữa!",
+  "Cái đó có ra gì đâu.",
+  "Ôi trời, kém quá đi thôi.",
+  "Không đáng để bàn tới.",
+  "Hạng bét, chẳng làm được trò gì.",
+  "Mấy cái đó bỏ đi cho rồi.",
+  "Thứ đó ai thèm dùng nữa."
+ ],
+ "pat_shoulder_air": [
+  "Em làm tốt lắm, cứ tiếp tục phát huy nhé!",
+  "Lần đầu mà được vậy là giỏi rồi.",
+  "Cố lên, anh tin là mày làm được.",
+  "Không sao, thử lại là ổn thôi.",
+  "Hôm nay bạn tiến bộ thấy rõ đó.",
+  "Dù chưa hoàn hảo nhưng nỗ lực của em đáng khen.",
+  "Mày đã cố hết sức rồi, vậy là tốt lắm."
+ ],
+ "bow_greeting": [
+  "Con chào bác ạ!",
+  "Em chào thầy, thầy có khoẻ không ạ?",
+  "Cháu chào ông bà ạ!",
+  "Em kính chào anh chị!",
+  "Chào buổi sáng, bác mạnh giỏi chứ ạ?",
+  "Dạ, con chào ba má về!",
+  "Kính chào quý thầy cô ạ!"
+ ],
+ "handshake_offer": [
+  "Rất vui được gặp anh hôm nay.",
+  "Hẹn gặp lại chị vào lần sau nhé.",
+  "Cảm ơn anh đã dành thời gian cho chúng tôi.",
+  "Chúc mừng chúng ta đã hợp tác thành công.",
+  "Hy vọng hai bên sẽ có nhiều dịp làm việc cùng nhau.",
+  "Thật vinh dự được làm việc với anh.",
+  "Chúc buổi hợp tác của chúng ta thuận lợi."
+ ],
+ "palms_out_plead": [
+  "Thôi mà, giúp mình với, nhờ mình thôi đó!",
+  "Tôi chỉ còn biết trông vào anh thôi.",
+  "Bạn ơi, lần này làm ơn làm phước đi!",
+  "Tội nghiệp tui với, chứ tui biết nhờ ai bây giờ?",
+  "Anh cứu em lần này đi, em van anh mà!",
+  "Không có anh thì tôi chịu thua rồi.",
+  "Làm phước giúp tui một lần thôi được không?"
+ ],
+ "spread_both_hands_large_number": [
+  "Hàng trăm người xếp hàng chờ đợi ngoài kia.",
+  "Có cả nghìn cái đơn gửi về rồi đó.",
+  "Người ta đến đông lắm, nhiều vô kể luôn.",
+  "Số lượng tới mức không đếm xuể nổi.",
+  "Cả ngàn đơn hàng đổ về chỉ trong một ngày.",
+  "Nhiều lắm, tính sơ cũng mấy trăm suất.",
+  "Khán giả chật kín, không còn chỗ trống nào."
+ ],
+ "finger_gun_zero": [
+  "Cuối năm tính ra lãi bằng không.",
+  "Tìm mãi mà chẳng còn lại cái gì.",
+  "Bán cả tháng mà thu về con số không.",
+  "Tài khoản về đúng số không tròn trĩnh.",
+  "Không còn một đồng nào trong tay nữa.",
+  "Cố mãi mà kết quả vẫn là không.",
+  "Lỗ sạch, không vớt được đồng nào hết."
+ ],
+ "index_finger_point_you": [
+  "Bạn đó, mời bạn ra đây trả lời câu hỏi.",
+  "Mời anh Minh lên phát biểu!",
+  "Em, mời em lên bảng làm thử bài này.",
+  "Chị kia, chính chị, lên đây một chút nào.",
+  "Mời anh X chia sẻ ý kiến của mình đi.",
+  "Bạn ngồi cuối, đến lượt bạn rồi đó.",
+  "Mời đúng bạn đó, bạn áo đỏ, ra đây nhé."
+ ],
+ "open_hand_sweep_invite": [
+  "Mời anh chị vào trong, chỗ ngồi đã chuẩn bị sẵn.",
+  "Xin mời quý vị tiến vào hội trường.",
+  "Mời bạn lên sân khấu nhận phần thưởng.",
+  "Anh cứ tự nhiên vào, không cần khách sáo.",
+  "Xin mời đoàn đại biểu vào phòng họp.",
+  "Mời các bạn đi theo lối này.",
+  "Xin kính mời quý khách an toạ."
+ ],
+ "bow_head_respect": [
+  "Xin kính chúc quý vị sức khoẻ và hạnh phúc.",
+  "Trân trọng chúc mừng anh chị nhân dịp đặc biệt này.",
+  "Kính chúc thầy cô năm mới an khang thịnh vượng.",
+  "Xin gửi lời chúc mừng trân trọng nhất tới gia đình.",
+  "Thành kính tri ân quý vị đã đồng hành cùng chúng tôi.",
+  "Kính chúc buổi lễ thành công tốt đẹp.",
+  "Xin chúc mừng chị đã đạt được thành tựu xứng đáng."
+ ],
+ "show_small_size": [
+  "Cái hạt này bé tí tẹo à, nhìn kỹ mới thấy.",
+  "Chỉ cần một chút thôi, nhỏ xíu thôi là đủ.",
+  "Viên thuốc bé như hạt gạo ấy mà.",
+  "Vết thương nhỏ xíu, đừng lo quá.",
+  "Cái lỗ thủng bé tẹo, vá cái là xong.",
+  "Miếng đó nhỏ lắm, chỉ bằng đầu ngón tay.",
+  "Cái khối u chỉ bé bằng hạt đậu thôi."
+ ],
+ "trace_round_shape": [
+  "Cái bình đó tròn vo, miệng loe ra như này.",
+  "Quả bóng to tròn, hình cầu hoàn hảo luôn.",
+  "Nó tròn như cái bát to đặt úp xuống vậy.",
+  "Hình dạng của nó khép kín, tròn đều như này.",
+  "Cái nón đó vành tròn, cong đều hết.",
+  "Tròn vo tròn vức, không có góc cạnh gì cả.",
+  "Chiếc bàn tròn to, ngồi được cả chục người."
+ ],
+ "pinch_thickness": [
+  "Tập hồ sơ dày cỡ này, không mỏng đâu nhé.",
+  "Tấm ván mỏng thế này mà chịu được tải à?",
+  "Miếng thịt chỉ dày chừng này thôi, thái mỏng rồi.",
+  "Cuốn sách dày cỡ này đọc mấy tháng mới xong.",
+  "Tấm kính mỏng như tờ giấy, dễ vỡ lắm.",
+  "Lớp băng chỉ dày chừng này, đừng đi lên.",
+  "Miếng bìa dày cỡ này là vừa để làm hộp."
+ ],
+ "weigh_one_hand": [
+  "Cần phải cân nhắc xem liệu có đáng không",
+  "Tôi đang suy nghĩ về chuyện này",
+  "Phương án này có vẻ được nhưng chưa chắc",
+  "Để mình ngẫm lại xem có nên không",
+  "Chuyện đó cũng đáng suy xét đấy",
+  "Mình đang đắn đo chưa quyết được",
+  "Thử xem xét khía cạnh này một chút"
+ ],
+ "stack_compare_layers": [
+  "Cái này trội hơn cái kia về mọi mặt",
+  "Phương án A cao hơn B một bậc rõ ràng",
+  "So ra thì bên này nhỉnh hơn bên kia nhiều",
+  "Về chất lượng thì hàng này kém hơn hàng nọ",
+  "Đội mình đang ở tầm cao hơn đối thủ",
+  "Mức độ nghiêm trọng hai vụ khác nhau xa",
+  "Xếp cạnh nhau thì thấy chênh lệch rõ"
+ ],
+ "push_aside_option": [
+  "Thôi bỏ cái đó đi, chọn cái này thôi",
+  "Loại phương án đó ra, không hợp đâu",
+  "Gạt cái kia sang một bên cho rồi",
+  "Khỏi bàn cái đó nữa, rõ ràng cái này hơn",
+  "So đi so lại thì chọn phương án A",
+  "Cái kia quên đi, không đáng để xét",
+  "Dẹp lựa chọn đó, mình đi hướng khác"
+ ],
+ "unfold_idea": [
+  "Để tôi trình bày toàn bộ kế hoạch này",
+  "Ý tưởng của tôi nó rộng hơn nhiều",
+  "Mình mở ra cho mọi người thấy bức tranh tổng thể",
+  "Nghe mình nói hết rồi sẽ hiểu toàn cảnh",
+  "Kế hoạch này trải ra nhiều hướng lắm",
+  "Để mình phác họa toàn bộ ý tưởng nhé",
+  "Nhìn rộng ra thì nó liên quan đến rất nhiều thứ"
+ ],
+ "hold_core_idea": [
+  "Điểm mấu chốt là phải giữ được khách hàng",
+  "Cái quan trọng nhất ở đây chính là niềm tin",
+  "Nắm chắc lấy điều này, đừng quên nhé",
+  "Cốt lõi vấn đề nằm ở chỗ này",
+  "Giữ lấy nguyên tắc đó làm trọng tâm",
+  "Tất cả xoay quanh một điểm duy nhất thôi",
+  "Đây là thứ then chốt nhất, không được buông"
+ ],
+ "timeline_sweep": [
+  "Từ trước đến nay chưa ai làm được điều đó",
+  "Suốt cả quá trình đó mình đều theo dõi",
+  "Nhìn lại từ đầu đến giờ thì thấy rõ",
+  "Cả một chặng đường dài đã đi qua",
+  "Xuyên suốt mười năm qua đều như vậy",
+  "Từ lúc bắt đầu cho tới bây giờ",
+  "Chuỗi sự kiện kéo dài qua nhiều giai đoạn"
+ ],
+ "compress_time": [
+  "Nhanh thôi, chỉ vài tuần là xong hết",
+  "Rút ngắn lại thì chỉ mất hai ngày",
+  "Gói gọn trong một tháng là xử lý được",
+  "Tóm lại mấy năm trời gom vào một câu",
+  "Dồn lại thì chỉ cần một tuần thôi",
+  "Chớp mắt là xong, không lâu đâu",
+  "Thu gọn cả quy trình lại còn vài bước"
+ ],
+ "bridge_hands_arc": [
+  "Chúng ta cần một cầu nối giữa hai bên",
+  "Anh ấy là người kết nối hai nhóm lại",
+  "Phải có ai đứng giữa làm trung gian mới được",
+  "Bộ phận mình đóng vai trò gắn kết hai phía",
+  "Thiếu mắt xích nối hai đầu lại với nhau",
+  "Mình sẽ làm cầu nối cho đôi bên hiểu nhau",
+  "Cần người đứng ra kết nối hai dự án này"
+ ],
+ "rising_stack": [
+  "Doanh thu tăng đều qua từng quý",
+  "Cứ mỗi tháng lại nhích lên một chút",
+  "Số liệu leo thang từng bước rất vững",
+  "Mỗi giai đoạn lại đạt mức cao hơn trước",
+  "Tăng dần dần, quý sau luôn hơn quý trước",
+  "Kết quả cứ thế đi lên từng nấc một",
+  "Lượng khách tích lũy ngày càng nhiều hơn"
+ ],
+ "shrink_compress": [
+  "Thị trường đang co lại đáng kể rồi",
+  "Nguồn lực bị thu hẹp nhiều so với trước",
+  "Quy mô cứ teo dần, nhỏ lại từng ngày",
+  "Thị phần mình đang bị ép nhỏ lại",
+  "Ngân sách bị cắt giảm còn chút xíu",
+  "Đội ngũ co cụm lại chỉ còn vài người",
+  "Mọi thứ đang bị bóp nhỏ lại hết"
+ ],
+ "growth_arc_sweep": [
+  "GDP đã tăng vọt trong năm năm qua",
+  "Tốc độ phát triển phi mã luôn",
+  "Đường cong tăng trưởng cứ thế vút lên",
+  "Doanh số bùng nổ liên tục không dừng lại",
+  "Cứ lao lên như tên lửa vậy đó",
+  "Tăng mạnh và bền vững suốt cả giai đoạn",
+  "Đà tăng trưởng này kéo dài và rất ấn tượng"
+ ],
+ "deflate_drop": [
+  "Lợi nhuận giảm mạnh chỉ trong một quý",
+  "Mọi thứ sụp xuống nhanh không kịp trở tay",
+  "Cổ phiếu rớt thảm hại luôn rồi",
+  "Vừa lên đỉnh xong là tụt dốc ngay",
+  "Thị trường xẹp như bong bóng bị chọc",
+  "Năng lượng cả đội tuột hết sau tin đó",
+  "Doanh thu rơi tự do không phanh nổi"
+ ],
+ "chest_pass_ball": [
+  "Cậu phải chuyền bóng ngang ngực như thế này",
+  "Lần này tôi sẽ đưa bóng cho bạn",
+  "Hãy nhận đường chuyền từ tôi nào",
+  "Chiến thuật là chuyền ngang để tấn công nhanh",
+  "Em thấy không, cách chuyền đó rất hiệu quả",
+  "Tôi sẽ đẩy bóng qua cho đội bạn",
+  "Chuyền như vậy sẽ dễ phối hợp hơn"
+ ],
+ "pour_liquid": [
+  "Để tôi rót nước cho bạn",
+  "Tính tinh tế khi rót rượu vào ly",
+  "Bạn muốn tôi pha thêm nước không",
+  "Rót từ từ để không tách",
+  "Cho tôi cái bình để rót trà",
+  "Bạn thích uống nước nóng hay lạnh",
+  "Rót cho tôi một ít nước chanh"
+ ],
+ "turn_steering_wheel": [
+  "Tôi sẽ quẹo trái ở ngã tư này",
+  "Cẩn thận khi đánh lái vào cua",
+  "Xe cần xoay vô-lăng sang phải",
+  "Lái từ từ ở khúc cua này",
+  "Tôi đột ngột phải quẹo để tránh vật cản",
+  "Lái xe trong cơn mưa phải rất cẩn thận",
+  "Bạn thấy tôi lái thế nào không"
+ ],
+ "cut_with_scissors": [
+  "Tôi sẽ cắt tờ giấy này thành mảnh nhỏ",
+  "Dùng kéo cắt vải theo đường thẳng",
+  "Cắt đơn giản thôi, không khó lắm",
+  "Em hãy cắt sợi dây này ra",
+  "Để tôi cắt mép vải cho gọn",
+  "Cần cắt bao nhiêu phần để đủ",
+  "Kéo này sắc quá, cắt dễ quá"
+ ],
+ "open_jar_lid": [
+  "Nắp hũ này chặt quá, mở không được",
+  "Bạn có thể giúp tôi mở nắp chai không",
+  "Vặn nắp hũ mứt chút xíu nữa thôi",
+  "Nắp mứt này rất khó mở đây",
+  "Để tôi xoay mở nắp nước mắm",
+  "Em đã mở nắp hũ muối chưa",
+  "Nắp chai này dường như bị kẹt"
+ ],
+ "type_on_keyboard": [
+  "Tôi đang soạn tin nhắn cho bạn",
+  "Gõ email này nhanh lên đi",
+  "Bạn có biết gõ 10 ngón không",
+  "Làm việc với máy tính cả ngày mệt quá",
+  "Tôi sẽ đánh bài viết này cho bạn",
+  "Gõ mật khẩu để đăng nhập vào",
+  "Lập trình viên phải gõ bàn phím rất nhanh"
+ ],
+ "pinch_season_sprinkle": [
+  "Rắc thêm chút muối vào canh",
+  "Nêm gia vị cho vừa miệng",
+  "Tiêu đen này thơm quá, rắc tí thôi",
+  "Cho bớt bột ngọt vào cho vừa",
+  "Ướp gia vị trước khi nấu nhé",
+  "Rắc một chút mè trắng lên mặt",
+  "Nêm vừa phải không nêm quá mặn"
+ ],
+ "blow_hot_food": [
+  "Cơm vừa nấu còn rất nóng, thổi một chút",
+  "Canh nóng quá, tôi phải thổi mới ăn được",
+  "Thổi nguội chút rồi ăn cho an toàn",
+  "Bạn thích ăn nóng hay thổi lạnh trước",
+  "Cơm chiên vừa xong còn rất nóng",
+  "Thổi mặt nước súp để bớt nóng",
+  "Sữa nóng vậy nên thôi thổi mà uống"
+ ],
+ "rain_falling": [
+  "Ngoài kia đang mưa rất to đó",
+  "Trời hôm nay có vẻ sắp mưa",
+  "Mưa rơi từng hạt, có vẻ mưa sắp tới",
+  "Dự báo thời tiết nói là mưa cả tuần",
+  "Bạn thấy trời mây đen, sắp mưa rồi",
+  "Mưa xuống rất nhanh, cần về nhà ngay",
+  "Trời mưa như thế, không ai ra ngoài"
+ ],
+ "strong_wind_blow": [
+  "Gió hôm nay thổi rất mạnh đó",
+  "Cẩn thận với cơn gió giật mạnh",
+  "Bão sắp tới, gió đã bắt đầu mạnh",
+  "Gió ngang thổi làm cây cứng người",
+  "Trời gió lớn quá, không thể đi đó",
+  "Cơn gió này có thể thổi bay mọi thứ",
+  "Gió mạnh thế, phải đóng cửa sổ lại"
+ ],
+ "sun_rising": [
+  "Bình minh sắp tới rồi, bạn thấy không",
+  "Mặt trời mọc lên rất đẹp buổi sáng này",
+  "Thời gian bình minh là lúc tuyệt vời nhất",
+  "Mặt trời từ từ nhô lên trên đường chân trời",
+  "Sáng sớm mặt trời vừa mọc màu vàng tươi",
+  "Hàng ngày tôi thức dậy lúc mặt trời mọc",
+  "Bạn bao giờ thức dậy để xem bình minh"
+ ],
+ "mountain_peak_shape": [
+  "Ngọn núi đó nhô lên rất cao",
+  "Đỉnh núi hình nón nhọn như vậy",
+  "Dãy núi ở phía xa vô cùng tuyệt vời",
+  "Núi cao nơi đó chạm tới mây mồng",
+  "Cảnh quan đồi núi thật là mộc mạc",
+  "Địa hình vùng này toàn là núi non",
+  "Ngọn núi nhọn như chiếc kim xuyên lên"
+ ],
+ "big_tree_spread": [
+  "Cái cây cổ thụ ấy tán lá rất xòe rộng",
+  "Dưới bóng cây lớn như vậy mát quá",
+  "Cây to, tán xòe nhiều phía chắn nắng",
+  "Rừng rậm ở đó cây cối mọc um tùm",
+  "Cây này bao nhiêu tuổi rồi nhìn",
+  "Tán cây xòe rộng che phủ cả khu vực",
+  "Bóng mát của cây lớn như ô che nắng"
+ ],
+ "steer_wheel": [
+  "Tôi cầm vô lăng lái xe quanh khúc cua.",
+  "Lúc ấy tôi đang ngồi sau tay lái, vừa tỉnh vừa buồn.",
+  "Bạn tôi cầm vô lăng rất kỹ trên cao tốc.",
+  "Tôi tự lái xe từ Hà Nội về tỉnh.",
+  "Cơn mưa to, nhưng tôi vẫn phải cầm lái xe.",
+  "Anh ấy hướng dẫn tôi cách cầm vô lăng chuẩn.",
+  "Tôi cảm thấy mệt mỏi sau khi lái xe cả ngày."
+ ],
+ "plane_takeoff": [
+  "Máy bay lao trên đường băng rồi cất cánh.",
+  "Lúc cất cánh, tôi cảm thấy bụng nặng.",
+  "Chiếc Boeing ngóc đầu lên bay vút ra.",
+  "Tôi sắp lên máy bay đi du lịch ngoài nước.",
+  "Cảm giác máy bay rời đất thật kỳ lạ.",
+  "Đó là chuyến bay đầu tiên của tôi.",
+  "Máy bay chạy đà rồi từ từ cất cánh lên trời."
+ ],
+ "bike_handlebar": [
+  "Tôi cầm tay lái xe máy rất chắc tay.",
+  "Bóp ga mạnh lên, xe phóng ngay.",
+  "Lúc đó tôi đang cầm lái xe số trên quốc lộ.",
+  "Chiếc Sirius của tôi cầm lái rất dễ.",
+  "Tôi bóp ga và vượt qua chiếc ô tô đó.",
+  "Tay lái xe gắn máy hơi nặng nhưng dễ dàng.",
+  "Cắn tay ga, tôi lao vào làn đường bên."
+ ],
+ "ship_float_sway": [
+  "Con tàu lắc lư trên sóng to ghê lắm.",
+  "Tôi cảm thấy say sóng khi ngồi trên tàu.",
+  "Thuyền nhỏ bồng bềnh trên mặt nước.",
+  "Sóng lớn, tàu liên tục lắc lư qua lại.",
+  "Ngồi trên con tàu, tôi thấy hơi chóng mặt.",
+  "Con thuyền bập bềnh giữa biển xanh.",
+  "Lắc lư lâu thì tôi muốn buồn nôn."
+ ],
+ "car_size_outline": [
+  "Xe của tôi vừa vặn, to bằng một chiếc Honda.",
+  "Mẫu xe mới này to gấp đôi xe cũ.",
+  "Cái SUV của anh ấy khổng lồ lắm.",
+  "So với xe bạn tôi, chiếc xe của tôi nhỏ hơn.",
+  "Xe tải to thế nào? To như vậy đó.",
+  "Chiếc Fortuner to lắm, dài gần 5 mét.",
+  "Ô tô điện mới kia nhỏ gọn mà sang."
+ ],
+ "honk_horn": [
+  "Tôi bấm còi xe để cảnh báo người khác.",
+  "Tiếng còi inh ỏi từ từ phát ra.",
+  "Gã khốn kia cắt mặt tôi, tôi bóp còi liên tục.",
+  "Kẹt xe, mọi người bấm còi tùm lum.",
+  "Tôi bóp còi cảnh báo nhưng anh ấy vẫn không để ý.",
+  "Tiếng còi xe phát ra trong đêm tối.",
+  "Bấm còi mạnh lên để tài xế phía trước biết."
+ ],
+ "type_keyboard": [
+  "Tôi đánh máy bản báo cáo quanh đêm.",
+  "Gõ bàn phím cả ngày, tay mỏi quá.",
+  "Tôi là lập trình viên, suốt ngày gõ code.",
+  "Gõ tài liệu này cần phải cẩn thận.",
+  "Dân văn phòng thì suốt ngày trước máy tính.",
+  "Tôi gõ email cho khách hàng nhanh hơn.",
+  "Bạn tôi gõ rất nhanh, phím tách tách tách."
+ ],
+ "hold_stethoscope": [
+  "Bác sĩ cầm ống nghe khám ngực tôi.",
+  "Tôi là y tá, suốt ngày áp ống nghe cho bệnh nhân.",
+  "Ông bác sĩ áp ống nghe vào lưng tôi.",
+  "Khám tim bệnh nhân là việc cơ bản của bác sĩ.",
+  "Tôi nghe tim bệnh nhân đập bất thường.",
+  "Cầm ống nghe đó và lắng nghe xem sao.",
+  "Bệnh nhân nằm yên để tôi khám bệnh."
+ ],
+ "scissors_cut_fabric": [
+  "Thợ may cắt vải rất chính xác.",
+  "Tôi cắt may váy áo cho bà xã.",
+  "Kéo cắt vải phải mạnh để xẻng đẹp.",
+  "Nhà thiết kế vải cắt may tương tự nhau.",
+  "Cắt vải theo hình vẽ sẵn trên giấy.",
+  "Thợ may cắt tay không cần máy cũng được.",
+  "Tôi học cắt may từ bà ngoại tôi."
+ ],
+ "stir_pot": [
+  "Đầu bếp khuấy nồi súp cho đều.",
+  "Tôi khuấy sauce trong nồi nóng đó.",
+  "Nấu ăn cần khuấy thích hợp để khỏi cháy.",
+  "Muôi khuấy nồi cơm gạo của tôi.",
+  "Bếp trưởng nhà hàng khuấy tương soy đầy tay.",
+  "Khuấy nồi canh phải đều tay.",
+  "Tôi đang nấu phở, khuấy chút dùm tôi."
+ ],
+ "measure_with_ruler": [
+  "Kiến trúc sư đo bằng thước chính xác từng mm.",
+  "Tôi đo lường kích thước phòng bằng thước cuộn.",
+  "Thợ đo đạc dùng thước để kiểm tra bề mặt.",
+  "Kỹ sư xây dựng đo đạc rất nghiêm túc.",
+  "Đo bằng thước là bước đầu của xây dựng.",
+  "Tôi đo xem bức tường dày bao nhiêu.",
+  "Tôi cần thước để đo chiều dài sàn nhà."
+ ],
+ "circular_hand_roll": [
+  "Để tôi nói hết đã nào.",
+  "Chuyện này dài lắm, cứ từ từ nghe tôi kể.",
+  "Khoan, chưa xong đâu, còn một đoạn nữa.",
+  "Cái này phải giải thích từ đầu mới hiểu được.",
+  "Ý tôi là… để tôi ráp lại cho rõ.",
+  "Hồi đó sự việc diễn ra theo kiểu thế này này.",
+  "Còn nhiều tình tiết lắm, mình chưa tới chỗ đó."
+ ],
+ "soft_hum_eyebrow_raise": [
+  "Ừ, tôi đang nghe đây.",
+  "Hiểu rồi, tiếp đi.",
+  "Ờ, ờ.",
+  "Vâng, tôi theo kịp.",
+  "Hm.",
+  "Được, tôi hiểu ý bạn.",
+  "Ừ hm."
+ ],
+ "lean_forward_torso": [
+  "Bạn vừa nói gì, kể tôi nghe thêm đi.",
+  "Thật sự chuyện đó xảy ra như vậy sao?",
+  "Nói nhỏ thôi, tôi nghe đây.",
+  "Phần này quan trọng lắm, tôi chú ý rồi.",
+  "Ừ, kể tiếp đi, đừng ngại.",
+  "Tôi muốn hiểu rõ hơn phần vừa rồi.",
+  "Bạn cứ nói, tôi lắng nghe hết."
+ ],
+ "open_palm_offer": [
+  "Bạn nghĩ sao về điều này?",
+  "Giờ đến lượt bạn nói.",
+  "Ý kiến của bạn thế nào?",
+  "Thôi để bạn nói cho, tôi nghe.",
+  "Bạn có muốn chia sẻ gì không?",
+  "Mình vừa xong phần đó rồi, bạn đi tiếp nhé.",
+  "Phần còn lại nhường bạn nói."
+ ],
+ "both_hands_yield_bow": [
+  "Xin mời thầy phát biểu ạ.",
+  "Kính mời anh chia sẻ thêm ạ.",
+  "Xin nhường lời cho giáo sư.",
+  "Phần này thuộc về chị, xin mời.",
+  "Thưa anh, xin mời anh nói ạ.",
+  "Kính mời diễn giả tiếp tục ạ.",
+  "Xin trân trọng nhường lời cho ban lãnh đạo."
+ ],
+ "index_point_and_nod": [
+  "Bạn Minh, ý kiến của bạn đâu?",
+  "Anh kia, anh trả lời câu này nhé.",
+  "Chị Lan, mời chị nói.",
+  "Bạn đó, bạn vừa giơ tay đúng không?",
+  "Mình hỏi bạn ngồi góc kia.",
+  "Anh Tuấn, anh có muốn bổ sung không?",
+  "Bạn này, câu hỏi dành cho bạn đó."
+ ],
+ "head_drop_chin": [
+  "Thua rồi, không còn gì để nói nữa.",
+  "Mình đã sai hoàn toàn.",
+  "Dự án thất bại rồi anh ơi.",
+  "Cố mãi mà cũng không được.",
+  "Hỏng hết rồi, không cứu được nữa.",
+  "Họ từ chối mình rồi.",
+  "Biết vậy thì đừng bắt đầu cho xong."
+ ],
+ "shoulders_drawn_in_frozen": [
+  "Lần đó… tôi không dám nghĩ tiếp.",
+  "Cái thứ đó nó ở ngay sau lưng mình.",
+  "Tôi mở cửa ra và thấy…",
+  "Tiếng động đó nó cứ vang lên mãi trong đêm.",
+  "Không biết chuyện gì sẽ xảy ra tiếp theo nữa.",
+  "Lúc ấy tôi đứng im, không nhúc nhích được.",
+  "Cái bóng đó nó nhìn thẳng vào mắt tôi."
+ ],
+ "lower_head_avert_gaze": [
+  "Dạ, em biết lỗi rồi ạ.",
+  "Em xin lỗi, em không nên làm vậy.",
+  "Tôi không có lý do gì để biện hộ cả.",
+  "Vâng, tôi hiểu, tôi đã sai.",
+  "Mọi người nói đúng, tôi nhận.",
+  "Em xấu hổ lắm, không biết nói gì hơn.",
+  "Dạ thôi con hiểu rồi ạ."
+ ],
+ "heavy_sigh_slump": [
+  "Thôi được rồi, tính sau.",
+  "Lại chuyện cũ này nữa.",
+  "Biết làm sao bây giờ hả.",
+  "Mệt mỏi quá, không muốn tranh luận nữa.",
+  "Cứ như vậy hoài, chán thật.",
+  "Thôi kệ, muốn ra sao thì ra.",
+  "Ngày nào cũng thế, chẳng thay đổi gì."
+ ],
+ "listless_hand_drop": [
+  "Thôi kệ đi, không muốn nghĩ nữa.",
+  "Giải thích mãi mà có ai hiểu đâu.",
+  "Bỏ đi, mình không cố nữa.",
+  "Muốn sao thì làm vậy đi.",
+  "Tôi không còn ý kiến gì nữa.",
+  "Nói thêm cũng vô ích thôi.",
+  "Ừ thì được rồi, xong."
+ ],
+ "chain_reaction_sequence": [
+  "Anh ấy nói với cô ấy, rồi cô ấy kể cho tôi, tôi lại nói với mọi người.",
+  "Một người bỏ việc, rồi cả phòng loạn xạ, sau đó công ty mất hợp đồng lớn.",
+  "Mưa to làm ngập đường, xe cộ ùn tắc, người ta đến trễ và mất tiền tỷ.",
+  "Tiền thiếu nên cắt ngân sách, cắt ngân sách thì không có máy móc, không máy móc là sản xuất giảm.",
+  "Lỗi nhỏ này dẫn tới lỗi lớn, lỗi lớn kéo theo thảm họa, và thảm họa ảnh hưởng cả đất nước.",
+  "Bỏ qua một chi tiết, rồi hỏng cả dự án, dự án hỏng thì khách hàng tức, khách hàng tức là mất tiền.",
+  "Tranh cãi nhỏ nhưng nó làm bể vỡ tình cảm, tình cảm vỡ là ly hôn, ly hôn rồi gia đình tan vỡ."
+ ],
+ "root_cause_below": [
+  "Cái gốc vấn đề chính là không có kỷ luật từ đầu.",
+  "Nguyên nhân sâu xa nhất nằm ở sự thiếu hiểu biết và tham lam của con người.",
+  "Vậy mà ai cũng quên rằng tất cả chỉ vì thiếu tình yêu thương.",
+  "Hóa ra cái root cause lại là sự lười biếng và thiếu trách nhiệm từ lâu.",
+  "Sự thật là nó bắt nguồn từ cái sai lầm ban đầu mà không ai nhận ra.",
+  "Nếu ta đào sâu sẽ thấy nguyên nhân gốc rễ là chính sách sai từ năm đó.",
+  "Nói chung là có một vấn đề tâm lý sâu sắc nằm bên dưới tất cả."
+ ],
+ "consequence_unfold": [
+  "Và rồi hậu quả nó bùng phát ra như tối hôm đó.",
+  "Kết quả là mọi thứ bung ra, lan rộng khắp nơi không thể kiểm soát.",
+  "Từ một sai lầm nhỏ, mà kết quả tất yếu nó nổ ra thành bao nhiêu vấn đề to tát.",
+  "Hậu quả kinh khủng nó tuôn ra từ chính lỗi sơ suất đó mà.",
+  "Và sau đó một chuỗi phản ứng xấu liên tiếp nó bắn ra không dừng.",
+  "Nó bung nổ ra thành hàng loạt vấn đề xã hội liên quan đến nhau.",
+  "Cái việc đó dẫn tới bao nhiêu tai họa lan tỏa ra khắp chỗ."
+ ],
+ "chin_nod_toward_person": [
+  "Người kia kìa, hỏi ông ấy đi, hình như ông ấy biết.",
+  "Chị ấy, chị ấy có ý kiến gì không?",
+  "Ông hôm qua nói gì mà? Hỏi lại ông ấy.",
+  "Thằng bạn của tôi, nó có mấy cái kinh nghiệm hay lắm.",
+  "Cô gái kia, cô ấy làm cái này giỏi lắm mà.",
+  "Bác sĩ Tuấn kia, bác có thể giải thích được mà.",
+  "Anh kia kìa, anh ấy vừa về từ Mỹ, kinh nghiệm nhiều lắm."
+ ],
+ "open_palm_present_person": [
+  "Đây là anh Minh, em trai của tôi, mời anh nói ý kiến.",
+  "Các bạn này là người tham gia dự án, hãy nghe ý kiến của họ.",
+  "Mời chị Liên kể câu chuyện của chị đi, rất thú vị lắm.",
+  "Đây chính là giáo sư Trần Thái Sơn, người thầy vĩ đại nhất của chúng ta.",
+  "Các vị khách mời hôm nay, xin được giới thiệu là những chuyên gia hàng đầu.",
+  "Tôi xin giới thiệu ông Hùng, người có 20 năm kinh nghiệm.",
+  "Đây là em họ của tôi, cô ấy sẽ hướng dẫn cho chúng ta."
+ ],
+ "arc_sweep_timeline": [
+  "Trong suốt giai đoạn đó chúng tôi làm việc hết sức chăm chỉ.",
+  "Từ đầu năm tới cuối năm, cơ sở hạ tầng được phát triển rất nhiều.",
+  "Cả quá trình năm năm vừa qua, chúng ta đã giành được ba giải thưởng lớn.",
+  "Khoảng từ tháng ba tới tháng chín, thị trường rất sôi động.",
+  "Những tháng ngày thất nghiệp đó khiến tôi rất đau lòng.",
+  "Suốt cái thời kỳ khủng hoảng ấy, mọi người đều chịu thiệt thòi.",
+  "Từ khi bắt đầu cho tới bây giờ, chúng tôi luôn nỗ lực không ngừng."
+ ],
+ "sweep_arc_area": [
+  "Cả khu vực này đều chịu ảnh hưởng của thảm họa.",
+  "Từ đây tới tận cuối đường đều là đất của công ty.",
+  "Khắp vùng đó những cái cây cổ thụ cao gần trăm năm tuổi.",
+  "Cả phía bắc thành phố không có ai ở lại được.",
+  "Từ biển tới tận Tây Bắc, toàn là vùng đất màu mỡ.",
+  "Cả dãy núi phía Tây kia, lúc nào cũng có mây mù.",
+  "Khắp chung cư này lúc nào cũng tấp nập người qua lại."
+ ],
+ "point_abstract_space": [
+  "Vấn đề này ở chỗ này, và nó rất cốt lõi.",
+  "Điểm mấu chốt là ở đây, chính là sự thiếu quyết đoán.",
+  "Cái ý tôi muốn nói chính là chỗ này, bạn có thấy không.",
+  "Nếu tôi đánh dấu khái niệm đó ở vị trí này thì sao.",
+  "Ý kiến của tôi nằm ở góc độ này, rất khác biệt.",
+  "Cái vấn đề xoay quanh điểm tâm này mà.",
+  "Tôi muốn neo giữ cái ý tưởng này ở đây để quay lại."
+ ],
+ "contrast_two_concepts": [
+  "Một mặt nó có ưu điểm, mặt khác lại toàn là nhược điểm.",
+  "Cái này khác cái kia hoàn toàn, một cái tốt một cái xấu.",
+  "So sánh hai hướng đi: hướng này an toàn, hướng kia rủi ro.",
+  "Về kinh tế thì nó tốt, nhưng xã hội lại tệ.",
+  "Tôi thấy nó có lợi ích nhưng cũng có tổn thất to lớn.",
+  "Một bên quyền lợi người dân, bên kia lợi ích chính quyền.",
+  "Theo cách nhìn này là đúng, nhưng cách khác lại sai hoàn toàn."
+ ],
+ "point_upward_ideal": [
+  "Tầm nhìn dài hạn của chúng ta phải cao hơn những gì hiện tại.",
+  "Mục tiêu cao hơn mà chúng ta cần hướng tới là sự bền vững.",
+  "Về mặt nguyên tắc thì lý tưởng là mọi người được bình đẳng.",
+  "Lý tưởng mà nói, chúng ta muốn xây dựng một xã hội công bằng.",
+  "Giá trị cao nhất mà nhân loại theo đuổi chính là tự do và nhân phẩm.",
+  "Chúng ta phải hướng tới một cấp độ đạo đức cao hơn.",
+  "Tầng ý nghĩa trừu tượng ở đây chính là sự toàn thiện tâm hồn."
+ ],
+ "index_finger_stab_down": [
+  "Đây là điều quan trọng nhất phải nhớ",
+  "Mấu chốt nằm ở chỗ này thôi",
+  "Không có ngoại lệ, nghe rõ chưa",
+  "Ghi nhớ kỹ điểm này cho tôi",
+  "Cái cốt lõi là ở đây nè",
+  "Sự thật chỉ có một, không bàn cãi",
+  "Điểm mấu chốt là chất lượng sản phẩm"
+ ],
+ "beat_index_tap": [
+  "Một là chi phí, hai là nhân sự, ba là thời gian",
+  "Cần kiểm tra từng hạng mục một nhé",
+  "Gồm có thiết kế, lập trình, và kiểm thử",
+  "Điểm một, điểm hai, điểm ba đều quan trọng",
+  "Sáng họp, trưa gửi báo cáo, chiều triển khai",
+  "Mục tiêu ngắn hạn, trung hạn, dài hạn đều có",
+  "Ăn sáng, tập thể dục, rồi mới làm việc"
+ ],
+ "beat_chop_list": [
+  "Marketing riêng, bán hàng riêng, vận hành riêng",
+  "Phần này của anh, phần kia của tôi",
+  "Tách bạch rõ: thu nhập, chi phí, lợi nhuận",
+  "Ba mảng: nội dung, hình ảnh, âm thanh",
+  "Ngân sách chia ra: quảng cáo, nhân sự, vận hành",
+  "Việc ai người nấy làm, không lẫn lộn",
+  "Giai đoạn một khác giai đoạn hai hoàn toàn"
+ ],
+ "close_fist_pull_in": [
+  "Tóm lại chỉ có một vấn đề chính thôi",
+  "Gom hết lại thì bản chất là thiếu người",
+  "Chung quy là mình chưa chuẩn bị kỹ",
+  "Quy tụ tất cả về một điểm duy nhất",
+  "Nói gì thì nói, cuối cùng vẫn là tiền",
+  "Gộp lại mọi ý kiến thì đều chỉ về chất lượng",
+  "Thu gọn lại thì nguyên nhân chính là giao tiếp"
+ ],
+ "both_hands_press_down_settle": [
+  "Vậy là chúng ta đã rõ ràng hết rồi",
+  "Đây là quyết định cuối cùng của nhóm",
+  "Thế là xong, không cần bàn thêm nữa",
+  "Mọi thứ đã được giải quyết ổn thỏa",
+  "Câu chuyện đến đây là kết thúc nhé",
+  "Chốt lại như vậy, ai cũng đồng ý rồi",
+  "Vấn đề này coi như đã khép lại"
+ ],
+ "index_beat_point": [
+  "Đầu tiên là nghiên cứu, tiếp theo là thử nghiệm",
+  "Bước một khảo sát, bước hai phân tích, bước ba đề xuất",
+  "Trước hết xác định mục tiêu, sau đó lên kế hoạch",
+  "Ý thứ nhất là chi phí, ý thứ hai là tiến độ",
+  "Thứ nhất chuẩn bị, thứ hai triển khai, thứ ba đánh giá",
+  "Ban đầu thu thập dữ liệu, kế tiếp xử lý",
+  "Đi theo thứ tự: phỏng vấn, chọn người, đào tạo"
+ ],
+ "open_palm_sweep_forward": [
+  "Hãy cùng xem chuyện gì đã xảy ra nhé",
+  "Bây giờ mình đi vào phần chính nha",
+  "Như các bạn thấy đây là kết quả",
+  "Chúng ta sẽ đi qua từng phần một",
+  "Giờ mình mở ra vấn đề tiếp theo nhé",
+  "Để tôi dẫn mọi người qua số liệu này",
+  "Cùng nhìn vào bức tranh tổng thể nào"
+ ],
+ "two_hand_lane_guide": [
+  "Quy trình diễn ra từ đầu vào đến đầu ra",
+  "Chúng ta đi từ ý tưởng đến sản phẩm cuối",
+  "Lộ trình rõ ràng: lên kế hoạch rồi thực hiện",
+  "Dòng chảy công việc là tiếp nhận xong xử lý",
+  "Từ khâu thiết kế đi thẳng qua khâu sản xuất",
+  "Toàn bộ quá trình chạy từ trái qua phải",
+  "Mọi thứ vận hành theo một trình tự nhất định"
+ ],
+ "wrist_flick_beat": [
+  "Chuyện là hôm đó trời mưa to lắm",
+  "Rồi sau đó mọi thứ cứ thế diễn ra",
+  "Anh ấy kể lại từ đầu đến cuối luôn",
+  "Cứ từ từ mà nghe tôi nói hết đã",
+  "Sự việc nó kéo dài suốt mấy tháng liền",
+  "Lúc đó ai cũng đang bận rộn túi bụi",
+  "Mọi chuyện bắt đầu từ một cuộc gọi nhỡ"
+ ],
+ "raise_hand_request": [
+  "Khoan đã, cho tôi nói một chút",
+  "Tôi xin phép được phát biểu ý kiến",
+  "Cho mình chen vào một câu được không",
+  "Đợi chút, mình muốn góp ý cái này",
+  "Em xin có ý kiến ạ",
+  "Ê ê, để tao nói cái này đã",
+  "Xin lỗi ngắt lời, nhưng tôi cần nói"
+ ],
+ "index_finger_raised": [
+  "À mà còn một điều nữa quan trọng lắm",
+  "Khoan, tôi chưa nói xong, còn ý này",
+  "Thêm một cái nữa nè, đừng vội",
+  "Ờ mà quên, còn một điểm cuối cùng",
+  "Đợi đã, mình còn muốn nói thêm cái này",
+  "Chưa hết đâu, còn một vấn đề nữa kìa",
+  "Ý cuối nè, nghe thêm chút xíu nha"
+ ],
+ "arms_cross_look_away_pout": [
+  "Thôi kệ, mình không quan tâm nữa đâu, hỏi làm gì!",
+  "Ai muốn nói gì thì nói, tôi không thèm nghe nữa.",
+  "Ừ thì được rồi đó, em không cần biết nữa đâu nhé.",
+  "Mặc kệ, bạn cứ làm theo ý bạn đi, đừng hỏi mình.",
+  "Tôi không nghe nữa đâu, nói mãi cũng vậy thôi.",
+  "Thôi được rồi, anh muốn làm gì thì làm, em không quan tâm."
+ ],
+ "arms_cross_pout_turn": [
+  "Kệ, ai cần biết đâu, mình không quan tâm nữa rồi.",
+  "Tôi không quan tâm nữa đâu nhé, đừng có giải thích.",
+  "Ừ thì kệ đi, chẳng ai cần đến tôi cả.",
+  "Thôi thì mặc, em không hỏi nữa, anh cứ làm đi.",
+  "Muốn nói gì thì nói, tôi cũng chẳng màng đâu.",
+  "Kệ luôn đi, cần gì phải giải thích với tôi."
+ ],
+ "arms_crossed_jaw_tight": [
+  "Tôi không làm điều đó đâu, đừng có ép tôi.",
+  "Các anh cứ đổ lỗi cho tôi hoài, tôi không chấp nhận.",
+  "Tôi không sai, không cần ai phải nhắc đi nhắc lại.",
+  "Nói thêm một lần nữa cũng vậy thôi, tôi không đồng ý.",
+  "Các vị muốn gì thì muốn, tôi không bao giờ chịu cái đó.",
+  "Tôi không cần nghe nữa, tôi biết mình không có lỗi."
+ ],
+ "arms_crossed_look_away_sulk": [
+  "Thôi kệ, em không quan tâm nữa đâu, anh làm gì thì làm.",
+  "Nói mãi rồi mà có ai chịu nghe đâu, thôi mình im.",
+  "Ừ thì được đó, mình không thèm hỏi thêm nữa.",
+  "Kệ luôn đi, em chẳng cần anh giải thích gì nữa hết.",
+  "Mình nói hoài mà không ai nghe, thôi mình im luôn.",
+  "Tôi không nói nữa đâu, nói cũng bằng thừa thôi."
+ ],
+ "beat_alternating_paddle": [
+  "Một là phải chuẩn bị kỹ, hai là phải đúng giờ, ba là phải có mặt đầy đủ.",
+  "Đầu tiên mình làm thế này, tiếp theo thế kia, cuối cùng mới ra kết quả.",
+  "Thứ nhất là ngân sách, thứ hai là nhân lực, thứ ba là thời gian thực hiện.",
+  "Một tay lo nội dung, một tay lo hình thức, vừa làm vừa kiểm tra từng bước.",
+  "Sáng thì họp nhóm, trưa thì xử lý tài liệu, chiều mới bắt đầu triển khai.",
+  "Cứ lần lượt từng cái một, cái này xong rồi mới sang cái tiếp theo."
+ ],
+ "beat_double_tap_chest": [
+  "Tôi tin điều này là đúng, không có gì thay đổi được suy nghĩ của tôi.",
+  "Điều đó là thật, tôi đã chứng kiến tận mắt chứ không phải nghe đồn.",
+  "Tôi biết mình không sai, lương tâm tôi hoàn toàn trong sáng.",
+  "Cái này tôi chắc chắn lắm, không phải tôi nói bừa đâu nhé.",
+  "Tôi dám khẳng định điều đó, bởi vì chính tay tôi đã làm.",
+  "Mình tin chắc vào điều này, bạn cứ yên tâm mà làm theo."
+ ],
+ "beat_finger_spread_flare": [
+  "Và rồi đột nhiên mọi thứ vỡ tung ra hết!",
+  "Chính lúc đó, bùm, cả hệ thống sụp đổ hoàn toàn luôn!",
+  "Không ai ngờ được, tất cả thay đổi chỉ trong một giây thôi!",
+  "Anh ấy vừa nói xong câu đó là mọi người ngỡ ngàng hết trơn!",
+  "Đúng cái khoảnh khắc đó, mọi sự bùng phát ra tức thì!",
+  "Kính thưa quý vị, đó là thời điểm lịch sử bùng nổ thực sự!"
+ ],
+ "beat_fingertips_pinch_open": [
+  "Chính xác là ở cái điểm nhỏ này mới quan trọng đấy nhé!",
+  "Cái tinh tế nằm ngay ở chỗ này, đừng bỏ qua nha!",
+  "Nếu anh để ý kỹ thì sẽ thấy sự khác biệt rất rõ ràng.",
+  "Vấn đề nằm ở một chi tiết cực kỳ nhỏ mà ít người nhận ra.",
+  "Đây đúng là điểm mấu chốt mà tôi muốn nói tới đây.",
+  "Bạn phải nhìn thật kỹ vào chỗ này mới hiểu được vấn đề."
+ ],
+ "beat_flat_palm_bounce": [
+  "Thứ nhất là kỹ năng, thứ hai là thái độ, thứ ba là kinh nghiệm.",
+  "Một là chuẩn bị kỹ, hai là thực hành nhiều, ba là kiên trì mãi.",
+  "Bước đầu tiên, bước tiếp theo, và cuối cùng là bước kết thúc.",
+  "Tôi muốn nhấn mạnh từng điểm một để quý vị nắm rõ hơn.",
+  "Điểm này quan trọng, điểm này cần nhớ, điểm này đừng bỏ qua.",
+  "Mình làm từng bước một nha, đừng vội, cứ chắc từng cái đã."
+ ],
+ "beat_sideways_chop_alternating": [
+  "Làm nhanh, làm mạnh, làm đúng, không được chần chừ gì hết!",
+  "Vào thẳng vấn đề, xử lý gọn, rồi chuyển sang việc tiếp theo ngay!",
+  "Tấn công, phòng thủ, phản công, đội mình phải làm liên tục như vậy!",
+  "Cứ đập thẳng vào, dứt khoát, không lùi, đó mới là cách chiến thắng!",
+  "Kính thưa quý vị, ta phải hành động mạnh mẽ, nhanh chóng và quyết đoán!",
+  "Chặt đứt cái này, giải quyết cái kia, tiến lên không được dừng lại!"
+ ],
+ "both_hands_chest_greeting": [
+  "Kính chào toàn thể quý vị đại biểu có mặt hôm nay!",
+  "Xin chào và kính chúc quý khách một buổi lễ thật ý nghĩa!",
+  "Con xin kính chào sư phụ và toàn thể các huynh đệ ở đây!",
+  "Chúng con xin thành tâm kính chào chư tôn đức tăng ni!",
+  "Xin chào mừng toàn thể bà con đã về dự lễ hội hôm nay!",
+  "Kính chào quý thầy cô và các bậc phụ huynh kính mến!"
+ ],
+ "bow_head_agree": [
+  "Vâng, con hiểu rồi ạ, con sẽ làm đúng theo lời thầy dặn.",
+  "Dạ, cháu xin ghi nhận ý kiến của bác, cháu sẽ cố gắng.",
+  "Vâng ạ, anh cứ yên tâm, em sẽ hoàn thành đúng hạn.",
+  "Dạ thưa sếp, em đồng ý với phương án này, em sẽ triển khai ngay.",
+  "Thưa quý khách, chúng tôi xin tiếp thu và xử lý ngay cho anh.",
+  "Dạ, con nhất trí với ba má, con sẽ không làm vậy nữa đâu."
+ ],
+ "build_up_layers_explain": [
+  "Đầu tiên mình phải hiểu nguyên nhân gốc rễ, rồi mới nói đến giải pháp được.",
+  "Bước một là chuẩn bị nền tảng, xong rồi mới chồng các bước tiếp theo lên.",
+  "Lý do thứ nhất là thế này, rồi từ đó mới dẫn đến vấn đề thứ hai.",
+  "Mình phải đặt cái móng vững chắc trước, rồi mới xây tiếp các tầng sau được.",
+  "Ý đầu tiên đã rõ chưa? Được rồi thì mình chuyển sang tầng kế tiếp nhé.",
+  "Cái này không thể giải thích một lần được, phải đi từng lớp từng lớp một."
+ ],
+ "calculator_tap_result": [
+  "Để tôi tính thử xem tổng chi phí dự án này rơi vào khoảng bao nhiêu.",
+  "Nào, cộng tiền vật liệu với tiền nhân công xem ra được bao nhiêu nào.",
+  "Bấm thử coi, một tháng mình tiết kiệm được bao nhiêu nếu cắt khoản này.",
+  "Tính ra mỗi đầu người phải đóng góp khoảng mấy trăm nghìn thôi à.",
+  "Thử nhân số lượng với đơn giá lên coi tổng hóa đơn là bao nhiêu nhé.",
+  "Ra rồi, con số này chênh lệch so với ngân sách ban đầu khá nhiều đó nghen."
+ ],
+ "carry_shoulder": [
+  "Hồi nhỏ tôi hay vác bao gạo năm chục ký từ dưới xe lên nhà kho.",
+  "Anh ấy một mình vác cây gỗ dài từ rừng về mà không cần ai giúp.",
+  "Mấy người thợ hồ vác bao xi măng lên tầng ba trông nặng lắm mà đi băng băng.",
+  "Ông nội tôi ngày xưa vác lúa thuê suốt ngày mà lưng vẫn thẳng tắp.",
+  "Thử vác cái đó một đoạn đường ngắn thôi là biết nặng cỡ nào rồi.",
+  "Chú bảo vệ vác cây sắt dài qua cổng mà phải nghiêng người mới lọt."
+ ],
+ "chest_lift_chin_up_proud": [
+  "Đó là thành quả tôi tự tay gây dựng từ hai bàn tay trắng đó.",
+  "Con trai tôi thi đỗ đại học bách khoa, tôi mừng và tự hào lắm.",
+  "Cái công trình này do đội mình làm ra, không có thuê ngoài một người nào.",
+  "Tôi nói thật, không phải khoe, nhưng hồi đó tôi là người giỏi nhất xưởng.",
+  "Mình tự hào vì dù khó khăn cỡ nào mình cũng không bỏ cuộc.",
+  "Dân xứ này mà nói về nghề làm gốm thì không ai qua được tổ tiên tôi đâu."
+ ],
+ "chop_herbs_rapid": [
+  "Rồi mình băm sả, ớt, gừng thiệt nhuyễn để ướp thịt.",
+  "Hồi xưa bà nội băm thịt viên tay nhanh lắm, đều lắm!",
+  "Tui băm hành tím với tỏi trước rồi mới phi lên.",
+  "Cứ băm đều tay là thịt nhuyễn mịn, không bị vón cục.",
+  "Anh ấy băm rau mùi mà nhanh như máy, tôi nhìn mà phục!",
+  "Phải băm riềng thật mịn thì nước chấm mới ngon được em ơi."
+ ],
+ "climax_fist_hold_overhead": [
+  "Và đúng lúc đó — tất cả mọi thứ bùng lên cùng một lúc!",
+  "Đây chính là khoảnh khắc quyết định mà cả đội chờ đợi bao lâu!",
+  "Không ai ngờ được rằng phút đó lại thay đổi tất cả mọi thứ!",
+  "Rồi đến giây phút gay cấn nhất — tim tôi như muốn nhảy ra ngoài!",
+  "Chính lúc đó, một quyết định duy nhất định đoạt toàn bộ cục diện!",
+  "Cao trào ập đến, không ai còn thở được nữa — đỉnh điểm rồi đó!"
+ ],
+ "come_here_family_beckon": [
+  "Lại đây con, để mẹ bảo cái này một chút nào.",
+  "Em ơi, vào đây với chị đi, chị có chuyện muốn nói.",
+  "Cháu ơi lại đây, bác cho cái này nè!",
+  "Lại đây anh hỏi chút, không mất công đâu mà lo.",
+  "Vào đây với tao đi mày, tao kể chuyện này hay lắm!",
+  "Lại gần bà đây con, bà nói nhỏ thôi nghe không?"
+ ],
+ "count_money_rub": [
+  "Tháng này lương tăng thêm được hai triệu nữa đấy anh ơi!",
+  "Giá vật liệu xây dựng bây giờ đắt hơn năm ngoái nhiều lắm.",
+  "Mỗi tháng tiền nhà, tiền điện, tiền nước tốn cả chục triệu chứ ít đâu.",
+  "Bữa đó tui đưa cho ổng đúng năm trăm ngàn, không dư không thiếu.",
+  "Anh tính xem, chi phí như vậy mình có đủ bù không?",
+  "Chỗ đó bán mắc lắm, một ký thịt giờ những tám mươi ngàn rồi."
+ ],
+ "count_money_thumb_flip": [
+  "Sếp vừa phát lương xong, em đếm đi đếm lại vẫn thiếu hai trăm.",
+  "Hôm qua tôi nhận về một xấp tiền dày này, toàn tờ năm mươi ngàn.",
+  "Mày cầm đây, đủ mười triệu đó, tao đếm rồi, khỏi đếm lại.",
+  "Chị ấy rút ví ra, lật từng tờ đếm chậm rãi, thấy mà ngộp.",
+  "Trả tiền mặt cho tiện, em đang đếm đây, anh chờ chút nhé!",
+  "Cuối năm nhận thưởng, cầm xấp tiền trong tay mà vẫn chưa tin nổi."
+ ],
+ "cover_mouth_embarrassed": [
+  "Ôi thôi chết, em vừa nói nhầm tên anh ấy trước mặt cả phòng rồi!",
+  "Anh khen vậy em ngại lắm, thật ra em chỉ làm bình thường thôi mà.",
+  "Hồi đó mình dại lắm, thích người ta mà còn không dám nhìn mặt.",
+  "Em lỡ miệng nói toạc ra hết rồi, giờ biết nói sao đây trời ơi.",
+  "Bị cả lớp nhìn vào mà mặt đỏ bừng, muốn độn thổ cho rồi ấy chứ.",
+  "Thú thật là lúc đó tôi sợ quá nên nói dối, giờ nghĩ lại vẫn còn ngại."
+ ],
+ "cup_both_hands_offer_forward": [
+  "Mời bác vào nhà dùng bữa cơm đạm bạc cùng gia đình ạ.",
+  "Dạ, mời thầy nhận món quà nhỏ này, em kính biếu thầy ạ.",
+  "Mời anh chị vào trước đi ạ, để em mở cửa cho.",
+  "Bác cứ tự nhiên dùng, cháu mời bác ăn thêm đi ạ.",
+  "Đây là chút lòng thành của tụi con, mong ba má nhận cho.",
+  "Mời quý khách đón nhận phần quà này từ phía công ty chúng tôi ạ."
+ ],
+ "cup_tea_offer": [
+  "Dạ con mời bác uống chén trà cho ấm bụng ạ.",
+  "Mời anh dùng trà, em vừa pha xong còn nóng đây anh.",
+  "Bác ngồi chơi đi, cháu mời bác uống nước đã rồi nói chuyện.",
+  "Mời chị dùng trà, loại trà mộc ngon lắm, nhà em tự pha đó chị.",
+  "Thầy uống chén trà đi ạ, rồi mình từ từ bàn tiếp cũng được.",
+  "Dạ mời cô, nhà con chỉ có trà thôi, không có gì ngon hơn, cô thông cảm ạ."
+ ],
+ "deadline_countdown_finger": [
+  "Còn đúng ba ngày nữa phải nộp báo cáo, không kịp là chết với sếp đó!",
+  "Thứ Sáu là hết hạn rồi, giờ còn hai bữa thôi, anh ơi khẩn lên!",
+  "Deadline còn một tiếng, mà mình mới làm được nửa bài, hỏng rồi.",
+  "Tôi nói thật, chỉ còn ba hôm, không chạy ngay là trễ hợp đồng đấy.",
+  "Hạn nộp hồ sơ ngày mai rồi, mày còn ngồi đó được à?",
+  "Giám đốc cho thêm hai ngày thôi, đủ không thì ráng mà đủ."
+ ],
+ "deadline_tap_wrist_watch": [
+  "Mười một giờ rồi đó, còn một tiếng nữa là hết hạn nộp bài.",
+  "Anh nhìn cái này đi, muộn hơn nữa là không kịp đâu nhé.",
+  "Chín giờ họp rồi đó, sao giờ này chưa thấy ai chuẩn bị vậy?",
+  "Deadline lúc ba giờ chiều nha, bây giờ hai rưỡi rồi đó bạn ơi.",
+  "Tôi nhắc rồi đó, chậm thêm một phút là trễ chuyến bay đó anh.",
+  "Nhanh lên đi, còn năm phút nữa là hết giờ nộp hồ sơ rồi!"
+ ],
+ "double_fist_tap_together": [
+  "Lần này chúng ta phải làm được, không có lý do gì để thất bại nữa.",
+  "Đội mình đã thống nhất rồi, cứ thế mà tiến, không quay đầu.",
+  "Tôi nói thật, quyết tâm lần này của tụi mình không giống hồi trước nữa đâu.",
+  "Không được bỏ cuộc giữa chừng, tụi mình đã đi được đến đây rồi.",
+  "Năm nay bọn mình sẽ vượt chỉ tiêu, đây là cam kết của cả nhóm.",
+  "Thôi quyết rồi, cứ làm đi, mình lo gì thì giải quyết sau."
+ ],
+ "elder_hand_hold_both": [
+  "Con nhớ bà lắm, ở đây bà có khỏe không ạ?",
+  "Cháu thương bác, bác cứ yên tâm có cháu ở đây bên cạnh.",
+  "Con chúc ông mạnh khỏe, sống lâu trăm tuổi ạ.",
+  "Bao lâu rồi con mới được gặp bác, con mừng quá.",
+  "Dạ, con xin phép thưa với bà, con vừa mới về tới ạ.",
+  "Ông ngồi đây nghỉ ngơi đi, để cháu ngồi chơi với ông một lúc."
+ ],
+ "elder_two_hand_receive_gift": [
+  "Con xin phép nhận ạ, bác quý con quá con không biết nói sao.",
+  "Dạ, cháu kính biếu bác chút quà nhỏ, bác nhận cho cháu vui ạ.",
+  "Cho phép con đỡ giúp ạ, để bác không phải bưng nặng.",
+  "Con cảm ơn ông lắm, con không dám nhận nhiều thế này ạ.",
+  "Dạ bác ơi, cháu xin đỡ ạ, bác giữ thế bác mỏi tay lắm.",
+  "Con kính drâng bà đĩa trái cây, bà nhận cho con thơm thảo ạ."
+ ],
+ "exhale_relief_chest_drop": [
+  "May quá, cuối cùng mọi thứ cũng ổn thỏa rồi!",
+  "Trời ơi, xong rồi, tôi tưởng hỏng việc tới nơi.",
+  "Hú hồn, may mà kịp nộp trước giờ chót đó!",
+  "Thôi được rồi, lo hết mấy tuần mà kết quả tốt thế này.",
+  "Ông ơi, tưởng vụ đó toang rồi chứ, may thiệt!",
+  "Cuối cùng bệnh viện cũng báo kết quả âm tính, mừng quá."
+ ],
+ "finger_drum_tabletop": [
+  "Một là kiểm tra nguyên liệu, hai là làm nóng chảo, ba là cho gia vị vào.",
+  "Thứ nhất anh gặp khách, thứ hai ký hợp đồng, thứ ba chuyển khoản.",
+  "Cô nhớ nhé: đăng ký trước, xác nhận sau, rồi mới đến thanh toán.",
+  "Bước một mình chuẩn bị hồ sơ, bước hai nộp online, bước ba chờ phản hồi.",
+  "Tháng Giêng khởi động, tháng Hai triển khai, tháng Ba tổng kết luôn.",
+  "Ý tôi là: đầu tiên phải nghe, tiếp theo phải hỏi, sau đó mới quyết."
+ ],
+ "finger_kiss": [
+  "Tô bún bò này nấu chuẩn vị Huế, không chê vào đâu được!",
+  "Bức tranh đó đẹp xuất sắc, hiếm khi thấy tài năng như vậy.",
+  "Trời ơi, miếng bánh mì thịt này ngon đến mức không nói nên lời!",
+  "Cái giọng hát của cô ấy tối qua đỉnh thật, hoàn hảo từng nốt.",
+  "Chén chè khúc bạch này mà, ăn một lần là nhớ cả đời luôn đó.",
+  "Bộ áo dài may khéo vô cùng, vừa vặn đến từng đường kim."
+ ],
+ "flip_side_reverse": [
+  "Nhưng mặt khác của vấn đề, làm nhanh thì chất lượng chưa chắc đảm bảo.",
+  "Ở chiều ngược lại, chính sách đó lại gây khó cho người thu nhập thấp.",
+  "Tuy nhiên nếu nhìn từ phía người mua, câu chuyện lại hoàn toàn khác.",
+  "Thế nhưng mà, cũng có ý kiến cho rằng cách này lãng phí nguồn lực hơn.",
+  "Đúng là tiết kiệm chi phí, nhưng bù lại rủi ro kỹ thuật tăng lên rõ rệt.",
+  "Nếu lật lại vấn đề, ta thấy người lao động chịu thiệt thòi nhiều hơn."
+ ],
+ "forearm_stroke": [
+  "Hồi đó tôi một mình ở bệnh viện, không có ai bên cạnh cả, buồn lắm.",
+  "Mấy tháng chờ kết quả mà không ngủ được, lo lắng đến mức kiệt sức luôn.",
+  "Cái giai đoạn đó khó khăn lắm, tôi gần như không còn sức để tiếp tục nữa.",
+  "Nghe tin đó xong, tôi cứ thẫn thờ cả tuần, chẳng thiết làm gì hết.",
+  "Nỗi lo đó cứ đeo bám tôi mãi, ngủ cũng không yên giấc được.",
+  "Lúc ba mất, tôi không dám khóc trước mặt mọi người, cứ cố kìm lại thôi."
+ ],
+ "freeze_gasp_hands_up": [
+  "Rồi đúng lúc đó — cửa bật tung ra, tim tôi suýt ngừng đập!",
+  "Tôi đang đi bình thường thì đột nhiên — con chó lao thẳng vào mặt!",
+  "Vừa mở hộp ra — trời ơi, bên trong hoàn toàn trống rỗng, không có gì hết!",
+  "Chúng tôi đang ngồi họp thì — BÙNG — điện cúp toàn tòa nhà luôn!",
+  "Anh ấy nói bình thường, rồi bỗng dưng — ngã xuống ngay trước mắt tôi!",
+  "Vừa bước vào nhà thì — ôi thôi — cả gia đình hét to 'Sinh nhật vui vẻ'!"
+ ],
+ "freeze_gasp_wide": [
+  "Và rồi — không ai trong chúng tôi có thể tin vào mắt mình nữa!",
+  "Đúng lúc đó, một điều xảy ra mà cả phòng đều chết lặng.",
+  "Thật ra tôi cũng không ngờ được, cho tới khi nghe câu đó.",
+  "Ủa mà bạn biết không, cái khoảnh khắc đó tôi không thở được luôn!",
+  "Chưa bao giờ trong đời tôi lại gặp chuyện như vậy, chưa một lần!",
+  "Anh ơi, cái tin đó ập tới mà em đứng im như khúc gỗ vậy đó!"
+ ],
+ "funnel_cause_narrow": [
+  "Có nhiều lý do, nhưng nguyên nhân chính vẫn là vấn đề con người.",
+  "Tất cả những yếu tố đó rốt cuộc đều xuất phát từ một điểm duy nhất.",
+  "Mình có thể kể ra mười thứ, nhưng mấu chốt vẫn nằm ở chỗ này thôi.",
+  "Nếu anh hỏi tôi đâu là gốc rễ, thì tôi sẽ chỉ thẳng vào cái này.",
+  "Sau khi gạt hết phần bề mặt ra, ta chỉ còn lại một nguyên do cốt lõi.",
+  "Nhiều người cứ nhìn vào triệu chứng, nhưng cái căn bản nó nằm ở đây nè."
+ ],
+ "funnel_down_conclude": [
+  "Tóm lại tất cả những gì vừa nói, ta chỉ cần nhớ một điều thôi.",
+  "Cuối cùng rút ra được một kết luận duy nhất cho toàn bộ vấn đề này.",
+  "Qua mọi phân tích vừa rồi, mình đi đến một điểm chung duy nhất.",
+  "Nói cho gọn lại thì bản chất của câu chuyện chỉ có một ý thôi.",
+  "Sau tất cả, điều mà chúng ta cần ghi nhớ nhất chính là điều này đây.",
+  "Dù trình bày theo hướng nào thì cuối cùng cũng về chung một mối hết."
+ ],
+ "funnel_narrow_down": [
+  "Từ hàng chục dữ liệu đó, mình lọc dần lại còn đúng một điểm cốt lõi.",
+  "Quá trình phân tích là cứ loại bớt dần cho tới khi còn cái quan trọng nhất.",
+  "Mình không giữ hết mọi thứ đâu, mình lọc và chắt lọc liên tục đó.",
+  "Bắt đầu từ cả trăm yếu tố, rồi thu dần lại cho tới khi còn một thôi.",
+  "Cái hay của phương pháp này là nó giúp mình tinh gọn vấn đề xuống tối đa.",
+  "Sau nhiều vòng sàng lọc, những gì không cốt lõi tự nhiên sẽ rụng ra hết."
+ ],
+ "gentle_push_forward_encourage": [
+  "Con cứ tự tin mà đi, ba với mẹ luôn ở đây ủng hộ con mà.",
+  "Thôi cố lên nào, anh biết em làm được chuyện này mà!",
+  "Đừng ngại gì hết, cứ bước tới đi, tụi này có mặt hết rồi.",
+  "Em không cần phải hoàn hảo ngay đâu, cứ bước ra thôi đã!",
+  "Chú tin cháu hoàn toàn, cứ đi đi, không có gì phải lo cả đâu.",
+  "Nào, tất cả mọi người đều sẵn sàng rồi, giờ chỉ cần mình em bước thôi!"
+ ],
+ "grip_own_arm": [
+  "Thú thật là lúc đó tôi sợ lắm, không biết chuyện gì sẽ xảy ra tiếp theo.",
+  "Đứng trong căn phòng tối đó mà người tôi cứ run run không kiểm soát được.",
+  "Tôi không dám nhìn vào mắt họ, chỉ biết đứng im và hít thở thôi.",
+  "Hồi đó mà kể lại tôi vẫn còn rùng mình, cái cảm giác đó không quên được.",
+  "Em biết không, lúc đó chị chỉ muốn thu mình lại và biến mất cho rồi.",
+  "Tôi ở một mình trong tình huống đó, hoàn toàn không biết phải làm gì nữa."
+ ],
+ "hand_cover_mouth_fear": [
+  "Trời ơi, chuyện đó có thật không, sao lại thế được!",
+  "Ôi trời, nghe mà rùng cả người, sợ quá đi mất!",
+  "Không thể tin được, chuyện kinh khủng vậy mà xảy ra thật sao?",
+  "Thôi chết, vậy thì hỏng hết rồi, làm sao bây giờ hả trời!",
+  "Nghe mà tôi không dám nghĩ tiếp, hãi quá anh ơi.",
+  "Ủa mà chuyện đó xảy ra hồi nào vậy, sao tôi không hay gì hết?"
+ ],
+ "index_tap_palm": [
+  "Tóm lại có ba điểm: một là chất lượng, hai là tiến độ, ba là chi phí.",
+  "Kết luận lại, thứ nhất mình thiếu người, thứ hai mình thiếu thời gian, thứ ba mình thiếu ngân sách.",
+  "Có hai vấn đề cốt lõi: một là quy trình chưa rõ, hai là trách nhiệm chưa phân.",
+  "Anh nhớ cho kỹ nhé: một phải đúng hạn, hai phải đúng mẫu, ba phải đủ chữ ký.",
+  "Mình chốt lại ba ý chính: an toàn trước, chất lượng sau, hiệu quả cuối cùng.",
+  "Tôi nhấn mạnh hai điều: một là cam kết phải giữ, hai là kết quả phải có."
+ ],
+ "invite_both_palms_up_guest": [
+  "Mời anh chị cứ vào trong, chỗ ngồi đã chuẩn bị sẵn rồi ạ.",
+  "Xin mời quý vị bước vào hội trường, chương trình sắp bắt đầu.",
+  "Bác cứ tự nhiên, nhà cháu có gì mời bác nấy ạ.",
+  "Mời anh vào uống nước, đừng đứng ngoài cửa vậy anh ơi.",
+  "Xin trân trọng kính mời đại biểu vào ghế để buổi lễ bắt đầu.",
+  "Chị vào đi, ngồi chơi cho mát, ngoài trời nắng lắm đó."
+ ],
+ "palm_flick_outward_beat": [
+  "Đó chính là vấn đề mấu chốt mà lâu nay mình cứ bỏ qua.",
+  "Vậy là rõ rồi nhé, không có gì phải bàn thêm nữa cả.",
+  "Đúng vậy đó, ai cũng biết nhưng không ai chịu nói thẳng ra.",
+  "Thế thì hiển nhiên rồi còn gì, có cần phải giải thích nữa không?",
+  "Bấy nhiêu đó thôi, đơn giản vậy mà cứ làm phức tạp mãi.",
+  "Kết luận là như vậy, không thể khác được, chấm hết."
+ ],
+ "parallel_compare_two_sides": [
+  "Hà Nội thì trầm lắng hơn, còn Sài Gòn thì sôi động hơn nhiều.",
+  "Phương án A tiết kiệm chi phí, còn phương án B lại nhanh hơn.",
+  "Bên công ty cũ thì ổn định, bên công ty mới thì cơ hội nhiều hơn.",
+  "Cái này nhẹ hơn nhưng mà kém bền, cái kia nặng hơn nhưng chắc chắn hơn.",
+  "Học đại học công thì học phí thấp, học tư thì cơ sở vật chất tốt hơn.",
+  "Anh ấy nói vậy, còn chị ấy lại có quan điểm hoàn toàn trái ngược."
+ ],
+ "parallel_tracks_compare": [
+  "Trong khi miền Bắc đang rét đậm thì miền Nam vẫn nắng chang chang.",
+  "Khác với thế hệ trước, bọn trẻ bây giờ tiếp cận công nghệ từ rất sớm.",
+  "Phong cách anh ấy thiên về lý thuyết, còn chị kia lại thực tế hơn nhiều.",
+  "Trong khi team A chú trọng tốc độ thì team B lại ưu tiên chất lượng.",
+  "Cái phương pháp cũ mất nhiều thời gian, còn cái mới tự động hoàn toàn.",
+  "Khác với mấy năm trước, giờ người ta quan tâm đến sức khỏe tinh thần nhiều lắm."
+ ],
+ "pat_own_chest_affirm": [
+  "Cứ yên tâm đi, anh lo hết cho, khỏi phải nghĩ gì cả.",
+  "Con hứa với ba mẹ, con sẽ không để gia đình phải thất vọng.",
+  "Chuyện đó để tôi lo, anh không cần phải bận tâm đâu.",
+  "Em cứ học cho giỏi, tiền học phí anh trai lo được.",
+  "Tụi mình mà gặp chuyện, tôi đứng ra chịu trách nhiệm trước.",
+  "Má đừng lo, con cáng đáng được, con lớn rồi mà."
+ ],
+ "phone_scroll_feed": [
+  "Tôi lướt mãi mà toàn thấy tin tiêu cực, chán quá.",
+  "Hôm qua ngồi cuộn Facebook cả tiếng đồng hồ mà không hay.",
+  "Mình cứ xem hết cái này tới cái khác, không dừng được.",
+  "Newsfeed bây giờ toàn quảng cáo, tìm bài hay khó lắm.",
+  "Tôi đọc tin tức buổi sáng, vuốt qua mấy chục bài mới thấy cái cần tìm.",
+  "Lướt TikTok một chút mà mất tong hai tiếng không biết."
+ ],
+ "pothole_dodge_swerve": [
+  "Đang chạy ngon thì gặp cái hố to đùng, tay lái phải đánh nhanh lắm.",
+  "Con đường đó ổ gà chi chít, tránh cái này lại húc cái kia.",
+  "Hôm qua tôi suýt ngã xe vì tránh hố giữa ban đêm không thấy.",
+  "Đường vô xóm tôi mưa xuống là ổ gà nổi đầy, xe nào cũng né tứ tung.",
+  "Tôi đang phóng thì thấy cái hố, bẻ lái cái rụp mới thoát.",
+  "Khúc đó xe tải đi nhiều, ổ gà to lắm, mình phải lách liên tục mới qua được."
+ ],
+ "press_temples_confused": [
+  "Khoan đã, nhiều thứ quá, tôi không biết bắt đầu từ đâu nữa.",
+  "Thông tin này mâu thuẫn hoàn toàn với cái anh vừa nói trước đó!",
+  "Trời ơi, đầu tôi muốn nổ tung đến nơi rồi đây này.",
+  "Chờ chờ, cho tôi một chút, nhiều dữ liệu quá tôi không xử lý kịp.",
+  "Ủa mà nếu vậy thì cái kia sai, còn nếu cái kia đúng thì cái này sai?",
+  "Nói thật là tôi đang rất rối, không biết đâu là đúng nữa."
+ ],
+ "roll_dough_hands": [
+  "Bột phải nhào đủ lực thì mới dai, không thì bánh bở lắm.",
+  "Bà nội tôi hay dạy phải cán mỏng đều tay thì vỏ bánh mới ngon.",
+  "Công đoạn này mất thời gian nhất nhưng bỏ qua là hỏng ngay.",
+  "Cán bột mà ép không đều là bánh chỗ dày chỗ mỏng, chín không đều đâu nha.",
+  "Tôi nhào tay chứ không dùng máy, vậy mới cảm nhận được độ mềm của bột.",
+  "Lúc này phải thêm chút bột áo vào không thì dính thớt hết đó."
+ ],
+ "roll_spring_roll": [
+  "Phải đặt nhân lệch vào một đầu rồi cuốn chặt tay, không thì bung ra hết.",
+  "Mẹ tôi cuốn chả giò nhanh lắm, mấy chục cái chỉ trong vài phút thôi.",
+  "Nhân không được nhiều quá, cuốn căng tay vừa phải thì chiên mới đẹp.",
+  "Bánh tráng phải nhúng nước vừa mềm thôi, ướt quá là rách ngay khi cuốn.",
+  "Tết nhà tôi cả nhà ngồi cuốn chả giò với nhau, vui lắm anh ơi.",
+  "Gấp hai đầu vào trước rồi mới cuốn tròn lại, như vậy nhân không bị rơi ra."
+ ],
+ "rub_arm_self_soothe": [
+  "Thật ra tôi cũng ít khi kể chuyện này cho ai nghe lắm.",
+  "Thôi thì nói rồi, mình cũng không cần giấu mãi đâu nhỉ.",
+  "Tôi không quen chia sẻ kiểu này, ngại lắm nhưng thôi kệ.",
+  "Ừ, đó là lần duy nhất tôi làm vậy, giờ nhớ lại vẫn còn kỳ kỳ.",
+  "Kể ra rồi thấy nhẹ hơn một chút, dù sao cũng hơi xấu hổ.",
+  "Tôi chưa bao giờ nói điều này với người khác trước giờ đâu nha."
+ ],
+ "rub_back_of_neck": [
+  "Ừ thì... tôi cũng không giải thích được tại sao lúc đó tôi lại làm vậy.",
+  "Thật ra câu hỏi đó tôi cũng đang tự hỏi bản thân mình đó chứ.",
+  "Nói thiệt là tôi không chắc lắm, chỉ làm theo cảm tính thôi.",
+  "Ờ mà sao nó lại ra như vậy thì tôi... cũng không biết nữa.",
+  "Câu đó khó ghê, để tôi nghĩ xem tôi có thể giải thích kiểu gì không.",
+  "Tôi biết nghe kỳ lắm nhưng thật sự tôi không có lý do rõ ràng."
+ ],
+ "rub_back_of_neck_anxious": [
+  "Tôi có cảm giác không lành lắm, kiểu gì cũng sẽ có chuyện xảy ra.",
+  "Rủi ro này mà xảy ra thật thì hậu quả rất khó lường được đấy.",
+  "Cứ nghĩ đến ngày mai là tôi thấy bất an, không biết mọi thứ có ổn không.",
+  "Lỡ kế hoạch không chạy đúng thì mình xử lý kiểu nào bây giờ?",
+  "Tôi đang lo mấy ngày nay rồi, chưa tìm ra cách nào ổn cả.",
+  "Có điều gì đó không đúng lắm, nhưng tôi chưa xác định được là cái gì."
+ ],
+ "rub_belly_delicious": [
+  "Trời ơi, tô bún bò hôm qua ngon đến mức tôi ăn hết hai tô luôn!",
+  "Cái bánh xèo bà Năm chiên giòn tan, ăn vào là biết ngay tay nghề mấy chục năm.",
+  "Nồi cá kho tiêu của mẹ nấu hôm nay, thơm lừng cả xóm, ăn hết nồi cơm luôn anh ơi.",
+  "Món phở bò Hà Nội ăn sáng nay nước dùng ngọt thanh, tôi chưa thấy chỗ nào ngon hơn.",
+  "Ăn xong bữa lẩu tối qua mà bụng no căng, ngồi không nổi luôn chị ơi!",
+  "Cái bánh mì pate đầu hẻm giá có năm ngàn mà ngon hơn mấy chỗ sang trọng nhiều lần."
+ ],
+ "rub_eye_corner": [
+  "Xin lỗi, tôi không biết sao mắt cứ cay cay khi nhắc đến chuyện đó.",
+  "Hồi đó khổ lắm, nhưng thôi, chuyện qua rồi, không nhắc nữa.",
+  "Mỗi lần nghĩ đến ba lúc nằm viện mà không có ai bên cạnh, tôi lại không chịu nổi.",
+  "Con bé ra đi quá đột ngột, chúng tôi chưa kịp nói một câu từ biệt nào.",
+  "Thôi được rồi, mình nói chuyện khác đi, tôi ổn mà, không sao đâu.",
+  "Cái thư ông ấy gửi trước lúc mất, tôi đọc đến đoạn cuối là không đọc được nữa."
+ ],
+ "rub_eyes_tired": [
+  "Tôi thức đến ba giờ sáng làm báo cáo, giờ mắt nặng trĩu không chịu nổi nữa.",
+  "Tuần này chạy dự án liên tục, chưa đêm nào ngủ được quá bốn tiếng đâu.",
+  "Xin lỗi anh, em giải thích dài quá rồi, đầu em cũng bắt đầu quay mòng mòng rồi đây.",
+  "Hôm qua thằng bé quấy cả đêm, sáng ra tôi đi làm mà như người mất hồn vậy.",
+  "Mệt lắm rồi chị ơi, người ta đâu phải máy mà làm việc không nghỉ được.",
+  "Ngồi nhìn màn hình từ sáng đến giờ, mắt tôi rát và cộm khó chịu kinh khủng."
+ ],
+ "rub_hands_together_eager": [
+  "Được rồi, bây giờ mình bắt đầu vào việc chính thôi nào!",
+  "Ôi trời, tới phần hay nhất rồi đây, mong cái này mãi!",
+  "Chuẩn bị tinh thần đi, hôm nay chúng ta làm nên chuyện lớn!",
+  "Thế là xong phần khởi động, giờ mới đến lúc thú vị thật sự!",
+  "Nào, kế hoạch đã sẵn sàng hết rồi, chỉ chờ bắt tay vào làm thôi!",
+  "Mấy tuần chờ đợi cuối cùng cũng đến ngày này rồi, hú hồn!"
+ ],
+ "rub_temples_frustration": [
+  "Trời ơi, tôi đã giải thích đến lần thứ mấy rồi mà vẫn chưa hiểu vậy?",
+  "Thôi được, anh nói lại lần nữa đi, tôi nghe đây nhưng đầu đang muốn nổ tung!",
+  "Cái chuyện đơn giản vậy mà cứ phải vòng vo mãi, mệt lắm rồi!",
+  "Nghe xong mà đầu óc tôi quay cuồng hết cả lên, không tài nào theo kịp!",
+  "Ủa sao khó hiểu vậy, bạn giải thích kiểu đó ai mà hiểu được chứ!",
+  "Thôi bỏ qua đi, nói thêm nữa tôi nhức đầu không chịu nổi nữa rồi!"
+ ],
+ "scene_cut_clap_transition": [
+  "Thôi, chuyện đêm hôm đó kể sau, nhảy sang sáng hôm sau luôn nhé!",
+  "Oke, tạm bỏ phần đó qua một bên, ba ngày sau câu chuyện lại tiếp tục!",
+  "Được rồi, đến đây là xong cảnh đó, giờ sang một địa điểm hoàn toàn khác!",
+  "Thôi kệ cái đó đi, tua nhanh lên hai tuần sau xem chuyện gì xảy ra nha!",
+  "Xong phần một rồi đó, chuyển sang chương mới luôn cho nhanh!",
+  "Bỏ qua khoảng trống đó đi nha, câu chuyện tiếp tục vào buổi chiều hôm sau!"
+ ],
+ "scene_cut_double_chop": [
+  "Ba ngày sau, mọi thứ đã hoàn toàn thay đổi rồi.",
+  "Đến đây là hết phần một, sang phần hai nhé.",
+  "Câu chuyện dừng lại ở đó, và rồi chúng ta nhảy sang cảnh mới.",
+  "Phần này khép lại, chúng ta chuyển sang buổi sáng hôm sau.",
+  "Tách hẳn ra — bối cảnh lúc này đã khác hoàn toàn rồi nghe.",
+  "Xong đoạn đó, giờ mình kể tiếp sang chỗ khác luôn."
+ ],
+ "scene_cut_pivot": [
+  "Và rồi — đùng một cái — tất cả mọi thứ đã ở nơi khác rồi.",
+  "Câu chuyện bẻ ngoặt ngay tại đây, không báo trước gì cả.",
+  "Cắt! Ngay lập tức chúng ta đang ở một chỗ hoàn toàn khác rồi.",
+  "Từ đây trở đi là cảnh mới, thời điểm mới, không liên quan gì nữa đâu nhé.",
+  "Chưa kịp hiểu chuyện gì thì câu chuyện đã chạy sang hướng khác rồi.",
+  "Đột nhiên chuyển sang ba tuần sau, bối cảnh khác hẳn luôn đó."
+ ],
+ "scoop_bowl_eat": [
+  "Cơm chín rồi, ra ăn đi kẻo nguội hết bây giờ.",
+  "Hồi nhỏ tui hay ăn cơm với cá kho quẹt là ghiền lắm.",
+  "Bữa đó tôi đói quá, múc liền mấy muỗng cơm ăn ngấu nghiến.",
+  "Ăn cơm chưa em, hay vô đây anh đơm cho một chén đi?",
+  "Cứ mỗi buổi trưa là tôi lại ngồi ăn một mình, múc cơm ăn qua quýt thôi.",
+  "Mời bác xơi cơm, để cháu lấy thêm bát cho bác nhé."
+ ],
+ "scoop_eat_chopsticks": [
+  "Miếng thịt kho đó gắp lên ăn là tan ngay trong miệng luôn.",
+  "Tôi gắp thử một miếng cá, trời ơi ngon không tả được luôn.",
+  "Bạn ăn thử đi, gắp miếng này vô miệng là biết ngay tay nghề của bả.",
+  "Hồi đó mỗi lần gắp được miếng thịt là mừng lắm, vì hiếm lắm mà.",
+  "Ăn từ từ thôi nào, gắp từng miếng nhỏ mà thưởng thức cho đúng điệu.",
+  "Ngồi nhậu với ổng, cứ gắp mồi ăn rồi kể chuyện trời ơi đất hỡi hoài."
+ ],
+ "scratch_back_of_head": [
+  "Ờ thì... cái đó tôi cũng chưa nghĩ ra cách giải thích cho rõ được.",
+  "Hehe, cái vụ đó thì... thật ra tôi cũng không biết nói sao nữa.",
+  "Bị hỏi câu đó tôi ngại lắm, không biết trả lời kiểu nào cho phải.",
+  "Thú thật là tôi cũng có sai phần đó, nhưng mà... ừ thôi.",
+  "Câu hỏi đó hóc búa quá, tôi chịu, không nghĩ ra câu trả lời đâu.",
+  "Ừm... cái chuyện hôm qua đó thì... tôi cũng không giải thích được rõ lắm."
+ ],
+ "scratch_back_of_head_sheepish": [
+  "Ừ thì… em cũng không ngờ mình lại làm vậy, thật sự.",
+  "Thôi thì biết sao giờ, lỡ rồi còn biết làm gì được nữa.",
+  "Dạ, em có hơi… lỡ tay một chút, mong anh thông cảm.",
+  "Thiệt ra tui cũng không hiểu sao hồi đó mình lại quyết vậy.",
+  "Ừ thì… cũng tại lúc đó em không nghĩ kỹ, xin lỗi chị.",
+  "Thú thật là tôi cũng chẳng giải thích được tại sao nữa."
+ ],
+ "scratch_head_embarrassed": [
+  "Thật ra tôi cũng không ngờ mình lại làm được, may thôi.",
+  "Ừ thì… tôi có hơi quá một chút, nhưng mà thật lòng vậy.",
+  "Dạ, em không nghĩ mọi người lại để ý đến vậy đâu ạ.",
+  "Thiệt ra hồi đó tui cũng chỉ làm thử, ai dè lại được.",
+  "Tôi không quen được khen kiểu này, ngại lắm thật sự luôn.",
+  "Ừ thì mình cũng có sai một chút xíu, chứ không phải cố tình đâu."
+ ],
+ "scratch_head_sheepish": [
+  "Thật ra mình cũng không biết nữa, hỏi khó quá đó.",
+  "Ừ thì… hơi kỳ một chút, nhưng mà đúng là mình đã làm vậy.",
+  "Em không giải thích được, tự nhiên nó xảy ra vậy thôi ạ.",
+  "Tui cũng không hiểu sao nữa, hỏng biết phải nói sao luôn.",
+  "Ừ thì… cũng hơi ngại kể, nhưng thôi, nói thiệt cho xong.",
+  "Mình cũng không ngờ chuyện đó lại xảy ra với mình, kỳ lắm."
+ ],
+ "slow_exhale_shoulders_drop_relief": [
+  "May quá, xong rồi, lo mấy ngày nay mà giờ mới thở được.",
+  "Cuối cùng cũng ổn rồi, nhẹ cả người luôn, hú hồn thiệt.",
+  "Thôi được rồi, vậy là xong, hồi hộp từ sáng tới giờ luôn.",
+  "Trời ơi may quá, cứ tưởng lần này hỏng ăn chứ, nhẹ hẳn.",
+  "Xong rồi, ổn rồi, không cần lo nữa, nhẹ nhõm hẳn ra.",
+  "May mà kịp, không thì không biết phải xử lý kiểu gì nữa."
+ ],
+ "slow_neck_rub": [
+  "Vấn đề là… hợp đồng đó có một điều khoản mình chưa xử lý được.",
+  "Thật ra có một chuyện hơi phức tạp, không biết nói thế nào.",
+  "Tình hình là… số liệu tuần này không được như kỳ vọng lắm.",
+  "Chỗ này hơi khó nói, nhưng mà phải nói thẳng luôn cho rồi.",
+  "Tôi đang nghĩ cách xử lý, nhưng chưa ra phương án nào ổn cả.",
+  "Nói thiệt là tui không biết lần này phải tính kiểu gì nữa."
+ ],
+ "smell_aroma_inhale": [
+  "Mùi nước dùng này thơm lắm, nghe là biết nấu lâu giờ rồi.",
+  "Trời ơi, mùi sả ớt phi lên thơm muốn chảy nước miếng luôn.",
+  "Cái mùi bơ tỏi này ngào ngạt cả bếp, đứng đây cũng thấy ngon.",
+  "Hương quế hồi trong nồi phở bốc lên, thơm không chịu được luôn.",
+  "Mới mở nắp ra mà mùi cà ri đã bay ra thơm ngát cả phòng rồi.",
+  "Mùi bánh mới ra lò còn ấm, thơm kiểu này ăn mấy cái cũng được."
+ ],
+ "step_by_step_count_forward": [
+  "Đầu tiên mình chuẩn bị nguyên liệu, rồi mới bắt đầu chế biến, cuối cùng trình bày.",
+  "Bước một nộp hồ sơ, bước hai chờ duyệt, bước ba lên ký hợp đồng.",
+  "Anh làm theo thứ tự này thì sẽ không bị sai, tôi nói từng bước một nhé.",
+  "Trước hết cài đặt ứng dụng, kế tiếp tạo tài khoản, sau đó mới đăng nhập vào.",
+  "Tụi mình đi từng bước một nha, không được nhảy cóc qua bước nào hết.",
+  "Quy trình này có ba giai đoạn nối tiếp nhau, mỗi giai đoạn phải hoàn thành trước rồi mới sang."
+ ],
+ "step_by_step_enumerate": [
+  "Bước một là rửa tay, bước hai là đeo găng, bước ba mới được cầm vào thực phẩm.",
+  "Mình liệt kê lần lượt cho anh nghe: một là xác nhận đơn, hai là đóng gói, ba là giao hàng.",
+  "Có bốn bước cụ thể, để tôi trình bày từng cái một cho rõ ràng nhé.",
+  "Thứ nhất kiểm tra nguồn điện, thứ hai khởi động máy, thứ ba mới nhập dữ liệu vào.",
+  "Tui nói từng bước nha: một là đăng ký, hai là xác minh email, ba là điền thông tin.",
+  "Cô cứ làm đúng thứ tự bước một, bước hai, bước ba là xong, không cần lo gì cả."
+ ],
+ "sudden_gasp_recoil": [
+  "Đang đi bình thường thì cái mái nhà sập xuống ngay trước mặt tôi luôn!",
+  "Không ai ngờ được, anh ấy vừa quay lưng là chiếc xe lao thẳng vào cột điện.",
+  "Hắn vừa mở cửa ra thì người đó đứng ngay đó, trời ơi, tôi không tin vào mắt mình nữa.",
+  "Mọi thứ đang yên đang lành, bỗng dưng cái tiếng nổ lớn vang lên, ai cũng đứng tim.",
+  "Tôi đọc đến dòng cuối cùng mà người cứng đơ ra, hoàn toàn không thể tin được chuyện đó.",
+  "Chị đang nói chuyện thì nhận được cái tin nhắn đó, chị đứng khựng lại không nói được gì."
+ ],
+ "tap_wrist_now": [
+  "Không phải ngày mai, không phải tuần sau, tôi cần câu trả lời ngay bây giờ.",
+  "Thời điểm này mà anh còn do dự thì cơ hội qua mất rồi đó.",
+  "Bây giờ mình phải quyết định ngay, không thể chờ thêm được nữa.",
+  "Lúc này là quan trọng nhất, đừng để nó trôi qua mà không làm gì hết.",
+  "Ngay lúc này chứ không phải lúc nào khác, đây là thời điểm chúng ta phải hành động.",
+  "Tôi đang nói đến hiện tại này, không phải chuyện hồi xưa hay sau này."
+ ],
+ "tension_build_slow_raise": [
+  "Hắn bước lại gần... gần hơn... gần hơn nữa... rồi dừng lại ngay sau lưng cô ấy.",
+  "Âm thanh đó ngày càng to hơn, rõ hơn, gần hơn, mà không ai biết nó từ đâu tới.",
+  "Điểm số cứ tăng dần, tăng dần, đến phút cuối cùng tất cả đều nín thở nhìn lên bảng.",
+  "Căng thẳng cứ dồn lên, dồn lên mãi, đến lúc không ai còn dám thở mạnh nữa.",
+  "Nước dâng cao hơn... cao hơn nữa... mọi người bắt đầu nhìn nhau không nói được gì.",
+  "Thời gian đếm ngược cứ giảm dần, mười giây, năm giây, ba giây, cả phòng chết lặng."
+ ],
+ "tension_coil_then_burst": [
+  "Cả phòng im phăng phắc, tim tôi đập loạn cả lên, rồi bỗng dưng — ầm!",
+  "Chờ mãi chờ mãi, nước mắt cứ ứa ra, rồi kết quả hiện lên và tôi vỡ òa!",
+  "Không ai dám thở, cứ thế ngồi chờ, đến khi cửa mở ra thì hỗn loạn hết!",
+  "Tôi ghìm lại suốt mấy tiếng đồng hồ đó, anh biết không, rồi nó nổ tung ra hết!",
+  "Hồi hộp kinh khủng luôn, nín thở chờ từng giây, rồi ông ấy tuyên bố và mọi thứ bùng lên!",
+  "Căng như dây đàn suốt cả buổi ấy, rồi một cái tin đó đến là vỡ trận ngay!"
+ ],
+ "thread_fingers_weave": [
+  "Hai cái này nó cuốn vào nhau rồi, gỡ ra được đâu mà gỡ!",
+  "Kinh tế với văn hóa nó bện vào nhau như thế này đây, không thể nào tách được!",
+  "Chị thấy không, chính sách và con người nó liên hệ với nhau khít khịt vậy đó!",
+  "Anh nghĩ có thể tách hai vấn đề này ra riêng không, tôi thấy nó cứ xoắn vào nhau!",
+  "Bản sắc dân tộc với ngôn ngữ nó ràng buộc nhau như thế này, mình không thể bỏ cái nào!",
+  "Cộng đồng và cá nhân nó gắn kết với nhau chặt lắm, như thế này đây, không rời được!"
+ ],
+ "traffic_jam_crawl": [
+  "Nhích được một tí rồi lại đứng yên, cứ vậy suốt hai tiếng đồng hồ luôn đó!",
+  "Xe nó cứ tịch tịch rồi lại dừng, tịch tịch rồi lại dừng, mệt muốn chết!",
+  "Từ Ngã Tư Sở ra đến đây mà đi mất gần một tiếng, nhúc nhích tí tí thôi!",
+  "Sáng nay tắc đường kinh khủng lắm anh ơi, nhích từng xăng-ti-mét một luôn!",
+  "Cái đoạn đường Trường Chinh hôm nay nó tệ thật, cứ đứng im rồi lại bò từ từ!",
+  "Em ngồi trên xe mà cứ bò bò rồi dừng, bò bò rồi dừng, stress vô cùng!"
+ ],
+ "umbrella_open_overhead": [
+  "Hôm qua tôi vừa bước ra khỏi nhà là phải che ô ngay.",
+  "Nắng kiểu này mà không che ô thì cháy da luôn đó.",
+  "Chị ấy lúc nào cũng che ô cẩn thận, không để nắng chạm vào người.",
+  "Trời nắng gắt vậy mà anh không che ô, không sợ say nắng à?",
+  "Mỗi lần ra đường là tui che ô liền, quen rồi không bỏ được.",
+  "Bà nội tôi dù đi đâu cũng mang ô theo, nắng hay mưa đều che."
+ ],
+ "umbrella_open_rain": [
+  "Mưa ập xuống bất ngờ, tôi vội bung dù lên che đầu chạy về.",
+  "Đang đi bộ ngoài đường thì trời đổ mưa, may mà kịp bật dù.",
+  "Cơn mưa chiều hôm đó to lắm, bung dù lên mà vẫn ướt hết nửa người.",
+  "Mưa rào mùa hạ kiểu này bật dù lên cũng chẳng ăn thua gì đâu anh ơi.",
+  "Chị ấy bung dù lên rồi mới chạy ra ngoài, nhanh tay thiệt.",
+  "Hôm qua mưa to quá, tôi bật dù lên mà gió thổi suýt bay luôn cái dù."
+ ],
+ "wipe_rain_windshield": [
+  "Mưa to đến mức gạt nước chạy hết tốc độ mà kính vẫn mờ ịt.",
+  "Hôm qua lái xe trong mưa, gạt nước không kịp, nhìn đường chẳng thấy gì.",
+  "Tầm nhìn kém lắm, gạt nước cứ quét qua quét lại mà vẫn không rõ.",
+  "Anh ơi, mưa kiểu này gạt nước xe mình có đủ không hay lại mờ kính?",
+  "Lái xe mà gạt nước yếu, mưa lớn nhìn phía trước cứ như màn sương dày đặc.",
+  "Bữa đó tôi chạy xe trong mưa, gạt nước liên tục mà vẫn phải bò từng chút một."
+ ],
+ "zip_lips": [
+  "Yên tâm đi, chuyện này tớ giữ kín cho mà xem!",
+  "Bí mật của anh, em sẽ mang theo xuống mồ luôn.",
+  "Tao không hở ra với bất kỳ ai đâu, mày cứ tin tao.",
+  "Chị hứa không để lọt tai một người nào khác đâu nhé.",
+  "Câu chuyện này dừng lại ở đây, không đi đến đâu nữa hết.",
+  "Anh yên tâm, miệng em kín như bưng rồi đấy!"
+ ],
+ "arms_open_wide_joy": [
+  "Chúng ta vừa giành được hợp đồng lớn nhất từ trước đến nay rồi!",
+  "Trời ơi, cả nhà ơi, con đậu đại học rồi bà con ơi!",
+  "Không thể tin được, chuyến đi này hoàn hảo hơn tôi mơ!",
+  "Bao nhiêu năm chờ đợi, hôm nay mới được như vầy nè!",
+  "Tuyệt vời quá, đây đúng là ngày đẹp nhất trong đời tôi!",
+  "Mọi người ơi, chúng ta đã làm được rồi, tuyệt cú mèo!"
+ ],
+ "chop_knife_vertical": [
+  "Hành tỏi phải băm thật nhuyễn thì xào mới dậy mùi được.",
+  "Thịt bò thái ngang thớ thì lúc ăn mới mềm, không dai.",
+  "Tôi thái sả thành từng khúc nhỏ rồi mới cho vào nồi.",
+  "Rau cải em chặt khúc vừa ăn thôi, đừng để quá dài nha.",
+  "Gừng mà đập dập rồi băm nhỏ thì mùi thơm hơn nhiều lắm.",
+  "Cứ thái đều tay như vậy thì miếng thịt chín đều hơn đó."
+ ],
+ "sharp_exhale_hand_wave_off": [
+  "Thôi thôi, nói mãi mà không chịu nghe thì kệ anh đó!",
+  "Ừ thì kệ, muốn làm sao thì làm, tôi không quan tâm nữa.",
+  "Chán lắm rồi, cứ lặp đi lặp lại mãi một chuyện vậy hoài!",
+  "Thôi được rồi, anh muốn nghĩ vậy thì cứ nghĩ đi cho rồi!",
+  "Nói không ai nghe thì thôi, kệ, tui mặc xác luôn đó nghen!",
+  "Vô lý quá rồi, tôi không buồn giải thích thêm nữa đâu nha."
+ ],
+ "alert_open_palm_barrier": [
+  "Khoan đã, đừng làm vậy vội!",
+  "Dừng lại ngay, đường này không an toàn đâu!",
+  "Thôi thôi, bình tĩnh lại đi đã nào.",
+  "Em chờ một chút, chưa đến lúc đâu!",
+  "Anh nghĩ lại đi, chuyện này nguy hiểm lắm!",
+  "Không được, hướng đó sai rồi, quay lại đây!",
+  "Cậu đừng tiếp tục, nghe tôi nói đã!",
+  "Nhớ nhé, vượt qua ranh giới này là không ổn đâu!"
+ ],
+ "alert_slow_rise_hai_tay": [
+  "Khoan đã, bình tĩnh, nghe anh nói đã.",
+  "Em cần hít thở, tình hình chưa đến mức đó đâu.",
+  "Chờ một chút, đừng vội kết luận như vậy.",
+  "Nghe anh nói xong rồi lo cũng chưa muộn.",
+  "Dừng lại đi, còn nhiều điều em chưa biết.",
+  "Anh hiểu em đang sợ nhưng mình cần tỉnh táo.",
+  "Từ từ thôi, hành động sai lúc này sẽ tệ hơn.",
+  "Bình tĩnh lại, chuyện này còn nghiêm trọng hơn em tưởng."
+ ],
+ "alert_spine_tall_chin_drop": [
+  "Tôi chỉ nói một lần thôi đấy.",
+  "Đừng để tôi phải nhắc lại điều này.",
+  "Cậu có chắc mình muốn làm vậy không?",
+  "Lần này tôi bỏ qua, lần sau thì không.",
+  "Hãy suy nghĩ thật kỹ trước khi hành động.",
+  "Tôi không đùa đâu, anh hiểu chứ?",
+  "Nếu tiếp tục, anh sẽ tự chịu hậu quả.",
+  "Tôi đã cho cô cơ hội rồi đó."
+ ],
+ "alert_weight_shift_forward": [
+  "Nghe tôi nói, đừng đi theo đường đó!",
+  "Mày phải dừng lại ngay bây giờ, hiểu chưa?",
+  "Cái thứ đó nguy hiểm lắm, đừng chạm vào!",
+  "Tôi không nói chơi đâu, rút lui đi ngay!",
+  "Nếu mày bước thêm một bước nữa là xong đó!",
+  "Họ đang ở phía sau, chạy ngay đi!",
+  "Cẩn thận, cái bẫy đó sắp sập rồi!",
+  "Đây là lần cuối tôi cảnh báo mày, hãy nghe tôi!"
+ ],
+ "apologetic_head_tilt_hands_up_surrender": [
+  "Ừ thôi được rồi, tôi sai, tôi nhận.",
+  "Okay okay, bạn nói đúng hết rồi, tôi chịu thua.",
+  "Thôi thôi, tôi xin lỗi, không cãi nữa đâu.",
+  "Được rồi, mình thừa nhận là mình đã sai hoàn toàn.",
+  "Anh đầu hàng rồi đó, em nói đúng từ đầu đến cuối.",
+  "Tôi biết tôi sai rồi, không cần nói thêm nữa đâu.",
+  "Thôi thua rồi, mình không có lý gì để biện hộ hết.",
+  "Ừ, bắt được rồi, tôi không chối nữa, lỗi tại tôi."
+ ],
+ "apologetic_one_shoulder_wince": [
+  "Ừ thôi xin lỗi nha, tại mình quên mất thật.",
+  "Ôi trời, mình lỡ hẹn rồi, ngại ghê.",
+  "Thật ra mình có nhớ đấy, nhưng mà... thôi, xin lỗi bạn nhé.",
+  "Hehe, lần này mình sai thật, đừng giận mình nha.",
+  "Mình biết bạn đợi lâu rồi, tại mình bị kẹt tí thôi.",
+  "Xin lỗi xin lỗi, lần sau mình không để vậy nữa đâu.",
+  "Ừ, mình quên thật, biết nói sao giờ.",
+  "Thôi chết, mình làm bạn chờ mà không nhắn gì hết, ngại quá."
+ ],
+ "apologetic_shoulder_hunch_slight": [
+  "Ồ xin lỗi, mình vô ý quá!",
+  "Thôi chết, mình nói nhầm rồi, bỏ qua cho mình nhé!",
+  "Ái, mình lỡ làm phiền bạn rồi, sorry nha!",
+  "Mình xin lỗi nha, không cố ý đâu đó!",
+  "Ừ thôi, lỗi mình, mình nhận liền!",
+  "Khổ quá, mình lại nói sai nữa rồi, thứ lỗi nha!",
+  "Xin lỗi xin lỗi, mình không để ý, bỏ qua giùm mình với!",
+  "Hehe, mình quên mất, sorry bạn nhiều nha!"
+ ],
+ "apologetic_shrink_arms_crossed": [
+  "Trời ơi, em xin lỗi, em không ngờ lại ra nông nỗi này.",
+  "Con... con biết con sai rồi, mọi người đừng nhìn con như vậy được không.",
+  "Tôi thật sự rất hổ thẹn, không biết phải nói gì nữa.",
+  "Ừ, lỗi của mình, mình nhận hết, mình xin lỗi tất cả mọi người.",
+  "Em chỉ muốn độn thổ xuống đất cho rồi, em sai hoàn toàn rồi.",
+  "Anh không ngờ việc nhỏ của anh lại ảnh hưởng lớn đến vậy, anh xin lỗi.",
+  "Xấu hổ lắm, thật sự xấu hổ lắm, mong mọi người tha thứ cho tôi.",
+  "Tôi biết bây giờ nói gì cũng muộn, nhưng tôi thực sự rất ân hận."
+ ],
+ "back_shift_one_hand_wave_off": [
+  "Thôi thôi, không cần phải như vậy đâu.",
+  "Ây dà, chuyện nhỏ mà lo gì vậy.",
+  "Khỏi đi, tính sau cũng được mà.",
+  "Thôi kệ đi, đừng bận tâm nữa nhé.",
+  "Ừ thôi, chuyện đó bỏ qua đi bạn ơi.",
+  "Không sao không sao, khỏi cần nghĩ tới nữa.",
+  "Thôi mà, đừng có đề nghị vậy tội nghiệp tui.",
+  "Ây, cái đó không cần thiết đâu bạn ơi."
+ ],
+ "both_feet_press_solemn_conclude": [
+  "Đây là quyết định cuối cùng của tôi, không thay đổi nữa.",
+  "Tôi xin hứa trước mọi người, sẽ không để điều này xảy ra thêm lần nào nữa.",
+  "Dù thế nào đi nữa, chúng ta vẫn phải tiếp tục bước về phía trước.",
+  "Sau tất cả những gì đã xảy ra, tôi nghĩ chúng ta đều hiểu mình cần làm gì.",
+  "Không còn gì để bàn thêm nữa, con đường này là lựa chọn duy nhất.",
+  "Tôi mang trách nhiệm này trên vai và tôi sẵn sàng gánh chịu hậu quả.",
+  "Câu chuyện của chúng ta kết thúc ở đây, nhưng ký ức sẽ không bao giờ phai.",
+  "Hôm nay, trước tất cả mọi người, tôi tuyên bố rằng mình sẽ không bao giờ bỏ cuộc."
+ ],
+ "chest_tap_commitment": [
+  "Tôi thề với em, không bao giờ tôi dối lòng mình về điều này.",
+  "Lời này tôi nói từ tận đáy tim, không phải chỉ để anh nghe.",
+  "Dù có chuyện gì xảy ra, tôi vẫn sẽ ở bên cậu.",
+  "Em tin tôi đi, tôi không bao giờ phản bội lời hứa này.",
+  "Danh dự của tôi đặt vào đây, tôi không thể sai lời được.",
+  "Tôi nói thật lòng, không có gì ở đây là giả dối cả.",
+  "Cảm xúc này tôi giữ từ lâu lắm rồi, không phải nói cho có.",
+  "Bạn có thể tin tôi, vì tôi chưa bao giờ nói lời này với ai khác."
+ ],
+ "compare_buildup_crescendo": [
+  "Cái này rẻ hơn, bền hơn, lại còn đẹp hơn nữa — chọn cái gì bây giờ?",
+  "Nó nhanh hơn, mượt hơn, pin trâu hơn, thì còn đắn đo gì nữa?",
+  "Bên kia thì gần hơn, yên tĩnh hơn, giá lại mềm hơn — rõ ràng là phải chọn chỗ đó rồi.",
+  "Anh ấy kinh nghiệm hơn, chịu khó hơn, lại biết làm việc nhóm — em nghĩ ai xứng đáng hơn?",
+  "Loại này nhẹ hơn, chắc hơn, chống nước tốt hơn, thì còn lăn tăn gì chứ?",
+  "Ở đây thoáng hơn, sạch hơn, tiện đường đi làm hơn — thế thì rõ rồi còn gì.",
+  "Cô ấy cẩn thận hơn, sáng tạo hơn, còn giao tiếp tốt hơn — mình nghĩ đây mới là người cần tuyển.",
+  "Cái đó nhỏ gọn hơn, dùng ít điện hơn, lại bảo hành dài hơn — thật ra không cần so nhiều nữa đâu."
+ ],
+ "compare_dismiss_one_side": [
+  "Thôi cái này bỏ đi, chọn cái kia cho xong.",
+  "Phương án A không ổn, mình đi theo phương án B thôi.",
+  "Cái đó không cần bàn nữa, rõ ràng hướng này tốt hơn nhiều.",
+  "Không, không, không — cứ làm theo cách này là được rồi.",
+  "Quên cái đó đi, tập trung vào hướng này mới đúng.",
+  "Hai cái so ra thì cái này ăn đứt, không có gì phải nghĩ thêm.",
+  "Bỏ qua lựa chọn đầu tiên đi, mình chốt cái này luôn nhé.",
+  "Cách cũ thì không hiệu quả, còn cách này mới thật sự ra vấn đề."
+ ],
+ "compare_lean_left_right": [
+  "Một bên là tiết kiệm, một bên là tận hưởng, bạn chọn cái nào?",
+  "Đi làm sớm thì ổn định hơn, còn khởi nghiệp thì tự do hơn nhưng rủi ro hơn nhiều.",
+  "Ở lại thành phố thì cơ hội nhiều, về quê thì gần gia đình — khó lắm.",
+  "Phương án A nhanh hơn nhưng tốn tiền, phương án B rẻ hơn nhưng mất thời gian.",
+  "Học đại học chính quy khác với học online lắm, không thể so sánh đơn giản được.",
+  "Cái này nhẹ nhàng hơn, cái kia thực tế hơn — tùy mình ưu tiên gì thôi.",
+  "Làm một mình thì chủ động, làm nhóm thì nhanh hơn nhưng hay xảy ra bất đồng.",
+  "Yêu sớm có cái hay của nó, yêu muộn cũng có cái hay riêng, chẳng cái nào hoàn hảo cả."
+ ],
+ "compare_weigh_uncertain": [
+  "Ừm, cái này tôi chưa chắc lắm đâu nhé.",
+  "Thật ra thì... tôi vẫn đang phân vân giữa hai cái này.",
+  "Khó mà nói ngay được, để tôi nghĩ thêm chút.",
+  "Một bên cũng có lý, mà bên kia cũng không tệ.",
+  "Tôi chưa ngả về phía nào hết,솔직히 nói vậy.",
+  "Hai lựa chọn này đều ổn theo cách riêng của nó.",
+  "Để xem nào... tôi vẫn chưa quyết được.",
+  "Nói thật là tôi đang lưỡng lự, chưa biết chọn cái nào."
+ ],
+ "conspiratorial_weight_drop": [
+  "Ê, tao kể mày nghe cái này, buồn cười lắm á!",
+  "Thôi được rồi, tao nói thật cho mà nghe nha...",
+  "Khoan, mày có biết hôm qua chuyện gì xảy ra không?",
+  "Này này, đừng nói với ai nha, nhưng mà...",
+  "Tao thề là tao không có bịa, chuyện có thật đó!",
+  "Hồi nãy tao thấy cái cảnh mà tao suýt ngã ra đất luôn!",
+  "Mày ơi, tao vừa phát hiện ra một điều ngu hết sức...",
+  "Bí mật nha, nhưng mà tao không nhịn được phải kể!"
+ ],
+ "contrast_open_palms_alternating": [
+  "Cái này hợp với người này, cái kia lại hợp với người khác thôi.",
+  "Mỗi cái có cái hay riêng của nó, không so được đâu.",
+  "Tùy hoàn cảnh mà chọn, không cái nào đúng hơn cái nào hết.",
+  "Một bên thiên về cảm xúc, một bên thiên về lý trí — cả hai đều cần.",
+  "Không phải cái này tốt hơn cái kia, chỉ là khác nhau thôi.",
+  "Người thích yên tĩnh chọn cái này, người thích sôi động chọn cái kia, ai cũng có lý.",
+  "Hai hướng đi khác nhau nhưng đều dẫn đến đích, tùy mình thôi.",
+  "Cả hai đều có chỗ đứng của nó, mình không nên vội phán xét."
+ ],
+ "crouch_whisper": [
+  "Lại đây, đừng để ai nghe thấy nhé.",
+  "Tao biết chuyện mà không ai dám kể cho mày đâu.",
+  "Thật ra cái vụ đó... có liên quan đến sếp lớn đấy.",
+  "Cẩn thận, đừng nhắc lại với bất kỳ ai nghe chưa.",
+  "Mày có biết tại sao hắn đột nhiên biến mất không?",
+  "Bí mật này mà lọt ra ngoài thì xong cả đám rồi.",
+  "Tao chỉ nói với mày thôi, không được kể cho ai hết.",
+  "Hồi đó có chuyện xảy ra mà người ta cố tình giấu đi."
+ ],
+ "emphasize_number_ascending": [
+  "Từ một nghìn lên mười nghìn, rồi cả trăm nghìn người dùng!",
+  "Con số cứ tăng dần đều, tháng này hơn tháng trước rõ ràng.",
+  "Năm ngoái mình có năm chi nhánh, năm nay đã lên mười rồi!",
+  "Bắt đầu từ mười triệu, rồi hai mươi, rồi năm mươi triệu đồng doanh thu.",
+  "Nhìn xem, tuần đầu có hai mươi đơn, tuần sau sáu mươi, tuần này hơn một trăm!",
+  "Cộng đồng mình ngày càng lớn, từ vài chục người lên đến cả ngàn thành viên.",
+  "Tốc độ tăng trưởng cứ nhân đôi mỗi quý, không có dấu hiệu dừng lại đâu.",
+  "Điểm số của bạn đi lên từng ngày, bảy mươi, tám mươi, rồi chín mươi lăm điểm!"
+ ],
+ "emphasize_number_contrast": [
+  "Trước kia chỉ có 3 người, bây giờ đã lên tới 300 rồi!",
+  "Năm ngoái lỗ mất 50 triệu, năm nay lời đến 500 triệu luôn.",
+  "Hồi đó giá chỉ 2 đô, giờ vọt lên 200 đô rồi bạn ơi.",
+  "Từ 1 chi nhánh nhỏ, chúng tôi mở rộng ra 100 chi nhánh toàn quốc.",
+  "Mới đầu chỉ có 10 khách hàng thôi, mà giờ đã 10.000 người rồi đó.",
+  "Lúc trước tốc độ chỉ đạt 5km/h, còn bây giờ nhanh gấp 100 lần luôn.",
+  "Ngày xưa học sinh bỏ học nhiều lắm, 80%, giờ còn chưa tới 8% thôi.",
+  "Từ con số 0 tròn trĩnh, công ty tăng trưởng lên đến 1 tỷ đô chỉ trong 5 năm."
+ ],
+ "emphasize_number_multiplicity": [
+  "Cái này có đến ba loại khác nhau, không phải một hay hai đâu nhé.",
+  "Tỉ lệ thành công là tám mươi phần trăm, còn thất bại chỉ hai mươi thôi.",
+  "Nhóm một có năm người, nhóm hai mười người, nhóm ba lại chỉ có ba người.",
+  "Từ một triệu tăng lên năm triệu, tức là gấp năm lần trong vòng hai năm.",
+  "Hôm qua bán được mười cái, hôm nay hai mươi, ngày mai có thể ba mươi luôn.",
+  "Cái loại rẻ giá hai trăm, loại trung bình năm trăm, loại xịn thì cả triệu đó.",
+  "Không phải chỉ một hay hai trường hợp, mà đã có đến chín trường hợp tương tự rồi.",
+  "Mười năm trước chỉ có năm nghìn người dùng, giờ đã lên đến năm triệu rồi đó."
+ ],
+ "emphasize_number_one": [
+  "Đây là điều quan trọng nhất bạn cần nhớ.",
+  "Lý do số một chính là vấn đề niềm tin.",
+  "Trước tiên, chúng ta phải giải quyết điều này.",
+  "Bước đầu tiên luôn là quan trọng nhất đấy.",
+  "Chỉ có một điều bạn không được bỏ qua.",
+  "Ưu tiên hàng đầu của tôi chính là an toàn.",
+  "Không gì quan trọng hơn điều tôi sắp nói.",
+  "Đây là yếu tố then chốt của toàn bộ kế hoạch."
+ ],
+ "emphasize_number_precise": [
+  "Không phải khoảng ba trăm đâu, đúng ba trăm mười hai người.",
+  "Con số chính xác là bảy phẩy tám phần trăm, không phải gần tám đâu nhé.",
+  "Tôi nói rõ lại: doanh thu quý này là hai tỷ ba trăm triệu, không làm tròn.",
+  "Đúng một nghìn bốn trăm hai mươi lăm đơn hàng, tôi đếm kỹ rồi.",
+  "Bốn mươi bảy phút, không phải khoảng nửa tiếng như anh nói đâu.",
+  "Số liệu ghi rõ ở đây: năm nghìn sáu trăm tám mươi ba ca nhiễm.",
+  "Chính xác là mười lăm điểm phần trăm, không hơn không kém.",
+  "Ngân sách còn lại là chín trăm sáu mươi hai triệu đồng, tôi vừa kiểm tra xong."
+ ],
+ "exasperated_chest_open": [
+  "Thôi được, tôi hiểu rồi, không cần giải thích thêm nữa.",
+  "Ừ... cứ như anh nói đi, tôi không tranh luận nữa đâu.",
+  "Bình tĩnh... bình tĩnh... mình phải bình tĩnh mới được.",
+  "Được rồi, tôi nghe thấy hết rồi, thôi xong nhé.",
+  "Không sao, không sao, chuyện nhỏ thôi mà... chuyện nhỏ.",
+  "Tôi... tôi không nói gì thêm nữa đâu, thôi bỏ qua đi.",
+  "Cứ nghĩ mình đang xử lý ổn, mà trời ơi khó thật sự.",
+  "Được, anh thắng rồi đó, tôi chịu thua, xong chưa?"
+ ],
+ "excited_rise_both_arms_overhead": [
+  "Ôi trời ơi, không thể tin được luôn!",
+  "Thật sự rồi hả, đỉnh quá đỉnh quá!",
+  "Yeahhh, cái này là đỉnh của đỉnh rồi!",
+  "Chờ cái gì, kết quả vậy thật á?!",
+  "Trời đất, mình không mơ chứ đây?!",
+  "Quá xá là vui, không kìm được nữa rồi!",
+  "Ủa mà sao hay vậy, mình không ngờ luôn!",
+  "Tuyệt vời quá, hôm nay là ngày đẹp nhất!"
+ ],
+ "excited_rise_chest_open": [
+  "Ôi trời, thật sao, tuyệt vời quá đi!",
+  "Không thể tin được, chuyện này có thật không?!",
+  "Ý anh là... họ đồng ý rồi hả?!",
+  "Hay vậy, em chưa bao giờ nghĩ đến điều này!",
+  "Đúng rồi đúng rồi, giờ em hiểu ra rồi!",
+  "Thế thì quá tốt luôn, mình làm được thật sao?!",
+  "Ơ mà... cái này hay hơn em tưởng nhiều!",
+  "Vậy là mọi thứ ổn hết rồi, hả anh?!"
+ ],
+ "excited_rise_tiptoe_lean_forward": [
+  "Ơ mà khoan, chuyện đó xảy ra như thế nào vậy?",
+  "Thật không, kể tiếp đi, đừng dừng lại!",
+  "Hả, rồi sau đó sao nữa, nói nhanh lên!",
+  "Ủa mà bạn có biết cái đó liên quan đến cái gì không?",
+  "Tôi biết, tôi biết, cho tôi nói một cái này!",
+  "Đợi đợi, cái phần vừa rồi bạn nói lại đi!",
+  "Hay quá, mà tôi cũng có chuyện tương tự luôn đó!",
+  "Không, không, ý bạn là theo kiểu đó hả?"
+ ],
+ "exhausted_admission_sink": [
+  "Thôi, tôi xin thú thật là tôi đã kiệt sức rồi.",
+  "Mệt lắm rồi, không còn giả vờ được nữa đâu.",
+  "Cứ tưởng mình chịu được, nhưng đến đây là hết.",
+  "Tôi không còn sức để tiếp tục như vậy nữa.",
+  "Nói thật đi, tôi đang không ổn chút nào hết.",
+  "Hết rồi, tôi không cố được thêm nữa đâu.",
+  "Cơ thể với đầu óc tôi đều đang kêu cứu đó.",
+  "Tôi đã cố gắng lắm rồi, nhưng mà không đủ sức nữa."
+ ],
+ "explosive_stand_ground": [
+  "Tôi không thể im lặng thêm được nữa!",
+  "Đủ rồi, anh nghe cho rõ vào!",
+  "Không, lần này tôi sẽ không nhường!",
+  "Cô biết không, tôi đã chịu đựng quá lâu rồi!",
+  "Bây giờ thì không còn chuyện nhượng bộ nữa!",
+  "Tôi đứng đây và nói thẳng, không ai ngăn được tôi!",
+  "Dừng lại, hãy nghe tôi nói hết câu này!",
+  "Không thể tiếp tục như thế này được, phải thay đổi ngay!"
+ ],
+ "firm_nod_promise": [
+  "Tôi hứa sẽ hoàn thành đúng hạn, không cần lo.",
+  "Yên tâm đi, việc này tôi chắc chắn làm được.",
+  "Đã nói là làm, anh cứ tin tôi đi.",
+  "Lời hứa này tôi sẽ giữ đến cùng.",
+  "Không cần nghi ngờ, tôi sẽ không để bạn thất vọng.",
+  "Tôi cam kết điều này bằng cả danh dự của mình.",
+  "Cứ để đó cho tôi, tôi lo được hết.",
+  "Bạn có thể hoàn toàn tin tưởng vào lời tôi nói."
+ ],
+ "firm_stance_chest_open": [
+  "Đây là sự thật, không có gì để bàn cãi thêm.",
+  "Tôi đã quyết định rồi, không ai thay đổi được điều này.",
+  "Kết quả đã rõ ràng, chúng ta không cần tranh luận nữa.",
+  "Không cần phải giải thích thêm, mọi thứ đã hiển nhiên.",
+  "Đây chính là câu trả lời cuối cùng, không có lựa chọn nào khác.",
+  "Sự thật vẫn là sự thật dù anh có chấp nhận hay không.",
+  "Tôi biết mình đúng và tôi sẽ không lùi bước.",
+  "Mọi bằng chứng đều chỉ về một hướng duy nhất, đó là tôi."
+ ],
+ "frustrated_weight_shift_forward": [
+  "Tôi đã nói bao nhiêu lần rồi mà anh vẫn không hiểu à?",
+  "Nghe tôi nói đây này, cái này không thể làm theo kiểu đó được!",
+  "Ừ thì được, cứ làm đi rồi xem kết quả ra sao!",
+  "Không phải tôi không giải thích, là anh không chịu nghe đấy!",
+  "Trời ơi, đơn giản vậy mà sao cứ phải nói mãi không thôi!",
+  "Thôi được rồi, lần này tôi nói thẳng luôn cho rõ nhé!",
+  "Anh có thực sự hiểu tôi đang nói gì không vậy?",
+  "Tôi không biết phải giải thích kiểu nào cho anh hiểu nữa!"
+ ],
+ "fun_story_bounce_chuckle": [
+  "Khoan, để tôi kể xong đã... hehe, hôm đó nó ngã đúng vào vũng bùn!",
+  "Trời ơi tôi không nhịn được, cái mặt anh ấy lúc đó...",
+  "Ừ thì... heheh... tóm lại là cái bánh nó bay thẳng vào mặt sếp!",
+  "Mà thôi chết, tôi cười quá, ý là... cái kết nó tệ lắm bạn ơi!",
+  "Xin lỗi xin lỗi, nhưng mà... hehe... lúc đó nó mặc ngược áo đi họp luôn đó!",
+  "Bình thường thôi nhưng mà... ôi trời... con mèo nó nhảy trúng bánh sinh nhật!",
+  "Không không tôi ổn, chỉ là... cái cảnh đó nó cứ hiện ra trong đầu tôi hoài!",
+  "Heheh thôi được rồi, nói thật là lúc đó tôi cũng ngã theo nó luôn!"
+ ],
+ "fun_story_hip_sway_left": [
+  "Khoan đã, cái đoạn này mới thật sự buồn cười nè!",
+  "Rồi bạn biết chuyện gì xảy ra không, trời ơi!",
+  "Đây là phần hay nhất, chuẩn bị đi nha!",
+  "Mà tới đây thì mọi người cười ngất luôn đó!",
+  "Ủa mà ổng làm cái gì biết không, haha!",
+  "Chờ chờ, để tui kể cái này cái đã!",
+  "Cái kết này mới bá đạo, nghe nè nghe nè!",
+  "Trời đất ơi cái màn tiếp theo mới chết cười!"
+ ],
+ "fun_story_lean_conspire": [
+  "Nè, kể cho nghe cái này nhưng đừng nói với ai nha.",
+  "Thật ra hồi đó tụi mình đã... ừ thôi biết rồi đó.",
+  "Giữa chúng ta thôi nghen, chuyện này hơi buồn cười xíu.",
+  "Cái vụ đó á, nói ra mắc cỡ lắm nhưng mà thôi.",
+  "Bạn có muốn nghe bí mật hơi ngớ ngẩn không, thật sự đó.",
+  "Ủa mà bạn có hay chuyện hôm qua chưa, trời ơi kinh lắm.",
+  "Nói nhỏ thôi nha, cái đó không phải ai cũng biết đâu.",
+  "Thật ra tôi cũng có dính líu vô vụ đó một chút xíu."
+ ],
+ "fun_story_pop_punchline": [
+  "Và rồi hóa ra... đó là con mèo của hàng xóm!",
+  "Cả phòng im lặng, còn anh ấy vẫn đứng giữ nguyên tư thế đó!",
+  "Bác sĩ nhìn lại tờ kết quả rồi nói: sai bệnh nhân rồi!",
+  "Sau tất cả những chuyện đó... hắn vẫn không trả tiền!",
+  "Đúng lúc đó điện thoại reo lên — chính là sếp gọi!",
+  "Và người đó không ai khác chính là... bố tôi!",
+  "Cuối cùng con chó mới là người hiểu chuyện nhất nhà!",
+  "Cả câu chuyện chỉ vì một tô mì nguội ngắt!"
+ ],
+ "grief_weight_sink": [
+  "Nghe tin đó xong, tôi không biết mình còn đứng được nữa không.",
+  "Có những lúc mình chỉ muốn ngồi xuống và khóc thật to ấy.",
+  "Hôm đó anh ra đi, tôi đứng đó mà chân cứng đờ không nhấc lên được.",
+  "Không phải tôi không muốn mạnh mẽ, chỉ là... nặng lắm.",
+  "Mất đi rồi mới biết mình đã dựa vào điều đó nhiều đến mức nào.",
+  "Cái cảm giác đó nó kéo mình xuống, không cưỡng lại được đâu.",
+  "Tôi cứ nghĩ mình quen rồi với việc mất mát, nhưng lần này khác hẳn.",
+  "Chân tôi run, tim tôi nghẹn — tôi chỉ muốn ai đó đỡ tôi lại thôi."
+ ],
+ "guilt_confession_sink": [
+  "Tôi biết mình đã sai, xin lỗi anh.",
+  "Em thực sự rất hối hận về chuyện đó.",
+  "Mình không có quyền làm tổn thương bạn như vậy.",
+  "Lỗi này hoàn toàn do tôi, tôi xin nhận.",
+  "Anh có thể tha thứ cho em không, em sai rồi.",
+  "Tất cả là tại tôi, tôi hiểu điều đó.",
+  "Bạn không đáng bị đối xử như vậy, tôi xin lỗi.",
+  "Em không thể biện minh cho những gì mình đã làm."
+ ],
+ "half_turn_compare_sides": [
+  "Bên này thì rẻ hơn, nhưng bên kia lại tiện hơn nhiều.",
+  "Nếu chọn phương án A thì nhanh, còn phương án B thì chắc chắn hơn.",
+  "Quán bên này đông khách hơn, nhưng quán bên kia yên tĩnh hơn để nói chuyện.",
+  "Cái này nhẹ hơn, còn cái kia bền hơn — tùy bạn ưu tiên cái nào.",
+  "Sống ở đây thì gần chỗ làm, còn ở đó thì không khí thoáng hơn nhiều.",
+  "Học online thì linh hoạt hơn, nhưng học trực tiếp lại dễ hỏi han hơn đó.",
+  "Phương án đầu tiết kiệm chi phí, phương án sau lại tiết kiệm thời gian hơn.",
+  "Hai chỗ này đều có ưu điểm riêng, nên mình cần cân nhắc kỹ thêm một chút."
+ ],
+ "half_turn_dismiss_side": [
+  "Thôi dẹp cái chuyện đó đi, không bàn nữa.",
+  "Không, không, không, tôi không chấp nhận phương án này.",
+  "Bỏ qua đi, ý kiến đó không ổn chút nào.",
+  "Cái đó loại ra khỏi danh sách luôn đi nhé.",
+  "Không cần xét tới nữa, không phù hợp rồi.",
+  "Thôi gạt sang một bên, mình tính chuyện khác đi.",
+  "Ý đó không được, tôi đã nói rõ rồi mà.",
+  "Dứt khoát là không, đừng nhắc lại nữa nhé."
+ ],
+ "half_turn_point_away": [
+  "Chỗ anh Nam đứng đằng kia kìa, bạn thấy không?",
+  "Nhà hàng mình hay ăn ở tận cuối con đường đó.",
+  "Cô giáo chủ nhiệm của mình đang đứng ở phía bên kia hội trường.",
+  "Khu vực triển lãm chính nằm ở phía tận cùng trong góc đó.",
+  "Bạn nhìn sang bên trái đi, người mặc áo đỏ đó là sếp tôi đấy.",
+  "Trạm xe buýt gần nhất cách đây khoảng hai trăm mét về hướng đó.",
+  "Đội kỹ thuật đang làm việc ở phòng tận cuối hành lang kia.",
+  "Siêu thị lớn nhất khu này nằm ngay sau tòa nhà cao tầng đó bạn ơi."
+ ],
+ "hands_clasp_resolve": [
+  "Dù khó đến đâu, tôi cũng sẽ hoàn thành việc này.",
+  "Không có gì có thể ngăn tôi thực hiện lời hứa đó.",
+  "Tôi cam kết với anh, việc này nhất định sẽ xong đúng hạn.",
+  "Lần này tôi sẽ không để thất bại xảy ra nữa.",
+  "Cứ tin tôi đi, tôi đã quyết là làm được.",
+  "Dù mất bao lâu, tôi cũng sẽ tìm ra cách giải quyết.",
+  "Chưa bao giờ tôi nghiêm túc đến thế này đâu.",
+  "Tôi đặt cả danh dự của mình vào lời cam kết hôm nay."
+ ],
+ "hands_shelter_mouth": [
+  "Suỵt, đừng để ai nghe thấy nhé!",
+  "Mình nói nhỏ thôi, hắn đang ở ngay đằng kia kìa.",
+  "Bí mật đấy, cậu không được kể cho ai hết.",
+  "Thôi chết, nhỡ có người nghe thì sao?",
+  "Cậu biết không, hôm qua họ cãi nhau to lắm đó.",
+  "Giữ kín giùm mình nha, chuyện này quan trọng lắm.",
+  "Nói khẽ thôi, sếp vẫn còn trong phòng kia.",
+  "Tớ chỉ nói với cậu thôi, đừng để lộ ra đâu đấy."
+ ],
+ "head_tilt_soft_wonder": [
+  "Ủa, cái đó hoạt động theo kiểu nào vậy?",
+  "Thật ra mình chưa hiểu lắm, bạn có thể nói thêm không?",
+  "Khoan, ý bạn là sao cơ, mình chưa theo kịp.",
+  "Nghe lạ thật, chuyện đó xảy ra như thế nào?",
+  "Hm, mình tò mò quá, kể tiếp đi bạn.",
+  "Cái này mình chưa nghe bao giờ, thật sự à?",
+  "Sao lại như vậy được nhỉ, có lý do gì không?",
+  "Bạn vừa nói vậy là ý nghĩa gì, mình chưa hiểu rõ lắm."
+ ],
+ "heavy_news_knee_sink": [
+  "Anh phải nói thật với em điều này, dù rất khó.",
+  "Kết quả xét nghiệm vừa ra... không được như mong đợi.",
+  "Họ đã quyết định rồi, mình không thể làm gì thêm nữa.",
+  "Tin này tôi cũng không muốn báo cho anh đâu.",
+  "Chuyến đi của chúng ta có lẽ phải hủy thôi, bạn ơi.",
+  "Sự thật là công ty đang cân nhắc cắt giảm nhân sự đợt này.",
+  "Em cần biết rằng bố đã nằm viện từ sáng hôm qua rồi.",
+  "Tôi biết nghe xong cậu sẽ không vui, nhưng mà sự thật là vậy."
+ ],
+ "heel_pivot_open_palm_away": [
+  "Thôi, chủ đề này mình dừng ở đây nhé.",
+  "Mình nghĩ mình không muốn tiếp tục chuyện này nữa.",
+  "Cảm ơn bạn, nhưng mình xin phép không nói thêm về điều đó.",
+  "Mình hiểu ý bạn, nhưng thật sự mình muốn đổi sang chủ đề khác.",
+  "Không, mình không muốn bàn sâu hơn về việc này đâu.",
+  "Bạn ơi, mình thấy chúng ta nên dừng lại ở đây thôi.",
+  "Mình đã nói rồi, và mình nghĩ vậy là đủ rồi đó.",
+  "Thật ra mình không thoải mái khi tiếp tục chuyện này bạn ạ."
+ ],
+ "hesitate_rock_back": [
+  "Ờ mà thôi, để mình nghĩ lại cái đã.",
+  "Khoan, hình như mình vừa nói sai rồi thì phải.",
+  "À... thật ra mình không chắc lắm đâu.",
+  "Mình nói vậy nhưng mà... chưa chắc đã đúng hoàn toàn.",
+  "Thật ra thì... có thể mình nhầm cũng nên.",
+  "Ủa khoan, mình vừa nói gì vậy ta, để xem lại.",
+  "Nói vậy thôi chứ mình cũng chưa chắc chắn đâu nha.",
+  "Hmm, hay là mình hiểu chưa đúng về cái này?"
+ ],
+ "hip_cross_body_diagonal": [
+  "Từ đây mình đi chéo qua bên kia là nhanh nhất đó.",
+  "Đường chéo này cắt thẳng qua khu chợ luôn.",
+  "Thay vì đi vòng, bạn cứ cắt chéo qua công viên đi.",
+  "Con đường này chạy xéo từ góc trường sang tới bệnh viện.",
+  "Nếu đi chéo như vậy thì tiết kiệm được mấy phút đó.",
+  "Lối tắt này xéo từ đầu phố sang tận cuối ngõ kia kìa.",
+  "Cắt ngang qua đây là ra đúng chỗ cần đến liền à.",
+  "Hướng di chuyển là chéo từ góc trái phía trước sang góc phải phía sau."
+ ],
+ "hip_oscillate_alternating": [
+  "Hai đứa cứ bảo qua bảo lại mãi không xong.",
+  "Nó nói một câu, mình đáp một câu, cứ thế cả buổi.",
+  "Hết mình nhường rồi tới nó nhường, vòng vòng hoài.",
+  "Tranh luận kiểu đó chẳng ai chịu thua ai hết.",
+  "Công việc này làm đi làm lại riết cũng quen tay.",
+  "Hai bên cứ đẩy qua đẩy lại, chả giải quyết được gì.",
+  "Lúc tôi nói thì nó im, tới lượt nó nói thì tôi im.",
+  "Cứ anh một lần tôi một lần, mãi không tới đâu cả."
+ ],
+ "hip_pivot_point_aside": [
+  "Hồi đó anh ấy đứng ngay phía này, cạnh cái cây to lắm.",
+  "Chỗ này là nơi bọn mình hay tụ tập mỗi chiều.",
+  "Cô ấy đi về hướng đó rồi mất hút luôn.",
+  "Cái bàn hồi xưa để ngay chỗ này, sát tường.",
+  "Họ chạy thẳng về phía đó, không ngoái đầu lại.",
+  "Nhà bà nội mình nằm ngay hướng này, đi bộ cũng tới.",
+  "Lúc xảy ra chuyện, anh ta đứng ngay góc kia kìa.",
+  "Hướng này là lối mà mấy đứa nhỏ hay chạy ra chơi."
+ ],
+ "hip_sweep_left_path": [
+  "Bạn rẽ trái ở ngã tư đèn đỏ đó nhé.",
+  "Cứ đi thẳng rồi sang trái là tới thôi.",
+  "Từ đây mình phải đi về phía bên trái.",
+  "Rẽ trái vào con hẻm nhỏ đó là đúng rồi.",
+  "Đường này nó vòng sang bên trái, bạn đừng đi thẳng.",
+  "Qua cây xăng thì quẹo trái ngay nhé.",
+  "Hồi đó tôi đi theo hướng bên trái, thấy nhanh hơn nhiều.",
+  "Lối sang trái đó mới dẫn ra chỗ bến xe đó."
+ ],
+ "hip_swing_reach_forward": [
+  "Tôi với tay lấy cái chai trên kệ cao.",
+  "Nó đưa cho tôi tờ giấy mà không nói gì.",
+  "Bà ấy chìa tay ra và tôi đặt tiền vào.",
+  "Lúc đó tôi chộp ngay lấy cơ hội đó.",
+  "Anh ấy với tay qua bàn và đẩy tài liệu sang phía tôi.",
+  "Tôi đưa cốc nước cho cô bé đang khóc.",
+  "Mình vừa với tới thì nó rơi xuống đất mất rồi.",
+  "Cô ấy nhận lấy bông hoa mà mắt đỏ hoe."
+ ],
+ "hip_turn_affirm_nod": [
+  "Đúng rồi, mình cũng nghĩ y như vậy!",
+  "Ừ, tôi hoàn toàn đồng ý với quan điểm đó.",
+  "Chính xác luôn, bạn nói trúng ý tôi rồi đó.",
+  "Ừa, mình cũng thấy vậy là hợp lý nhất.",
+  "Đồng ý, hướng đó tôi thấy rất đúng đắn.",
+  "Thật ra tôi cũng đang nghĩ theo hướng đó nè.",
+  "Ừ đúng, cách đó mới là cách nên làm.",
+  "Tôi đồng tình hoàn toàn, không có gì phải bàn thêm nữa."
+ ],
+ "hip_turn_bow_elder_invite": [
+  "Mời bà vào ngồi trong này cho thoáng ạ.",
+  "Con mời bố ngồi đây nghỉ ngơi một lúc ạ.",
+  "Ông vào đây ngồi cho thoải mái ạ, để cháu rót nước.",
+  "Mời mẹ ngồi xuống đây, con kể chuyện này hay lắm ạ.",
+  "Bà ngồi vào đây đi ạ, ghế này êm hơn đấy.",
+  "Con mời bác ngồi, để con lấy thêm ghế cho thoải mái ạ.",
+  "Cụ vào đây ngồi nghỉ đi ạ, trời nắng mệt lắm rồi.",
+  "Mời ông ngồi vào đây ạ, cho con hầu chuyện ông một lát."
+ ],
+ "hip_turn_explain_assert": [
+  "Nghe tôi nói điều này một lần thôi nhé.",
+  "Đây là điểm mấu chốt bạn cần phải hiểu rõ.",
+  "Không phải ngẫu nhiên mà tôi nhắc đến chuyện này đâu.",
+  "Bạn phải tin tôi, quyết định này hoàn toàn đúng đắn.",
+  "Tôi khẳng định với bạn, không có cách nào khác cả.",
+  "Hãy lắng nghe kỹ vì tôi chỉ giải thích một lần.",
+  "Sự thật là chúng ta không còn nhiều lựa chọn nữa.",
+  "Đây chính là lý do tại sao tôi luôn nhấn mạnh điều đó."
+ ],
+ "hip_turn_open_invite": [
+  "Lại đây với mình đi, mình đang kể cho nghe nè!",
+  "Ơi, chào bạn, tớ vui lắm khi gặp bạn đó!",
+  "Nào, cùng nhau nói chuyện một chút nhé!",
+  "Hôm nay mình có nhiều điều muốn chia sẻ với bạn lắm!",
+  "Bạn ơi, đến đây ngồi gần mình một chút nào!",
+  "Trời ơi, may quá, gặp được bạn ở đây rồi!",
+  "Mình đang chờ bạn mãi đó, kể chuyện cho nghe nhé!",
+  "Vào đây đi bạn, mình có chuyện hay lắm muốn kể!"
+ ],
+ "hip_turn_open_palm_invite": [
+  "Mời anh vào ngồi cho thoải mái nhé!",
+  "Bạn cứ ngồi xuống đây đi, đừng ngại!",
+  "Dạ mời chị ngồi, để em pha trà cho.",
+  "Anh chị cứ vào ngồi đi, trời nắng chắc mệt lắm rồi.",
+  "Mời bác ngồi nghỉ chân một chút ạ.",
+  "Thôi nào, vào ngồi đây nói chuyện cho vui!",
+  "Cô cứ tự nhiên ngồi xuống đây cho thoải mái ạ.",
+  "Mời anh ngồi đây, mình từ từ nói chuyện nhé!"
+ ],
+ "hip_turn_soft_confide": [
+  "Này, mình nói nhỏ thôi nhé, đừng để ai nghe thấy.",
+  "Chỉ mình em biết điều này thôi đó.",
+  "Thật ra thì... anh chưa kể chuyện này cho ai bao giờ.",
+  "Em có giữ bí mật được không? Chị muốn nói thật với em.",
+  "Hồi đó chuyện xảy ra không ai hay, chỉ mình tao biết thôi.",
+  "Cậu là người duy nhất tớ tin để kể điều này.",
+  "Đừng nói với ai nhé, đây là chuyện giữa hai đứa mình thôi.",
+  "Mình ghé lại gần chút, tớ không muốn người khác nghe thấy."
+ ],
+ "hip_wide_bilateral_spread": [
+  "Khu vực này trải dài từ đây cho tới tận đằng kia.",
+  "Toàn bộ vùng đồng bằng rộng lớn này đều thuộc phạm vi quy hoạch.",
+  "Con đường chạy suốt từ đầu thành phố đến cuối huyện.",
+  "Dọc theo tuyến này có rất nhiều điểm tham quan thú vị.",
+  "Phạm vi ảnh hưởng của cơn bão bao phủ gần như cả miền Trung.",
+  "Từ bờ biển cho đến chân núi, tất cả đều là đất canh tác.",
+  "Lộ trình di chuyển của đoàn kéo dài qua nhiều tỉnh thành khác nhau.",
+  "Cả một dải đất rộng lớn như vậy mà chỉ có vài nghìn dân thôi."
+ ],
+ "indignant_weight_back": [
+  "Cái gì?! Anh dám nói tôi làm chuyện đó?!",
+  "Không thể tin được, sao anh lại nói vậy với tôi?!",
+  "Vu khống! Tôi chưa bao giờ làm chuyện đó!",
+  "Thôi đừng có bịa đặt, tôi không chịu nổi đâu!",
+  "Trời ơi, câu đó anh nói thật hay đùa vậy?!",
+  "Tôi mà làm chuyện đó? Anh điên rồi à?!",
+  "Xin lỗi, anh vừa nói cái gì tôi nghe không rõ!",
+  "Vô lý quá, sao lại đổ oan cho tôi như vậy?!"
+ ],
+ "knee_collapse_despair": [
+  "Trời ơi... tôi không thể tin được điều này.",
+  "Vậy là xong rồi sao, tất cả đều xong rồi?",
+  "Không... không thể như vậy được, không thể.",
+  "Tôi phải làm sao bây giờ, trời ơi.",
+  "Hết rồi, mọi thứ tôi xây dựng đều hết rồi.",
+  "Sao lại xảy ra với tôi, sao lại thế này?",
+  "Tôi không còn sức để đứng dậy nữa rồi.",
+  "Cả cuộc đời tôi... tan vỡ hết rồi."
+ ],
+ "knee_drop_deflated": [
+  "Ôi thôi, vậy là hỏng kế hoạch rồi hả?",
+  "Trời ơi, lại hoãn nữa sao chứ?",
+  "Nghĩ mãi mà rồi cũng không được.",
+  "Thôi được rồi, đành chịu vậy thôi.",
+  "Hả, sao lại ra nông nỗi này?",
+  "Tin đó mà nghe xong buồn ghê đó.",
+  "Vậy là tất cả công sức bỏ đi hết rồi.",
+  "Ừ thôi, biết làm gì được nữa đâu."
+ ],
+ "knee_lean_resignation": [
+  "Thôi được rồi, mình chấp nhận vậy đi.",
+  "Ừ... biết làm sao được nữa.",
+  "Thật ra mình cũng đã biết từ lâu rồi.",
+  "Không cưỡng lại được thì đành chịu thôi.",
+  "Nghe xong cũng thấy nhẹ hơn một chút, dù đau.",
+  "Mình không muốn tin nhưng mà đó là sự thật.",
+  "Có lẽ mình phải học cách sống với điều này.",
+  "Dù sao thì mọi chuyện cũng đã như vậy rồi."
+ ],
+ "knee_weak_embarrassed": [
+  "Ôi trời, em xấu hổ quá, chui xuống đất mất thôi.",
+  "Sao anh lại nói điều đó ra trước mặt mọi người vậy?",
+  "Thôi xong rồi, mọi người nhìn em hết rồi này.",
+  "Em biết em sai mà, cần gì phải nói to như vậy.",
+  "Giờ em không biết phải nhìn vào mặt ai nữa.",
+  "Chết thật, chuyện đó mà cũng bị đem ra nói.",
+  "Em chỉ muốn biến mất khỏi đây ngay lúc này thôi.",
+  "Ừ thì em có lỗi, nhưng mà... thôi, em hiểu rồi."
+ ],
+ "lateral_sway_search": [
+  "Ừm, cái tên của anh ấy là... ờ, để mình nghĩ lại xem.",
+  "Hồi đó mình có đến một quán ở... chỗ đó gọi là gì nhỉ?",
+  "Người kể câu chuyện đó cho mình nghe là... ôi, quên mất tên rồi.",
+  "Cái phim đó tên là gì... trên đầu lưỡi mà không ra được.",
+  "Bạn thân hồi cấp ba của mình tên là... khoan, mình nhớ ra ngay thôi.",
+  "Hôm đó mình đi cùng với... ờ thôi, kể sau vậy, mình đang nhớ ra.",
+  "Cái món đó gọi là gì ấy nhỉ, mình ăn ở... ở đâu đó gần bờ hồ.",
+  "Anh chàng đó làm nghề gì ấy, tên bắt đầu bằng chữ T hay chữ H gì đó."
+ ],
+ "lean_back_amused_surprise": [
+  "Ơ kìa, chuyện này có thật không vậy trời?!",
+  "Thôi chết, mình không ngờ lại ra nông nỗi đó luôn!",
+  "Hả?! Ủa mà sao lại thế được cơ chứ?",
+  "Trời ơi, buồn cười quá đi mà lại thấy tội nữa chứ!",
+  "Không không không, khoan đã, kể lại từ đầu coi!",
+  "Ủa thật á?! Kiểu đó mà cũng xảy ra được hả trời?",
+  "Chờ chút, mình cần một giây để tiêu hóa cái này đã!",
+  "Trời đất ơi, vừa ngớ ngẩn vừa đáng yêu không chịu được luôn!"
+ ],
+ "lean_back_disbelief_head_shake": [
+  "Cái này nghe có vẻ khó tin quá đi.",
+  "Thật ra tôi không chắc chuyện đó có thật không.",
+  "Ủa, ai bảo anh chuyện đó vậy?",
+  "Không có chuyện đó đâu, bạn ơi.",
+  "Nghe vô lý lắm, tôi không tin nổi.",
+  "Kiểu gì mà có chuyện như vậy được?",
+  "Thôi thôi, đừng có bịa chuyện nữa.",
+  "Cái con số đó ở đâu ra vậy, trời?"
+ ],
+ "lean_back_mild_surprise": [
+  "Ừ thật à, mình không ngờ đâu.",
+  "Thế cơ ấy, mình chưa nghe bao giờ.",
+  "Hả, hôm nay tăng giá rồi hả?",
+  "Ừ nhỉ, nghe cũng hơi bất ngờ đó.",
+  "Thật không, kể mình nghe thêm đi.",
+  "Vậy mà mình không hay biết gì hết.",
+  "À, hóa ra là vậy, mình cứ tưởng khác."
+ ],
+ "lean_back_shock_hands_up": [
+  "Trời ơi, chuyện đó có thật không vậy?!",
+  "Ôi không, sao lại xảy ra chuyện này được?!",
+  "Hả?! Anh vừa nói cái gì tôi nghe không rõ!",
+  "Không thể nào, tôi không tin nổi điều đó!",
+  "Cái gì?! Tai nạn à, hồi nào vậy?!",
+  "Ủa sao bỗng dưng lại có chuyện như vậy?!",
+  "Chết rồi, tôi không ngờ tình trạng lại tệ đến vậy!",
+  "Thôi chết, chuyện đó nghiêm trọng lắm rồi còn gì!"
+ ],
+ "lean_back_slow_realization": [
+  "Ờ... ờ khoan, ý bạn là từ đầu nó đã như vậy rồi à?",
+  "Thì ra là... mình đã hiểu sai ý của anh ấy từ hồi đó tới giờ.",
+  "Chờ chút, tức là cái chuyện hôm qua không phải do tôi sao?",
+  "Á... á tôi hiểu rồi, hóa ra toàn bộ vụ này là vì cái đó.",
+  "Ừm... nếu vậy thì mọi thứ tôi nghĩ trước giờ đều sai hết rồi.",
+  "Không phải... hả, vậy là bạn không hề có ý đó với tôi?",
+  "Trời ơi, vậy mà bấy lâu nay tôi cứ tưởng là khác.",
+  "Tức là... cái lý do thực sự là vì chuyện đó chứ không phải tôi?"
+ ],
+ "lean_back_soft_decline": [
+  "Thôi để lần khác đi bạn ơi, lần này mình chưa tiện lắm.",
+  "Cảm ơn bạn đã nghĩ đến mình, nhưng mình xin phép không tham gia lần này nhé.",
+  "Mình hiểu ý bạn, chỉ là mình không phù hợp với việc này lắm.",
+  "Ôi nghe hay đấy, nhưng thật ra mình cần thời gian suy nghĩ thêm đã.",
+  "Bạn cứ làm trước đi, mình chắc sẽ không theo kịp đâu.",
+  "Mình nghĩ có người khác sẽ làm tốt hơn mình nhiều đó bạn.",
+  "À thật ra mình đang có chút việc rồi, bạn thông cảm cho mình nhé.",
+  "Lần này để người khác có cơ hội thử đi, mình nhường thôi."
+ ],
+ "lean_engaged_nod": [
+  "Ừ ừ, anh cứ nói tiếp đi.",
+  "Vâng, em đang nghe anh đây ạ.",
+  "Aha, tiếp tục đi bạn ơi.",
+  "Ờ, mình hiểu rồi, bạn nói tiếp nhé.",
+  "Vâng vâng, anh kể tiếp đi ạ.",
+  "Ừ, chị cứ nói, em theo kịp rồi.",
+  "Được rồi, rồi chuyện gì xảy ra tiếp theo?"
+ ],
+ "lean_in_conspiratorial": [
+  "Này, tôi kể cho bạn nghe một chuyện nhé.",
+  "Chỉ mình bạn biết thôi đấy, đừng nói với ai.",
+  "Thật ra chuyện đó không phải như vậy đâu.",
+  "Tôi chưa kể điều này với ai bao giờ cả.",
+  "Bạn hứa giữ bí mật cho tôi không đã?",
+  "Nói nhỏ thôi, đừng để người khác nghe thấy.",
+  "Có chuyện này tôi chỉ tin tưởng kể với bạn.",
+  "Tôi sắp chia sẻ với bạn điều rất quan trọng đây."
+ ],
+ "lean_in_conspire": [
+  "Này, lại đây tao nói cái này cho nghe, đừng để ai biết nhé.",
+  "Tao có một kế hoạch hay lắm, mày nghe xong chắc chắn thích liền.",
+  "Chỉ mình mày biết thôi đấy, đừng hở ra với ai khác.",
+  "Cơ hội này hiếm lắm, mình phải hành động trước khi họ kịp phản ứng.",
+  "Nè, tao với mày hợp sức lại thì chuyện này chắc chắn thành công.",
+  "Shh, giữ im lặng đi, tao sắp tiết lộ cho mày biết điều này.",
+  "Mày có muốn cùng tao làm một chuyện to không, đảm bảo không ai ngờ tới đâu.",
+  "Đây là bí mật giữa hai đứa mình thôi, người khác không cần biết làm gì."
+ ],
+ "lean_in_curious": [
+  "Ủa, bạn vừa nói cái gì vậy?",
+  "Thật không? Kể thêm đi, mình muốn hiểu hơn.",
+  "Khoan, ý bạn là sao cơ?",
+  "Hay thật đấy, chuyện đó xảy ra như thế nào?",
+  "Mình chưa nghe chuyện này bao giờ, tiếp đi!",
+  "Cái đó nghe lạ lắm, bạn có thể giải thích không?",
+  "Hmm, nghĩ sao mà bạn lại nghĩ vậy nhỉ?",
+  "Ồ, hóa ra là thế, nhưng tại sao lại như vậy?"
+ ],
+ "lean_in_tilt_curious_probe": [
+  "Vậy thì theo bạn, điều gì mới là quan trọng nhất ở đây?",
+  "Nhưng mà... bạn thực sự muốn gì trong chuyện này?",
+  "Ý bạn là như thế, hay còn điều gì khác nữa?",
+  "Cái phần đó bạn chưa nói rõ, thực ra là sao?",
+  "Khoan đã, vậy lúc đó bạn nghĩ gì?",
+  "Nếu phải chọn một lý do duy nhất, bạn chọn cái nào?",
+  "Nghe có vẻ còn nhiều hơn thế, bạn kể tiếp đi.",
+  "Bạn nói vậy, nhưng cảm giác thật sự của bạn là gì?"
+ ],
+ "lean_in_urgent_warn": [
+  "Nghe tôi nói, đừng đi đường đó tối nay.",
+  "Cẩn thận, tình hình đang rất nguy hiểm đấy.",
+  "Bạn phải rời khỏi đây ngay bây giờ, không chần chừ nữa.",
+  "Đừng tin người đó, họ đang lừa bạn đó.",
+  "Tôi nói thật, chuyện này nghiêm trọng hơn bạn nghĩ nhiều.",
+  "Dừng lại, đừng ký vào tờ giấy đó.",
+  "Hãy gọi ngay cho tôi nếu có gì bất thường xảy ra.",
+  "Nó đang đến gần, chúng ta phải hành động ngay thôi."
+ ],
+ "lean_in_vulnerable": [
+  "Thật ra... em chưa bao giờ dám nói điều này với ai cả.",
+  "Anh biết không, có những đêm em khóc mà không hiểu tại sao.",
+  "Em xấu hổ lắm khi nhận ra mình đã sai từ đầu.",
+  "Nói thật thì... em sợ bị bỏ lại một mình hơn bất cứ điều gì.",
+  "Mình không mạnh mẽ như mọi người nghĩ đâu, thật ra mình yếu lắm.",
+  "Em không biết có nên kể không, nhưng em cần ai đó nghe em một lần.",
+  "Cái cảm giác đó... nó cứ đeo bám em mãi mà em không thoát được.",
+  "Chưa bao giờ em thừa nhận điều này, nhưng hôm nay em muốn nói thật với anh."
+ ],
+ "lean_intimate_confide": [
+  "Ừ, kể anh nghe đi, anh nghe đây.",
+  "Nói nhỏ thôi, chỉ mình tụi mình biết thôi.",
+  "Sao vậy, có chuyện gì à? Kể đi.",
+  "Ơ, bí mật hả? Được rồi, anh giữ kín cho.",
+  "Nói đi em, anh không kể cho ai đâu.",
+  "Thật ra chuyện này chỉ mình em biết thôi à?",
+  "Cứ nói thật đi, ở đây chỉ có hai đứa mình.",
+  "Khoan, từ từ nói anh nghe rõ hơn nào."
+ ],
+ "lean_side_empathy": [
+  "Nghe xong mình cũng thấy nặng lòng lắm.",
+  "Chắc dạo này bạn mệt mỏi lắm nhỉ.",
+  "Mình hiểu cảm giác đó, không dễ chút nào đâu.",
+  "Thật sự rất khó khi phải một mình chịu đựng như vậy.",
+  "Ừ, chuyện đó mà xảy ra với mình chắc mình cũng không biết làm sao.",
+  "Bạn kể mình nghe, mình đang lắng nghe đây.",
+  "Cảm ơn bạn đã tin tưởng chia sẻ điều này với mình.",
+  "Không có gì phải xấu hổ khi cảm thấy như vậy đâu bạn ơi."
+ ],
+ "lean_skeptical_assess": [
+  "Khoan đã, cái này nghe có vẻ lạ lắm.",
+  "Ừm… anh chắc chắn về điều đó không?",
+  "Tôi chưa rõ lắm, cần nghĩ thêm một chút.",
+  "Nghe thì hay đấy, nhưng mà thật không?",
+  "Cái lý do đó… chưa thuyết phục tôi hoàn toàn.",
+  "Sao tôi vẫn cảm thấy có gì đó sai sai?",
+  "Để tôi hiểu đúng không, ý anh là vậy thật à?",
+  "Hmm, tôi cần xem lại toàn bộ chuyện này đã."
+ ],
+ "lean_weight_forward_point": [
+  "Đây là điều mày cần nhớ kỹ nhất.",
+  "Nghe tao nói đây, cái này quan trọng lắm.",
+  "Sự thật là không ai có thể thay đổi được điều đó.",
+  "Mày phải hiểu rõ một điều — không có ngoại lệ nào cả.",
+  "Chính cái khoảnh khắc đó đã quyết định tất cả mọi thứ.",
+  "Tao nói thật với mày, đây không phải chuyện đùa đâu.",
+  "Bản chất của vấn đề nằm ngay chỗ này, không đâu khác.",
+  "Một điều chắc chắn là cơ hội này sẽ không quay lại."
+ ],
+ "one_side_shrug_smirk_casual": [
+  "Thôi kệ đi, không quan trọng lắm đâu.",
+  "Mình cũng chẳng rõ nữa, mà thật ra cũng không cần biết lắm.",
+  "Ừ thì ai biết được, chuyện đó tính sau vậy.",
+  "Không biết, nhưng mà cũng không sao.",
+  "Chuyện đó hả? Mình không để ý mấy đâu.",
+  "Có lẽ vậy, có lẽ không, cũng được thôi.",
+  "Mình không nắm rõ lắm, nhưng mà cũng chẳng ảnh hưởng gì.",
+  "Thật ra mình không chắc, nhưng thôi cũng được vậy."
+ ],
+ "pivot_heel_open_palm": [
+  "Còn một điều nữa tôi muốn mọi người cùng cân nhắc.",
+  "Thử nhìn từ góc độ khác xem sao nhỉ?",
+  "Bây giờ ta xét đến khía cạnh thứ hai của vấn đề.",
+  "Liệu chúng ta có đang bỏ qua một yếu tố quan trọng không?",
+  "Đặt sang một bên những gì vừa nói, hãy cùng xem xét điều này.",
+  "Mình muốn đưa ra thêm một góc nhìn để anh chị tham khảo.",
+  "Nếu nhìn theo hướng này thì câu chuyện lại khác hẳn đấy.",
+  "Có một khía cạnh khác mà tôi nghĩ cũng đáng để chúng ta bàn tới."
+ ],
+ "pivot_heel_think": [
+  "Khoan đã, để mình nghĩ lại một chút.",
+  "Ừm... thực ra góc nhìn này cũng chưa hẳn đúng.",
+  "Hay là mình thử tiếp cận theo hướng khác xem sao?",
+  "Mình vừa nghĩ ra một điều, nhưng nó lại mâu thuẫn với những gì mình nói lúc nãy.",
+  "Chờ chút, có cái gì đó mình chưa tính đến.",
+  "Nếu đổi điểm xuất phát thì toàn bộ kết luận sẽ thay đổi hoàn toàn.",
+  "À không, mình nhầm rồi — phải xem lại từ đầu.",
+  "Thực ra vấn đề này còn một chiều nữa mà mình bỏ qua."
+ ],
+ "planted_lean_in_conclude": [
+  "Nghe tôi nói đi, đây là sự thật không thể chối cãi.",
+  "Bạn phải thừa nhận rằng không có lựa chọn nào tốt hơn thế này.",
+  "Tất cả những gì tôi vừa phân tích đều dẫn đến một điều duy nhất.",
+  "Hãy tin tôi, đây là con đường đúng đắn nhất lúc này.",
+  "Không cần phải do dự nữa, mọi thứ đã rõ ràng rồi đó.",
+  "Chính bạn cũng biết trong lòng rằng tôi nói đúng.",
+  "Đây không phải ý kiến cá nhân, đây là kết luận không thể bác bỏ.",
+  "Cứ suy nghĩ thêm đi, rồi bạn sẽ thấy tôi hoàn toàn có lý."
+ ],
+ "playful_lean_into_joke": [
+  "Thấy chưa, anh nói đúng không nào?",
+  "Ê, phản ứng gì vậy, buồn cười lắm đó!",
+  "Giờ biết thua chưa, hả hả?",
+  "Nói thật nha, em không nhịn được cười đâu đó.",
+  "Ui trời, mặt kìa, anh đoán được mà!",
+  "Cưng ơi, câu đó hay không, nói đi!",
+  "Xem này, anh vừa nói đúng tim rồi đó nhé.",
+  "Thôi thú nhận đi, buồn cười lắm phải không?"
+ ],
+ "relief_both_hands_drop_sigh": [
+  "Ổn rồi, xong rồi, không cần lo nữa.",
+  "Thôi được, quyết định rồi thì cứ vậy mà làm.",
+  "Cuối cùng cũng xong, mệt quá đi thôi.",
+  "Được rồi, vậy là xong chuyện đó.",
+  "Thở cái đã, xong rồi còn gì nữa đâu.",
+  "Ừ thôi, dù sao cũng đã quyết rồi mà.",
+  "May quá, tưởng còn dài hơn nữa chứ.",
+  "Thôi kệ, chuyện đó tính sau vậy."
+ ],
+ "relief_exhale_settle": [
+  "Ôi trời, cuối cùng cũng xong rồi nhỉ.",
+  "Thật ra mình lo lắng từ sáng tới giờ đấy.",
+  "Được rồi, vậy là ổn hết rồi, không còn gì phải lo nữa.",
+  "Hú hồn, cứ tưởng lần này không qua được.",
+  "Mệt thật, nhưng mà xong là vui rồi.",
+  "Thở được rồi, lúc nãy căng lắm luôn ấy.",
+  "Vậy là xong, không còn phải nghĩ đến chuyện đó nữa rồi.",
+  "Cảm giác nhẹ cả người luôn, may quá là may."
+ ],
+ "relief_lean_back_open": [
+  "Ôi trời, cuối cùng thì xong rồi!",
+  "Nhẹ cả người luôn, không tưởng tượng được đâu.",
+  "Mày biết không, tao cảm giác như vừa trút được cả núi vậy.",
+  "Thở được rồi, lâu lắm mới thấy dễ chịu thế này.",
+  "Xong rồi, không cần lo nữa, thoải mái hẳn ra.",
+  "Cái này mà giải quyết được thì còn gì bằng nữa.",
+  "Tao không nghĩ nó lại kết thúc êm đẹp như thế này.",
+  "Thôi được rồi, buông hết đi cho nhẹ, sống tiếp thôi mày ơi."
+ ],
+ "relief_soft_sway_eyes_close": [
+  "Qua rồi, mọi thứ cuối cùng cũng qua rồi.",
+  "Hồi đó mình tưởng không trụ nổi, vậy mà vẫn ổn.",
+  "Cái giai đoạn đó... nặng lắm, nhưng giờ nhẹ hẳn rồi.",
+  "Mình không nghĩ mình có thể vượt qua được, thật sự không nghĩ vậy.",
+  "Giờ nhìn lại thấy mình đã đi qua được quãng đường dài thật.",
+  "Có những đêm mệt đến mức không muốn nghĩ gì nữa, nhưng rồi sáng vẫn đến.",
+  "Bây giờ ngồi đây kể lại mà cảm giác như chuyện của người khác vậy.",
+  "Thở được rồi, cảm giác thở được rồi sau tất cả những chuyện đó."
+ ],
+ "relief_weight_shift_slow_smile": [
+  "Ừ thôi, nghĩ lại thì cũng không có gì to tát lắm.",
+  "Thực ra mọi chuyện vẫn đang ổn mà, mình lo hơi nhiều quá.",
+  "Haha, lo bù đầu mà cuối cùng chẳng có gì xảy ra cả.",
+  "Được rồi, cứ bình tĩnh thì mọi thứ đều giải quyết được thôi.",
+  "Mình cứ nghĩ là sẽ tệ lắm, ai ngờ lại ổn vậy.",
+  "Thôi kệ, căng thẳng mãi cũng chẳng ích gì đâu nhỉ.",
+  "À, hóa ra chuyện đó không đáng lo đến vậy đâu.",
+  "Nhìn lại thì thấy mình lo lắng hơi thừa rồi đấy."
+ ],
+ "resigned_shrug_exhale_weight_drop": [
+  "Thôi được rồi, mình không hiểu nổi thứ này đâu.",
+  "Nghĩ mãi mà vẫn không ra, chịu thua thôi.",
+  "Ừ thì mình không biết, kệ vậy đi.",
+  "Cái này khó quá, mình bó tay rồi.",
+  "Hỏi người khác đi, tao không biết thật sự.",
+  "Mình đã cố lắm rồi mà vẫn không hiểu ra sao.",
+  "Thú thật là mình cũng chẳng rõ tại sao nữa.",
+  "Đành chịu thôi, không nghĩ ra được đâu."
+ ],
+ "rooted_fist_chest_level": [
+  "Tôi đã quyết định rồi, không ai thay đổi được đâu.",
+  "Dù có khó khăn đến đâu, tôi vẫn giữ nguyên lập trường này.",
+  "Không, tôi không lùi bước trước áp lực của bất kỳ ai.",
+  "Lòng tôi đã định, chuyện này không cần bàn thêm nữa.",
+  "Cứ nói đi, quan điểm của tôi sẽ không thay đổi đâu nhé.",
+  "Tôi cam kết điều này và tôi sẽ giữ lời hứa đó.",
+  "Đây là lập trường của tôi, tôi sẵn sàng bảo vệ đến cùng.",
+  "Dù bạn phản đối, tôi vẫn tin mình đang đi đúng hướng."
+ ],
+ "sharp_tilt_snap_question": [
+  "Rốt cuộc anh muốn gì từ tôi?",
+  "Cô có thể giải thích rõ hơn không?",
+  "Tại sao lại làm vậy mà không nói trước?",
+  "Điều đó có nghĩa là gì với anh?",
+  "Bao giờ thì chuyện này kết thúc?",
+  "Ai cho phép anh quyết định chuyện đó?",
+  "Thực ra bạn đang cố nói điều gì?",
+  "Chính xác thì chuyện gì đã xảy ra ở đó?"
+ ],
+ "shift_back_cross_arms_tilt_head": [
+  "Khoan đã, tôi chưa chắc điều đó đúng.",
+  "Ý kiến đó nghe có vẻ chưa thuyết phục lắm.",
+  "Anh có bằng chứng gì cho luận điểm này không?",
+  "Tôi không nghĩ mọi thứ đơn giản như vậy đâu.",
+  "Nghe thì hay đấy, nhưng thực tế thì sao?",
+  "Cứ bình tĩnh, chuyện này phức tạp hơn anh nghĩ nhiều.",
+  "Tôi có lý do để nghi ngờ điều bạn vừa nói.",
+  "Chưa ai chứng minh được điều đó cả đâu nhé."
+ ],
+ "shoulder_back_champion": [
+  "Cuối cùng thì tao cũng thắng rồi đấy nhé!",
+  "Đây mới là cảm giác của người chiến thắng thực sự.",
+  "Không ai có thể ngăn được tôi hôm nay cả.",
+  "Tất cả những gì tôi đã cố gắng giờ đã được đền đáp.",
+  "Xem đi, đây là thành quả của sự kiên trì bạn ơi.",
+  "Lần này thì tôi đã chứng minh được điều mình muốn.",
+  "Cảm giác đứng trên đỉnh này thật sự rất tuyệt vời.",
+  "Hôm nay là ngày của tôi, không còn nghi ngờ gì nữa."
+ ],
+ "shoulder_lift_proud": [
+  "Tất nhiên rồi, mình đã nói là được thì được.",
+  "Kết quả đó mình đã cố gắng cả năm mới có được.",
+  "Không phải ai cũng làm được điều này đâu nhé.",
+  "Dự án đó mình hoàn thành trước deadline hai ngày luôn.",
+  "Mình biết mình có thể làm được từ đầu rồi.",
+  "Thành tích đó mình tự hào lắm, xứng đáng với công sức bỏ ra.",
+  "Lần này mình vượt chỉ tiêu gần gấp đôi đấy.",
+  "Cứ tin mình đi, chưa khi nào mình thất bại chuyện này cả."
+ ],
+ "shoulder_lift_subtle_pride": [
+  "Thật ra mình đã nghĩ đến điều này từ lâu rồi.",
+  "Không phải ngẫu nhiên mà mọi thứ ra được như vậy đâu.",
+  "Cảm ơn, nhưng mình chỉ làm những gì mình nghĩ là đúng thôi.",
+  "Đôi khi nỗ lực âm thầm mới là thứ tạo ra sự khác biệt.",
+  "Mình không nói nhiều, nhưng mình biết mình đã làm tốt.",
+  "Kết quả nó nói lên tất cả rồi, cần gì phải giải thích thêm.",
+  "Có những thứ mình biết từ trong lòng, không cần ai xác nhận cũng được."
+ ],
+ "shoulder_raise_steadfast": [
+  "Tôi đã hứa thì sẽ làm được, yên tâm đi.",
+  "Việc này khó nhưng để tôi lo, không phải chuyện lớn.",
+  "Cứ giao cho tôi, tôi chắc chắn xử lý được mà.",
+  "Đã nhận thì tôi không bỏ dở giữa chừng bao giờ.",
+  "Anh không cần lo, tôi biết mình đang làm gì.",
+  "Tôi đã từng vượt qua những thứ khó hơn thế này nhiều rồi.",
+  "Lời hứa của tôi không phải loại nói cho có đâu nhé.",
+  "Tin tôi đi, đến hạn là có kết quả ngay thôi."
+ ],
+ "shoulder_roll_confident": [
+  "Kệ họ thôi, mình cứ sống theo cách của mình.",
+  "Ý kiến đó không ảnh hưởng gì đến tôi cả.",
+  "Người ta nói gì thì nói, tôi vẫn làm theo kế hoạch.",
+  "Chuyện nhỏ mà, lo gì cho mệt vậy?",
+  "Tôi không cần ai đồng ý với quyết định của mình.",
+  "Họ nghĩ sao thì nghĩ, không liên quan đến tôi đâu.",
+  "Mấy chuyện đó chẳng đáng để mình bận tâm.",
+  "Cứ để người ta nói, mình biết mình đang làm gì."
+ ],
+ "shoulder_shrug_palms_up_weight_shift": [
+  "Thật ra mình cũng không biết gì về chuyện đó cả.",
+  "Ừ thì tôi mù tịt chuyện này, chịu thôi.",
+  "Cái này hả? Trời ơi, không có khái niệm gì luôn.",
+  "Hỏi tôi thì tôi cũng bí, không rõ tí nào hết.",
+  "Nghe lạ lắm, mà thật sự tôi chưa từng nghe qua.",
+  "Không biết nha, mà không phải giả vờ đâu đó.",
+  "Tôi cũng muốn biết lắm, nhưng mà không có thông tin gì cả.",
+  "Câu này thì xin chịu, hoàn toàn không nắm được gì."
+ ],
+ "shoulder_shrug_tilt_doubt": [
+  "Ừ thì... tôi không chắc chuyện đó có thật không.",
+  "Nghe hay đấy, nhưng mà tôi hơi khó tin.",
+  "Cái này... hmm, không rõ anh nói vậy có đúng không.",
+  "Thật sự hả? Tôi chưa dám khẳng định gì đâu.",
+  "Không biết nữa, câu chuyện nghe có vẻ kỳ lắm.",
+  "Có thể vậy, nhưng tôi vẫn còn nghi ngờ lắm.",
+  "Chờ chút, điều đó nghe không ổn lắm với tôi.",
+  "Ý bạn vậy à? Tôi vẫn chưa tin lắm đâu nhé."
+ ],
+ "shoulder_square_dominance": [
+  "Đây là quyết định cuối cùng, không cần bàn thêm nữa.",
+  "Tất cả mọi người ở đây đều nghe tôi nói.",
+  "Kế hoạch này do tôi định ra, ai cũng phải tuân theo.",
+  "Từ giờ trở đi, mọi thứ sẽ theo cách của tôi.",
+  "Không ai có thể thay đổi những gì tôi đã quyết.",
+  "Tôi nắm toàn bộ tình hình trong tay, yên tâm đi.",
+  "Đây là lúc các anh chứng kiến tôi làm điều này.",
+  "Quyền lực nằm ở chỗ biết khi nào cần im lặng."
+ ],
+ "shy_chin_tuck_arms_cross": [
+  "Thôi thôi, mọi người đừng nhìn em như vậy chứ...",
+  "Ơ, em có làm gì đặc biệt đâu mà khen dữ vậy.",
+  "Dạ... em không quen được chú ý nhiều như thế này lắm.",
+  "Câu đó hỏi khó quá, em chịu thua thật sự rồi.",
+  "Trời ơi, sao lại hỏi em trước cả lớp vậy nè.",
+  "Dạ thôi anh ơi, anh khen vậy em ngại lắm á.",
+  "Mấy người đừng nhìn em nữa được không, em mắc cỡ lắm rồi.",
+  "Em không biết phải trả lời sao cho đúng nữa."
+ ],
+ "shy_ear_scratch_eyes_down": [
+  "Ừ thì... mình có làm chưa đúng thật.",
+  "Thôi được rồi, tại mình không chú ý.",
+  "Ừ ừ, anh nói vậy cũng có lý.",
+  "Mình biết rồi, lần sau sẽ cẩn thận hơn.",
+  "Dạ... em hiểu ý chị muốn nói rồi.",
+  "Ừ, mà thật ra mình cũng đoán vậy.",
+  "Thôi thì... lỗi của mình, không cãi được.",
+  "Dạ, anh nhận xét vậy em xin ghi nhận."
+ ],
+ "shy_hand_cover_mouth_look_away": [
+  "Thôi chết, em lỡ miệng rồi, quên đi nhé!",
+  "Ý em không phải vậy, ý em là... thôi em không nói nữa!",
+  "Ôi trời ơi, sao em lại nói cái đó ra được chứ!",
+  "Không không, anh đừng để ý câu vừa rồi của em!",
+  "Em... em không có ý gì đâu, thật mà, em thề!",
+  "Ừ thì em có thích anh một chút, nhưng mà... thôi bỏ qua đi!",
+  "Sao tự nhiên em lại nói vậy nhỉ, kỳ quá!",
+  "Anh giả vờ như không nghe câu đó được không ạ?"
+ ],
+ "shy_retreat_half_step_hug_self": [
+  "Ừ thì... bạn đừng hỏi sâu vậy được không?",
+  "Chuyện đó mình chưa muốn kể cho ai nghe đâu.",
+  "Sao bạn cứ hỏi mấy chuyện kiểu này vậy?",
+  "Mình cần một chút không gian, bạn thông cảm nha.",
+  "Thật ra... mình không thoải mái lắm khi nói về chuyện này.",
+  "Bạn có thể hỏi chuyện khác không, mình xin lỗi.",
+  "Câu hỏi đó hơi... khó trả lời với mình lắm.",
+  "Mình biết bạn tò mò nhưng chuyện này mình giữ cho riêng mình thôi."
+ ],
+ "shy_weight_shift_finger_fidget": [
+  "Ừ thì... mình cũng mới đến thôi.",
+  "Haha ừ, mình chưa quen mấy anh chị ở đây lắm.",
+  "Trời hôm nay hơi nóng nhỉ, hay là tại trong này đông người?",
+  "Không biết chương trình bắt đầu lúc mấy giờ nhỉ.",
+  "Ừ ừ, mình cũng đang chờ bạn mình qua nữa.",
+  "Thật ra mình cũng không rành chỗ này cho lắm đâu.",
+  "Mình thấy quen quen mà không nhớ ra mình gặp bạn ở đâu.",
+  "Không biết lát nữa có chỗ ngồi không hay phải đứng suốt."
+ ],
+ "slow_scan_side_to_side": [
+  "Một bên thì lợi, một bên lại rủi ro, khó nói lắm.",
+  "Làm hay không làm... tôi vẫn chưa chắc được.",
+  "Cách này có vẻ ổn hơn, nhưng cách kia cũng không tệ.",
+  "Để tôi nghĩ thêm chút, hai phương án đều có lý cả.",
+  "Nếu chọn vế này thì được cái nọ, mà lại mất cái kia.",
+  "Hmm... bên trái hay bên phải đây, thật sự khó quyết.",
+  "Cả hai đều có điểm hay riêng, tôi chưa nghiêng về phía nào cả.",
+  "Tôi cứ đắn đo mãi giữa hai cái này mà chưa ra."
+ ],
+ "slow_shrug_head_tilt_doubtful": [
+  "Ừm... cái đó tôi không dám chắc lắm.",
+  "Nghe có vẻ đúng nhưng mà tôi chưa chắc.",
+  "Không biết nữa, hơi khó tin một chút.",
+  "Thật sự hả? Tôi vẫn còn hơi ngờ ngợ.",
+  "Cái này mà đúng thì cũng lạ thật đấy.",
+  "Tôi không dám khẳng định điều đó đâu nhé.",
+  "Kể cũng có lý, nhưng mà... không biết nữa.",
+  "Ừ thì nghe vậy thôi chứ tôi chưa tin hẳn."
+ ],
+ "slow_tilt_confused_processing": [
+  "Ừm... để mình nghĩ xem nào.",
+  "Khoan đã, nhiều thứ quá mình cần sắp xếp lại.",
+  "Cái này... phức tạp hơn mình tưởng nhiều.",
+  "Mình đang cố hiểu hết những gì bạn vừa nói.",
+  "Thông tin này cần thời gian để mình tiêu hóa một chút.",
+  "Được rồi, mình đang ghép các mảnh lại với nhau.",
+  "Có mấy điểm mình chưa chắc mình hiểu đúng hết.",
+  "Hm, bạn cho mình một chút xíu nhé."
+ ],
+ "startle_lean_back_freeze": [
+  "Ơ... cái gì cơ, anh vừa nói gì vậy?",
+  "Khoan đã, bạn... bạn nói thật không?",
+  "Trời ơi, tôi không nghe nhầm chứ?",
+  "Cái này... cái này mà thật sao?",
+  "Xin lỗi, em vừa nói anh ấy... mất rồi ạ?",
+  "Không, không thể nào, chuyện đó không xảy ra được.",
+  "Đợi tôi một giây, não tôi chưa xử lý kịp.",
+  "Ủa, hồi nãy mày nói... mày nói là cô ấy biết hết rồi?"
+ ],
+ "startle_lean_back_hands_up_defensive": [
+  "Khoan khoan khoan, cái gì vừa xảy ra vậy?",
+  "Ơ, ơ, ơ — anh đừng có nói vậy!",
+  "Tôi không liên quan gì đến chuyện đó cả!",
+  "Chờ đã, chờ đã — bạn đang nói về tôi à?",
+  "Thật sự không phải như anh nghĩ đâu!",
+  "Này, này — bình tĩnh lại đã, đừng đổ lên tôi!",
+  "Sao tự nhiên lại kéo tôi vào chuyện này?",
+  "Tôi chưa nghe ai nói điều đó bao giờ!"
+ ],
+ "startle_slow_step_back_disbelief": [
+  "Khoan đã... cái đó có thật không vậy?",
+  "Ý anh là... họ thật sự làm chuyện đó?",
+  "Không, không thể nào chuyện đó xảy ra được.",
+  "Tôi vừa nghe đúng không, hay tai tôi có vấn đề?",
+  "Trời ơi... tôi không biết phải nói gì nữa.",
+  "Mà sao chuyện như vậy mà tôi mới biết bây giờ?",
+  "Thật sự hả... tôi cần một chút để xử lý cái này.",
+  "Bạn nói lại đi, tôi vẫn chưa hiểu rõ lắm."
+ ],
+ "step_back_cross_arms_light": [
+  "Thôi để mình suy nghĩ thêm đã nhé.",
+  "Bạn nói nhiều quá, mình cần không gian một chút.",
+  "Cảm ơn bạn, nhưng mình tự quyết được.",
+  "Mình nghe rồi, không cần thuyết phục thêm đâu.",
+  "Chuyện này để mình tự lo nhé, cảm ơn.",
+  "Ý bạn mình hiểu rồi, dừng ở đây thôi.",
+  "Mình cần thời gian, đừng thúc mình vội vàng.",
+  "Bạn quan tâm mình biết, nhưng thôi được rồi."
+ ],
+ "step_toes_in_both_hands_press_down": [
+  "Từ từ thôi, đừng vội vàng như vậy.",
+  "Bình tĩnh nào, mọi chuyện vẫn trong tầm kiểm soát.",
+  "Hít thở sâu đi, chưa đến mức đó đâu.",
+  "Không cần cuống lên, cứ chậm rãi mà làm.",
+  "Thôi nào, dừng lại một chút rồi nghĩ lại đi.",
+  "Cần gì phải hối hả, giờ ta còn thời gian mà.",
+  "Kéo mình lại đi, làm vậy chỉ thêm rối thôi.",
+  "Nhẹ thôi, mọi thứ sẽ ổn nếu ta giữ được đầu."
+ ],
+ "storytelling_sway_buildup": [
+  "Rồi cái thằng bạn tui nó làm một cái chuyện mà...",
+  "Khoan đã khoan đã, nghe tui kể tiếp nè...",
+  "Thì lúc đó bả đang cầm cái đó trên tay, mà...",
+  "Ờ ờ ờ, sắp tới chỗ hay rồi, chờ chút...",
+  "Nên là... nên là... ổng mới bước vô trong đó thì...",
+  "Tưởng là xong rồi đúng không, nhưng mà khoan...",
+  "Cái hồi đó tui cũng không ngờ luôn, mà thôi để tui kể nốt...",
+  "Haha không không, chưa phải chỗ đó đâu, còn cái này nữa..."
+ ],
+ "storytelling_sway_infectious": [
+  "Trời ơi, cái đó buồn cười không chịu được luôn!",
+  "Haha, mà thật ra mình cũng không ngờ đâu nha!",
+  "Không không không, khoan đã, còn cái vụ sau hay hơn nữa kìa!",
+  "Ôi cái mặt ông lúc đó, tôi thề tôi không quên được đâu!",
+  "Mà tụi mình hồi đó điên thiệt, làm vậy mà dám làm!",
+  "Haha bây giờ nhớ lại vẫn còn thấy ngớ ngẩn quá đi!",
+  "Thôi thôi bình tĩnh, mình kể tiếp nha, còn hay hơn nữa!",
+  "Ừ đúng đúng, lúc đó mình cũng không nhịn được cười luôn ấy!"
+ ],
+ "storytelling_sway_nostalgic_amused": [
+  "Hồi đó tụi mình nghèo mà vui ghê, cười suốt ngày không biết mệt.",
+  "Bà ngoại hay làm món đó lắm, mùi thơm tới giờ vẫn còn nhớ như in.",
+  "Cha ơi, cái thời đó mà, đi học bằng xe đạp cọc cạch mà hạnh phúc dữ lắm.",
+  "Thằng bạn thân hồi cấp hai của tao nó phá trời phá đất, giờ nghĩ lại vẫn còn buồn cười.",
+  "Mấy cái trò chơi hồi nhỏ bây giờ con nít không ai chơi nữa, tiếc thật.",
+  "Tết năm đó cả nhà quây quần đông lắm, ồn ào mà thương vô cùng.",
+  "Chao, nhớ lại mà không nhịn được cười, hồi đó mình ngây thơ tới mức đó cơ chứ.",
+  "Dì Hai mỗi lần gặp là kẹo bánh đầy túi, chưa thấy mặt đã thấy thương rồi."
+ ],
+ "storytelling_sway_triumphant": [
+  "Hehe, nghe xong rồi đúng không, hay không?",
+  "Cái đó mới gọi là twist chứ, hả hả hả.",
+  "Ừ ừ, từ từ thấm vào đi, tôi chờ.",
+  "Thấy chưa, tôi bảo mà, hay vãi.",
+  "Cười đi cười đi, không cần nhịn đâu nha.",
+  "Ý tưởng đó ra lò tự nhiên lắm, không cần cố đâu nha.",
+  "Cái kết đó mới là đỉnh, mấy cái trước chỉ là khởi động thôi.",
+  "Tự nhiên thôi, tài năng nó vậy đó, biết làm sao giờ."
+ ],
+ "symmetry_both_palms_outward_push": [
+  "Đây là ranh giới cuối cùng, không ai được phép vượt qua.",
+  "Sự thật không thay đổi dù anh có muốn hay không.",
+  "Tôi nói rõ một lần để mọi người hiểu cho đúng.",
+  "Không có chỗ thương lượng ở đây, quyết định đã xong rồi.",
+  "Các anh nghe tôi nói đây, không được làm khác đi.",
+  "Điều này tôi đã khẳng định từ đầu và tôi vẫn giữ nguyên.",
+  "Luật này áp dụng cho tất cả, không có ngoại lệ nào hết.",
+  "Tôi đứng đây để nói thẳng, không ai bác bỏ được điều này."
+ ],
+ "thankful_bow_right_hand_chest": [
+  "Cảm ơn anh đã luôn ở đây với em.",
+  "Em thật sự biết ơn vì những gì anh đã làm cho em.",
+  "Không có anh thì em không biết phải làm sao nữa.",
+  "Điều anh làm cho em có ý nghĩa rất lớn, em cảm ơn anh nhiều lắm.",
+  "Em xúc động lắm, cảm ơn anh đã quan tâm đến em như vậy.",
+  "Chưa bao giờ em cảm thấy được trân trọng nhiều đến thế này.",
+  "Anh không biết đâu, điều đó có ý nghĩa với em nhiều lắm.",
+  "Em chân thành cảm ơn anh từ tận đáy lòng."
+ ],
+ "tired_lean_back_brace": [
+  "Ừ thì đứng mãi cũng mỏi lưng lắm chứ.",
+  "Câu chuyện này dài hơn tôi nghĩ nhiều.",
+  "Thôi cứ từ từ nói, không vội được đâu.",
+  "Hồi xưa đứng cả ngày chẳng thấy gì, giờ khác rồi.",
+  "Bạn vừa nói đến đâu rồi nhỉ, tôi đang nghe đây.",
+  "Mấy cái vụ này giải thích thật ra cũng không đơn giản.",
+  "Ý tôi muốn nói là chúng ta cần nhìn lại toàn bộ vấn đề.",
+  "Cứ nói tiếp đi, tôi vẫn đang theo dõi mà."
+ ],
+ "tired_neck_roll_slack": [
+  "Ừ, chờ mình chút, nói nhiều quá cũng mỏi.",
+  "Thôi để mình hít thở cái đã rồi mình tiếp tục nhé.",
+  "Mình ngồi lâu quá rồi, cứng hết cả người luôn.",
+  "Tí nữa nói tiếp nha, mình cần nghỉ một chút.",
+  "Ờ mà câu chuyện này dài thật, dài hơn mình nghĩ nhiều.",
+  "Bạn cứ từ từ đi, mình vẫn đang theo dõi hết đó.",
+  "Nói chuyện với bạn vui thật nhưng mình cần thả lỏng tí.",
+  "Khoan đã, để mình lấy lại sức rồi nói nốt phần còn lại."
+ ],
+ "tired_weight_shift_exhale": [
+  "Thôi được rồi, xong rồi thì thôi.",
+  "Mệt thật, không ngờ lại kéo dài đến vậy.",
+  "Ừ, biết rồi... cũng chẳng làm gì được nữa.",
+  "Cuối cùng cũng qua, nhưng mà nặng lắm.",
+  "Nghe xong mà không biết phải nói gì.",
+  "Thở được rồi, cứ tưởng hôm nay không qua nổi.",
+  "Ừ thôi, chấp nhận vậy đi, còn biết làm sao.",
+  "Xong rồi đấy, mà sao lòng vẫn nặng thế này."
+ ],
+ "toe_press_stall": [
+  "Ừm... để mình nghĩ xem đã nhé.",
+  "Câu này hay đấy, để mình nghĩ thêm chút.",
+  "Thật ra thì... ý mình là...",
+  "Hmm, mình chưa chắc lắm về điều này.",
+  "Khoan đã, mình cần sắp xếp lại ý một chút.",
+  "Câu hỏi này... không đơn giản như mình tưởng.",
+  "Mình biết mà, chỉ là cần nhớ lại thôi.",
+  "À, ý bạn hỏi theo nghĩa nào vậy?"
+ ],
+ "topic_shift_lean_forward": [
+  "À mà này, cái chuyện đó mới thật sự hay nè!",
+  "Nhân tiện, bạn có nghe chuyện về cái này chưa?",
+  "Ủa mà thôi để tui kể cái này cho nghe, hay hơn nhiều!",
+  "À mà khoan, còn có chuyện này nữa cơ!",
+  "Nhân tiện nhắc tới đó, tui nhớ ra một chuyện rất buồn cười!",
+  "Thôi bỏ cái đó đi, nói chuyện kia hay hơn nè!",
+  "À này này, cái vụ đó mới đáng nói chứ!",
+  "Ôi mà này, tui đang muốn kể bạn nghe cái chuyện khác hay lắm!"
+ ],
+ "topic_shift_pivot_both_hands": [
+  "Quan trọng hơn là chúng ta cần nói về điều này.",
+  "Điều tôi thực sự muốn nói lại là vấn đề khác.",
+  "Thôi, bỏ cái đó sang một bên đi.",
+  "Nhưng mà khoan, có chuyện này hay hơn nè.",
+  "Để tôi chuyển sang phần chính nhé.",
+  "Cái này quan trọng hơn nhiều, nghe tôi nói này.",
+  "Ừ nhưng thực ra điểm mấu chốt là đây này.",
+  "Chờ chút, có một điều tôi muốn nhấn mạnh hơn."
+ ],
+ "topic_shift_weight_back_pause": [
+  "Thật ra mà nói, chuyện này phức tạp hơn mình tưởng nhiều.",
+  "Nói thẳng ra là… mình không chắc mọi người đã sẵn sàng nghe chưa.",
+  "Ừ mà khoan, có một điều mình cứ muốn đề cập mãi.",
+  "Thôi để mình nói thật luôn cho rồi, dù có hơi khó nghe.",
+  "Tạm gác chuyện đó sang một bên, cái này quan trọng hơn đấy.",
+  "Mình ngập ngừng mãi, nhưng thật ra có điều này cần nói.",
+  "Chuyển sang hướng khác một chút… cái này mình đang cân nhắc kỹ lắm.",
+  "Nói ra thì hơi kỳ, nhưng mình nghĩ cần phải đề cập đến."
+ ],
+ "turn_diagonal_uncertain": [
+  "Hình như là... ở đâu đó gần khu chợ ấy nhỉ?",
+  "Ừm, tôi không chắc lắm, có lẽ khoảng tuần trước?",
+  "Chờ tôi nghĩ xem... hồi đó hình như là mùa hè thì phải.",
+  "Không biết nữa, cái này tôi cũng mù tịt luôn.",
+  "Để tôi nhớ lại xem, hình như anh ấy nói vào buổi chiều.",
+  "Ờ thì... cũng không rõ lắm, có thể là ở đó hoặc chỗ khác.",
+  "Cái này tôi đang cố nhớ, nhưng mà lâu rồi nên quên mất rồi.",
+  "Khó nói lắm, chuyện đó xảy ra hồi nào tôi cũng không còn nhớ rõ."
+ ],
+ "turn_front_emphasis": [
+  "Thôi, chuyện đó qua rồi, giờ mình nói về cái này đi.",
+  "Nhưng mà đó là hồi xưa, bây giờ khác rồi bạn ơi.",
+  "Okay, kể vậy đủ rồi, quay lại chủ đề chính nào.",
+  "Dù sao thì hiện tại mới là điều quan trọng hơn.",
+  "Thôi để chuyện cũ sang một bên, mình tập trung vào đây.",
+  "Nhắc lại chút để bạn hiểu bối cảnh thôi, giờ ta tiếp tục nhé.",
+  "Cũ rồi đó, điều mình muốn nói bây giờ là thế này.",
+  "Đó là quá khứ rồi, còn hiện tại thì sao bạn biết không?"
+ ],
+ "turn_invite_bow_slight": [
+  "Kính mời bác vào trong ạ, trời nắng lắm ạ.",
+  "Dạ, mời anh vào dùng nước ạ.",
+  "Chào mừng chú đến thăm công ty chúng cháu ạ.",
+  "Xin kính mời quý vị vào phòng họp ạ.",
+  "Dạ thưa bác, bác vào trong kẻo nắng ạ.",
+  "Mời giám đốc vào, chúng tôi đã chuẩn bị sẵn sàng rồi ạ.",
+  "Thưa anh, xin mời anh vào phòng tiếp khách ạ.",
+  "Kính mời quý khách vào bên trong để tiện trao đổi ạ."
+ ],
+ "turn_invite_two_hands_guide": [
+  "Mời anh chị đi theo lối này nhé!",
+  "Quý khách cứ tự nhiên, để tôi dẫn đường cho ạ.",
+  "Bên này lối vào rộng hơn, mời anh chị qua đây!",
+  "Đi theo tôi nha, tôi sẽ chỉ cho biết chỗ ngồi.",
+  "Mời chị, phía tay phải có chỗ ngồi thoải mái hơn đấy ạ.",
+  "Không gian bên trong mát lắm, mời anh chị vào trong đi ạ.",
+  "Khu vực chúng ta cần đến ngay phía trước đây thôi ạ.",
+  "Để tôi dẫn quý khách qua đây cho tiện, mời anh chị!"
+ ],
+ "turn_left_gesture": [
+  "Quê tôi ở phía đó, cách đây không xa lắm.",
+  "Hồi nhỏ tôi hay chạy chơi bên đó.",
+  "Nhà tôi nằm về phía đó, cuối con đường ấy.",
+  "Ký ức tuổi thơ của tôi gắn liền với vùng đó.",
+  "Bên đó có cái chợ cũ tôi hay ghé mỗi sáng.",
+  "Ngày xưa gia đình tôi sống ở phía đó.",
+  "Chỗ đó là nơi tôi lớn lên từ bé.",
+  "Cái làng tôi sinh ra nằm tận phía đó kìa."
+ ],
+ "turn_right_gesture": [
+  "Sài Gòn bây giờ sầm uất lắm, anh biết không?",
+  "Tuần tới mình sẽ có kế hoạch cụ thể hơn rồi.",
+  "Thành phố này đang thay đổi từng ngày đó.",
+  "Dự án sắp tới của tụi mình khá thú vị đấy.",
+  "Hồi này Sài Gòn mọc lên nhiều tòa nhà mới lắm.",
+  "Chỉ vài ngày nữa thôi là xong hết rồi.",
+  "Khu đó bây giờ hiện đại hơn hồi xưa nhiều.",
+  "Sắp tới mình cũng có chuyến đi thú vị lắm."
+ ],
+ "two_foot_stance_crossed_arms_resist": [
+  "Thôi, anh đừng có nói thêm nữa.",
+  "Tôi không muốn nghe bất kỳ lý do gì cả.",
+  "Quyết định của tôi rồi, không thay đổi được đâu.",
+  "Cậu giải thích thế nào tôi cũng không chấp nhận.",
+  "Không cần bàn thêm, tôi đã nói là không rồi.",
+  "Dù mày nói gì đi nữa, tao vẫn giữ ý kiến của mình.",
+  "Ý kiến đó tôi nghe rồi, và câu trả lời vẫn là không.",
+  "Thôi được rồi, tôi không có hứng thú với chuyện này."
+ ],
+ "two_foot_stance_firm_denial": [
+  "Tôi sẽ không làm điều đó, dù bất cứ điều gì xảy ra.",
+  "Không, tôi không chấp nhận chuyện này đâu.",
+  "Bạn có nói mãi thì tôi cũng không thay đổi ý kiến.",
+  "Đừng mất công thuyết phục nữa, quyết định của tôi đã rõ ràng rồi.",
+  "Câu trả lời của tôi là không, và sẽ mãi là không.",
+  "Tôi đã nói là không thì không, không có gì bàn cãi thêm nữa.",
+  "Dù bạn có áp lực đến đâu, tôi vẫn giữ nguyên lập trường của mình.",
+  "Xin lỗi nhưng đây là giới hạn của tôi, tôi không thể nhượng bộ được."
+ ],
+ "two_foot_stance_lean_forward_challenge": [
+  "Nói đi, mày có đủ bằng chứng không?",
+  "Tao đứng đây chờ mày giải thích đấy.",
+  "Mày cứ nói tiếp xem, tao nghe đây.",
+  "Vậy thì chứng minh cho tao thấy đi.",
+  "Không có lý do thuyết phục thì đừng kỳ vọng tao đồng ý.",
+  "Mày tưởng tao sẽ chịu lui khi chưa nghe lý lẽ thật sự à?",
+  "Đây, tao đứng đây, mày muốn nói gì thì nói thẳng ra.",
+  "Lập luận của mày yếu như vậy mà cũng dám đòi tao nhượng bộ?"
+ ],
+ "two_foot_stance_slow_headshake_weary": [
+  "Thôi được rồi, tôi không giải thích nữa đâu.",
+  "Nói mãi mà anh vẫn không chịu hiểu thì tôi biết làm sao bây giờ.",
+  "Ừ, muốn nghĩ sao thì nghĩ, tôi chịu rồi.",
+  "Tôi đã nói bao nhiêu lần rồi mà vẫn vậy.",
+  "Không, cái đó sai rồi, nhưng thôi kệ, tôi mệt lắm rồi.",
+  "Cứ làm theo ý chị đi, nhưng tôi không đồng ý đâu nhé.",
+  "Giải thích hoài mà không ai nghe thì nói làm gì nữa.",
+  "Thôi tôi không cãi nữa, nhưng tôi vẫn không chấp nhận chuyện đó."
+ ],
+ "two_foot_stance_weight_back_skeptic": [
+  "Ừ thì cứ nói vậy đi, tôi nghe đây.",
+  "Thật không? Nghe có vẻ… khó tin thật.",
+  "Anh chắc chắn là mình không nhầm chứ?",
+  "Kiểu gì mà dễ vậy được, tôi không hiểu.",
+  "Nói thẳng ra là tôi chưa tin lắm đâu nhé.",
+  "Lý do đó nghe hay đấy, nhưng mà…",
+  "Tôi chỉ muốn hỏi thật, cái này có thật không?",
+  "Nghe thì hợp lý, nhưng tôi vẫn còn ngờ ngợ lắm."
+ ],
+ "weight_back_head_tilt_smile": [
+  "Thôi để lần khác đi, hôm nay mình chưa tiện.",
+  "Cảm ơn bạn nhiều lắm, nhưng mình xin phép từ chối nhé.",
+  "Ý tốt của bạn mình hiểu, nhưng thật sự mình không tham gia được.",
+  "Mình trân trọng lắm, chỉ là lần này chưa hợp với mình thôi.",
+  "Không phải vì không quý bạn đâu, chỉ là mình cần ở nhà hôm nay.",
+  "Bạn cứ đi trước đi, mình không đi được lần này đâu.",
+  "Mình xin lỗi nhé, nhưng mình thật sự không thể nhận lời được.",
+  "Lần này cho mình miễn nhé, hẹn dịp khác mình bù lại."
+ ],
+ "weight_shift_calm_conclude": [
+  "Thôi vậy, xong rồi, không có gì thêm nữa đâu.",
+  "Ừ, cơ bản là mình hiểu nhau rồi đó.",
+  "Vậy thôi, đơn giản thế thôi mà.",
+  "Được rồi, chuyện này coi như khép lại nhé.",
+  "Thế là ổn rồi, không cần băn khoăn thêm đâu.",
+  "Nói chung là vậy, không có gì phức tạp hơn đâu.",
+  "Rõ chưa? Vậy là xong, không còn gì nữa.",
+  "Cũng chỉ có vậy thôi, mình hiểu là được rồi."
+ ],
+ "weight_shift_final_step_land": [
+  "Và đây là bước cuối cùng, xong rồi đó.",
+  "Chốt lại một điểm duy nhất — không còn gì thêm nữa.",
+  "Tất cả dẫn đến đây, chỉ cần bước này thôi.",
+  "Bước cuối, mình khép lại ở chỗ này nhé.",
+  "Đây rồi, điểm kết thúc mà mình hướng đến từ đầu.",
+  "Không còn bước nào sau đây nữa — đây là tất cả.",
+  "Cứ làm đúng bước này, coi như hoàn tất toàn bộ.",
+  "Hạ xuống đây, đặt dấu chấm hết tại điểm này."
+ ],
+ "weight_shift_pause_left": [
+  "Cái này thì... ừm, nó hoạt động theo kiểu...",
+  "Tôi muốn nói là... thật ra thì...",
+  "Bởi vì lý do đó nên... à, làm sao giải thích nhỉ...",
+  "Hồi đó chúng tôi có dùng một cái... một loại... ừ, quên mất tên rồi.",
+  "Nó giống như là... không, chưa đúng lắm...",
+  "Chờ tôi một chút, cái khái niệm này nó... phức tạp lắm.",
+  "Ý tôi là... thật ra ban đầu thì...",
+  "Phương pháp đó hiệu quả vì... vì... ừ, để tôi nghĩ lại đã."
+ ],
+ "weight_shift_step_one": [
+  "Bước một, mình cần xác định rõ mục tiêu trước đã.",
+  "Đầu tiên là phải chuẩn bị đầy đủ nguyên liệu nhé.",
+  "Trước hết, bạn phải đăng nhập vào hệ thống.",
+  "Bước đầu tiên trong quy trình này là kiểm tra tài liệu.",
+  "Okay, đầu tiên là mình sẽ tắt nguồn thiết bị đi.",
+  "Bước một — khởi động ứng dụng lên rồi mình mới làm tiếp.",
+  "Điều đầu tiên cần làm là điền thông tin vào form này.",
+  "Muốn làm đúng thì bước một phải là lên kế hoạch trước."
+ ],
+ "weight_shift_step_pause_reflect": [
+  "Khoan đã, bước này có điểm cần lưu ý đấy nhé.",
+  "Chỗ này nhiều người hay bỏ qua lắm, cẩn thận một chút.",
+  "Đợi một giây, mình cần nói rõ hơn về phần này.",
+  "À nhưng mà ở đây có điều hơi phức tạp một chút.",
+  "Dừng lại đây đã, vì bước này không đơn giản như vẻ ngoài của nó đâu.",
+  "Cái này trông có vẻ dễ nhưng thực ra cần chú ý kỹ hơn nhiều.",
+  "Phần này mình muốn mọi người hiểu thật rõ trước khi tiếp tục.",
+  "Nếu bỏ qua chỗ này thì về sau sẽ gặp rắc rối đấy, chú ý nha."
+ ],
+ "weight_shift_step_two_open": [
+  "Và bước tiếp theo cũng không kém phần quan trọng đâu nhé.",
+  "Giờ mình sang phần hai — phần này thực ra còn thú vị hơn đó.",
+  "Bước hai, và đây là lúc mọi thứ bắt đầu rõ ràng hơn.",
+  "Tiếp theo, có một điều mình muốn bạn đặc biệt chú ý.",
+  "Oke, xong bước một rồi — bước hai này mình cần bạn theo dõi kỹ hơn nha.",
+  "Và phần tiếp theo đây, theo mình là phần cốt lõi của cả quá trình.",
+  "Chuyển sang bước hai nhé, vì bước này sẽ quyết định phần lớn kết quả đấy.",
+  "Mình không dừng ở đó thôi đâu — bước kế tiếp còn quan trọng hơn nhiều."
+ ],
+ "weight_sink_index_point_level": [
+  "Đây, chính chỗ này mới là vấn đề cốt lõi.",
+  "Không phải cái đó — cái này mới đúng.",
+  "Anh nhầm rồi, con số thực tế là 47 triệu.",
+  "Đúng điểm này, không phải điểm kia.",
+  "Tôi nói rõ luôn: đây là nguyên nhân thật sự.",
+  "Sai ngay chỗ này — dữ liệu không hề nói vậy.",
+  "Chính xác tại đây, bạn đang bỏ qua điều đó.",
+  "Nhìn vào đây đi — câu trả lời nằm ngay chỗ này."
+ ]
+}

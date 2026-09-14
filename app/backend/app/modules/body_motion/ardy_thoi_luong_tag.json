@@ -1,0 +1,326 @@
+{
+ "arms_crossed_jaw_tight": {
+  "cau": "A person crosses both arms tightly across the upper abdomen with the right arm tucking under the left.",
+  "dai": 4.0,
+  "khop": 0.858,
+  "lang": true
+ },
+ "both_hands_chest_greeting": {
+  "cau": "A person presses both palms together at chest height with fingertips pointing upward and dips the head forward.",
+  "dai": 4.0,
+  "khop": 0.854,
+  "lang": true
+ },
+ "bow_greeting": {
+  "cau": "A person performs a respectful greeting bow, tilting the head and upper body forward and rising back up.",
+  "dai": 4.0,
+  "khop": 0.834,
+  "lang": true
+ },
+ "bow_head_agree": {
+  "cau": "A person folds both hands at waist level and bows the torso forward about 15 degrees.",
+  "dai": 5.0,
+  "khop": 0.814,
+  "lang": true
+ },
+ "bow_head_respect": {
+  "cau": "A person slowly bends their torso forward about 18 degrees with head naturally following then returns upright.",
+  "dai": 4.0,
+  "khop": 0.808,
+  "lang": true
+ },
+ "chest_lift_chin_up_proud": {
+  "cau": "A person lifts their chest forward and raises their chin upward by fifteen degrees.",
+  "dai": 4.0,
+  "khop": 0.793,
+  "lang": true
+ },
+ "climax_fist_hold_overhead": {
+  "cau": "A person raises their right fist steadily from waist level to forehead height.",
+  "dai": 4.0,
+  "khop": 0.819,
+  "lang": true
+ },
+ "come_here_family_beckon": {
+  "cau": "A person curls their right hand fingers downward repeatedly at chest height toward themselves.",
+  "dai": 4.0,
+  "khop": 0.793,
+  "lang": true
+ },
+ "count_on_fingers": {
+  "cau": "A person counts on fingers.",
+  "dai": 4.0,
+  "khop": 0.875,
+  "lang": true
+ },
+ "cover_mouth_embarrassed": {
+  "cau": "A person raises the right hand upward in a smooth motion to cover the mouth and lower nose.",
+  "dai": 4.0,
+  "khop": 0.803,
+  "lang": true
+ },
+ "cross_arms": {
+  "cau": "A person cross arms.",
+  "dai": 4.0,
+  "khop": 0.911,
+  "lang": true
+ },
+ "cup_both_hands_offer_forward": {
+  "cau": "A person raises both cupped upward-facing hands from waist level to chest height.",
+  "dai": 4.0,
+  "khop": 0.909,
+  "lang": true
+ },
+ "dance": {
+  "cau": "A person dances.",
+  "dai": 8.0,
+  "khop": 0.965,
+  "lang": false
+ },
+ "deflate_drop": {
+  "cau": "A person flips their right palm downward from shoulder height and drops the hand quickly to hip level.",
+  "dai": 4.0,
+  "khop": 0.837,
+  "lang": true
+ },
+ "double_fist_tap_together": {
+  "cau": "A person brings both fists together in a firm tap at the body midline.",
+  "dai": 6.0,
+  "khop": 0.772,
+  "lang": true
+ },
+ "excited_rise_both_arms_overhead": {
+  "cau": "A person sweeps both arms upward from their sides until both hands reach fully overhead.",
+  "dai": 4.0,
+  "khop": 0.888,
+  "lang": true
+ },
+ "explosive_stand_ground": {
+  "cau": "A person straightens both legs fully and locks their spine upright pulling both shoulders back firmly.",
+  "dai": 4.0,
+  "khop": 0.819,
+  "lang": true
+ },
+ "finger_kiss": {
+  "cau": "A person brings pinched right fingertips to their lips then flicks the fingers open outward.",
+  "dai": 4.0,
+  "khop": 0.767,
+  "lang": true
+ },
+ "firm_nod_promise": {
+  "cau": "A person flexes their neck downward twenty-five degrees in a single deliberate nod with spine rigid.",
+  "dai": 4.0,
+  "khop": 0.709,
+  "lang": true
+ },
+ "hands_clasp_resolve": {
+  "cau": "A person raises both arms and clasps the hands together at sternum level with crossed forearms.",
+  "dai": 4.0,
+  "khop": 0.841,
+  "lang": true
+ },
+ "handshake_offer": {
+  "cau": "A person extends their right hand forward at waist height with palm facing inward and elbow slightly bent.",
+  "dai": 4.0,
+  "khop": 0.876,
+  "lang": true
+ },
+ "head_drop_chin": {
+  "cau": "A person slowly drops their head forward until the chin nearly touches the chest.",
+  "dai": 4.0,
+  "khop": 0.885,
+  "lang": true
+ },
+ "head_tilt_soft_wonder": {
+  "cau": "A person tilts the head to the right while raising the left hand open-palmed to waist height.",
+  "dai": 4.0,
+  "khop": 0.881,
+  "lang": true
+ },
+ "index_finger_point_you": {
+  "cau": "A person raises their right arm to shoulder height and extends the index finger pointing directly forward.",
+  "dai": 4.0,
+  "khop": 0.824,
+  "lang": true
+ },
+ "jump_up_twice": {
+  "cau": "A person jumps up twice.",
+  "dai": 6.0,
+  "khop": 1.0,
+  "lang": true
+ },
+ "kick_a_ball": {
+  "cau": "A person kicks a ball.",
+  "dai": 8.0,
+  "khop": 1.0,
+  "lang": false
+ },
+ "lean_back_disbelief_head_shake": {
+  "cau": "A person leans torso back onto the left heel while the head shakes side to side.",
+  "dai": 4.0,
+  "khop": 0.816,
+  "lang": true
+ },
+ "nod_head": {
+  "cau": "A person nods head.",
+  "dai": 4.0,
+  "khop": 0.969,
+  "lang": true
+ },
+ "open_palm": {
+  "cau": "A person opens palm.",
+  "dai": 4.0,
+  "khop": 0.849,
+  "lang": true
+ },
+ "open_palm_offer": {
+  "cau": "A person extends their right arm forward with palm turned upward toward the listener.",
+  "dai": 4.0,
+  "khop": 0.823,
+  "lang": true
+ },
+ "pivot_heel_think": {
+  "cau": "A person pivots the right heel outward while the left arm crosses over the torso.",
+  "dai": 10.0,
+  "khop": 0.873,
+  "lang": false
+ },
+ "point_abstract_space": {
+  "cau": "A person extends their right index finger toward a fixed point in the air at chest height.",
+  "dai": 4.0,
+  "khop": 0.766,
+  "lang": true
+ },
+ "point_forward": {
+  "cau": "A person points forward.",
+  "dai": 4.0,
+  "khop": 1.0,
+  "lang": true
+ },
+ "point_upward_ideal": {
+  "cau": "A person raises the right arm upward with the index finger pointing toward the ceiling above head level.",
+  "dai": 4.0,
+  "khop": 0.828,
+  "lang": true
+ },
+ "press_temples_confused": {
+  "cau": "A person raises both hands and presses their fingertips against both temples while bowing their head slightly.",
+  "dai": 5.0,
+  "khop": 0.818,
+  "lang": true
+ },
+ "raise_hand": {
+  "cau": "A person raises hand.",
+  "dai": 4.0,
+  "khop": 1.0,
+  "lang": true
+ },
+ "raise_hand_request": {
+  "cau": "A person raises their right arm forward to shoulder height with palm facing outward.",
+  "dai": 4.0,
+  "khop": 0.928,
+  "lang": true
+ },
+ "rub_back_of_neck": {
+  "cau": "A person brings their right hand behind their head to cup and lightly rub the.",
+  "dai": 4.0,
+  "khop": 0.774,
+  "lang": true
+ },
+ "run_in_a_circle": {
+  "cau": "A person runs in a circle.",
+  "dai": 10.0,
+  "khop": 0.978,
+  "lang": false
+ },
+ "scratch_head_sheepish": {
+  "cau": "A person scratches the right fingertips in a small circle on the back-right scalp.",
+  "dai": 4.0,
+  "khop": 0.808,
+  "lang": true
+ },
+ "shoulder_shrug_palms_up_weight_shift": {
+  "cau": "A person raises both shoulders while both forearms rotate upward with palms facing up.",
+  "dai": 4.0,
+  "khop": 0.858,
+  "lang": true
+ },
+ "shrug_shoulders": {
+  "cau": "A person shrugs shoulders.",
+  "dai": 4.0,
+  "khop": 0.992,
+  "lang": true
+ },
+ "shy_retreat_half_step_hug_self": {
+  "cau": "A person steps the right foot back and wraps both arms across the chest in a self-embrace.",
+  "dai": 5.0,
+  "khop": 0.745,
+  "lang": true
+ },
+ "sit_down": {
+  "cau": "A person sits down.",
+  "dai": 4.0,
+  "khop": 1.0,
+  "lang": true
+ },
+ "spread_arms": {
+  "cau": "A person spreads arms.",
+  "dai": 4.0,
+  "khop": 0.973,
+  "lang": true
+ },
+ "squat_down": {
+  "cau": "A person squats down.",
+  "dai": 4.0,
+  "khop": 1.0,
+  "lang": true
+ },
+ "step_back_cross_arms_light": {
+  "cau": "A person loads weight onto the left heel and crosses both forearms at the lower chest.",
+  "dai": 4.0,
+  "khop": 0.743,
+  "lang": true
+ },
+ "talk_with_hands": {
+  "cau": "A person talks with hands.",
+  "dai": 4.0,
+  "khop": 0.968,
+  "lang": true
+ },
+ "thumbs_up": {
+  "cau": "A person raises their right fist to chest level and extends the thumb straight upward.",
+  "dai": 4.0,
+  "khop": 0.832,
+  "lang": true
+ },
+ "tilt_head": {
+  "cau": "A person tilts head.",
+  "dai": 4.0,
+  "khop": 0.943,
+  "lang": true
+ },
+ "turn_around": {
+  "cau": "A person turns around.",
+  "dai": 10.0,
+  "khop": 0.973,
+  "lang": false
+ },
+ "walk_forward": {
+  "cau": "A person walks forward.",
+  "dai": 10.0,
+  "khop": 1.0,
+  "lang": false
+ },
+ "wave_hand_dismiss": {
+  "cau": "A person raises their right hand to waist height and flicks the wrist left with palm facing down.",
+  "dai": 4.0,
+  "khop": 0.861,
+  "lang": true
+ },
+ "zip_lips": {
+  "cau": "A person drags their right thumb and index finger pinched together across the lips from left to right.",
+  "dai": 4.0,
+  "khop": 0.761,
+  "lang": true
+ }
+}

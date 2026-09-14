@@ -1,0 +1,206 @@
+{
+ "bao": {
+  "chan_phai_a150_max": [
+   null,
+   0.481
+  ],
+  "chan_phai_chuong_som": [
+   0.633,
+   null
+  ],
+  "chan_phai_chuong_muon": [
+   null,
+   0.635
+  ],
+  "chan_phai_ldlj_xau": [
+   -14.344,
+   null
+  ],
+  "chan_phai_sparc_xau": [
+   -2.418,
+   null
+  ],
+  "chan_phai_sparc_dep": [
+   null,
+   -1.501
+  ],
+  "chan_trai_ldlj_xau": [
+   -5.603,
+   null
+  ],
+  "chan_trai_sparc_xau": [
+   -1.889,
+   null
+  ],
+  "chan_trai_sparc_dep": [
+   null,
+   -1.568
+  ],
+  "dau_a150_max": [
+   null,
+   1.946
+  ],
+  "dau_chuong_som": [
+   0.166,
+   null
+  ],
+  "dau_chuong_muon": [
+   null,
+   0.92
+  ],
+  "dau_ldlj_xau": [
+   -9.163,
+   null
+  ],
+  "dau_sparc_xau": [
+   -2.414,
+   null
+  ],
+  "dau_sparc_dep": [
+   null,
+   -1.351
+  ],
+  "hong_a150_max": [
+   null,
+   1.708
+  ],
+  "hong_chuong_som": [
+   0.088,
+   null
+  ],
+  "hong_chuong_muon": [
+   null,
+   0.903
+  ],
+  "hong_ldlj_xau": [
+   -9.19,
+   null
+  ],
+  "hong_sparc_xau": [
+   -2.513,
+   null
+  ],
+  "hong_sparc_dep": [
+   null,
+   -1.392
+  ],
+  "tay_phai_a150_max": [
+   null,
+   5.683
+  ],
+  "tay_phai_chuong_som": [
+   0.233,
+   null
+  ],
+  "tay_phai_chuong_muon": [
+   null,
+   0.82
+  ],
+  "tay_phai_ldlj_xau": [
+   -10.212,
+   null
+  ],
+  "tay_phai_sparc_xau": [
+   -2.594,
+   null
+  ],
+  "tay_phai_sparc_dep": [
+   null,
+   -1.345
+  ],
+  "tay_trai_a150_max": [
+   null,
+   9.245
+  ],
+  "tay_trai_chuong_som": [
+   0.207,
+   null
+  ],
+  "tay_trai_chuong_muon": [
+   null,
+   0.888
+  ],
+  "tay_trai_ldlj_xau": [
+   -9.338,
+   null
+  ],
+  "tay_trai_sparc_xau": [
+   -3.133,
+   null
+  ],
+  "tay_trai_sparc_dep": [
+   null,
+   -1.341
+  ],
+  "than_a150_max": [
+   null,
+   2.895
+  ],
+  "than_chuong_som": [
+   0.149,
+   null
+  ],
+  "than_chuong_muon": [
+   null,
+   0.805
+  ],
+  "than_ldlj_xau": [
+   -8.444,
+   null
+  ],
+  "than_sparc_xau": [
+   -2.133,
+   null
+  ],
+  "than_sparc_dep": [
+   null,
+   -1.36
+  ],
+  "chan_phai_dung_khong_hoi": [
+   null,
+   0
+  ],
+  "chan_trai_dung_khong_hoi": [
+   null,
+   0
+  ],
+  "dau_dung_khong_hoi": [
+   null,
+   0
+  ],
+  "hong_dung_khong_hoi": [
+   null,
+   0
+  ],
+  "tay_phai_dung_khong_hoi": [
+   null,
+   0
+  ],
+  "tay_trai_dung_khong_hoi": [
+   null,
+   0
+  ],
+  "than_dung_khong_hoi": [
+   null,
+   0
+  ]
+ },
+ "stroke_dur_max": 1.84,
+ "_nguon": [
+  "BeatFinalEN",
+  "BeatTest01",
+  "BeatTest02",
+  "BeatV1",
+  "BeatV2",
+  "BeatV3",
+  "IdleRpm01",
+  "IdleRpm02",
+  "IdleRpm03",
+  "IdleRpm04",
+  "IdleRpm05",
+  "IdleRpm06",
+  "IdleRpm09",
+  "IdleRpm10"
+ ],
+ "_ghi_chu": "bao hai phía từ min/max người thật +5% biên; hong/chan không cổng (NHIP.CO_CONG)"
+}

@@ -1,0 +1,3338 @@
+{
+ "alert_open_palm_barrier": {
+  "ma": "alert_open_palm_barrier",
+  "ten": "Lòng bàn tay chặn — cảnh báo dừng lại",
+  "y_nghia": "Dựng lòng bàn tay tạo rào chắn tượng trưng, ra hiệu dừng hoặc không tiếp tục.",
+  "khi_nao": "Khi cảnh báo ai đó đang đi sai hướng hoặc chuẩn bị làm điều nguy hiểm cần ngăn ngay.",
+  "mo_ta_en": "Weight loads onto left foot, right foot pivots on ball 5° outward — no stepping. Hips rotate 6° left. Spine stays tall at 4° minimal sway. Left shoulder pulls back slightly, right shoulder drives forward. Right arm rises swiftly to 126° arc, elbow at 61° bend, wrist extends so open palm faces outward as a barrier, fingers together, hand travel ~41cm upward over 1.0s then holds 1.5s. Left arm drops to side. Feet stay planted on the floor, no stepping.",
+  "giay": 2.8,
+  "cum": [
+   "Khoan đã",
+   "Đừng làm vậy",
+   "Dừng lại đi",
+   "Chưa được đâu",
+   "Không nên thế",
+   "Hãy suy nghĩ lại",
+   "Để tôi nói xong đã"
+  ]
+ },
+ "alert_side_step_pivot_gesture": {
+  "ma": "alert_side_step_pivot_gesture",
+  "ten": "Xoay hông sang — cảnh báo bao quát",
+  "y_nghia": "Xoay thân sang một bên rồi quét tay ngang không gian để cảnh báo về một nguy hiểm rộng, không chỉ một điểm.",
+  "khi_nao": "Khi cảnh báo cả nhóm người hoặc chỉ ra một tình huống nguy hiểm trải rộng, không phải chỉ nhắm vào một người.",
+  "mo_ta_en": "Weight loads onto left foot, right foot pivots on ball rotating 8° outward — no stepping. Hips rotate 7° left opening body to address wider space. Spine rotates 4° with hips, stays tall, no bending. Left shoulder pulls back 14°, right shoulder sweeps forward leading the arm. Right arm extends in a horizontal sweeping arc from body centerline outward ~41cm at shoulder height, elbow 61° to fully extended, palm faces down-oblique, 126° total arm travel over 1.8s. Face turns to follow the sweep. Feet stay planted on the floor, no stepping.",
+  "giay": 2.8,
+  "cum": [
+   "Tất cả mọi người nghe đây",
+   "Toàn bộ khu vực này",
+   "Không ai được vào đó",
+   "Nguy hiểm ở khắp nơi",
+   "Cả chỗ này không an toàn",
+   "Phải cảnh giác hết",
+   "Đừng ai chủ quan"
+  ]
+ },
+ "alert_slow_rise_hai_tay": {
+  "ma": "alert_slow_rise_hai_tay",
+  "ten": "Hai tay nâng chậm — cảnh báo ép bình tĩnh",
+  "y_nghia": "Nâng cả hai lòng bàn tay chậm rãi truyền thông điệp 'bình tĩnh lại, tình hình nghiêm trọng hơn em nghĩ'.",
+  "khi_nao": "Khi người nghe đang hoảng loạn hoặc phản ứng thái quá và cần được cảnh báo bình tĩnh để xử lý đúng.",
+  "mo_ta_en": "Weight centers evenly then settles 55% onto right foot, both heels press floor — no stepping. Hips rotate 5° right, pelvis stabilizes. Spine elongates upright, minimal 4° forward lean from ankles only. Both shoulders rise slightly then drop and widen. Both arms lift symmetrically from hips to waist height over 2.0s, elbows at 61° soft bend, both palms face downward open, hands travel ~41cm upward. Held 1.5s. Feet stay planted on the floor, no stepping.",
+  "giay": 3.5,
+  "cum": [
+   "Bình tĩnh nào",
+   "Từ từ thôi",
+   "Nghe tôi nói",
+   "Tình hình nghiêm lắm",
+   "Cần phải cẩn thận",
+   "Không đơn giản đâu",
+   "Đừng hành động vội"
+  ]
+ },
+ "alert_spine_tall_chin_drop": {
+  "ma": "alert_spine_tall_chin_drop",
+  "ten": "Dựng thẳng, cúi cằm — cảnh báo lạnh",
+  "y_nghia": "Toàn thân vươn thẳng và cằm hạ xuống tạo ánh mắt nhìn từ trên xuống, phát ra sắc thái cảnh báo lạnh lùng, kiểm soát.",
+  "khi_nao": "Khi người nói muốn cảnh báo bằng thái độ uy quyền, không hét lên mà chỉ nhìn thẳng vào mắt đối phương.",
+  "mo_ta_en": "Weight shifts 60% onto right foot, left foot presses toes into floor, heel grounded — no stepping. Hips rotate 7° right, locking stance. Spine extends vertically to maximum height, 4° posterior tilt, chest lifts. Chin drops 15° downward, eyes level forward, held for 2.0s. Both arms lower slowly to sides, elbows straight, hands relaxed open at thighs. Right shoulder 14° back. Complete stillness held 1.5s after reach. Feet stay planted on the floor, no stepping.",
+  "giay": 3.0,
+  "cum": [
+   "Anh hiểu tôi đang nói gì không",
+   "Tôi chỉ nói một lần thôi",
+   "Đừng để tôi phải nhắc lại",
+   "Coi chừng đó",
+   "Tôi không đùa đâu",
+   "Hậu quả sẽ rất nặng",
+   "Nghĩ kỹ đi"
+  ]
+ },
+ "alert_weight_shift_forward": {
+  "ma": "alert_weight_shift_forward",
+  "ten": "Dồn trọng tâm ra trước — cảnh báo trực tiếp",
+  "y_nghia": "Người nói áp sát không gian để nhấn mạnh mức độ nghiêm trọng, tạo áp lực chú ý.",
+  "khi_nao": "Khi cảnh báo thẳng mặt ai đó về một nguy hiểm sắp xảy ra và cần họ nghe ngay.",
+  "mo_ta_en": "Weight shifts onto the front (right) foot, heel of left foot slightly rises as toes press floor — no stepping. Hips rotate 7° forward-right. Spine extends upright +4°, chest opens. Both shoulders square forward, right arm lifts to chest height, index finger extends and points directly ahead at 126° total arm arc. Left hand stays low, palm open at side. Duration 2.5s. Feet stay planted on the floor, no stepping.",
+  "giay": 2.5,
+  "cum": [
+   "Nghe tôi nói đây",
+   "Anh phải hiểu điều này",
+   "Đây không phải chuyện đùa",
+   "Cẩn thận đấy",
+   "Tôi đang nói thật",
+   "Đừng có xem thường",
+   "Lần này khác rồi đó"
+  ]
+ },
+ "anchor_stance_firm_conclude": {
+  "ma": "anchor_stance_firm_conclude",
+  "ten": "Trụ vững – kết luận dứt khoát",
+  "y_nghia": "Người nói khẳng định kết luận cuối cùng, không còn gì cần bàn thêm.",
+  "khi_nao": "Khi chốt lại một quyết định hoặc tổng kết sau cuộc thảo luận dài.",
+  "mo_ta_en": "Weight shifts firmly onto left foot, right foot presses ball into floor for support. Hips rotate 7° left, spine stiffens upright with only 4° forward tilt. Both shoulders square forward. Right arm sweeps down from chest height to waist in a decisive chop, palm facing down, covering ~38 cm in 0.6 s. Left arm rests at side. Feet stay planted on the floor, no stepping.",
+  "giay": 2.5,
+  "cum": [
+   "Vậy là rõ rồi nhé",
+   "Đó là kết luận cuối cùng",
+   "Không còn gì để bàn nữa",
+   "Tóm lại là như vậy",
+   "Chúng ta thống nhất điều này",
+   "Đây là quyết định rồi",
+   "Mọi thứ đã được chốt"
+  ]
+ },
+ "apologetic_bow_hands_clasped": {
+  "ma": "apologetic_bow_hands_clasped",
+  "ten": "Khoanh tay cúi đầu xin lỗi",
+  "y_nghia": "Xin lỗi chân thành và có phần cung kính, thể hiện sự hối lỗi rõ ràng.",
+  "khi_nao": "Khi xin lỗi người lớn tuổi hơn hoặc người có vai vế cao hơn về một lỗi lầm thực sự.",
+  "mo_ta_en": "Weight shifts 55% onto right foot; hips rotate right ~5°, pelvis tilts forward ~4°; spine bends forward ~8° from lumbar, sustained lean; both shoulders pull inward and down ~14°, collarbones narrow ~3cm; hands clasp together at lower abdomen, forearms at ~50°; head bows ~25° chin-to-chest; hold 1.2s then slowly return over 1.0s. Feet stay planted on the floor, no stepping.",
+  "giay": 3.5,
+  "cum": [
+   "Con xin lỗi ạ, con sai rồi",
+   "Dạ em thật sự xin lỗi anh",
+   "Mình xin lỗi, mình không cố ý",
+   "Tôi thành thật xin lỗi ông",
+   "Dạ cháu xin phép lỗi cô",
+   "Em biết em có lỗi, em xin lỗi"
+  ]
+ },
+ "apologetic_head_tilt_hands_up_surrender": {
+  "ma": "apologetic_head_tilt_hands_up_surrender",
+  "ten": "Giơ tay đầu hàng xin lỗi",
+  "y_nghia": "Xin lỗi theo kiểu thừa nhận thẳng thắn, không chối cãi, đầu hàng hoàn toàn.",
+  "khi_nao": "Khi bị bắt quả tang hoặc bị người kia phân tích đúng hoàn toàn về lỗi của mình.",
+  "mo_ta_en": "Weight shifts 60% onto left foot; hips rotate left ~7°; spine stays upright ~3° lateral sway; both shoulders rise ~10° then drop as both arms lift symmetrically, elbows bent ~90°, palms face outward at chest height ~40cm from torso over 0.7s; forearms at ~55°; head tilts right ~15°, slight chin tuck; eyebrows raised, expression open and yielding; hold 1.0s then arms lower over 0.8s. Feet stay planted on the floor, no stepping.",
+  "giay": 3.0,
+  "cum": [
+   "Ừ thôi được rồi, mình sai",
+   "Okay okay, mình nhận lỗi",
+   "Thôi mình chịu thua, xin lỗi",
+   "Đúng rồi đúng rồi, mình xin lỗi",
+   "Không chối nữa, mình có lỗi thật",
+   "Ừ ừ mình hiểu rồi, sorry"
+  ]
+ },
+ "apologetic_one_shoulder_wince": {
+  "ma": "apologetic_one_shoulder_wince",
+  "ten": "Nhún vai một bên nhăn mặt",
+  "y_nghia": "Xin lỗi kiểu ngại ngùng, pha chút bối rối vì biết mình gây khó chịu.",
+  "khi_nao": "Khi làm chậm trễ ai đó hoặc lỡ quên điều đã hứa, cảm thấy có lỗi nhưng không quá nặng nề.",
+  "mo_ta_en": "Weight shifts 65% onto right foot; right hip drops ~5°, left hip lifts slightly; spine stays upright with ~3° lateral tilt left; left shoulder rises ~18° sharply over 0.4s while right shoulder stays neutral; left forearm floats up ~30°, palm facing out in small apologetic gesture ~35cm from body; head tilts ~12° toward raised shoulder, brow furrowed; hold 0.6s, release over 0.8s. Feet stay planted on the floor, no stepping.",
+  "giay": 2.5,
+  "cum": [
+   "Ơ chết, mình quên mất tiêu",
+   "Thôi chết rồi, muộn rồi à",
+   "Ui trời ơi, lỡ tay mất rồi",
+   "Ừ thì mình có lỗi thật",
+   "Biết rồi biết rồi, xin lỗi đi",
+   "Thông cảm nha, mình không để ý"
+  ]
+ },
+ "apologetic_shoulder_hunch_slight": {
+  "ma": "apologetic_shoulder_hunch_slight",
+  "ten": "Nhún vai xin lỗi nhẹ",
+  "y_nghia": "Thừa nhận lỗi nhỏ một cách thân thiện, không quá nghiêm trọng.",
+  "khi_nao": "Khi vô tình làm phiền ai đó hoặc nói sai một điều nhỏ trong cuộc trò chuyện thường ngày.",
+  "mo_ta_en": "Weight shifts 60% onto left foot; hips rotate left ~6°; spine stays tall, tilting forward only ~3°; both shoulders rise symmetrically ~12° over 0.8s, held 0.5s, then release over 0.6s; arms hang relaxed at sides, forearms drift inward ~15°; head dips forward ~10°, chin slightly tucked; soft apologetic smile. Feet stay planted on the floor, no stepping.",
+  "giay": 2.0,
+  "cum": [
+   "Ừ thôi xin lỗi nha",
+   "Thông cảm cho mình với",
+   "Mình lỡ miệng rồi, sorry",
+   "Không có ý đó đâu",
+   "Ối trời, mình quên mất",
+   "Xin lỗi nha, nhỏ thôi mà"
+  ]
+ },
+ "apologetic_shrink_arms_crossed": {
+  "ma": "apologetic_shrink_arms_crossed",
+  "ten": "Thu mình khoanh tay xấu hổ",
+  "y_nghia": "Xin lỗi kèm cảm giác xấu hổ sâu, muốn thu nhỏ bản thân lại.",
+  "khi_nao": "Khi bị chỉ ra sai lầm trước đám đông hoặc gây ra hậu quả nghiêm trọng hơn dự kiến.",
+  "mo_ta_en": "Weight shifts evenly, knees soften ~6°; hips rotate inward ~4°, pelvis tucks slightly; spine compresses downward ~4°, shoulders roll forward ~16° bilaterally, chest cavity narrows ~4cm; arms cross at lower chest, each forearm grips opposite elbow, elbows ~30cm apart; head droops ~22° forward, gaze downward; whole posture shrinks over 1.2s, held 1.5s, slow release 1.0s. Feet stay planted on the floor, no stepping.",
+  "giay": 4.0,
+  "cum": [
+   "Mình xấu hổ lắm, xin lỗi mọi người",
+   "Trời ơi sao mình lại làm vậy",
+   "Mình không ngờ lại ra nông nỗi này",
+   "Xin lỗi, mình thật sự có lỗi",
+   "Mình hiểu mình đã sai rồi",
+   "Không biết nói gì hơn, xin lỗi"
+  ]
+ },
+ "back_shift_one_hand_wave_off": {
+  "ma": "back_shift_one_hand_wave_off",
+  "ten": "Vẫy tay – gạt khéo",
+  "y_nghia": "Gạt bỏ đề nghị nhẹ nhàng kiểu 'thôi khỏi', giữ sự thoải mái trong không khí.",
+  "khi_nao": "Khi từ chối trong tình huống thân mật, muốn kết thúc chủ đề mà không tạo căng thẳng.",
+  "mo_ta_en": "Weight rolls back onto right heel (55/45), hips shift back 2cm and rotate left 6°, spine stays upright with 4° extension, left shoulder stays neutral while right shoulder drops 1cm, right arm lifts to 120° elbow with forearm at 55°, wrist flicks outward in a small dismissive wave 35cm arc over 0.5s, hand returns to hip level in 0.8s, head turns right 18° with a brief downward nod. Total motion 2.2s. Feet stay planted on the floor, no stepping.",
+  "giay": 2.2,
+  "cum": [
+   "Thôi thôi khỏi đi bạn ơi",
+   "Ây dà không cần đâu",
+   "Cái đó mình không dính vào đâu",
+   "Khỏi khỏi mình ổn rồi",
+   "Bạn cứ tự nhiên đừng lo mình",
+   "Mình không có nhu cầu đâu"
+  ]
+ },
+ "both_feet_press_solemn_conclude": {
+  "ma": "both_feet_press_solemn_conclude",
+  "ten": "Hai chân trụ – kết luận trang nghiêm",
+  "y_nghia": "Người nói đưa ra kết luận mang tính nghiêm túc, có trách nhiệm hoặc đầy cảm xúc.",
+  "khi_nao": "Khi kết thúc một cuộc nói chuyện quan trọng, xúc động, hoặc đưa ra cam kết trước nhiều người.",
+  "mo_ta_en": "Both feet press symmetrically into the floor, weight evenly distributed, knees straighten to neutral from slight 8° bend over 1.0 s. Hips settle centered, 0° rotation, subtle 0.5 cm downward compression. Spine elongates upright, 4° subtle straightening. Both arms lower slowly from chest to sides, palms facing inward, descending ~40 cm in 1.2 s. Shoulders drop and relax 14°. Head bows gently 12° then returns to level. Feet stay planted on the floor, no stepping.",
+  "giay": 4.0,
+  "cum": [
+   "Đây là điều tôi muốn nói cuối cùng",
+   "Tôi hy vọng mọi người hiểu được",
+   "Đó là tất cả những gì tôi có thể làm",
+   "Chúng ta phải chịu trách nhiệm về điều này",
+   "Tôi xin cam kết điều này trước mọi người",
+   "Đây không phải chuyện nhỏ, hãy ghi nhớ",
+   "Kết thúc, tôi chỉ muốn nói rằng",
+   "Cảm ơn mọi người đã lắng nghe"
+  ]
+ },
+ "chest_tap_commitment": {
+  "ma": "chest_tap_commitment",
+  "ten": "Chạm ngực cam kết",
+  "y_nghia": "Tỏ lòng trung thực và sự giàn dạn từ trong sâu đáy tim.",
+  "khi_nao": "Khi hứa điều gì đó liên quan đến cảm xúc sâu sắc hoặc danh dự cá nhân.",
+  "mo_ta_en": "Center of gravity anchors on both feet equally. Hip rotates inward 7° toward listener. Torso holds neutral (4° spine flex). Left arm raises to 96° wrist, fingers extended, taps sternum twice with measured tempo (1.5-sec interval). Right arm hangs at 126° elbow, relaxed. Shoulders drop slightly. Feet rooted, weight even.",
+  "giay": 2.8,
+  "cum": [
+   "Từ tâm tôi",
+   "Tôi đảm bảo",
+   "Trên danh dự",
+   "Hứa thật lòng",
+   "Không lừa anh/chị",
+   "Bằng tất cả"
+  ]
+ },
+ "compare_buildup_crescendo": {
+  "ma": "compare_buildup_crescendo",
+  "ten": "So sánh dồn dập tăng tiến",
+  "y_nghia": "Người nói lần lượt chồng các ưu điểm từng bên, đẩy cảm xúc lên đến điểm nhấn cuối.",
+  "khi_nao": "Khi lập luận so sánh có cấu trúc liệt kê nhiều tiêu chí, giọng tăng dần để dẫn đến kết luận.",
+  "mo_ta_en": "Begins centered, weight 50-50; first beat shifts left 60%, left hip 5°, left index finger extends 30cm — 0.6s; second beat returns center then shifts right 60%, right hip 5°, right hand opens 35cm — 0.6s; third beat shifts left again 65%, left arm sweeps 120° upward 42cm with stronger velocity over 1.0s, spine 4° rotation matching arm, shoulder rises 12°. Feet stay planted on the floor, no stepping.",
+  "giay": 3.4,
+  "cum": [
+   "Thứ nhất là... thứ hai là... và quan trọng nhất là...",
+   "Cứ nhìn vào từng điểm một",
+   "Điểm này, rồi điểm kia, rồi xem",
+   "Cộng hết lại thì thấy ngay",
+   "Tiêu chí đầu... tiêu chí hai... tiêu chí ba...",
+   "So từng cái một sẽ hiểu ngay thôi"
+  ]
+ },
+ "compare_dismiss_one_side": {
+  "ma": "compare_dismiss_one_side",
+  "ten": "Gạt một bên, nhấn bên kia",
+  "y_nghia": "Người nói bác bỏ một lựa chọn và dứt khoát nghiêng về phía còn lại.",
+  "khi_nao": "Khi đã đưa ra hai phương án nhưng muốn kết luận rằng một cái rõ ràng hơn hẳn.",
+  "mo_ta_en": "Weight shifts left 65%, left hip rotates 6° outward, left hand sweeps dismissively 40cm rightward at waist height over 0.6s; then weight pivots decisively right 75%, right hip drives 7° forward-right, spine rotates 4° right, right arm raises 120° at elbow, palm forward and held steady for 1.4s signaling the chosen side. Feet stay planted on the floor, no stepping.",
+  "giay": 2.8,
+  "cum": [
+   "Cái đó thôi, bỏ cái kia đi",
+   "Không cần so sánh nữa, rõ ràng là...",
+   "Cái này hơn hẳn rồi",
+   "Cái kia không đáng để xét nữa",
+   "Dứt khoát chọn cái này luôn",
+   "Không có gì phải bàn thêm"
+  ]
+ },
+ "compare_lean_left_right": {
+  "ma": "compare_lean_left_right",
+  "ten": "Nghiêng so sánh trái-phải",
+  "y_nghia": "Người nói đặt hai lựa chọn vào hai phía không gian, dùng cơ thể làm cân đo.",
+  "khi_nao": "Khi liệt kê hai phương án đối lập và muốn nhấn mạnh sự khác biệt rõ ràng.",
+  "mo_ta_en": "Weight shifts left (70%) onto left foot, left hip drops 7°, spine rotates 4° left, left shoulder dips 3°, left hand extends 38cm palm-up presenting option A over 1.2s; then weight transfers right (70%), right hip drops 7°, spine rotates 4° right, right hand extends 38cm palm-up presenting option B over 1.2s. Feet stay planted on the floor, no stepping.",
+  "giay": 3.2,
+  "cum": [
+   "Cái này thì như thế này, còn cái kia thì...",
+   "Một bên là... một bên lại là...",
+   "So sánh thì thấy ngay thôi",
+   "Bên này được cái... nhưng bên kia...",
+   "Hai cái hoàn toàn khác nhau",
+   "Nếu chọn cái này thì... còn nếu chọn kia..."
+  ]
+ },
+ "compare_mirror_echo": {
+  "ma": "compare_mirror_echo",
+  "ten": "Đối chiếu phản chiếu",
+  "y_nghia": "Người nói dùng hai tay đối xứng để cho thấy hai thứ giống nhau về hình thức nhưng khác về bản chất.",
+  "khi_nao": "Khi muốn nhấn mạnh rằng hai thứ trông tương tự nhau nhưng thực ra hoàn toàn khác nhau ở điểm cốt lõi.",
+  "mo_ta_en": "Weight centered, feet hip-width; both hands rise symmetrically to chest height, palms facing each other 40cm apart over 0.8s — mirroring; then weight shifts left 60%, left hip 7°, spine 4° left, left hand stays fixed while right hand drops 15cm and tilts 30° downward over 1.0s breaking symmetry, right shoulder dips 10° to signal divergence. Hold asymmetric pose 1.0s. Feet stay planted on the floor, no stepping.",
+  "giay": 3.6,
+  "cum": [
+   "Nhìn thì giống vậy đó nhưng mà...",
+   "Bề ngoài như nhau, bên trong khác hoàn toàn",
+   "Đừng nhầm, trông vậy thôi chứ...",
+   "Tưởng như nhau nhưng thật ra không phải",
+   "Hình thức giống nhau, bản chất thì ngược lại",
+   "Cùng cái tên nhưng hai thứ khác nhau hoàn toàn"
+  ]
+ },
+ "compare_pivot_left_then_right": {
+  "ma": "compare_pivot_left_then_right",
+  "ten": "Xoay so sánh trái-phải",
+  "y_nghia": "Đối chiếu rõ ràng hai phương án hoặc hai đối tượng bằng cách xoay nửa người sang từng bên.",
+  "khi_nao": "Khi liệt kê hai lựa chọn và muốn người nghe hình dung sự tương phản rõ ràng, ví dụ 'cái này thì thế này, cái kia thì thế kia'.",
+  "mo_ta_en": "Weight shifts onto left foot; hips rotate ~7° left, spine follows ~4°, left shoulder leads slightly; right arm sweeps left at ~110° arc over ~0.8s. Pause 0.4s. Weight transfers to right foot; hips rotate ~7° right, spine realigns ~4°, right arm sweeps right at ~110° arc over ~0.8s. Wrists loose, fingers relaxed open. Feet stay planted on the floor, no stepping.",
+  "giay": 3.5,
+  "cum": [
+   "bên này thì khác",
+   "so với cái kia",
+   "một bên là thế này",
+   "còn bên kia lại",
+   "hai cái hoàn toàn khác nhau",
+   "mình đặt cạnh nhau xem"
+  ]
+ },
+ "compare_weigh_uncertain": {
+  "ma": "compare_weigh_uncertain",
+  "ten": "Cân nhắc lưỡng lự",
+  "y_nghia": "Người nói thể hiện sự do dự, chưa ngả hẳn về phía nào.",
+  "khi_nao": "Khi đang đắn đo giữa hai lựa chọn và muốn diễn đạt rằng mình chưa quyết định.",
+  "mo_ta_en": "Weight rocks gently left 55% for 0.8s then right 55% for 0.8s, repeating twice; hips sway ±7° side to side, spine stays upright rotating only 4°, both forearms rise to waist height with palms facing up, wrists tilting alternately left and right 20° as if balancing a scale, hands travel ±35cm laterally. Feet stay planted on the floor, no stepping.",
+  "giay": 3.0,
+  "cum": [
+   "Ừm... cũng khó nói lắm",
+   "Cái nào cũng có cái hay của nó",
+   "Tôi chưa chắc lắm thật ra",
+   "Hai cái ngang nhau thôi",
+   "Biết chọn cái nào bây giờ",
+   "Mỗi cái có một cái lợi riêng"
+  ]
+ },
+ "conspiratorial_weight_drop": {
+  "ma": "conspiratorial_weight_drop",
+  "ten": "Dồn người kể bí mật hài",
+  "y_nghia": "Dồn trọng tâm về phía trước như sắp kể bí mật buồn cười, tạo không khí đồng lõa.",
+  "khi_nao": "Khi sắp tiết lộ một điều ngớ ngẩn hoặc kể chuyện thầm với bạn bè.",
+  "mo_ta_en": "Weight drives forward onto balls of both feet, knees bend ~8°, hips push forward 0.5cm with ~6° internal rotation, spine angles forward ~4° from hips upward. Right arm reaches forward, elbow at ~60°, index finger points lightly then retracts — arc span ~38cm over 1.0s. Left hand cups beside mouth. Head leans in 5cm, voice drops. Hold 2.0s, then ease back over 0.8s. Feet stay planted on the floor, no stepping.",
+  "giay": 3.5,
+  "cum": [
+   "Nè nè cho tao kể cái này",
+   "Bạn biết không chuyện này bí lắm",
+   "Không được nói cho ai biết nha",
+   "Mà thật ra hắn ấy...",
+   "Thề giữa chúng mình thôi nha",
+   "Tao biết cái này mới chết",
+   "Nghe xong đừng có cười to",
+   "Bạn chuẩn bị tinh thần chưa?"
+  ]
+ },
+ "contrast_open_palms_alternating": {
+  "ma": "contrast_open_palms_alternating",
+  "ten": "Lòng bàn tay mở so sánh xen kẽ",
+  "y_nghia": "Nhấn mạnh hai thứ cân bằng nhau nhưng bản chất khác nhau, không cái nào hơn cái nào.",
+  "khi_nao": "Khi muốn nói hai thứ đều có giá trị theo cách riêng, không phán xét, ví dụ 'tùy người, tùy hoàn cảnh'.",
+  "mo_ta_en": "Weight settles onto left foot; hips shift ~7° left, spine stable ~4°; left arm extends ~125° from body, palm facing up at chest height, traveling ~40cm left over 0.7s. Weight transfers to right foot; hips rotate ~7° right; right arm mirrors the motion, palm up, ~40cm right over 0.7s. Alternates once each side, elbows soft. Feet stay planted on the floor, no stepping.",
+  "giay": 3.0,
+  "cum": [
+   "cái nào cũng có cái hay",
+   "mỗi thứ một kiểu",
+   "không nhất thiết phải chọn",
+   "tùy theo hoàn cảnh thôi",
+   "đều có lý do của nó",
+   "hai cái đều được cả"
+  ]
+ },
+ "crouch_whisper": {
+  "ma": "crouch_whisper",
+  "ten": "Cúi thấp, thì thầm",
+  "y_nghia": "Đây là bí mật lớn, tôi phải cúi xuống gần để nói.",
+  "khi_nao": "Khi người nói muốn chia sẻ điều cực kỳ bí mật trong không gian công cộng hoặc sợ bị lộ.",
+  "mo_ta_en": "Weight settles onto balls of both feet, knees bend 12° (slight crouch). Hips drop 6° forward angle, maintaining 4° minimal rotation. Lumbar spine flexes conservatively 5° downward only. Torso leans 8° toward listener, shoulders round inward 8°. Both arms fold across body, right hand near left shoulder ~35cm. Head drops 25° forward, mouth near listener's ear. Feet flex but remain planted, no stepping. 3.2 seconds.",
+  "giay": 3.2,
+  "cum": [
+   "Cúi xuống nghe nào",
+   "Chuyện này rất nhạy cảm",
+   "Chỉ nói với mình",
+   "Không được nói ra",
+   "Bảo mật tuyệt đối",
+   "Nghe kỹ đó"
+  ]
+ },
+ "deep_bow_prolonged_gratitude": {
+  "ma": "deep_bow_prolonged_gratitude",
+  "ten": "Cúi sâu cảm ơn tha thiết",
+  "y_nghia": "Lòng biết ơn sâu sắc, nặng tình — dành cho ân nghĩa lớn khó quên.",
+  "khi_nao": "Khi kết thúc cuộc trò chuyện dài và người kia vừa làm điều thay đổi cuộc đời mình, như 'nhờ có anh mà em mới được như hôm nay'.",
+  "mo_ta_en": "Weight shifts forward onto both feet, toes gripping floor; both knees flex ~8°; hips tilt forward ~6°; spine inclines forward ~25° slowly over 1.2s — deepest bow in set; both arms lower and extend slightly forward ~15cm at thigh level, palms facing inward, hands open; shoulders drop ~10° and round forward; head bows ~28°; entire held position sustained 1.0s, then slow controlled return over 1.4s. Feet stay planted on the floor, no stepping.",
+  "giay": 4.0,
+  "cum": [
+   "nhờ có anh mà em mới được vậy",
+   "em cảm ơn chị từ tận đáy lòng",
+   "ơn này em không biết lấy gì đáp lại",
+   "nếu không có anh thì em không biết sao",
+   "chị đã giúp em rất nhiều",
+   "em sẽ không bao giờ quên điều này"
+  ]
+ },
+ "dismissive_left_accent_right": {
+  "ma": "dismissive_left_accent_right",
+  "ten": "Gạt trái – nhấn phải",
+  "y_nghia": "Bác bỏ một phương án và khẳng định phương án còn lại vượt trội hơn.",
+  "khi_nao": "Khi phản bác ý kiến đối lập rồi kết luận thiên về một phía, kiểu 'cái đó không ổn, cái này mới đúng'.",
+  "mo_ta_en": "Weight loads onto left foot; hips rotate ~7° left, spine ~4°; left forearm sweeps outward ~60° in a brief dismissive flick ~35cm over 0.5s, wrist loose. Weight shifts firmly to right foot; hips rotate ~7° right, chest opens right; right arm rises to ~130° with index finger extended, traveling ~42cm over 0.9s, held 0.5s. Feet stay planted on the floor, no stepping.",
+  "giay": 3.2,
+  "cum": [
+   "cái đó thì không được",
+   "không phải như vậy",
+   "bỏ cái đó đi",
+   "còn cái này thì khác",
+   "cái này mới thực sự",
+   "rõ ràng phải chọn cái này"
+  ]
+ },
+ "double_foot_press_single_palm_down": {
+  "ma": "double_foot_press_single_palm_down",
+  "ten": "Hai chân trụ ấn tay xuống",
+  "y_nghia": "Đặt dấu chấm hết cho một ý kiến, chặn đứng mọi phản bác.",
+  "khi_nao": "Khi muốn kết thúc tranh luận hoặc ngăn người kia tiếp tục phản đối.",
+  "mo_ta_en": "Weight presses down equally through both heels, grounding stance. Hips rotate 5° left. Spine stays neutral at 4° extension. Right shoulder drops 14° forward. Right elbow extends, forearm angling 61° downward, palm faces floor at 96° wrist flex, pushing downward 20cm over 0.8s. Left arm rests at side. Feet stay planted on the floor, no stepping.",
+  "giay": 2.0,
+  "cum": [
+   "Thôi được rồi",
+   "Không cần nói thêm",
+   "Vậy là xong",
+   "Dừng lại đi",
+   "Tôi đã quyết rồi",
+   "Không bàn nữa nhé"
+  ]
+ },
+ "emphasize_number_ascending": {
+  "ma": "emphasize_number_ascending",
+  "ten": "Nhấn mạnh số tăng dần",
+  "y_nghia": "Chỉ ra xu hướng tăng, sự gia tăng hoặc những con số ngày càng lớn hơn.",
+  "khi_nao": "Khi nói về sự phát triển, tăng trưởng, hoặc từ thấp lên cao trong số liệu.",
+  "mo_ta_en": "Weight transfers to right foot (3cm). Right hip pushes forward 8°. Spine lifts, extends 4° upward. Right shoulder drives up 15°. Right arm raises from 90° to 140° over 1.5 seconds, palm facing inward. Hand position moves upward 25cm in arc. Left arm gestures supportively at 60°. Head tilts back 10°. Feet stay planted on the floor, no stepping.",
+  "giay": 3.5,
+  "cum": [
+   "Tăng dần",
+   "Phát triển theo",
+   "Từ thấp lên cao",
+   "Gia tăng liên tục",
+   "Lớn hơn từng bước",
+   "Xu hướng tăng"
+  ]
+ },
+ "emphasize_number_contrast": {
+  "ma": "emphasize_number_contrast",
+  "ten": "Nhấn mạnh sự đối lập số",
+  "y_nghia": "So sánh hai con số trái ngược nhau, tạo hiệu ứng tương phản mạnh.",
+  "khi_nao": "Khi đối chiếu hai con số hoàn toàn khác nhau, như trước-sau hoặc cao-thấp.",
+  "mo_ta_en": "Weight shifts alternately: right foot (3cm) then left foot (3cm) over 1.2 seconds. Hips counter-rotate 7° each direction. Spine minimal 4°. Right arm extends high 135° (showing first number), left arm extends low 50° (showing second number), palms face opposite directions. Shoulders blade-pinch 16°. Head swivels left-right 15° tracking each number. Hold peak 1.5 seconds. Feet stay planted on the floor, no stepping.",
+  "giay": 3.2,
+  "cum": [
+   "Mặt khác",
+   "Ngược lại",
+   "So sánh với",
+   "Nhưng mà",
+   "Trái ngược hoàn toàn",
+   "Khác hẳn"
+  ]
+ },
+ "emphasize_number_multiplicity": {
+  "ma": "emphasize_number_multiplicity",
+  "ten": "Nhấn mạnh nhiều con số",
+  "y_nghia": "Liệt kê hoặc so sánh giữa các con số khác nhau để cho thấy sự phong phú, đa dạng.",
+  "khi_nao": "Khi đang nêu các con số khác nhau, tỷ lệ, hoặc so sánh dữ liệu trong cuộc nói chuyện.",
+  "mo_ta_en": "Weight centered, slight shift to left foot (1.5cm). Both hips rotate outward 7° each. Spine straightens 4°. Both shoulders level, raise 10°. Both arms extend to 110° symmetrically, palms face upward at shoulder height, fingers spread. Head nods gently forward 8°. Eyes scan horizontally. Hold 2.0 seconds. Feet stay planted on the floor, no stepping.",
+  "giay": 3.0,
+  "cum": [
+   "Có nhiều con số",
+   "Các tỷ lệ khác nhau",
+   "So sánh với nhau",
+   "Dữ liệu đa chiều",
+   "Ngoài ra còn",
+   "Thêm vào đó"
+  ]
+ },
+ "emphasize_number_one": {
+  "ma": "emphasize_number_one",
+  "ten": "Nhấn mạnh số một",
+  "y_nghia": "Chỉ ra rằng điều này là duy nhất, quan trọng nhất hoặc bước đầu tiên.",
+  "khi_nao": "Khi giải thích lý do chính hoặc điểm quan trọng nhất trong cuộc trò chuyện.",
+  "mo_ta_en": "Weight shifts onto right foot (2cm inward). Hip rotates left 7°. Spine extends 4° at chest. Right shoulder raises 14°. Right arm extends to 126° with elbow at 61°, index finger points forward at sternum height. Hold 1.5 seconds. Left arm rests at side. Head tilts right 12°. Feet stay planted on the floor, no stepping.",
+  "giay": 2.5,
+  "cum": [
+   "Cái thứ nhất là",
+   "Đó là điểm chính",
+   "Quan trọng nhất",
+   "Bước đầu tiên",
+   "Yếu tố then chốt"
+  ]
+ },
+ "emphasize_number_precise": {
+  "ma": "emphasize_number_precise",
+  "ten": "Nhấn mạnh con số chính xác",
+  "y_nghia": "Làm rõ một con số cụ thể, chính xác, không xấp xỉ hay tương đối.",
+  "khi_nao": "Khi cần khẳng định một số liệu cụ thể, chính xác trong cuộc trò chuyện về thống kê hay dữ liệu.",
+  "mo_ta_en": "Weight steady on both feet. Right hand raises to chest level at 100°, elbow 65°, fingers held together tightly in pinch gesture at thumb-index. Left hand supports at waist 45°. Hip stays neutral with 2° micro-rotation. Spine locked at 4°. Shoulders level 12°. Eyes focus downward at hand gesture. Hold 2.5 seconds with micro-tremor of precision. Feet stay planted on the floor, no stepping.",
+  "giay": 2.5,
+  "cum": [
+   "Đúng là",
+   "Con số cụ thể",
+   "Chính xác là",
+   "Không phải xấp xỉ",
+   "Rõ ràng là",
+   "Chính là"
+  ]
+ },
+ "exasperated_chest_open": {
+  "ma": "exasperated_chest_open",
+  "ten": "Căng ngực chịu đựng cùng cực",
+  "y_nghia": "Hít thở sâu cố nén bức xúc, ngực phồng lên như sắp nổ tung.",
+  "khi_nao": "Khi người nói buộc phải kìm lại cơn giận nhưng cơ thể đã phản lộ hết sự tức tối.",
+  "mo_ta_en": "Weight sinks evenly into both feet, knees bend slightly 8°, grounding the body. Hips rotate 5° left, spine locks upright with 4° of rigid extension — chest inflates visibly. Shoulders pull back 14°, arms drop stiffly to sides at 128° from torso, forearms 60°, fists clench at hip level, hands travel outward ~10cm. Chin lifts 25°, jaw tightens. Duration 3.0s. Feet stay planted on the floor, no stepping.",
+  "giay": 3.0,
+  "cum": [
+   "Thôi được rồi...",
+   "Tôi không nói nữa đâu.",
+   "Ừ, tùy anh thôi.",
+   "Cứ làm theo ý anh đi.",
+   "Hít thở nào...",
+   "Bình tĩnh, bình tĩnh...",
+   "Tôi chịu, tôi chịu rồi."
+  ]
+ },
+ "excited_rise_both_arms_overhead": {
+  "ma": "excited_rise_both_arms_overhead",
+  "ten": "Dang tay lên — bùng nổ toàn thân",
+  "y_nghia": "Năng lượng phấn khích quá lớn không chứa được, toàn thân bung ra tối đa theo chiều đứng.",
+  "khi_nao": "Khi nghe tin cực kỳ vui hoặc kết quả vượt xa mong đợi, phản ứng tự phát không kìm được.",
+  "mo_ta_en": "Weight presses evenly through both forefeet, knees snap from ~15° bent to fully extended, hips extend and tilt anteriorly ~8°, lumbar spine extends ~4° maintaining core engagement, thoracic spine opens, both arms sweep laterally then overhead reaching ~160° shoulder flexion with elbows soft ~150°, palms facing inward ~40cm apart at peak, head tilts back ~20°, deep inhale audible. Full rise in 0.7s, overhead hold 0.5s, arms float down in 1.8s. Feet stay planted on the floor, no stepping.",
+  "giay": 3.0,
+  "cum": [
+   "Ôi trời ơi!",
+   "Không thể tin nổi!",
+   "Quá đỉnh luôn!",
+   "Thật hả?! Thật hả?!",
+   "Hú hú hú!",
+   "Tuyệt vời quá đi!",
+   "Mừng quá mừng quá!"
+  ]
+ },
+ "excited_rise_chest_open": {
+  "ma": "excited_rise_chest_open",
+  "ten": "Vươn ngực — phấn khích bừng lên",
+  "y_nghia": "Cơ thể bung mở khi nhận được tin tốt bất ngờ, ngực căng ra như hít thở được.",
+  "khi_nao": "Ngay khi nghe tin vui đột ngột hoặc hiểu ra điều gì đó thú vị trong cuộc trò chuyện.",
+  "mo_ta_en": "Weight shifts forward onto the balls of both feet (~60% load), ankles press down, knees extend from slight bend to near-straight, hips tilt anteriorly ~7°, lumbar spine extends ~4°, chest lifts and opens outward, shoulders draw back ~12°, both arms swing open laterally to ~110° abduction in 0.8s, chin rises ~20°, head tilts back slightly. Duration 2.2s total. Feet stay planted on the floor, no stepping.",
+  "giay": 2.2,
+  "cum": [
+   "Ôi thật không?",
+   "Hay quá trời!",
+   "Không thể tin được!",
+   "Thật sự á?",
+   "Tuyệt vời luôn!",
+   "Giỏi thật đó!",
+   "Cái này ngon lắm!"
+  ]
+ },
+ "excited_rise_fist_pump_single": {
+  "ma": "excited_rise_fist_pump_single",
+  "ten": "Vươn lên — đấm tay thắng lợi",
+  "y_nghia": "Xả năng lượng phấn khích theo hướng lên trên, như đang ăn mừng một chiến thắng nhỏ.",
+  "khi_nao": "Khi xác nhận được điều mình đoán đúng, hoặc nghe kết quả tốt vượt kỳ vọng.",
+  "mo_ta_en": "Weight drives onto left foot (~65%), right heel lifts slightly pivoting on ball, hips rotate left ~7°, spine straightens from neutral to ~4° extension, right shoulder drives upward and forward, right elbow extends rapidly punching upward to ~130° shoulder flexion, fist clenched, left arm swings back counterbalance ~40° extension, chin lifts ~25°. Peak at 0.6s, hold 0.4s, return 1.2s. Feet stay planted on the floor, no stepping.",
+  "giay": 2.2,
+  "cum": [
+   "Đúng rồi đó!",
+   "Mình biết mà!",
+   "Thắng rồi!",
+   "Ăn rồi nhé!",
+   "Chuẩn luôn!",
+   "Xong rồi bạn ơi!",
+   "Vậy là được rồi!"
+  ]
+ },
+ "excited_rise_sway_side_affirm": {
+  "ma": "excited_rise_sway_side_affirm",
+  "ten": "Vươn — lắc người hào hứng xác nhận",
+  "y_nghia": "Phấn khích pha thân thiện, cơ thể nảy nhẹ sang bên như đang tán đồng hết mình.",
+  "khi_nao": "Khi cả hai đang đồng ý với nhau về điều gì đó thú vị, không khí sôi nổi và vui vẻ.",
+  "mo_ta_en": "Weight shifts right ~65%, right knee softens ~8°, hips sway right ~6° rotating ~7° rightward, spine stays long with ~4° lateral flex right (not collapsing), shoulders follow the hip wave tilting right ~12°, right arm drops relaxed while left arm swings across body to ~100° shoulder flexion and ~80° elbow flexion, open palm faces right interlocutor ~38cm from torso, head bobs right ~15° with a nod, then weight transfers left mirroring in 1.4s. Feet stay planted on the floor, no stepping.",
+  "giay": 2.8,
+  "cum": [
+   "Ừ ừ đúng rồi!",
+   "Tôi cũng nghĩ vậy!",
+   "Hợp ý nhau ghê!",
+   "Vui ghê bạn ơi!",
+   "Hay thiệt hay thiệt!",
+   "Đồng ý liền!",
+   "Chuẩn không cần chỉnh!"
+  ]
+ },
+ "excited_rise_tiptoe_lean_forward": {
+  "ma": "excited_rise_tiptoe_lean_forward",
+  "ten": "Kiễng chân — vươn tới phía trước",
+  "y_nghia": "Toàn thân hướng về phía đối thoại vì không kìm được sự háo hức muốn tham gia ngay.",
+  "khi_nao": "Khi đang nghe chuyện hấp dẫn và bản thân muốn nói ngay, người ngả về phía người kia.",
+  "mo_ta_en": "Both heels rise ~3cm pressing onto balls of feet, knees straighten, hips shift forward ~4cm and rotate minimally ~5°, thoracic spine remains neutral (~4° extension maintaining uprightness), trunk leans forward ~8° from ankle joint (not waist), shoulders remain level and square, both forearms lift to ~90° flexion with open palms reaching forward ~35cm, head extends forward ~5cm, eyes widen. Rise phase 0.5s, hold 1.5s, lower 0.8s. Feet stay planted on the floor, no stepping.",
+  "giay": 2.8,
+  "cum": [
+   "Chờ chờ chờ!",
+   "Ý tôi là—",
+   "Khoan đã khoan!",
+   "Thật ra là vậy này!",
+   "Cái đó hay lắm nè!",
+   "Tôi biết cái này!",
+   "Nghe nè nghe nè!"
+  ]
+ },
+ "exhausted_admission_sink": {
+  "ma": "exhausted_admission_sink",
+  "ten": "Chùng gối thừa nhận kiệt sức",
+  "y_nghia": "Cơ thể buông lơi nhẹ, như không còn đủ năng lượng để giả vờ mọi thứ đang ổn.",
+  "khi_nao": "Khi người nói thừa nhận rằng mình đang mệt mỏi, quá tải, hoặc không thể tiếp tục như trước.",
+  "mo_ta_en": "Both knees bend slowly and simultaneously ~8°, weight evenly distributed, hips descend 4–5 cm over 1.2 s with no lateral shift; spine yields ~4° into gentle forward compression; shoulders droop symmetrically 3 cm, arms fall to sides with elbows ~150°, hands ~40 cm apart near thighs, fingers slightly open; head droops 18° forward, neck relaxed; torso holds low for 2 s in a still, heavy rest before gradual rise over 1 s. Feet stay planted on the floor, no stepping.",
+  "giay": 4.0,
+  "cum": [
+   "Mình mệt thật rồi, không giấu được nữa",
+   "Thú thật là mình không còn sức nữa",
+   "Mình đã cố gắng hết mức có thể rồi",
+   "Nó quá sức mình rồi",
+   "Mình không biết kéo dài thêm được không",
+   "Cứ làm hoài mà không thấy đi đến đâu",
+   "Mình cảm thấy trống không",
+   "Mình không okay đâu, thật ra là vậy",
+   "Kiệt sức rồi bạn ơi"
+  ]
+ },
+ "explosive_stand_ground": {
+  "ma": "explosive_stand_ground",
+  "ten": "Căng đứng giữ vị trí khi bùng phát",
+  "y_nghia": "Cơ thể vươn thẳng tối đa, dang rộng, chiếm không gian để khẳng định lập trường khi bức xúc vỡ ra.",
+  "khi_nao": "Khi người nói không thể chịu đựng thêm và quyết định bộc phát thẳng thắn, không nhượng bộ nữa.",
+  "mo_ta_en": "Weight distributes evenly both feet, knees push straight, legs brace firmly 8°. Hips rotate 7° right then snap back to center. Spine elongates and locks at full height, 4° posterior tilt — body towers upward. Shoulders flare wide 14°, both arms sweep outward-up to 126°, forearms open 61°, hands spread fingers wide at shoulder height traveling ~43cm. Head lifts 25°, chin out. Duration 4.0s. Feet stay planted on the floor, no stepping.",
+  "giay": 4.0,
+  "cum": [
+   "Đủ rồi đó!",
+   "Tôi không chịu nữa!",
+   "Dừng lại đi!",
+   "Nói thẳng luôn nha!",
+   "Tôi phải nói thật rồi!",
+   "Không được như vậy!",
+   "Chấm dứt chuyện này đi!",
+   "Tôi có quyền nói chứ?"
+  ]
+ },
+ "firm_nod_promise": {
+  "ma": "firm_nod_promise",
+  "ten": "Gật đầu vững chắc",
+  "y_nghia": "Khẳng định lời hứa với sự tự tin và quyết tâm.",
+  "khi_nao": "Khi ai đó hứa sẽ làm điều gì đó và muốn thể hiện cam kết chắc chắn.",
+  "mo_ta_en": "Weight shifts slightly onto left leg (65% load). Spine maintains rigid posture (+4° rotation only), shoulders level at 14°. Neck flexes down 25° with deliberate 3-count pause midway. Right arm stays at 126° elbow, palm facing body, held steady. Chin tucks once, resolute. Feet planted, no shift.",
+  "giay": 2.2,
+  "cum": [
+   "Tôi chắc chắn",
+   "Hứa với anh/chị",
+   "Sẽ làm ngay",
+   "Tin tôi đi",
+   "Không thể sai",
+   "Cam kết 100%"
+  ]
+ },
+ "firm_stance_chest_open": {
+  "ma": "firm_stance_chest_open",
+  "ten": "Trụ vững mở ngực",
+  "y_nghia": "Thể hiện sự tự tin và khẳng định dứt khoát, không thể bác bỏ.",
+  "khi_nao": "Khi tuyên bố một sự thật hiển nhiên hoặc quyết định cuối cùng trong cuộc tranh luận.",
+  "mo_ta_en": "Weight shifts evenly onto both feet, hip-width apart. Hips rotate externally 7° opening the pelvis slightly. Spine extends upward 4°, chest lifts and opens. Both shoulders draw back 14°, collarbone broadens. Both forearms rise to mid-chest, elbows out at 61°, palms face inward 96°. Arms hold steady 2.5s. Feet stay planted on the floor, no stepping.",
+  "giay": 2.5,
+  "cum": [
+   "Tôi khẳng định điều này",
+   "Đây là sự thật",
+   "Không còn gì phải bàn",
+   "Tôi chắc chắn hoàn toàn",
+   "Không ai có thể phủ nhận",
+   "Đó là điều hiển nhiên"
+  ]
+ },
+ "forward_lean_earnest": {
+  "ma": "forward_lean_earnest",
+  "ten": "Nghiêng thân chân thành",
+  "y_nghia": "Bày tỏ lời hứa với sự chân thành, sát sao, không hình thức.",
+  "khi_nao": "Khi muốn nhấn mạnh rằng lời hứa không phải lời nói suông, mà thật lòng.",
+  "mo_ta_en": "Weight concentrates on both feet (50-50 split). Core tightens, spine flexes forward minimal (4° only at lumbar). Pelvis tilts 7° forward. Shoulders lean 12° toward listener. Neck cranes 25° down-forward, eyes look up earnestly. Both arms at 126° elbow, forearms vertical, palms gesture inward. Hold 1.8-sec pause. Upper body returns upright slowly. Feet plant throughout, zero displacement.",
+  "giay": 3.2,
+  "cum": [
+   "Anh/chị ơi",
+   "Nghe tôi",
+   "Tôi thật lòng",
+   "Không lừa đâu",
+   "Hứa với lòng chân thành",
+   "Tôi sẽ không thất vọng"
+  ]
+ },
+ "frustrated_weight_shift_forward": {
+  "ma": "frustrated_weight_shift_forward",
+  "ten": "Dồn người về phía trước khi bức xúc",
+  "y_nghia": "Cơ thể căng ra, chực lao về phía trước thể hiện sự không thể nhịn được nữa.",
+  "khi_nao": "Khi người nghe không chịu hiểu sau nhiều lần giải thích và người nói muốn nhấn mạnh lần cuối.",
+  "mo_ta_en": "Weight shifts forward onto left foot (70% load), right heel slightly lifts but toes stay planted. Hips rotate 7° forward-left. Spine straightens and stiffens 4°, chest pushes forward. Both shoulders rise 13° in tension. Arms extend forward 120°, forearms at 58°, hands thrust out palms-up 90°, traveling ~40cm. Head juts forward 22°. Duration 2.5s. Feet stay planted on the floor, no stepping.",
+  "giay": 2.5,
+  "cum": [
+   "Tôi đã nói rồi mà!",
+   "Sao không hiểu vậy?",
+   "Nghe tôi nói này!",
+   "Cứ như thế này mãi à?",
+   "Không thể chấp nhận được!",
+   "Rõ ràng như vậy mà!",
+   "Anh có nghe không đó?"
+  ]
+ },
+ "fun_story_bounce_chuckle": {
+  "ma": "fun_story_bounce_chuckle",
+  "ten": "Rung vai cười nhẹ",
+  "y_nghia": "Người kể chính mình bật cười trước khi nói xong câu hài.",
+  "khi_nao": "Khi nhớ lại tình huống buồn cười đến mức bản thân không nhịn được cười giữa chừng.",
+  "mo_ta_en": "Weight presses evenly into both feet, knees soften 8°. Pelvis stays neutral, torso generates two quick vertical micro-bounces over 1.0s, each about 2cm amplitude. Both shoulders rise and fall 14° in syncopated shrug pulses. Arms hang loose, forearms float up 30° passively. Head bobs forward 10° twice. Feet stay planted on the floor, no stepping.",
+  "giay": 2.0,
+  "cum": [
+   "thôi chết tui cười quá",
+   "xin lỗi xin lỗi để tui kể tiếp",
+   "ý là kiểu như",
+   "haha ừ rồi nó",
+   "khoan để tui bình tĩnh cái đã",
+   "mà nghĩ lại vẫn thấy buồn cười"
+  ]
+ },
+ "fun_story_hip_sway_left": {
+  "ma": "fun_story_hip_sway_left",
+  "ten": "Lắc hông trái kể chuyện vui",
+  "y_nghia": "Người kể đang hào hứng, nhịp điệu câu chuyện hài đang lên cao trào.",
+  "khi_nao": "Khi bắt đầu vào đoạn buồn cười nhất của câu chuyện, giọng hơi lên cao.",
+  "mo_ta_en": "Weight shifts onto left foot, left hip dips 7° outward over 0.8s. Pelvis rotates left 6°, lumbar spine counters minimally 4°. Right shoulder drops 12°, right elbow bends to 60°, forearm sweeps laterally 40cm. Head tilts left 8°, smile implied. Feet stay planted on the floor, no stepping.",
+  "giay": 2.5,
+  "cum": [
+   "rồi bạn biết không",
+   "tự nhiên ổng lại",
+   "mà hay nhất là",
+   "đến đoạn này mới ghê",
+   "trời ơi hồi đó",
+   "nó làm tui cười muốn xỉu"
+  ]
+ },
+ "fun_story_lean_conspire": {
+  "ma": "fun_story_lean_conspire",
+  "ten": "Nghiêng người kể bí mật hài",
+  "y_nghia": "Người kể kéo người nghe vào gần như đang chia sẻ bí mật buồn cười.",
+  "khi_nao": "Khi câu chuyện có tình tiết hơi 'nhạy cảm' hoặc ngớ ngẩn mà cả hai đều biết.",
+  "mo_ta_en": "Weight transfers onto right foot over 0.6s, right knee softens 8°. Hips shift right 0.7cm, torso inclines forward-right 5° from lumbar, spine stays long. Right shoulder leads forward 12°, right hand extends palm-up 41cm toward listener at hip height, elbow 65°. Head dips toward listener 20°, eyes widen. Feet stay planted on the floor, no stepping.",
+  "giay": 3.0,
+  "cum": [
+   "nói thiệt nha tui nói thiệt",
+   "mà chỉ mình bạn biết thôi đó",
+   "cái này mắc cười lắm",
+   "ổng không biết mình đang",
+   "kiểu bạn hình dung không",
+   "giữa thanh thiên bạch nhật luôn"
+  ]
+ },
+ "fun_story_pop_punchline": {
+  "ma": "fun_story_pop_punchline",
+  "ten": "Bật người tung câu chốt",
+  "y_nghia": "Toàn thân bật ra nhấn mạnh đúng câu kết buồn cười của câu chuyện.",
+  "khi_nao": "Ngay tại thời điểm tung ra câu chốt hài (punchline), giọng hạ thấp đột ngột hoặc nhấn mạnh.",
+  "mo_ta_en": "Weight quickly loads onto left foot over 0.3s, left knee bends 8°, hips rotate left 7°. Spine straightens upward 4° from slight prior lean, energy releases through torso. Both arms extend forward-outward to 120°, wrists flick open, hands spread 41cm apart over 0.5s. Head pulls back 10° then drops forward 15° on the punchline beat. Feet stay planted on the floor, no stepping.",
+  "giay": 2.0,
+  "cum": [
+   "rồi bạn biết ổng nói gì không",
+   "câu đó mới là câu chính nè",
+   "và ổng nói luôn là",
+   "kết thúc bằng một câu",
+   "không ai ngờ được luôn đó",
+   "ổng quay qua nói thẳng"
+  ]
+ },
+ "fun_story_whole_body_sway": {
+  "ma": "fun_story_whole_body_sway",
+  "ten": "Lắc lư toàn thân nhịp đôi",
+  "y_nghia": "Người kể đang tái hiện nhịp điệu của tình huống hài, cơ thể theo 'nhịp' câu chuyện.",
+  "khi_nao": "Khi mô phỏng lại một hành động hoặc cảnh tượng buồn cười có nhịp lặp đi lặp lại.",
+  "mo_ta_en": "Weight alternates left-right with 1.2s period: left foot bears load, left hip rises 7°, then right foot bears load, right hip rises 7°. Each shift 0.7cm lateral. Lumbar counters 4° opposite side each beat. Shoulders rock reciprocally 12°, bent elbows 60° swing loosely 35cm arc. Head sways with shoulders 15°. Feet stay planted on the floor, no stepping.",
+  "giay": 3.5,
+  "cum": [
+   "rồi nó cứ đi qua đi lại kiểu",
+   "bước một bước hai rồi lại",
+   "mà cứ lặp đi lặp lại vậy",
+   "tui nhìn mà không biết nói gì",
+   "ý tui là kiểu nhịp nhịp vậy đó",
+   "cả phòng chết lặng nhìn ổng"
+  ]
+ },
+ "grateful_bow_weight_shift": {
+  "ma": "grateful_bow_weight_shift",
+  "ten": "Cúi cảm ơn dồn trọng tâm",
+  "y_nghia": "Thể hiện lòng biết ơn chân thành qua cả thân người nghiêng về phía trước.",
+  "khi_nao": "Khi nhận được sự giúp đỡ lớn và muốn nói 'cảm ơn anh/chị nhiều lắm' một cách trang trọng.",
+  "mo_ta_en": "Weight shifts forward onto both feet equally; knees softly flex ~8°; pelvis tilts forward ~4°, spine inclines ~15° forward over 0.8s; shoulders follow passively dropping ~5°; head nods down ~20° as both arms hang relaxed at sides, hands near thighs. Hold 0.6s, return over 1.0s. Feet stay planted on the floor, no stepping.",
+  "giay": 2.5,
+  "cum": [
+   "cảm ơn anh nhiều lắm",
+   "em cảm ơn chị",
+   "dạ cảm ơn ạ",
+   "ơn anh quá",
+   "cảm ơn anh chị đã giúp",
+   "em biết ơn lắm"
+  ]
+ },
+ "grief_weight_sink": {
+  "ma": "grief_weight_sink",
+  "ten": "Chùng gối mang nỗi đau",
+  "y_nghia": "Cơ thể trĩu xuống như không còn đủ sức đứng thẳng khi chia sẻ nỗi mất mát.",
+  "khi_nao": "Khi người nói đang kể về một mất mát lớn — người thân mất, chia tay, hay điều gì đó tan vỡ.",
+  "mo_ta_en": "Weight shifts slowly 70% to left foot over 1 s; both knees soften ~8–9°, left knee slightly more; hips drop 5 cm vertically, barely rotating (~4°); spine stays near-vertical but compresses ~4°; shoulders round forward 3 cm symmetrically as if sagging under load; both arms hang heavy, elbows ~160°, hands loose at sides ~35 cm apart; chin drops 20° toward chest; pause held 2.5 s, breath visible in slight chest movement. Feet stay planted on the floor, no stepping.",
+  "giay": 4.0,
+  "cum": [
+   "Ông mình mất hồi tháng trước",
+   "Tụi mình chia tay rồi",
+   "Không còn như xưa nữa rồi",
+   "Mình không biết phải làm sao nữa",
+   "Cái đó mình không lấy lại được",
+   "Cứ nghĩ tới là mình thấy nặng lắm",
+   "Mình đã cố giữ nhưng không được",
+   "Mất rồi, không còn cơ hội nữa"
+  ]
+ },
+ "guilt_confession_sink": {
+  "ma": "guilt_confession_sink",
+  "ten": "Chùng gối thú nhận lỗi",
+  "y_nghia": "Cơ thể thu nhỏ, chùng xuống như một cách vật lý hoá sự hối hận và xin lỗi.",
+  "khi_nao": "Khi người đang thú nhận lỗi lầm của mình, đặc biệt là lỗi đã gây tổn thương cho người nghe.",
+  "mo_ta_en": "Weight sinks unevenly: 65% onto right foot, right knee bends ~9°, left knee follows at ~7°; hips rotate left ~6° and dip 4 cm; spine curves minimally (~4°) into slight forward lean; right shoulder drops 2 cm, left arm crosses loosely toward abdomen at elbow ~120°; right hand opens palm-up near right hip, wrist ~30° flexed; head tilts 15° down-right, gaze averted; held 2 s. Feet stay planted on the floor, no stepping.",
+  "giay": 3.0,
+  "cum": [
+   "Tại mình hết, mình xin lỗi",
+   "Mình đã không nghĩ cho kỹ",
+   "Mình sai rồi, mình biết",
+   "Thật lòng mà nói thì mình có lỗi",
+   "Mình không có lý do gì để biện hộ",
+   "Mình hiểu nếu bạn giận",
+   "Đáng lẽ mình không nên làm vậy",
+   "Mình đã làm bạn buồn"
+  ]
+ },
+ "half_turn_compare_sides": {
+  "ma": "half_turn_compare_sides",
+  "ten": "Xoay so sánh hai phía",
+  "y_nghia": "Đối chiếu hai lựa chọn hoặc địa điểm bằng cách xoay người chuyển từ bên này sang bên kia.",
+  "khi_nao": "Khi phân tích ưu nhược điểm của hai phương án và dùng không gian để minh họa sự tương phản.",
+  "mo_ta_en": "Phase 1: weight shifts left, hips rotate ~7° left, spine ~4°, right arm extends ~126° rightward at ~41cm reach, head turns ~25° left, holds ~1s. Phase 2: weight transfers to right foot, hips counter-rotate ~7° right, left arm extends ~126° leftward mirroring first gesture, head turns ~25° right, holds ~1s. Total ~3.5s, smooth transfer between phases. Feet stay planted on the floor, no stepping.",
+  "giay": 4.0,
+  "cum": [
+   "bên này thì như vậy còn bên kia",
+   "so sánh hai cái này",
+   "cái này khác cái kia ở chỗ",
+   "một bên là thế này một bên là thế kia",
+   "nếu chọn hướng này thì",
+   "hai hướng đều có cái hay",
+   "tôi để hai cái cạnh nhau cho bạn thấy",
+   "bên trái và bên phải khác nhau hoàn toàn"
+  ]
+ },
+ "half_turn_dismiss_side": {
+  "ma": "half_turn_dismiss_side",
+  "ten": "Xoay gạt sang bên",
+  "y_nghia": "Bác bỏ hoặc phủ nhận điều gì đó ở một phía, kèm thái độ dứt khoát.",
+  "khi_nao": "Khi không đồng ý với một lựa chọn hoặc ý kiến và muốn loại bỏ nó khỏi cuộc tranh luận.",
+  "mo_ta_en": "Weight shifts onto right foot, right hip bears load, right knee flexes ~8°. Hips rotate ~7° rightward away from dismissed side. Spine holds firm at ~4° rotation. Left arm sweeps laterally outward at ~126° extension, wrist flicking at ~96° in a single dismissive wave over ~0.8s, palm facing down-outward. Head turns ~25° left, chin slightly raised. Feet stay planted on the floor, no stepping.",
+  "giay": 2.0,
+  "cum": [
+   "thôi bỏ cái đó đi",
+   "không cần nhìn về phía đó",
+   "cái đó không liên quan",
+   "tôi không quan tâm bên đó",
+   "hướng đó không phải",
+   "đừng để ý mấy cái đó",
+   "gạt nó ra một bên đi"
+  ]
+ },
+ "half_turn_glance_back": {
+  "ma": "half_turn_glance_back",
+  "ten": "Xoay nhìn lại sau lưng",
+  "y_nghia": "Ám chỉ điều gì đó hoặc ai đó vừa đi qua phía sau, kèm tâm trạng bán tín bán nghi.",
+  "khi_nao": "Khi kể chuyện ai đó vừa rời đi hoặc nhắc lại sự việc xảy ra phía sau mình.",
+  "mo_ta_en": "Weight settles onto right foot, right knee softens ~8°. Hips rotate ~7° leftward. Spine carries ~4° rotation following hips. Left shoulder draws back slightly, both arms stay low near hips at ~96° wrist angle. Head and neck rotate ~25° left-rearward, eyeline tracking behind. Movement completes in ~1.5s, holds 1s. Feet stay planted on the floor, no stepping.",
+  "giay": 3.0,
+  "cum": [
+   "hồi nãy tôi thấy",
+   "vừa mới đi qua đây",
+   "anh ấy vừa ở đây",
+   "phía sau tôi vừa rồi",
+   "cái đó lúc nãy",
+   "không biết đi đâu rồi",
+   "tôi tưởng còn ở đó"
+  ]
+ },
+ "half_turn_invite_follow": {
+  "ma": "half_turn_invite_follow",
+  "ten": "Xoay mời theo hướng đi",
+  "y_nghia": "Mời người nghe cùng đi hoặc nhìn theo hướng mình đang hướng đến.",
+  "khi_nao": "Khi dẫn đường hoặc rủ ai đó đi cùng về phía một địa điểm cụ thể.",
+  "mo_ta_en": "Weight shifts forward onto left foot, left knee softens ~8°. Hips rotate ~7° left, pelvis leads. Spine rotates ~4° following hips. Right arm sweeps outward-forward in a welcoming arc, elbow at ~61° flexion, palm open and upturned at ~41cm reach. Head rotates ~25° left, eye contact alternates between direction and listener. Gesture unfolds over ~2s. Feet stay planted on the floor, no stepping.",
+  "giay": 2.5,
+  "cum": [
+   "đi theo tôi nào",
+   "lối đi là hướng này",
+   "bên phía này đi",
+   "mình qua đó nhé",
+   "hướng này mới đúng",
+   "theo hướng này đi bạn",
+   "để tôi dẫn bạn qua"
+  ]
+ },
+ "half_turn_point_away": {
+  "ma": "half_turn_point_away",
+  "ten": "Xoay chỉ hướng xa",
+  "y_nghia": "Dẫn người nghe chú ý sang một địa điểm hoặc đối tượng khác ở xa.",
+  "khi_nao": "Khi giải thích vị trí một nơi chốn hoặc giới thiệu ai đó đứng ở phía khác trong phòng.",
+  "mo_ta_en": "Weight shifts onto left foot, hips rotate ~7° to the right. Spine follows with ~4° thoracic rotation. Right shoulder opens outward, right arm extends laterally at ~126° from torso, index finger pointing away at ~41cm reach. Head and neck rotate ~25° toward the pointed direction, chin level. Feet stay planted on the floor, no stepping.",
+  "giay": 2.5,
+  "cum": [
+   "ở đằng kia kìa",
+   "phía bên đó",
+   "chỗ đó là",
+   "bạn thấy chỗ kia không",
+   "tôi chỉ cho bạn xem",
+   "ngay phía sau bạn",
+   "cái đó ở đằng kia"
+  ]
+ },
+ "hands_clasp_resolve": {
+  "ma": "hands_clasp_resolve",
+  "ten": "Chắp tay kiên quyết",
+  "y_nghia": "Thể hiện sự tập trung, quyết tâm không lay chuyển trong lời hứa.",
+  "khi_nao": "Khi cam kết hoàn thành một việc khó khăn, không cho phép bất cứ trở ngại nào.",
+  "mo_ta_en": "Weight leans into right leg (70% load). Hips shift 7° rightward, anchoring posture. Spine remains rigid (4° only). Both arms raise to 126° angle, forearms cross at 61° wrist flex, hands clasp at sternum level. Elbows lock slightly. Neck upright, jaw firm. Hold 2-sec. Feet stay planted, no heel lift.",
+  "giay": 3.0,
+  "cum": [
+   "Tôi sẽ làm",
+   "Xin đảm bảo",
+   "Không có ngoại lệ",
+   "Chắc 100%",
+   "Quyết định rồi",
+   "Tin tôi hoàn toàn"
+  ]
+ },
+ "hands_shelter_mouth": {
+  "ma": "hands_shelter_mouth",
+  "ten": "Che miệng khi nói",
+  "y_nghia": "Tôi sợ lời nói này sẽ bị nghe thấy, muốn hạn chế âm thanh lan tỏa.",
+  "khi_nao": "Khi tiết lộ bí mật mà sợ bị ai đó ở gần nghe, nói thầm để giảm âm lượng.",
+  "mo_ta_en": "Center of weight dips onto both feet evenly (50-50 distribution), knees flex 8° slightly. Hips remain neutral, 2° minimal internal rotation. Torso rounds forward 4° from lower spine only. Both arms raise, elbows bend to 100°, hands cup around mouth at ~32cm distance. Head tilts down 18°. Voice lowers, shoulders tense upward 3°. Feet anchored throughout, no hip shifting. 2.8 seconds.",
+  "giay": 2.8,
+  "cum": [
+   "Nói nhỏ thôi",
+   "Đừng để ai nghe",
+   "Bảo mật này",
+   "Chỉ mình bạn nghe",
+   "Thầm thì thôi",
+   "Ơi trời ơi"
+  ]
+ },
+ "head_tilt_soft_wonder": {
+  "ma": "head_tilt_soft_wonder",
+  "ten": "Nghiêng đầu tò mò nhẹ",
+  "y_nghia": "Thể hiện sự tò mò chân thật, muốn hiểu thêm nhưng chưa chắc chắn.",
+  "khi_nao": "Khi nghe một thông tin lạ và muốn đối phương giải thích rõ hơn.",
+  "mo_ta_en": "Weight shifts 60% onto right foot, hip rotates left ~5°, spine stays upright with ~4° lateral lean. Right shoulder drops ~12°, head tilts right ~22°, eyes soften. Left hand rises to waist, palm open upward. Motion flows from foot to hip to shoulder to head over 1.2s, holds 1.5s. Feet stay planted on the floor, no stepping.",
+  "giay": 2.8,
+  "cum": [
+   "ủa thật không?",
+   "cái đó là sao?",
+   "ý bạn là…?",
+   "mình chưa hiểu lắm",
+   "nói lại đi",
+   "thế thì kỳ nhỉ",
+   "sao lại vậy?"
+  ]
+ },
+ "heavy_news_knee_sink": {
+  "ma": "heavy_news_knee_sink",
+  "ten": "Chùng gối đón tin nặng",
+  "y_nghia": "Cơ thể phản xạ nhún xuống nhẹ như thể gánh chịu sức nặng của thông tin vừa nói ra.",
+  "khi_nao": "Khi người nói đang thông báo một tin xấu hoặc sự thật khó nghe cho người kia.",
+  "mo_ta_en": "Weight shifts 60% onto left foot; hips drop 3–4 cm straight down with a 5° forward tilt, no lateral sway; spine compresses minimally (~4°) keeping torso upright; shoulders follow passively, falling 1–2 cm; both arms lower slightly toward thighs, elbows softening to ~140°; head dips 10° forward, chin toward chest; knees bend symmetrically ~8°, held 1.5 s then slowly return. Feet stay planted on the floor, no stepping.",
+  "giay": 2.5,
+  "cum": [
+   "Anh phải nói thật với em một chuyện",
+   "Không có cách nào khác đâu",
+   "Tình hình nó không tốt lắm",
+   "Chuyện này rất khó nói",
+   "Em cần chuẩn bị tinh thần nhé",
+   "Thật ra thì... không phải vậy đâu",
+   "Anh cũng không muốn nói điều này",
+   "Kết quả nó như vậy đó"
+  ]
+ },
+ "heel_pivot_open_palm_away": {
+  "ma": "heel_pivot_open_palm_away",
+  "ten": "Xoay gót – đẩy nhẹ ra",
+  "y_nghia": "Thể hiện sự từ chối dứt khoát hơn nhưng vẫn lịch sự, không hung hăng.",
+  "khi_nao": "Khi cần báo hiệu rõ hơn rằng chủ đề đó nên dừng lại.",
+  "mo_ta_en": "Right heel rotates outward 15° on the floor, weight transfers to left foot (70/30), hips rotate right 7° and shift back 3cm, spine holds upright 4°, left shoulder opens outward, left arm extends forward at 125° elbow angle, palm faces away from body pushing gently at 40cm reach in 0.6s, head turns left 20° with slight chin lift. Total motion 2.5s. Feet stay planted on the floor, no stepping.",
+  "giay": 2.5,
+  "cum": [
+   "Mình xin phép không tham gia",
+   "Thôi bạn ơi đừng ép mình",
+   "Mình đã nói là không rồi đó",
+   "Bạn tìm người khác giúp nhé",
+   "Mình không thể nhận được",
+   "Cảm ơn nhưng thật sự không"
+  ]
+ },
+ "hesitate_rock_back": {
+  "ma": "hesitate_rock_back",
+  "ten": "Lui người khi do dự",
+  "y_nghia": "Người nói rút lui nhẹ khỏi câu chuyện, báo hiệu sự không chắc chắn hoặc muốn cân nhắc lại.",
+  "khi_nao": "Khi vừa nói xong một ý rồi ngay lập tức nghi ngờ chính mình, sắp rút lại hoặc đính chính.",
+  "mo_ta_en": "Weight rocks backward onto both heels equally over 0.6s, both knees flex 7°, hips shift posterior 1cm without rotating. Spine straightens and extends slightly 4° backward, chest lifts. Both shoulders retract 3° symmetrically. Arms draw inward 4cm toward torso, forearms rise 15° passively. Head pulls back 2cm, chin tucks 10°. Hold 1.2s. Feet stay planted on the floor, no stepping.",
+  "giay": 2.8,
+  "cum": [
+   "Ủa mà khoan...",
+   "Thật ra chưa chắc...",
+   "Hmm, không biết nữa...",
+   "Tôi nói vậy nhưng mà...",
+   "Hay là không phải vậy?",
+   "Chờ chút đã..."
+  ]
+ },
+ "hip_arc_right_curve": {
+  "ma": "hip_arc_right_curve",
+  "ten": "Vẽ đường cong sang phải",
+  "y_nghia": "Diễn tả một đường đi uốn cong mềm về phía phải.",
+  "khi_nao": "Khi giải thích con đường cong, dòng sông uốn khúc, hoặc lộ trình không thẳng mà vòng sang phải.",
+  "mo_ta_en": "Weight shifts to right foot; hips rotate right ~7°; spine rotates right ~4°; right shoulder draws back ~12°; right arm extends forward then arcs rightward in a curved horizontal sweep 42 cm, elbow softly bent, palm facing inward; head turns right ~22°. Entire motion unspools bottom-up over 2.2 s. Feet stay planted on the floor, no stepping.",
+  "giay": 3.0,
+  "cum": [
+   "con đường nó uốn cong như vầy",
+   "chạy vòng sang bên phải rồi mới thẳng",
+   "lộ trình nó không thẳng đâu nha",
+   "cái đường cong ra phía đó",
+   "nó men theo bờ sông rồi vòng",
+   "từ đây nó nghiêng dần sang phải",
+   "tuyến đường vòng cung như thế này",
+   "đi theo đường cong chứ không thẳng"
+  ]
+ },
+ "hip_arc_sweep_wide": {
+  "ma": "hip_arc_sweep_wide",
+  "ten": "Quét vòng cung — hông lướt rộng",
+  "y_nghia": "Diễn tả hành động to lớn, bao quát như ném, gạt, vung hoặc dọn sạch một khu vực.",
+  "khi_nao": "Khi kể lại hành động có phạm vi rộng: gạt đồ khỏi bàn, ném vật, xua tay đuổi, hoặc chỉ toàn bộ không gian trong câu chuyện.",
+  "mo_ta_en": "Weight shifts onto the left foot; hips rotate ~7° left-to-right in a slow arc over 1.8 s, spine rotates ~4° following the hip. Right arm sweeps from left-center to far right in a wide horizontal arc at chest height, wrist tracing ~41 cm. Shoulder opens ~14° at the apex. Right knee bends ~8° at start, transferring to left at finish. Duration ~3.5 s. Feet stay planted on the floor, no stepping.",
+  "giay": 3.5,
+  "cum": [
+   "nó gạt hết cả bàn luôn",
+   "tôi quét một cái là sạch",
+   "rồi ném thẳng sang bên kia",
+   "vung tay một cái rất mạnh",
+   "gạt ra cho rảnh chỗ",
+   "xua hết không để lại gì",
+   "tôi đẩy tất cả sang đây",
+   "quét một vòng là xong hết"
+  ]
+ },
+ "hip_coil_pull_back": {
+  "ma": "hip_coil_pull_back",
+  "ten": "Kéo giật lại — hông cuộn ngược",
+  "y_nghia": "Tái hiện hành động giật lại, thu về hoặc phản xạ rút tay nhanh.",
+  "khi_nao": "Khi kể lại lúc mình hoặc người khác giật tay về, rút đồ lại, hoặc có phản xạ bất ngờ lùi tránh.",
+  "mo_ta_en": "Weight shifts back onto the right foot; hips rotate ~6° rearward-right, spine recoils ~4° backward. Both shoulders retract ~12°, elbows pull inward and back, forearms drawn ~35 cm rearward from extended position in ~0.6 s quick burst, then held 0.4 s. Left knee bends ~8° to anchor the pull. Total duration ~2.0 s. Feet stay planted on the floor, no stepping.",
+  "giay": 2.0,
+  "cum": [
+   "tôi giật tay lại ngay",
+   "mình rút về liền tức thì",
+   "nó kéo cái đó ra khỏi tay tôi",
+   "tôi không kịp phản ứng",
+   "mình thu về là xong",
+   "giật lại một cái rất nhanh",
+   "rút ra kịp không thôi",
+   "tôi lấy lại ngay lập tức"
+  ]
+ },
+ "hip_cross_body_diagonal": {
+  "ma": "hip_cross_body_diagonal",
+  "ten": "Vẽ đường chéo ngang người",
+  "y_nghia": "Diễn tả một lộ trình chéo, cắt ngang, từ góc này sang góc kia.",
+  "khi_nao": "Khi mô tả đường tắt chéo, lối đi cắt qua, hoặc hướng di chuyển theo đường chéo từ một phía sang phía đối diện.",
+  "mo_ta_en": "Weight shifts to left foot; hips rotate left ~6°; spine rotates left ~4°; left shoulder dips ~8°; right arm starts at right hip level then sweeps diagonally across the body upward-left, traveling ~44 cm, palm facing down, crossing the centerline at chest height; head tracks the hand movement left ~18°. Sequence initiates from left heel pressure, travels upward over 2.0 s. Feet stay planted on the floor, no stepping.",
+  "giay": 2.5,
+  "cum": [
+   "đường chéo qua đây là gần nhất",
+   "nó cắt chéo qua khu vực đó",
+   "đi đường tắt chéo ngang qua đây",
+   "lộ trình nó xéo như thế này",
+   "từ góc này cắt sang góc kia",
+   "đường chéo nó ngắn hơn đường vòng",
+   "cắt ngang qua đây là ra tới đó",
+   "hướng đi chéo về phía bên kia"
+  ]
+ },
+ "hip_forward_push_path": {
+  "ma": "hip_forward_push_path",
+  "ten": "Đẩy thẳng về phía trước",
+  "y_nghia": "Nhấn mạnh đường đi thẳng tắp, khoảng cách dài về phía trước.",
+  "khi_nao": "Khi nói về một tuyến đường thẳng, khoảng cách xa, hoặc chỉ thẳng về một điểm đích phía trước mặt.",
+  "mo_ta_en": "Weight distributes evenly; hips tilt forward minimally ~3° and shift forward ~0.5 cm; spine straightens with ~4° extension; both shoulders square forward; dominant right arm thrusts straight ahead 43 cm, palm vertical as if pushing along an invisible road, slight wrist flick at endpoint; head tilts chin-down ~10°. Motion rises from ground up over 1.6 s. Feet stay planted on the floor, no stepping.",
+  "giay": 2.0,
+  "cum": [
+   "cứ đi thẳng một mạch là tới",
+   "đường thẳng tắp không có rẽ đâu",
+   "từ đây đi thẳng ra đến đó",
+   "tuyến đường thẳng không vòng vèo",
+   "chạy thẳng một đoạn dài như vậy",
+   "không có ngã rẽ cứ đi thẳng",
+   "khoảng cách từ đây ra đến đó",
+   "đường thẳng đứng tắp luôn"
+  ]
+ },
+ "hip_oscillate_alternating": {
+  "ma": "hip_oscillate_alternating",
+  "ten": "Đánh qua đánh lại — hông nhịp đôi",
+  "y_nghia": "Mô tả hành động lặp đi lặp lại hoặc trao đổi qua lại giữa hai phía.",
+  "khi_nao": "Khi kể lại quá trình xen kẽ: hai người đấu khẩu qua lại, mình làm một việc nhịp nhàng nhiều lần, hoặc tình huống đảo chiều liên tục.",
+  "mo_ta_en": "Weight alternates left-right twice over 3.0 s: hips oscillate ~6–7° left then right, each swing driving a matching ~4° spinal rotation. Arms swing in opposition — right forearm sweeps right ~38 cm while left retracts, then reverses — elbows bent ~60°, shoulders alternating ~12°. Each half-cycle lasts ~0.8 s with 0.2 s overlap. Knees alternately bend ~8°. Feet stay planted on the floor, no stepping.",
+  "giay": 3.0,
+  "cum": [
+   "rồi nó nói tôi nói nó nói",
+   "cứ qua lại như vậy mãi",
+   "hết tôi rồi đến nó rồi lại tôi",
+   "hai đứa cứ đẩy qua đẩy lại",
+   "lần này tôi lần sau nó",
+   "cứ thế đổi nhau làm",
+   "nó làm rồi tôi làm lại",
+   "qua lại nhiều lần như vậy"
+  ]
+ },
+ "hip_pivot_point_aside": {
+  "ma": "hip_pivot_point_aside",
+  "ten": "Chỉ ngang — hông xoay theo",
+  "y_nghia": "Chỉ dẫn hướng hoặc vị trí của nhân vật/vật thể trong câu chuyện.",
+  "khi_nao": "Khi kể lại ai đó đứng ở đâu, đi về hướng nào, hoặc vật gì nằm bên cạnh trong sự kiện được kể.",
+  "mo_ta_en": "Weight shifts onto the right foot; hips rotate ~7° to the left, chain travels up through ~4° spinal rotation. Left shoulder draws back slightly ~14°, right arm sweeps laterally to the right at shoulder height, index finger extended, wrist traveling ~38 cm. Right knee softly bends ~8°. Motion unfolds over ~2.0 s with a brief 0.3 s hold at apex. Feet stay planted on the floor, no stepping.",
+  "giay": 2.0,
+  "cum": [
+   "nó đứng ngay chỗ kia kìa",
+   "bên đó có một cái",
+   "rồi nó đi về phía này",
+   "chỗ đó bên tay phải",
+   "góc kia có người đứng",
+   "cạnh đó có để sẵn",
+   "phía này nó đặt cái",
+   "ngay bên đây này nè"
+  ]
+ },
+ "hip_sway_storytelling": {
+  "ma": "hip_sway_storytelling",
+  "ten": "Lắc hông kể chuyện vui",
+  "y_nghia": "Nhịp lắc hông nhẹ nhàng phản ánh sự hứng khởi, tinh nghịch khi kể câu chuyện buồn cười.",
+  "khi_nao": "Khi đang kể lại một tình huống hài hước và người nói muốn diễn cho sinh động.",
+  "mo_ta_en": "Weight alternates: right foot 0.5s, then left foot 0.5s, cycling twice; hips sway laterally ±0.7cm with ~7° rotation each side, spine absorbs motion at ~4° counter-sway. Arms gesture freely, right arm arcing ~130° on the punchline moment, left elbow bent at ~60° counterbalance. Head bobs gently 10° in sync with hip beat over full 3.5s. Feet stay planted on the floor, no stepping.",
+  "giay": 3.5,
+  "cum": [
+   "Rồi bạn ơi nghe này nè",
+   "Mà chuyện buồn cười lắm á",
+   "Tao thề tao không bịa đâu nha",
+   "Hắn làm vậy đó bạn ơi",
+   "Trời đất tao cười không nổi",
+   "Mà lúc đó mọi người hết hồn",
+   "Nó vô tư lắm không biết gì hết",
+   "Kết là ra nông nỗi đó đó"
+  ]
+ },
+ "hip_sweep_left_path": {
+  "ma": "hip_sweep_left_path",
+  "ten": "Vẽ đường sang trái",
+  "y_nghia": "Mô tả một lộ trình hoặc hướng đi rẽ sang trái.",
+  "khi_nao": "Khi chỉ đường, giải thích lộ trình, hoặc kể lại hành trình đi từ điểm này sang điểm kia bên trái.",
+  "mo_ta_en": "Weight shifts to left foot; hips rotate left ~7°; spine follows with ~4° left lateral rotation; left shoulder opens slightly ~10°; right arm sweeps horizontally left 40–45 cm across the body, palm facing down, wrist leading; head turns left ~20°. Motion flows from feet through hips to fingertips over 1.8 s. Feet stay planted on the floor, no stepping.",
+  "giay": 2.5,
+  "cum": [
+   "đi theo hướng này sang trái",
+   "rẽ sang bên trái là tới",
+   "con đường chạy về phía đó",
+   "từ đây mình quẹo trái",
+   "nó kéo dài qua bên này",
+   "lộ trình đi vòng sang trái",
+   "cứ đi thẳng rồi rẽ trái",
+   "tuyến đường nó men theo đây"
+  ]
+ },
+ "hip_swing_reach_forward": {
+  "ma": "hip_swing_reach_forward",
+  "ten": "Với tay kể chuyện — hông theo",
+  "y_nghia": "Nhấn mạnh hành động vươn tới hoặc lấy/đưa gì đó cho ai.",
+  "khi_nao": "Khi kể lại lúc mình đưa tay lấy đồ, đưa thứ gì cho người khác, hoặc tiếp cận một đối tượng trong câu chuyện.",
+  "mo_ta_en": "Weight shifts onto the left foot; hips rotate ~7° to the right, initiating the chain. Spine follows with ~4° forward lean. Right shoulder opens forward ~14°. Right arm extends diagonally forward-right, elbow softly extended, wrist traveling ~41 cm from neutral. Left knee bends ~8° to absorb the weight transfer. Duration ~2.5 s. Feet stay planted on the floor, no stepping.",
+  "giay": 2.5,
+  "cum": [
+   "tôi với tay ra là",
+   "lúc đó tôi đưa cho nó",
+   "tôi cầm lấy cái đó",
+   "tôi chìa tay ra thì",
+   "tôi với một cái là",
+   "nó đẩy lại về phía tôi",
+   "tôi đặt ngay vào tay nó",
+   "mình đưa qua đây này"
+  ]
+ },
+ "hip_turn_affirm_nod": {
+  "ma": "hip_turn_affirm_nod",
+  "ten": "Xoay hông gật đầu đồng ý",
+  "y_nghia": "Cả cơ thể hướng về người nghe kèm gật đầu xác nhận sự đồng thuận rõ ràng.",
+  "khi_nao": "Khi đồng ý mạnh với quan điểm của người đang nói, muốn khẳng định lập trường cùng chiều.",
+  "mo_ta_en": "Weight presses into left foot, hips rotate 7° left toward listener, pelvis settles 0.7cm laterally. Spine stays upright at 4° max rotation, no bending. Both shoulders square slightly toward listener at 13°. Right arm swings forward 120° from shoulder, forearm at 58°, hand gestures down-up twice at 40cm range over 0.8s each beat. Head nods 25° twice, 0.5s per nod. Feet stay planted on the floor, no stepping.",
+  "giay": 2.5,
+  "cum": [
+   "đúng rồi đó bạn",
+   "mình cũng nghĩ vậy",
+   "ừ ừ mình hiểu",
+   "chính xác luôn đó",
+   "đồng ý với bạn hoàn toàn",
+   "bạn nói đúng thật",
+   "mình cũng thấy vậy nè"
+  ]
+ },
+ "hip_turn_bow_elder_invite": {
+  "ma": "hip_turn_bow_elder_invite",
+  "ten": "Xoay hông cúi mời người lớn",
+  "y_nghia": "Biểu thị sự kính trọng sâu sắc khi mời bậc trên ngồi, thân người hơi ngả về phía trước.",
+  "khi_nao": "Khi người trẻ mời ông bà, cha mẹ, hoặc người cao tuổi vào chỗ ngồi trang trọng.",
+  "mo_ta_en": "Weight sinks onto right foot, knee softens 8°, hip rotates 7° left. Spine inclines forward 8° respectfully from lumbar, head dips 25° in a slight bow. Right arm extends in a slow 126° arc, palm open upward at 41cm, elbow bent 61°, left hand lightly clasps at waist. Hold bow 0.8s then return upright. Duration 3.5s. Feet stay planted on the floor, no stepping.",
+  "giay": 3.5,
+  "cum": [
+   "Dạ mời ông ngồi vào đây ạ",
+   "Con mời bà ngồi nghỉ đây ạ",
+   "Dạ mời bác cứ ngồi xuống đây",
+   "Kính mời cụ ngồi cho đỡ mệt ạ",
+   "Dạ ông ngồi vào đây cho thoải mái ạ",
+   "Mời thầy ngồi xuống đây ạ",
+   "Bác ngồi nghỉ chân đây đi ạ",
+   "Con mời mẹ ngồi vào đây ạ"
+  ]
+ },
+ "hip_turn_explain_assert": {
+  "ma": "hip_turn_explain_assert",
+  "ten": "Xoay hông giải thích quyết đoán",
+  "y_nghia": "Định hướng cơ thể về phía người nghe để nhấn mạnh một luận điểm rõ ràng và tự tin.",
+  "khi_nao": "Khi muốn trình bày một quan điểm quan trọng, cần người nghe chú ý và tiếp nhận thông tin.",
+  "mo_ta_en": "Weight anchors on right foot, hips rotate 7° toward listener, slight 0.6cm lateral shift right. Spine extends upright, 4° thoracic rotation only, chest opens. Right arm raises to shoulder height 128°, elbow moderately bent at 60°, index finger or open palm extends toward listener at 42cm reach over 1.0s. Left arm remains at side, relaxed. Head lifts 10°, gaze direct at listener. Held 2.0s. Feet stay planted on the floor, no stepping.",
+  "giay": 3.5,
+  "cum": [
+   "thật ra vấn đề là thế này",
+   "bạn phải hiểu rằng",
+   "điều quan trọng nhất là",
+   "mình nói thật nhé",
+   "cái này cần phải rõ ràng",
+   "để mình giải thích cho",
+   "không phải vậy đâu bạn ơi",
+   "thực chất thì khác hơn"
+  ]
+ },
+ "hip_turn_lean_in_curious": {
+  "ma": "hip_turn_lean_in_curious",
+  "ten": "Xoay hông nghiêng tới tò mò",
+  "y_nghia": "Nghiêng nhẹ người về phía người nghe thể hiện sự tập trung và hiếu kỳ thực sự.",
+  "khi_nao": "Khi người kia nói điều bất ngờ hoặc thú vị, người nghe muốn tiếp nhận thêm thông tin.",
+  "mo_ta_en": "Weight transfers onto right foot, hips rotate 6° toward listener while shifting 0.6cm laterally right. Spine inclines forward 4° from lumbar, shoulders follow 12° forward, no spine curl. Right elbow bends to 61°, forearm lifts, chin drops 15° and head tilts 20° toward speaker over 1.2s, held 1.8s. Hands rest loosely at mid-torso, fingers soft. Feet stay planted on the floor, no stepping.",
+  "giay": 3.5,
+  "cum": [
+   "ủa thật không vậy",
+   "rồi sau đó thì sao",
+   "bạn nói lại đi mình chưa hiểu",
+   "ý bạn là kiểu gì",
+   "thú vị thật đó nha",
+   "mình tò mò lắm luôn",
+   "kể tiếp đi bạn ơi",
+   "hả cái đó hả"
+  ]
+ },
+ "hip_turn_open_invite": {
+  "ma": "hip_turn_open_invite",
+  "ten": "Xoay hông mời mọc",
+  "y_nghia": "Mở cơ thể về phía người nghe để tạo sự chào đón và kết nối thân thiện.",
+  "khi_nao": "Khi bắt đầu cuộc trò chuyện hoặc muốn kéo người nghe vào câu chuyện.",
+  "mo_ta_en": "Weight shifts onto left foot, hips rotate 7° toward listener (right side opens). Spine remains tall with only 4° lateral adjustment. Right shoulder rolls forward 14°, both arms rise to waist height with palms facing up, wrists relaxed at 96°, hands drift 38cm apart over 1.5s, held 1.0s. Head turns 20° toward listener. Feet stay planted on the floor, no stepping.",
+  "giay": 3.0,
+  "cum": [
+   "nói chuyện với mình đi",
+   "bạn cứ thoải mái nhé",
+   "mình lắng nghe bạn đó",
+   "kể cho mình nghe với",
+   "ý bạn là sao ấy",
+   "thật ra thì thế này",
+   "mình muốn hỏi bạn là"
+  ]
+ },
+ "hip_turn_open_palm_invite": {
+  "ma": "hip_turn_open_palm_invite",
+  "ten": "Xoay hông mời ngồi lòng bàn tay ngửa",
+  "y_nghia": "Chào đón thân thiện, mời khách vào chỗ ngồi một cách lịch sự và cởi mở.",
+  "khi_nao": "Khi gặp khách đến nhà hoặc văn phòng, chỉ chỗ ghế và mời họ ngồi xuống.",
+  "mo_ta_en": "Weight shifts onto left foot, hip rotates 7° rightward opening torso toward the seat. Spine stays upright at 4° tilt. Right shoulder drops 14° as right arm extends 50cm at 126° arc, palm facing up. Left hand rests at waist. Head turns 25° toward guest, chin nods gently. Duration 2.5s. Feet stay planted on the floor, no stepping.",
+  "giay": 2.5,
+  "cum": [
+   "Mời anh ngồi đây ạ",
+   "Anh cứ ngồi tự nhiên",
+   "Chị ngồi vào đây cho thoải mái",
+   "Mời bác ngồi xuống đây",
+   "Anh vui lòng ngồi đây nhé",
+   "Chỗ này anh ngồi được ạ",
+   "Mời anh ngồi chơi đã"
+  ]
+ },
+ "hip_turn_quick_point_casual": {
+  "ma": "hip_turn_quick_point_casual",
+  "ten": "Xoay hông chỉ nhanh thân thiện",
+  "y_nghia": "Mời ngồi thoải mái kiểu bạn bè, không cần nghi lễ, chỉ tay gọn vào chỗ trống.",
+  "khi_nao": "Khi mời bạn bè hoặc đồng nghiệp thân quen ngồi xuống trong bầu không khí thoải mái.",
+  "mo_ta_en": "Weight quickly shifts onto left foot, hip snaps 7° rightward in 0.3s. Spine stays at 4°. Right arm lifts in a brisk 126° arc, index finger loosely extended pointing toward chair 45cm away, wrist relaxed at 96°. Left arm stays at side. Head flicks 20° toward the seat then back to guest. Duration 2.0s. Feet stay planted on the floor, no stepping.",
+  "giay": 2.0,
+  "cum": [
+   "Ngồi xuống đi",
+   "Ê ngồi đây đi",
+   "Cậu ngồi đây nhé",
+   "Ngồi chỗ đó cũng được",
+   "Bạn cứ ngồi tự nhiên nha",
+   "Ngồi đại đây đi nào",
+   "Chỗ đó trống đó ngồi đi"
+  ]
+ },
+ "hip_turn_side_step_usher": {
+  "ma": "hip_turn_side_step_usher",
+  "ten": "Xoay hông nhường đường mời vào",
+  "y_nghia": "Vừa nhường lối đi vừa chỉ chỗ ngồi, tạo không gian để khách bước qua.",
+  "khi_nao": "Khi đang đứng chắn lối và cần vừa dịch người sang một bên vừa mời khách đi vào chỗ ngồi.",
+  "mo_ta_en": "Weight transfers fully onto left foot, right heel pivots outward 15° to open stance. Hip rotates 8° rightward, torso opens 7° away from the path. Spine stays at 4°. Right arm sweeps wide in a 126° guiding arc, palm flat and open 41cm, forearm at 61°. Left arm draws back 14° at shoulder to clear the path. Head turns 25° toward the seating direction. Duration 3.0s. Feet stay planted on the floor, no stepping.",
+  "giay": 3.0,
+  "cum": [
+   "Mời anh đi vào trong ngồi ạ",
+   "Chị cứ đi vào đây ngồi cho mát",
+   "Dạ mời bác vào trong ngồi nghỉ",
+   "Anh đi thẳng vào trong ngồi nhé",
+   "Mời chị vào phòng trong ngồi đợi ạ",
+   "Bác vào trong kia ngồi cho thoải mái",
+   "Dạ anh vào đây rồi ngồi xuống đây ạ",
+   "Mời anh chị vào trong ngồi đã"
+  ]
+ },
+ "hip_turn_soft_confide": {
+  "ma": "hip_turn_soft_confide",
+  "ten": "Xoay hông thì thầm tâm sự",
+  "y_nghia": "Xoay nhẹ cơ thể về phía người nghe tạo không gian riêng tư, thân mật như đang chia sẻ bí mật.",
+  "khi_nao": "Khi muốn nói điều gì đó riêng tư, nhạy cảm hoặc chỉ dành cho người đang đứng trước mặt.",
+  "mo_ta_en": "Weight eases gently onto left foot, hips rotate 6° toward listener slowly over 1.5s, lateral shift only 0.5cm. Spine softens 4° forward from thoracic without collapsing, shoulders drop 12° inward and slightly forward. Both forearms rise to 58°, hands come together at chest level 35cm apart, fingers loosely interlaced or one hand gestures inward. Head tilts 18° toward listener, voice implied low. Held 2.0s. Feet stay planted on the floor, no stepping.",
+  "giay": 4.0,
+  "cum": [
+   "này bạn ơi nói thật nhé",
+   "mình kể bạn nghe cái này",
+   "đừng nói với ai nha",
+   "thật ra mình thấy là",
+   "chỉ mình bạn biết thôi",
+   "mình chưa nói với ai đâu",
+   "cái này hơi tế nhị nhưng mà",
+   "bạn giữ bí mật được không"
+  ]
+ },
+ "hip_turn_two_hand_guide": {
+  "ma": "hip_turn_two_hand_guide",
+  "ten": "Xoay hông dẫn chỗ hai tay",
+  "y_nghia": "Hướng dẫn trang trọng bằng cả hai tay, thể hiện sự trân trọng với người được mời.",
+  "khi_nao": "Khi mời người lớn tuổi hoặc khách VIP vào chỗ ngồi trang trọng trong cuộc họp hoặc tiệc.",
+  "mo_ta_en": "Weight shifts onto right foot, hip rotates 6° leftward aligning body toward seating area. Spine holds firm at 4°. Both shoulders lower 14° symmetrically, both arms arc outward 126° with forearms at 61°, palms facing up and inward at 41cm spread, gently sweeping toward the chair over 1.0s. Head turns 25° left toward guest with soft eye contact. Duration 3.5s. Feet stay planted on the floor, no stepping.",
+  "giay": 3.5,
+  "cum": [
+   "Kính mời bác ngồi vào đây ạ",
+   "Dạ mời thầy ngồi chỗ này ạ",
+   "Mời anh vào đây ngồi cho thoải mái",
+   "Bác cứ tự nhiên ngồi xuống đây",
+   "Kính mời cô ngồi phía này ạ",
+   "Mời sếp ngồi vào ghế này ạ",
+   "Dạ chỗ này dành cho bác đây ạ",
+   "Mời ông ngồi vào đây cho ấm"
+  ]
+ },
+ "hip_wide_bilateral_spread": {
+  "ma": "hip_wide_bilateral_spread",
+  "ten": "Trải rộng hai tay mô tả vùng",
+  "y_nghia": "Diễn tả một đường đi hoặc vùng không gian rộng, trải dài từ trái qua phải.",
+  "khi_nao": "Khi mô tả một khu vực rộng, đường đi kéo dài theo chiều ngang, hoặc giải thích phạm vi không gian của một lộ trình.",
+  "mo_ta_en": "Weight shifts left then micro-corrects to center over 0.5 s; hips rotate left ~5° then settle at neutral; spine stays tall with ~4° rotation easing back; both arms open simultaneously outward from chest, each traveling ~20 cm to the sides, palms facing up and slightly outward, elbows softly bent; head stays centered, gaze forward. Full spread completes over 2.5 s, initiated by subtle heel-to-ball weight transfer. Feet stay planted on the floor, no stepping.",
+  "giay": 3.5,
+  "cum": [
+   "khu vực này nó trải rộng ra như vầy",
+   "đường đi kéo dài từ đây ra đến đó",
+   "toàn bộ vùng này đều như thế",
+   "nó bao phủ một khoảng rộng lớn",
+   "từ phía này đến phía kia hết",
+   "phạm vi của nó rộng lắm",
+   "cả một dải dài như vậy đó",
+   "đường đi trải dài theo chiều ngang"
+  ]
+ },
+ "indignant_weight_back": {
+  "ma": "indignant_weight_back",
+  "ten": "Giật người ra sau vì phẫn nộ",
+  "y_nghia": "Cơ thể bật ra sau như bị xúc phạm, toàn thân căng cứng thể hiện sự phẫn nộ đột ngột.",
+  "khi_nao": "Khi nghe một điều gì đó hoàn toàn vô lý hoặc bị vu oan, người nói phản ứng tức thì.",
+  "mo_ta_en": "Weight snaps back onto right foot (75% load), left foot pivots on ball, toes stay down. Hips rotate 7° right-back. Spine pulls upright with sharp 4° extension, torso recoils. Shoulders square back 14°, arms swing back and open wide 130°, forearms rise 63°, hands splay open at chest height traveling ~42cm outward. Head tilts back 24°, eyes wide. Duration 2.0s. Feet stay planted on the floor, no stepping.",
+  "giay": 2.0,
+  "cum": [
+   "Cái gì cơ?!",
+   "Anh nói gì vậy?",
+   "Sao lại thế được?",
+   "Trời ơi là trời!",
+   "Không thể tin được!",
+   "Ý anh là sao?",
+   "Tôi làm gì sai à?"
+  ]
+ },
+ "knee_buckle_shock": {
+  "ma": "knee_buckle_shock",
+  "ten": "Chùng gối bất ngờ",
+  "y_nghia": "Cơ thể sụp xuống đột ngột từ một tin sốc.",
+  "khi_nao": "Khi vừa nghe tin bất ngờ có liên quan đến mình hoặc người thân.",
+  "mo_ta_en": "Weight drops suddenly onto both feet, knees buckle 12° fast. Center of mass shifts down 4cm in 0.6 seconds. Hip drops 3cm, spine compresses 5° minimal. Shoulders jerk down 5cm, arms swing inward slightly. Head jerks back 8° with wide eyes. Hold buckled position 1.2 seconds, then rise gradually. Feet stay planted on the floor, no stepping.",
+  "giay": 2.8,
+  "cum": [
+   "Không thể tin",
+   "Sao lại vậy?",
+   "Mẹ ơi",
+   "Giận dữ",
+   "Hoang mang",
+   "Tủi cực"
+  ]
+ },
+ "knee_collapse_despair": {
+  "ma": "knee_collapse_despair",
+  "ten": "Chùng gối tuyệt vọng",
+  "y_nghia": "Cơ thể gần như gục xuống từ sự tuyệt vọng sâu sắc.",
+  "khi_nao": "Khi nghe tin cực kỳ xấu liên quan đến cuộc sống, tương lai hoặc mất mát lớn.",
+  "mo_ta_en": "Weight collapses onto both feet heavily, knees buckle 14-15° rapidly over 1.2 seconds. Hip sinks 5cm, center drops 6cm fast. Spine compresses 6°, pelvis tilts back 3°. Shoulders collapse inward 6cm, arms drop loose 125° angle. Head hangs 18° down, chin near chest. Breathing visible, body trembles micro-movements. Hold 2 seconds in low posture. Feet stay planted on the floor, no stepping.",
+  "giay": 3.2,
+  "cum": [
+   "Tuyệt vọng",
+   "Không sống nổi",
+   "Mất hết",
+   "Đau đớn quá",
+   "Trời ơi",
+   "Sao tự dưng vậy"
+  ]
+ },
+ "knee_drop_deflated": {
+  "ma": "knee_drop_deflated",
+  "ten": "Chùng gối thất vọng nhẹ",
+  "y_nghia": "Cơ thể chìm xuống khi nhận tin không như mong đợi.",
+  "khi_nao": "Khi nghe tin xấu nhẹ hoặc kế hoạch bị hoãn lại.",
+  "mo_ta_en": "Weight shifts to left foot (hip sinks 2cm), right knee bends 8°, spine lowers 3° without bending. Both knees flex 6-8°, shoulders drop 4cm. Arms hang loose at 110° from body. Head tilts down 12° with soft gaze. Transition over 2 seconds, hold 1.5 seconds. Feet stay planted on the floor, no stepping.",
+  "giay": 3.5,
+  "cum": [
+   "Ôi không",
+   "Mong manh quá",
+   "Chán thật",
+   "Thất vọng",
+   "Ngẩn ngơ",
+   "Buồn bã"
+  ]
+ },
+ "knee_lean_resignation": {
+  "ma": "knee_lean_resignation",
+  "ten": "Chùng gối chấp nhận",
+  "y_nghia": "Người từ từ buông xuống, chấp nhận hiện thực không thể thay đổi.",
+  "khi_nao": "Khi người khác nói một sự thật mình phải chấp nhận dù không muốn.",
+  "mo_ta_en": "Weight gradually shifts left (0.8cm), right knee bends smooth 9°. Both knees flex 7° over 2.5 seconds. Spine rounds forward 4° naturally, shoulders slope inward 3cm. Arms relax at 105° from sides. Head droops 15° with closed eyes. Left foot maintains pressure, right heel lifts 1mm slightly before resetting. Final hold 1.8 seconds. Feet stay planted on the floor, no stepping.",
+  "giay": 4.0,
+  "cum": [
+   "Được rồi",
+   "Tính toán lại",
+   "Thôi đi",
+   "Biết mà",
+   "Không còn cách nào",
+   "Chịu thôi"
+  ]
+ },
+ "knee_weak_embarrassed": {
+  "ma": "knee_weak_embarrassed",
+  "ten": "Chùng gối xấu hổ",
+  "y_nghia": "Cơ thể yếu đi từ cảm giác bẽ bàng, muốn tìm một chỗ để ẩn nấp.",
+  "khi_nao": "Khi bị người khác chỉ trích hoặc bộc lộ lỗi sai của mình trước công chúng.",
+  "mo_ta_en": "Weight shifts slightly right (0.5cm offset), knees soften 8° gradually. Hip rotates inward 2°, spine arches back subtle 3° (posture turns inward). Shoulders hunch forward 2cm, roll inward 4°. Arms cross or fold across torso at 95° angle. Head bows 10° with gaze averted down-left. Body becomes smaller, compact. Hold 2.2 seconds. Feet stay planted on the floor, no stepping.",
+  "giay": 2.0,
+  "cum": [
+   "Biết điều",
+   "Rồi biết rồi",
+   "Xin lỗi",
+   "Tôi không có lý do",
+   "Chỳa mặt",
+   "Nhục quá"
+  ]
+ },
+ "lateral_sway_search": {
+  "ma": "lateral_sway_search",
+  "ten": "Lắc ngang tìm lời",
+  "y_nghia": "Dao động nhẹ sang phải rồi trái phản ánh não đang quét ký ức hoặc từ vựng, cơ thể theo nhịp tư duy.",
+  "khi_nao": "Khi đang kể chuyện rồi quên tên người, địa danh hoặc một chi tiết cụ thể nào đó.",
+  "mo_ta_en": "Weight shifts right onto right foot over 0.6s, hips move laterally right 0.6cm rotating right 6°, spine follows 3°, then reverses left over 0.9s — hips move left 0.6cm rotating left 6°. One complete sway cycle. Left arm rises slightly 10cm, index finger extends pointing sideways as if searching. Right arm hangs loose. Head tilts right then left mirroring sway, 8° each side. Gaze drifts upward unfocused. Feet stay planted on the floor, no stepping.",
+  "giay": 2.5,
+  "cum": [
+   "Ờ cái tên là...",
+   "Hồi đó ở... ở đâu nhỉ?",
+   "Người đó tên gì ấy nhỉ...",
+   "Năm đó... năm bao nhiêu...",
+   "Quên mất rồi...",
+   "Hình như là... hmm..."
+  ]
+ },
+ "lean_back_amused_surprise": {
+  "ma": "lean_back_amused_surprise",
+  "ten": "Ngả sau — ngạc nhiên pha buồn cười",
+  "y_nghia": "Phản ứng vừa bất ngờ vừa thích thú, không thể nhịn cười trước điều vừa nghe.",
+  "khi_nao": "Khi bạn bè kể chuyện hài hước bất ngờ hoặc tình huống oái oăm mà không ai ngờ tới.",
+  "mo_ta_en": "Weight eases onto right foot, hips rotate right ~7°, spine leans back ~8° while a light laugh shakes the torso with micro-pulses every 0.3 s. Shoulders drop back ~4 cm, head tilts back ~18° with chin angled up. Both hands come together at mid-chest, palms touching briefly, then one hand waves forward ~30 cm in a dismissive arc. Total motion unfolds over 2.0 s. Feet stay planted on the floor, no stepping.",
+  "giay": 3.0,
+  "cum": [
+   "Trời, buồn cười quá!",
+   "Ôi thôi, cái đó nữa!",
+   "Sao mà kỳ cục vậy?",
+   "Haha, không ngờ á!",
+   "Ủa mà sao lại vậy được ta?",
+   "Thật ra là thế à, trời!"
+  ]
+ },
+ "lean_back_disbelief_head_shake": {
+  "ma": "lean_back_disbelief_head_shake",
+  "ten": "Ngả sau — không tin, lắc đầu",
+  "y_nghia": "Bày tỏ sự hoài nghi và từ chối tin vào điều vừa nghe.",
+  "khi_nao": "Khi ai đó kể điều nghe có vẻ vô lý hoặc quá phi thực tế, ví dụ tin đồn thất thiệt hay con số phóng đại.",
+  "mo_ta_en": "Weight drifts back onto left heel, left hip drops ~5°, torso leans back ~12° over 0.9 s. Spine stays erect with only ~4° extension, no hunching. Head tilts back ~15° then slowly shakes side to side 2–3 times across ~25° arc. Right hand rises to chest height, index finger wagging horizontally ~10 cm. Recovery eases over 1.4 s. Feet stay planted on the floor, no stepping.",
+  "giay": 3.5,
+  "cum": [
+   "Không, không đúng đâu",
+   "Thôi đi, bịa đặt rồi",
+   "Ai mà tin được chứ",
+   "Chắc nghe nhầm rồi",
+   "Không có chuyện đó đâu",
+   "Đùa tôi à?"
+  ]
+ },
+ "lean_back_mild_surprise": {
+  "ma": "lean_back_mild_surprise",
+  "ten": "Ngả nhẹ — ngạc nhiên vừa phải",
+  "y_nghia": "Phản ứng bất ngờ ở mức độ nhẹ, thoáng ngỡ ngàng nhưng vẫn bình tĩnh.",
+  "khi_nao": "Khi nghe một tin tức khá bất ngờ nhưng không quá sốc, ví dụ giá hàng tăng hay bạn bè kể chuyện lạ.",
+  "mo_ta_en": "Weight shifts subtly onto right foot, hip rotates left ~6°, spine extends upright ~4° as torso leans back 8–10° from neutral. Shoulders drift back ~3 cm symmetrically, chin tucks slightly, head tilts back ~12°. Both arms lower to hip level, palms open and face upward briefly. Movement takes ~0.8 s to peak, holds 0.6 s, then recovers. Feet stay planted on the floor, no stepping.",
+  "giay": 2.5,
+  "cum": [
+   "Thật không?",
+   "Ủa, vậy hả?",
+   "Không ngờ vậy luôn",
+   "Hả, thiệt á?",
+   "Ờ… mà sao kỳ vậy?",
+   "Không biết nữa…"
+  ]
+ },
+ "lean_back_shock_hands_up": {
+  "ma": "lean_back_shock_hands_up",
+  "ten": "Ngả mạnh — giật mình, hai tay bật lên",
+  "y_nghia": "Phản xạ giật mình tức thì trước thông tin gây sốc, toàn thân bắn ra sau.",
+  "khi_nao": "Khi nghe tin cực kỳ bất ngờ hoặc đáng sợ, ví dụ tai nạn, tin buồn đột ngột hay điều không tưởng.",
+  "mo_ta_en": "Weight slams back onto both heels equally, hips rotate minimally ~4° left, spine snaps back ~10° in 0.3 s. Shoulders jerk rearward ~6 cm, head recoils ~20° backward. Both arms fly upward to chest–shoulder height, elbows bent ~90°, palms facing outward as if bracing. Peak held 0.5 s, gradual 1.2 s recovery. Feet stay planted on the floor, no stepping.",
+  "giay": 2.2,
+  "cum": [
+   "Trời ơi!",
+   "Thôi chết rồi!",
+   "Cái gì vậy trời?!",
+   "Sao lại thế được?!",
+   "Không thể tin được!",
+   "Ôi trời đất ơi!"
+  ]
+ },
+ "lean_back_slow_realization": {
+  "ma": "lean_back_slow_realization",
+  "ten": "Ngả dần — vỡ lẽ chậm rãi",
+  "y_nghia": "Sự ngạc nhiên đến từ từ khi não bộ dần xử lý và hiểu ra ý nghĩa thực sự của thông tin.",
+  "khi_nao": "Khi đang nghe giải thích dài và bỗng nhận ra sự thật đằng sau, ví dụ phát hiện mình bị hiểu lầm hoặc sự việc không như nghĩ.",
+  "mo_ta_en": "Weight gradually loads onto left foot over 1.2 s, left hip sinks ~5° and rotates back ~6°, spine unfolds into ~4° extension as torso drifts back 10–12° very slowly. Shoulders retract ~5 cm, head tilts back ~14° with eyes widening. Right hand rises open-palmed to sternum height at 0.8 s mark, pauses, then both arms open outward ~40 cm apart at hip level. Full arc completes in 2.5 s. Feet stay planted on the floor, no stepping.",
+  "giay": 4.0,
+  "cum": [
+   "Ờ… mà khoan đã",
+   "Tức là… à, ra vậy",
+   "Để tôi hiểu lại cái này",
+   "Nghĩa là lúc đó…",
+   "Ờ thì ra thế",
+   "Hóa ra là như vậy sao"
+  ]
+ },
+ "lean_back_soft_decline": {
+  "ma": "lean_back_soft_decline",
+  "ten": "Lùi nhẹ – từ chối khéo",
+  "y_nghia": "Tạo khoảng cách lịch sự, nhường nhịn mà không đối đầu.",
+  "khi_nao": "Khi muốn từ chối một đề nghị mà vẫn giữ không khí hòa nhã.",
+  "mo_ta_en": "Weight shifts onto right heel (60/40), hips drift back 3cm and rotate left 6°, spine extends upright 4° without bending, shoulders settle back 2cm, right hand rises palm-outward to chest height at 110° elbow, wrist rotates 90° in 0.4s, head tilts back-right 20°. Total motion 2.8s. Feet stay planted on the floor, no stepping.",
+  "giay": 2.8,
+  "cum": [
+   "Thôi để lần khác đi bạn ơi",
+   "Mình chưa tiện lắm",
+   "Cảm ơn bạn nhưng thôi",
+   "Ý bạn hay đấy nhưng…",
+   "Mình nghĩ chưa cần thiết",
+   "Để mình xem lại đã"
+  ]
+ },
+ "lean_engaged_nod": {
+  "ma": "lean_engaged_nod",
+  "ten": "Nghiêng gật chăm chú",
+  "y_nghia": "Phát tín hiệu đang theo dõi sát từng lời, khuyến khích người nói tiếp tục.",
+  "khi_nao": "Khi người kia đang giải thích dài, người nghe muốn cho thấy mình vẫn theo kịp mạch câu chuyện.",
+  "mo_ta_en": "Weight rolls forward onto balls of both feet evenly, hips neutral with 4° anterior tilt bringing torso 6° forward, spine straight, both shoulders ease 8° forward symmetrically, head nods rhythmically 15° down then returns over 0.8s cycles, hands rest open on thighs palms up. Lean establishes in 1.0s, nod repeats 2–3 times over hold. Feet stay planted on the floor, no stepping.",
+  "giay": 3.0,
+  "cum": [
+   "Ừ ừ, mình nghe",
+   "Đúng rồi đúng rồi",
+   "Uh huh, tiếp đi",
+   "Ừ, mình hiểu rồi",
+   "Vậy là…",
+   "Ok ok, rồi thì?",
+   "Nghe rõ rồi",
+   "Ừ, cứ nói đi"
+  ]
+ },
+ "lean_in_conspiratorial": {
+  "ma": "lean_in_conspiratorial",
+  "ten": "Dồn về phía người nghe",
+  "y_nghia": "Tôi muốn chia sẻ điều riêng tư, chỉ cho bạn biết thôi.",
+  "khi_nao": "Khi người nói muốn tiết lộ bí mật hoặc thông tin nhạy cảm với người nghe.",
+  "mo_ta_en": "Weight shifts to front of left foot (60% load), right foot stays planted. Hips rotate inward 7° toward listener. Torso tilts forward 4° from lumbar spine, shoulders drop 2° naturally. Both arms move inward, right elbow flexes to 96°, hand rises to chest height ~41cm from body. Eyes narrow slightly, head tilts 12° forward-down. Hold 2.5 seconds. Feet remain flat on floor throughout.",
+  "giay": 2.5,
+  "cum": [
+   "Nghe nè",
+   "Chỉ có mình mình biết",
+   "Tôi tin bạn",
+   "Chuyện này đừng bật ra",
+   "Nghe tôi nói",
+   "Giữa chúng mình thôi"
+  ]
+ },
+ "lean_in_conspire": {
+  "ma": "lean_in_conspire",
+  "ten": "Nghiêng vào bàn kế hoạch",
+  "y_nghia": "Người nói kéo người nghe vào một âm mưu hoặc kế hoạch chung bí mật.",
+  "khi_nao": "Khi rủ rê hoặc bàn kế hoạch riêng với giọng hào hứng, thì thầm.",
+  "mo_ta_en": "Weight shifts forward onto both balls of feet, heels grounded. Hips rotate 6° right and push 0.4 cm forward. Spine inclines 5° forward. Shoulders lean in symmetrically, dropping 10° each. Both forearms extend 60° outward, palms facing up, hands travel ~41 cm forward as if drawing listener in. Head tilts 22° forward, eyebrows raised. Duration 3.2 s. Feet stay planted on the floor, no stepping.",
+  "giay": 3.2,
+  "cum": [
+   "Tụi mình làm vậy này, nghe chưa",
+   "Tao có kế hoạch rồi nè",
+   "Mày làm vậy, tao làm vậy",
+   "Đừng ai biết là được",
+   "Nếu tụi mình hợp lại thì xong",
+   "Kế hoạch hoàn hảo luôn"
+  ]
+ },
+ "lean_in_curious": {
+  "ma": "lean_in_curious",
+  "ten": "Nghiêng tò mò",
+  "y_nghia": "Thể hiện sự tò mò chân thật, muốn hiểu rõ hơn điều vừa nghe.",
+  "khi_nao": "Khi đối phương nói điều bất ngờ hoặc thú vị, người nghe muốn nghe tiếp.",
+  "mo_ta_en": "Weight shifts onto left foot, hip rotates 7° left, spine tilts forward 4° at thoracic, shoulders follow 10° forward lean, head tilts 15° right with chin slightly down, eyes wide, both hands loosely clasped at waist level. Transition takes 1.2s, hold 2.0s. Feet stay planted on the floor, no stepping.",
+  "giay": 3.2,
+  "cum": [
+   "Thật hả?",
+   "Ủa rồi sao?",
+   "Anh nói thêm đi",
+   "Ý bạn là…?",
+   "Hả, nghiêm túc không?",
+   "Tiếp đi tiếp đi",
+   "Thế à, kể nghe",
+   "Không hiểu lắm, ý là sao?"
+  ]
+ },
+ "lean_in_gossip": {
+  "ma": "lean_in_gossip",
+  "ten": "Nghiêng vào buôn chuyện",
+  "y_nghia": "Người nói hào hứng chia sẻ tin đồn với vẻ tinh nghịch, mắt sáng lên.",
+  "khi_nao": "Khi buôn chuyện về người khác, giọng nhanh và phấn khích nhưng vẫn thì thầm.",
+  "mo_ta_en": "Weight pops onto left foot energetically, right toes pivot inward 15°. Hips rotate 7° left, shifting 0.5 cm laterally. Spine stays upright with only 4° forward lean, energy carried in upper body. Left shoulder dips 14° toward listener. Left hand cups beside mouth, palm concave, traveling ~38 cm to the side. Head tilts 18° left with eyebrows flicking upward. Duration 2.2 s. Feet stay planted on the floor, no stepping.",
+  "giay": 2.2,
+  "cum": [
+   "Mày biết chuyện của con đó chưa",
+   "Tao mới nghe nóng hổi luôn",
+   "Trời ơi mày chưa biết hả",
+   "Con nhỏ đó với thằng kia á",
+   "Đừng nói là tao kể nha",
+   "Giật mình luôn khi nghe chuyện này"
+  ]
+ },
+ "lean_in_secret_share": {
+  "ma": "lean_in_secret_share",
+  "ten": "Nghiêng vào kể bí mật",
+  "y_nghia": "Người nói muốn chia sẻ điều gì đó riêng tư, chỉ dành cho người nghe.",
+  "khi_nao": "Khi sắp tiết lộ tin tức bí mật hoặc chuyện chỉ hai người biết.",
+  "mo_ta_en": "Weight shifts onto the left foot; hips rotate 7° left and drift 0.5 cm forward. Spine inclines ~4° forward from lumbar, torso tilts 6° toward listener. Both shoulders drop slightly inward 8°. Right forearm raises 55° with index finger lifting toward lips in a 'shh' gesture, hand travels ~38 cm forward. Head tilts 20° toward listener, eyes narrowing. Duration 2.8 s. Feet stay planted on the floor, no stepping.",
+  "giay": 2.8,
+  "cum": [
+   "Này, tao kể mày nghe cái này nha",
+   "Chỉ mình mày biết thôi đó",
+   "Đừng nói với ai khác nghen",
+   "Tao chưa kể ai hết",
+   "Cái này bí mật lắm",
+   "Lại gần tao nói cho nghe"
+  ]
+ },
+ "lean_in_tilt_curious_probe": {
+  "ma": "lean_in_tilt_curious_probe",
+  "ten": "Nghiêng người hỏi dò",
+  "y_nghia": "Thể hiện sự quan tâm tích cực, muốn đào sâu vào vấn đề.",
+  "khi_nao": "Khi đang hỏi thẳng vào điểm mấu chốt mà chưa có câu trả lời rõ ràng.",
+  "mo_ta_en": "Weight loads 65% onto right foot, right heel presses down, hip rotates left ~7°, torso inclines forward ~8° from waist with spine maintaining ~4° tilt. Right shoulder dips ~14°, head tilts right ~20° and slightly forward. Both forearms rise to mid-chest, palms face each other 30cm apart. Motion initiates at foot over 0.8s, peaks at 1.0s, holds 1.8s. Feet stay planted on the floor, no stepping.",
+  "giay": 3.0,
+  "cum": [
+   "rồi sau đó thì sao?",
+   "vậy thì cái này nghĩa là gì?",
+   "ý chính là…?",
+   "mình muốn hỏi thẳng",
+   "bạn định nói cái gì?",
+   "phần đó quan trọng lắm",
+   "khoan, chỗ này là thế nào?"
+  ]
+ },
+ "lean_in_urgent_warn": {
+  "ma": "lean_in_urgent_warn",
+  "ten": "Nghiêng vào cảnh báo gấp",
+  "y_nghia": "Người nói khẩn cấp cảnh báo người nghe về điều nguy hiểm hoặc quan trọng.",
+  "khi_nao": "Khi muốn nhắc nhở hoặc cảnh báo khẩn cấp bằng giọng thấp và dứt khoát.",
+  "mo_ta_en": "Weight drives firmly onto right foot, left foot pivots 10° inward for stability. Hips rotate 6° right, thrusting 0.7 cm forward. Spine inclines 5° forward from lumbar, held rigid. Right shoulder pushes 12° forward, left pulls back 6°. Right arm extends forward at 120° elbow, forearm at 65°, index finger points directly at listener, hand traveling ~42 cm. Head pitches 20° forward, jaw set. Duration 2.5 s. Feet stay planted on the floor, no stepping.",
+  "giay": 2.5,
+  "cum": [
+   "Nghe tao nói cái này quan trọng lắm",
+   "Mày phải cẩn thận vụ đó",
+   "Đừng tin cái đó, nguy hiểm lắm",
+   "Tao nói thiệt, mày phải để ý",
+   "Tao biết rõ chuyện này rồi",
+   "Làm vậy là hỏng hết đó mày"
+  ]
+ },
+ "lean_in_vulnerable": {
+  "ma": "lean_in_vulnerable",
+  "ten": "Nghiêng vào thú nhận",
+  "y_nghia": "Người nói dễ tổn thương, đang thú nhận điều khó nói với giọng run rẩy.",
+  "khi_nao": "Khi chia sẻ cảm xúc sâu kín hoặc thú nhận điều bản thân xấu hổ.",
+  "mo_ta_en": "Weight slowly sinks onto right foot, left heel lifts 1 cm and pivots inward. Hips rotate 5° right, shifting 0.6 cm right. Spine softens 4° forward, slight rounding at thoracic. Right shoulder rolls 12° inward, left shoulder follows at 8°. Right hand rises to chest level, palm resting lightly over sternum, traveling ~30 cm. Head bows 25° downward then glances up. Duration 4.0 s. Feet stay planted on the floor, no stepping.",
+  "giay": 4.0,
+  "cum": [
+   "Thật ra tao muốn nói thiệt với mày",
+   "Tao chưa bao giờ kể ai chuyện này",
+   "Mày đừng cười tao nha",
+   "Tao cũng không hiểu sao mình lại vậy",
+   "Nói ra kỳ lắm nhưng mà thật",
+   "Tao sợ mày nghĩ xấu về tao"
+  ]
+ },
+ "lean_intimate_confide": {
+  "ma": "lean_intimate_confide",
+  "ten": "Nghiêng thân mật",
+  "y_nghia": "Tạo không gian riêng tư, cho thấy người nghe coi trọng điều được chia sẻ như bí mật.",
+  "khi_nao": "Khi đối phương hạ giọng hoặc ra hiệu sắp nói điều riêng tư, người nghe rút ngắn khoảng cách.",
+  "mo_ta_en": "Weight shifts decisively onto left foot, left knee softens 8°, hip rotates 7° left and glides 0.7cm left, spine tilts 4° forward at lumbar, torso closes 15° toward speaker, both shoulders round slightly 12° inward, head dips 10° forward and tilts 8° left, voice drops, right hand moves 41cm forward to rest near shared surface or knee. Full lean completes in 2.0s, held softly 2.0s. Feet stay planted on the floor, no stepping.",
+  "giay": 4.0,
+  "cum": [
+   "Nói thật nha, giữa hai đứa thôi",
+   "Đừng kể ai nghe nha",
+   "Mình nói nhỏ thôi",
+   "Bạn có biết không…",
+   "Thật ra là…",
+   "Chuyện này hơi tế nhị",
+   "Chỉ bạn mình biết thôi",
+   "Nè, lại đây nói"
+  ]
+ },
+ "lean_side_empathy": {
+  "ma": "lean_side_empathy",
+  "ten": "Nghiêng đồng cảm",
+  "y_nghia": "Biểu lộ sự thấu hiểu và chia sẻ cảm xúc với người đang nói.",
+  "khi_nao": "Khi nghe ai đó tâm sự chuyện buồn hoặc khó khăn, người nghe muốn tỏ lòng đồng cảm.",
+  "mo_ta_en": "Weight settles onto right foot, hip drifts 0.7cm right and rotates 5° right, spine maintains neutral 4° left lateral tilt, left shoulder drops 8°, head tilts 20° left toward speaker, right hand rises to rest lightly on chest at sternum level, left arm hangs soft at side. Shift takes 1.5s, held 2.5s. Feet stay planted on the floor, no stepping.",
+  "giay": 4.0,
+  "cum": [
+   "Trời ơi, khổ vậy",
+   "Mình hiểu cảm giác đó",
+   "Chắc lúc đó mệt lắm nhỉ",
+   "Nghe mà thấy thương",
+   "Thật sự á, tội quá",
+   "Ừ, mình cũng từng vậy",
+   "Ổn không bạn?",
+   "Nghe mà thấy nặng lòng"
+  ]
+ },
+ "lean_skeptical_assess": {
+  "ma": "lean_skeptical_assess",
+  "ten": "Nghiêng dò xét",
+  "y_nghia": "Cho thấy người nghe đang cân nhắc, chưa hoàn toàn tin vào những gì được nói.",
+  "khi_nao": "Khi nghe một lập luận hoặc thông tin khó tin, người nghe muốn đánh giá lại trước khi phản hồi.",
+  "mo_ta_en": "Weight presses into left heel, hip rotates 6° left, spine stays tall with only 4° rightward tilt, right shoulder pulls back 10° opening chest, head tilts 12° right and chin lifts 5°, right hand rises to chin with index finger extended along jaw, left arm crosses loosely at lower ribs. Movement takes 1.8s, hold 2.0s. Feet stay planted on the floor, no stepping.",
+  "giay": 3.8,
+  "cum": [
+   "Hmm… chắc không?",
+   "Ờ, nhưng mà…",
+   "Khoan, để mình nghĩ cái đã",
+   "Nghe có vẻ lạ",
+   "Nguồn đâu vậy?",
+   "Thiệt không ta?",
+   "Mình chưa chắc lắm",
+   "Ý đó hơi khó tin"
+  ]
+ },
+ "lean_weight_forward_point": {
+  "ma": "lean_weight_forward_point",
+  "ten": "Dồn trọng tâm ra trước khi chỉ thẳng",
+  "y_nghia": "Nhấn mạnh một điểm quan trọng bằng cách đẩy toàn bộ cơ thể về phía trước như áp đặt ý kiến vào không gian chung.",
+  "khi_nao": "Khi khẳng định một sự thật hoặc thông tin mà người nghe cần ghi nhớ.",
+  "mo_ta_en": "Weight shifts forward onto the ball of the left foot, heel slightly raised; hips rotate 7° forward and tilt 3° left; spine extends upright with 4° anterior lean; shoulders square forward; right arm extends 126° from torso with index finger pointing straight ahead at chest height, wrist firm; left arm hangs at side. Duration 2.5s. Feet stay planted on the floor, no stepping.",
+  "giay": 2.5,
+  "cum": [
+   "phải hiểu rõ điều này",
+   "đây là điểm mấu chốt",
+   "tôi nói thật với anh",
+   "không phải ngẫu nhiên đâu",
+   "chính xác là như vậy",
+   "anh phải nhớ kỹ điều này",
+   "đây mới là vấn đề"
+  ]
+ },
+ "light_bow_shy_smile": {
+  "ma": "light_bow_shy_smile",
+  "ten": "Cúi cảm ơn e ngại",
+  "y_nghia": "Biết ơn nhưng kèm chút ngại ngùng, không quen được người khác giúp nhiều như vậy.",
+  "khi_nao": "Khi nhận lời khen hoặc sự giúp đỡ bất ngờ và cảm thấy hơi ngượng, chưa biết nói gì.",
+  "mo_ta_en": "Weight shifts slightly onto right foot 55/45; right knee flexes ~7°; hips rotate right ~5°; spine inclines forward only ~8° over 0.5s — a small, quick dip; both shoulders rise slightly ~4° in a shy shrug then drop; arms remain close to body, hands lightly clasped in front at hip level ~10cm from body; head dips ~15° then tilts faintly right ~5°; held 0.4s, returns over 0.9s. Feet stay planted on the floor, no stepping.",
+  "giay": 2.0,
+  "cum": [
+   "ôi không dám đâu ạ",
+   "thôi anh ơi em ngại lắm",
+   "ủa chị giúp em vậy sao",
+   "không có gì đâu anh",
+   "trời ơi cảm ơn chị quá",
+   "em không biết phải nói gì"
+  ]
+ },
+ "mock_challenge_stance": {
+  "ma": "mock_challenge_stance",
+  "ten": "Thách thức giả vờ",
+  "y_nghia": "Tạo dáng thách đấu hài hước, không nghiêm túc, mang tính trêu đùa.",
+  "khi_nao": "Khi đùa kiểu 'dám không?' hoặc thách bạn bè làm điều gì ngớ ngẩn.",
+  "mo_ta_en": "Weight sinks low onto left foot, left knee bends ~10°; hip shifts left 0.6cm and rotates right ~7°, spine stays upright with only ~4° lateral tilt. Both arms rise outward to ~125° with elbows bent, palms facing up in a mock-challenge shrug, wrists loose at ~90°. Chin juts forward 2cm over 0.8s, then resets by 2.5s. Feet stay planted on the floor, no stepping.",
+  "giay": 3.0,
+  "cum": [
+   "Dám làm không nào?",
+   "Thử đi xem sao?",
+   "Tao dám mà mày thì sao?",
+   "Dễ ợt mà ngại cái gì?",
+   "Ăn thua gì đâu nào?",
+   "Mày sợ rồi à haha?",
+   "Bao nhiêu tao làm hết",
+   "Cá với tao không?"
+  ]
+ },
+ "one_side_shrug_smirk_casual": {
+  "ma": "one_side_shrug_smirk_casual",
+  "ten": "Nhún một vai nghiêng người thản nhiên",
+  "y_nghia": "Không biết nhưng cũng không quan tâm lắm, thái độ bình thản.",
+  "khi_nao": "Khi chủ đề không quan trọng với mình và mình muốn thể hiện sự nhẹ nhàng, thoải mái.",
+  "mo_ta_en": "Weight shifts casually onto right foot over 0.5s; left knee softens 7°. Hips rotate 6° right, body leans 4° right from spine base. Only right shoulder rises 13°, left stays neutral. Right elbow bends 61°, forearm lifts with hand open palm-sideward at hip height, wrist slightly cocked. Left arm stays relaxed at side. Head tilts 24° right with a slight chin raise. Peak held 0.6s, slow release 1.2s. Feet stay planted on the floor, no stepping.",
+  "giay": 2.5,
+  "cum": [
+   "Ừ thì ai biết",
+   "Cũng được thôi",
+   "Không quan trọng lắm",
+   "Kệ đi mà",
+   "Có gì đâu",
+   "Tính sao cũng được",
+   "Chuyện nhỏ thôi",
+   "Mình cũng không care lắm"
+  ]
+ },
+ "pivot_heel_conclude_turn": {
+  "ma": "pivot_heel_conclude_turn",
+  "ten": "Xoay gót – kết luận chuyển hướng",
+  "y_nghia": "Người nói kết thúc một ý và ngay lập tức mở ra hướng tiếp theo, chuyển sự chú ý sang vấn đề khác.",
+  "khi_nao": "Khi tổng kết một luận điểm rồi báo hiệu sắp chuyển sang chủ đề hoặc người nghe khác.",
+  "mo_ta_en": "Left heel pivots outward 15° on the floor, shifting weight 60% onto left foot, right knee bends 8°. Hips rotate 7° left, spine follows with 4° rotation, shoulders turn left over 0.7 s. Left arm sweeps wide from center to left side ~41 cm, palm opens outward at hip height. Right arm relaxes down. Head rotates 20° left, gaze redirects. Feet stay planted on the floor, no stepping.",
+  "giay": 3.2,
+  "cum": [
+   "Còn về phần kia thì sao",
+   "Được rồi, bây giờ sang vấn đề khác",
+   "Xong phần đó, tiếp theo là",
+   "Cái đó chốt rồi, còn cái này",
+   "Tạm thời là như vậy, nhưng còn",
+   "Ổn, giờ mình nói về chuyện khác",
+   "Kết thúc phần này rồi nhé, tiếp là"
+  ]
+ },
+ "pivot_heel_open_palm": {
+  "ma": "pivot_heel_open_palm",
+  "ten": "Xoay gót mở lòng bàn tay",
+  "y_nghia": "Dồn trọng tâm sang bên để mở ra một lập luận mới, bàn tay ngửa như đặt ý kiến lên bàn để mọi người cùng xem xét.",
+  "khi_nao": "Khi chuyển sang trình bày một khía cạnh khác hoặc mời người nghe cùng suy nghĩ về một vấn đề.",
+  "mo_ta_en": "Weight shifts onto the right foot, left heel pivots outward 20° without lifting; hips rotate 7° rightward; spine stays upright at 4° lateral tilt; left shoulder drops 14° naturally; right arm rises to 126° abduction, elbow bent 61°, palm facing up and open, fingers relaxed; hand travels 41cm arc from hip to mid-chest level over 1.5s, then holds 1.0s. Feet stay planted on the floor, no stepping.",
+  "giay": 3.0,
+  "cum": [
+   "nhìn từ góc độ khác",
+   "nếu mình xét thêm thì",
+   "có một điều nữa là",
+   "thử nghĩ theo hướng này",
+   "tôi đặt câu hỏi thế này",
+   "cũng có thể hiểu là",
+   "bên cạnh đó chúng ta thấy"
+  ]
+ },
+ "pivot_heel_think": {
+  "ma": "pivot_heel_think",
+  "ten": "Xoay gót chân khi suy nghĩ",
+  "y_nghia": "Sự xoay nhỏ ở gót chân phải phản ánh bộ não đang chuyển hướng, tìm kiếm góc nhìn mới cho vấn đề.",
+  "khi_nao": "Khi ngừng giữa chừng để điều chỉnh lập luận, thường xuất hiện trước khi đưa ra một ý kiến khác hẳn.",
+  "mo_ta_en": "Right heel pivots outward 12° on the ball of the right foot over 0.5s, right knee rotates outward 5°. Hips follow rotating right 7°. Spine holds firm 3° rightward rotation. Right shoulder opens back 8°, left arm crosses body rising to mid-chest, forearm angled 55°, wrist neutral. Head turns right 15°, gaze shifts mid-distance. Hold 1.5s. Feet stay planted on the floor, no stepping.",
+  "giay": 3.0,
+  "cum": [
+   "Hoặc là... hmm...",
+   "Cũng có thể...",
+   "Mà nếu nhìn theo cách khác...",
+   "Tôi đang nghĩ xem...",
+   "Không hẳn là vậy...",
+   "Khía cạnh khác thì sao nhỉ?"
+  ]
+ },
+ "planted_lean_in_conclude": {
+  "ma": "planted_lean_in_conclude",
+  "ten": "Trụ – nghiêng vào – kết luận thuyết phục",
+  "y_nghia": "Người nói muốn đối phương thực sự nghe và tin vào điều vừa được kết luận.",
+  "khi_nao": "Khi cần thuyết phục ai đó chấp nhận một kết luận mà họ còn do dự.",
+  "mo_ta_en": "Both feet press evenly into floor, knees soften 8°, hips push 0.5 cm forward and rotate 5° toward listener. Spine inclines 4° forward from base, shoulders advance 3 cm. Right forearm extends toward listener, elbow bends 60°, index finger points lightly forward at chest height, hand travels ~42 cm over 0.9 s. Head holds steady, chin level. Feet stay planted on the floor, no stepping.",
+  "giay": 2.8,
+  "cum": [
+   "Tin tôi đi, đúng là như vậy",
+   "Đây là điều tôi chắc chắn",
+   "Bạn phải nhìn nhận điều này",
+   "Tôi khẳng định với bạn",
+   "Không thể khác được đâu",
+   "Hãy nghĩ lại mà xem",
+   "Thực tế đã chứng minh rồi"
+  ]
+ },
+ "playful_lean_into_joke": {
+  "ma": "playful_lean_into_joke",
+  "ten": "Nghiêng vào trêu",
+  "y_nghia": "Người nói chủ động áp sát, trêu chọc đối phương bằng cơ thể.",
+  "khi_nao": "Khi vừa nói một câu đùa và muốn xem phản ứng của người kia.",
+  "mo_ta_en": "Weight shifts fully onto right foot; hip rotates left ~7°, torso follows ~4°, right shoulder dips forward 12°, right arm swings loosely outward ~120° then tucks back in over 1.8s, elbow leads with wrist trailing. Head tilts left 20° with a slight smirk tilt. Left hand rests low. Feet stay planted on the floor, no stepping.",
+  "giay": 2.5,
+  "cum": [
+   "Ê mà thật không đấy?",
+   "Trời ơi mày nghiêm túc á?",
+   "Đùa thôi mà hihi",
+   "Tao biết mày thích mà",
+   "Thôi thôi tao xin lỗi nè",
+   "Ui xấu hổ chưa kìa",
+   "Nói thật đó nha không đùa đâu",
+   "Mày đỏ mặt rồi kìa"
+  ]
+ },
+ "polite_bow_both_hands_clasp": {
+  "ma": "polite_bow_both_hands_clasp",
+  "ten": "Cúi cảm ơn chắp tay",
+  "y_nghia": "Biết ơn trang trọng, lễ phép — thường dùng với người lớn tuổi hoặc bậc trên.",
+  "khi_nao": "Khi nói chuyện với người lớn tuổi hơn hoặc bề trên và muốn thể hiện sự kính trọng kèm lời cảm ơn.",
+  "mo_ta_en": "Weight centers evenly on both feet; both knees flex ~8°; hips stay neutral, spine inclines forward ~18° over 0.9s; both arms rise simultaneously, palms pressing together at chest height ~30cm from body, elbows at ~90°; shoulders round forward ~6°; head bows ~25° and holds 0.8s before whole body returns upright over 1.1s. Feet stay planted on the floor, no stepping.",
+  "giay": 3.5,
+  "cum": [
+   "dạ con cảm ơn cô ạ",
+   "cháu xin cảm ơn bác",
+   "con cảm ơn thầy nhiều",
+   "dạ em cảm ơn anh ạ",
+   "cảm ơn chú đã chỉ bảo",
+   "em cảm ơn rất nhiều ạ"
+  ]
+ },
+ "quick_shrug_pullback_arms": {
+  "ma": "quick_shrug_pullback_arms",
+  "ten": "Nhún vai giật tay rút về né trách nhiệm",
+  "y_nghia": "Không liên quan đến mình, mình không dính vào chuyện đó.",
+  "khi_nao": "Khi bị hỏi về chuyện của người khác hoặc muốn tách mình ra khỏi tình huống.",
+  "mo_ta_en": "Weight snaps onto left foot in 0.2s; right knee bends 8°. Hips rotate 7° left sharply. Spine upright, stiffens 4°. Both shoulders jerk up 14° in 0.3s. Elbows pull back and in toward ribs simultaneously, forearms at 62°, hands retract to sides 36cm apart, palms inward. Quick peak hold 0.3s, release over 0.8s. Total gesture feels abrupt and dismissive. Feet stay planted on the floor, no stepping.",
+  "giay": 2.0,
+  "cum": [
+   "Không phải chuyện của tôi",
+   "Tôi không dính vô đâu",
+   "Hỏi tôi làm gì",
+   "Mình không biết gì hết",
+   "Việc đó tôi không hay",
+   "Không liên quan tới tôi",
+   "Tôi đứng ngoài chuyện đó",
+   "Kệ người ta đi"
+  ]
+ },
+ "relief_both_hands_drop_sigh": {
+  "ma": "relief_both_hands_drop_sigh",
+  "ten": "Hai tay buông thõng — thở dài nhẹ nhõm",
+  "y_nghia": "Hai tay hạ xuống đột ngột nhưng nhẹ nhàng, như thả bỏ thứ đang nắm chặt cả lúc nãy.",
+  "khi_nao": "Ngay sau khi cuộc điện thoại căng thẳng kết thúc hoặc quyết định khó đã được đưa ra.",
+  "mo_ta_en": "Weight drops into left foot, left knee bends 6°, hips sink 2 cm and rotate right 5° over 0.8 s. Spine settles 4° with a quiet exhale. Both arms — which were raised at mid-torso — drop to sides in 0.6 s, traveling 40 cm downward, wrists loose and fingers trailing. Shoulders descend 4 cm and roll forward slightly 3°. Head bows 8° then lifts back to neutral over 1.5 s. Feet stay planted on the floor, no stepping.",
+  "giay": 2.5,
+  "cum": [
+   "Thôi xong rồi, kệ đi",
+   "Quyết rồi, không nghĩ nữa",
+   "Nói chuyện xong rồi là xong",
+   "Cứ vậy mà làm thôi",
+   "Giải quyết được rồi",
+   "Thở đi, xong hết rồi"
+  ]
+ },
+ "relief_exhale_settle": {
+  "ma": "relief_exhale_settle",
+  "ten": "Thở ra — buông lỏng",
+  "y_nghia": "Cơ thể xả hết căng thẳng sau khi vấn đề được giải quyết.",
+  "khi_nao": "Ngay sau khi nghe tin tốt hoặc khi việc khó cuối cùng xong xuôi.",
+  "mo_ta_en": "Weight shifts onto left foot, hips drop 2 cm and rotate left 6°, spine softens 4° forward in a slow exhale over 1.5 s. Shoulders fall 3 cm downward and back, arms hang loose at sides, hands open with fingers spreading slightly outward 8 cm. Head tilts gently down 10° then returns to neutral. Feet stay planted on the floor, no stepping.",
+  "giay": 3.5,
+  "cum": [
+   "Xong rồi, thở được rồi",
+   "Ổn rồi, không sao đâu",
+   "Trời ơi may quá",
+   "Cuối cùng cũng xong",
+   "Thế là xong hết rồi",
+   "Không phải lo nữa rồi"
+  ]
+ },
+ "relief_lean_back_open": {
+  "ma": "relief_lean_back_open",
+  "ten": "Ngả người — mở lòng ngực",
+  "y_nghia": "Dang tay ra thể hiện sự buông bỏ hoàn toàn, lồng ngực mở rộng đón không khí.",
+  "khi_nao": "Khi cảm thấy một gánh nặng lớn vừa được nhấc khỏi vai, thường nói với bạn thân.",
+  "mo_ta_en": "Weight settles evenly across both feet, heels press down, hips extend back 3 cm and rotate right 5°, spine extends 4° into a gentle backward lean over 1.0 s. Chest lifts and opens, both arms sweep outward 35 cm to sides at hip height, palms face up. Chin rises 12° as head follows the extension. Shoulders roll back 4 cm. Feet stay planted on the floor, no stepping.",
+  "giay": 3.0,
+  "cum": [
+   "Nhẹ cả người luôn",
+   "Cảm giác như vừa trút được gánh nặng",
+   "Mình cứ lo mãi không biết",
+   "Bây giờ thoải mái rồi",
+   "Không còn áp lực nữa",
+   "Tự do rồi, thật sự tự do"
+  ]
+ },
+ "relief_soft_sway_eyes_close": {
+  "ma": "relief_soft_sway_eyes_close",
+  "ten": "Đung đưa nhẹ — nhắm mắt thư giãn",
+  "y_nghia": "Cơ thể dao động nhẹ như con lắc lúc tâm trạng trở về yên tĩnh sau căng thẳng dài.",
+  "khi_nao": "Khi kể lại với ai đó rằng mình đã trải qua giai đoạn khó khăn và cuối cùng vượt qua được.",
+  "mo_ta_en": "Weight cycles gently: left foot 0.8 s, then right foot 0.8 s, hips swaying side to side 0.5 cm each way, rotating alternately 5–6° left and right. Spine sways with hips, 4° lateral, staying tall. Arms hang at sides, swinging passively 15 cm with each sway. Shoulders follow the sway softly, dropping 2 cm total. Head tilts 8° to the weighted side each cycle. Full sway cycle takes 1.6 s, repeats twice. Feet stay planted on the floor, no stepping.",
+  "giay": 4.0,
+  "cum": [
+   "Vượt qua được rồi, hú hồn",
+   "Giai đoạn đó khó lắm nhưng qua rồi",
+   "Mình cũng không ngờ mình làm được",
+   "Nhìn lại thấy mình cũng giỏi đó chứ",
+   "Thật sự là nhẹ nhõm lắm",
+   "Cảm giác bình yên lại rồi"
+  ]
+ },
+ "relief_weight_shift_slow_smile": {
+  "ma": "relief_weight_shift_slow_smile",
+  "ten": "Đổi chân trụ — gật đầu thỏa mãn",
+  "y_nghia": "Dồn trọng lượng tự nhiên sang một bên thể hiện sự bình tâm trở lại sau lo âu.",
+  "khi_nao": "Khi nhận ra mình đã lo lắng quá mức và mọi thứ thực ra ổn hơn tưởng.",
+  "mo_ta_en": "Weight transfers slowly onto right foot over 1.2 s, right knee softens 5°, hips shift right 0.6 cm and rotate left 7°, spine remains upright with 4° gentle rotation. Left shoulder drops 2 cm, left arm swings loosely inward across body 20 cm then settles at side. Right hand rises to rest lightly on right thigh. Head nods once 15° downward with a slow return. Feet stay planted on the floor, no stepping.",
+  "giay": 3.0,
+  "cum": [
+   "À thì ra là vậy",
+   "Mình lo quá hóa ra không cần",
+   "Ừ, đúng rồi, ổn mà",
+   "Thôi được rồi, cũng được",
+   "Không đến nỗi nào đâu",
+   "Nhìn lại thấy không có gì"
+  ]
+ },
+ "reluctant_truth_sink": {
+  "ma": "reluctant_truth_sink",
+  "ten": "Chùng gối nói điều không muốn",
+  "y_nghia": "Cử chỉ thể hiện sự miễn cưỡng và nội tâm nặng nề khi buộc phải nói ra điều khó chịu.",
+  "khi_nao": "Khi người nói đang đưa ra nhận xét thật thà nhưng biết rằng người nghe không muốn nghe.",
+  "mo_ta_en": "Weight drifts right, 60% on right foot; right knee bends ~8°, left knee ~5°; hips shift right ~0.6 cm and rotate right ~7°; spine stays vertical, minimal ~4° torsion leftward as upper body counterbalances; right arm rises to mid-chest, hand at ~50 cm height, fingers loosely curled, wrist neutral; left hand grips lightly near left hip; head tilts 8° left as if bracing; held 1.8 s before right arm slowly lowers. Feet stay planted on the floor, no stepping.",
+  "giay": 2.5,
+  "cum": [
+   "Nói thật thì mình thấy không ổn",
+   "Mình không muốn nói nhưng mà...",
+   "Bạn hỏi thì mình phải nói thôi",
+   "Thật ra mình không đồng ý",
+   "Nghe có vẻ khó chịu nhưng đó là thật",
+   "Mình cũng không thoải mái khi nói cái này",
+   "Bạn có muốn nghe thật không",
+   "Mình nói thẳng nha dù sao đi nữa"
+  ]
+ },
+ "resigned_shrug_exhale_weight_drop": {
+  "ma": "resigned_shrug_exhale_weight_drop",
+  "ten": "Nhún vai thở ra chấp nhận bất lực",
+  "y_nghia": "Đã cố tìm hiểu nhưng vẫn không ra, đành chịu thua.",
+  "khi_nao": "Khi đã suy nghĩ mãi vẫn không có câu trả lời và bắt đầu buông bỏ.",
+  "mo_ta_en": "Weight sinks heavily onto both feet evenly, knees soften 8°, hips drop 2cm over 0.7s. Hips rotate 5° right passively. Spine settles 4° forward with a subtle exhale deflation. Shoulders rise 12° then fall heavier than they rose, dropping 1.2s languidly. Arms hang low, elbows barely 55°, hands at thigh level 42cm apart, fingers loose. Chin drops 20° toward chest at peak shrug. Feet stay planted on the floor, no stepping.",
+  "giay": 3.5,
+  "cum": [
+   "Thôi kệ",
+   "Tính sao giờ",
+   "Biết làm sao được",
+   "Cố mà vẫn không ra",
+   "Hết cách rồi",
+   "Nghĩ mãi cũng không biết",
+   "Không tìm ra được",
+   "Đành chịu vậy thôi"
+  ]
+ },
+ "retreat_step_lock_arms": {
+  "ma": "retreat_step_lock_arms",
+  "ten": "Từ chối rồi co lại",
+  "y_nghia": "Tôi bắt đầu sợ, muốn rút lại lời nói, khóa bí mật lại.",
+  "khi_nao": "Khi người nói định chia sẻ bí mật nhưng đột ngột sợ, lùi lại và quyết định im lặng.",
+  "mo_ta_en": "Weight shifts to back foot (right, 70% load), left foot rocks on toes slightly. Hips rotate back 7° away from listener. Torso straightens with 2° spinal extension (drawing back). Shoulders pull up and back 12°, both arms cross defensively at chest, elbows flex 105°. Head tilts back 15°, jaw tightens. Hands lock near collarbone ~28cm. Knees stiffen 4° (locking position). Both feet stay on floor, no backward stepping. 2.2 seconds.",
+  "giay": 2.2,
+  "cum": [
+   "Thôi, quên đi",
+   "Không nên nói",
+   "Tôi không thể",
+   "Giữ cho mình",
+   "Xin lỗi, tôi im",
+   "Chuyện khác đi"
+  ]
+ },
+ "retreat_tease_pull_back": {
+  "ma": "retreat_tease_pull_back",
+  "ten": "Giật lùi trêu chọc",
+  "y_nghia": "Giả vờ rút lui sau câu đùa nhạy cảm, tạo cảm giác 'ừ thì tao nói rồi đó'.",
+  "khi_nao": "Ngay sau khi nói câu đùa hơi quá đà, cười khì rồi giả vờ vô can.",
+  "mo_ta_en": "Weight shifts backward onto both heels equally, knees soften ~8°, hips tuck back 1cm and rotate slightly right ~5°, spine stays tall at ~4° lean back. Both hands rise to chest height, palms outward in a mock-innocent surrender at ~95° elbow bend, wrists relaxed. Shoulders lift 10° then drop over 1.2s. Head pulls back 3cm with eyes wide, held 1.5s then relaxes. Feet stay planted on the floor, no stepping.",
+  "giay": 3.0,
+  "cum": [
+   "Ủa tao có nói gì đâu?",
+   "Thôi thôi không phải tao",
+   "Ừ thì... tao nói rồi đó",
+   "Bình tĩnh bình tĩnh haha",
+   "Ai nói chứ không phải tao",
+   "Tao vô tội hoàn toàn nha",
+   "Đùa mà giận chi vậy trời",
+   "Thôi xí xóa đi nào mà"
+  ]
+ },
+ "rooted_fist_chest_level": {
+  "ma": "rooted_fist_chest_level",
+  "ten": "Trụ nắm tay ngang ngực",
+  "y_nghia": "Khẳng định bằng ý chí kiên định, thể hiện quyết tâm không lung lay.",
+  "khi_nao": "Khi cam kết với một lập trường hoặc bảo vệ quan điểm dưới áp lực từ người khác.",
+  "mo_ta_en": "Weight shifts 60% onto left foot, left knee softens 5°. Hips rotate 7° left. Spine braces at 4°, torso stable. Left shoulder stays level, right shoulder rotates forward 14°. Right forearm rises 61°, right hand closes into a loose fist at chest height, wrist neutral 96°, held firm for 2.0s. Left hand rests at hip. Feet stay planted on the floor, no stepping.",
+  "giay": 3.0,
+  "cum": [
+   "Tôi sẽ không thay đổi",
+   "Lập trường của tôi rõ ràng",
+   "Tôi quyết tâm điều này",
+   "Không ai bắt tôi thay đổi được",
+   "Tôi giữ nguyên quan điểm",
+   "Đây là điều tôi tin"
+  ]
+ },
+ "sharp_size_contrast_gesture": {
+  "ma": "sharp_size_contrast_gesture",
+  "ten": "Đối lập lớn-nhỏ hai bên dứt khoát",
+  "y_nghia": "Làm nổi bật sự chênh lệch về mức độ, quy mô hoặc tầm quan trọng giữa hai thứ.",
+  "khi_nao": "Khi muốn nhấn mạnh một thứ vượt trội rõ ràng về kích thước, số lượng hoặc ảnh hưởng so với thứ kia.",
+  "mo_ta_en": "Weight drives onto left foot; hips rotate ~7° left, spine ~4°; left hand pinches small near waist, arm ~90° from torso, traveling ~25cm over 0.5s. Weight pivots sharply to right foot; hips swing ~7° right, chest follows; right arm extends wide at ~130°, hand spread open, sweeping ~45cm right over 0.7s. Contrast between gestures deliberate and held 0.4s each. Feet stay planted on the floor, no stepping.",
+  "giay": 2.8,
+  "cum": [
+   "cái này chỉ nhỏ vậy thôi",
+   "còn cái kia thì to lắm",
+   "chênh nhau nhiều lắm",
+   "không thể so sánh được",
+   "một trời một vực",
+   "to hơn rất nhiều lần"
+  ]
+ },
+ "sharp_tilt_snap_question": {
+  "ma": "sharp_tilt_snap_question",
+  "ten": "Nghiêng nhanh — hỏi dứt khoát",
+  "y_nghia": "Đặt câu hỏi trực tiếp, sắc bén, đòi câu trả lời rõ ràng ngay.",
+  "khi_nao": "Khi muốn làm rõ một điểm cụ thể và không muốn câu trả lời vòng vo.",
+  "mo_ta_en": "Weight snaps 65% onto right foot in 0.3s, hip rotates left ~7° sharply, spine stays straight at ~4° counter-rotation. Right shoulder drops ~14° abruptly, head tilts right ~20° with a crisp stop. Right index finger extends forward at chest height, arm at ~110° extension. Motion is fast and staccato from foot-plant to shoulder to head under 0.5s, then freezes and holds for 1.8s. Feet stay planted on the floor, no stepping.",
+  "giay": 2.5,
+  "cum": [
+   "khoan, cái đó là gì?",
+   "bạn vừa nói cái gì?",
+   "cụ thể là thế nào?",
+   "điểm đó bạn chắc chưa?",
+   "không, ý mình là—",
+   "đó là lý do hay là kết quả?",
+   "hỏi thẳng luôn nhé"
+  ]
+ },
+ "shift_back_cross_arms_tilt_head": {
+  "ma": "shift_back_cross_arms_tilt_head",
+  "ten": "Lùi trọng tâm ra sau khoanh tay nhíu mày",
+  "y_nghia": "Nhấn mạnh sự hoài nghi hoặc phản bác bằng cách rút trọng tâm về phía mình, giữ khoảng cách với ý kiến vừa nghe.",
+  "khi_nao": "Khi không đồng ý hoặc muốn thách thức lại một luận điểm của người đối diện.",
+  "mo_ta_en": "Weight transfers back onto the right heel, left foot stays flat; hips rotate 7° rightward and shift 0.7cm back; spine remains straight with 4° posterior lean; head tilts 25° rightward with slight chin tuck; both arms cross at forearm level — right over left — elbows at 61° each, hands resting on opposite biceps; shoulders rise 14° symmetrically creating a contained, skeptical frame. Transition over 2.0s, hold 1.5s. Feet stay planted on the floor, no stepping.",
+  "giay": 3.5,
+  "cum": [
+   "nhưng mà anh có chắc không",
+   "tôi chưa thấy thuyết phục lắm",
+   "điều đó không hẳn đúng",
+   "ừ nhưng mà thực ra thì",
+   "chờ chờ để tôi hỏi lại",
+   "nghe có vẻ chưa ổn lắm",
+   "tôi không đồng ý điểm đó"
+  ]
+ },
+ "shoulder_back_champion": {
+  "ma": "shoulder_back_champion",
+  "ten": "Vai sau vô địch",
+  "y_nghia": "Đẩy vai ra sau và ngực ra trước để thể hiện vẻ ngoài như nhà vô địch chiến thắng.",
+  "khi_nao": "Khi khoe chiến thắng hoặc khi đứng trước công chúng như một người thắng cuộc.",
+  "mo_ta_en": "Lock weight on both feet, heels grounded, shift hips back 8° (chest forward compensation). Spine extends 4° while thorax protrudes. Both shoulders retract backward 20°, scapulae pinch together. Chest opens, arms extend slightly back at 35° from body. Head lifts to 12° up angle, gaze upward. Neck extends 4°. Hold power position 2.2 seconds. Release over 1.5 seconds. Feet stay planted on the floor, no stepping.",
+  "giay": 3.7,
+  "cum": [
+   "Chúng tôi đã thắng!",
+   "Tôi là số một",
+   "Đó là vinh quang của tôi",
+   "Hãy nhìn kìa!",
+   "Tôi là vua"
+  ]
+ },
+ "shoulder_lift_proud": {
+  "ma": "shoulder_lift_proud",
+  "ten": "Vươn vai tự hào",
+  "y_nghia": "Nâng vai lên để thể hiện sự tự tin và thành công.",
+  "khi_nao": "Khi vừa kể xong một thành tựu hoặc khi tự tin về điều mình vừa nói.",
+  "mo_ta_en": "Shift weight to right foot (left foot remains grounded). Rotate hips 3° right, spine extends 4°. Both shoulders lift symmetrically 14° upward. Arms relax at sides, hands open at chest height ~45cm apart. Head tilts slightly back 8°. Hold peak position 1.2 seconds. Feet stay planted on the floor, no stepping.",
+  "giay": 2.5,
+  "cum": [
+   "Tôi đã làm được!",
+   "Tự hào quá",
+   "Nó bằng không so với tôi",
+   "Coi chừng tôi đây",
+   "Hehe, dễ thôi"
+  ]
+ },
+ "shoulder_lift_subtle_pride": {
+  "ma": "shoulder_lift_subtle_pride",
+  "ten": "Vươn vai nhẹ nhàng tự hào",
+  "y_nghia": "Nâng vai một cách tinh tế để tỏ vẻ tự hào nội tại mà không quá phô trương.",
+  "khi_nao": "Khi im lặng lắng nghe khen ngợi hoặc khi ghi nhận thành công một cách kín đáo.",
+  "mo_ta_en": "Weight distributes 60% right foot, 40% left. Hips shift 2° right, spine holds 4° neutral extension. Right shoulder lifts 9° only (subtle), left shoulder lifts 7°, creating slight asymmetry. Head tilts 6° right. Arms hang naturally, fingers brush thighs at 52cm height. Soft smile implied. Rise takes 1.5 seconds, peak held 0.8 seconds, lower over 1.2 seconds. Feet stay planted on the floor, no stepping.",
+  "giay": 3.5,
+  "cum": [
+   "Cảm ơn bạn",
+   "Tôi cũng thấy vậy",
+   "Mình đã cố gắng rồi",
+   "Đó là tự nhiên",
+   "Bình thường thôi"
+  ]
+ },
+ "shoulder_raise_steadfast": {
+  "ma": "shoulder_raise_steadfast",
+  "ten": "Nâng vai kiên định",
+  "y_nghia": "Tỏ thái độ vững chắc, chủ động và sẵn sàng đối mặt trách nhiệm.",
+  "khi_nao": "Khi được ai hỏi về khả năng hoàn thành một lời hứa khó nhưng tự tin xong.",
+  "mo_ta_en": "Weight transfers to left leg (65% base). Right hip dips 8° inward for balance. Torso stays vertical (4° spine limit). Both shoulders raise 14° in unison, pull backward slightly. Neck neutral, eyes steady on listener. Right arm extends at 126° elbow, palm open upward (96° wrist), gesture of certainty. Left arm mirrors at 120°. Hold 2.5-sec. Feet grounded, no shifting.",
+  "giay": 2.9,
+  "cum": [
+   "Tôi xứng đáng",
+   "Chắc chắn được",
+   "Tôi có thể",
+   "Không lo lắng",
+   "Sẽ xong ngay",
+   "Tin vào tôi"
+  ]
+ },
+ "shoulder_roll_confident": {
+  "ma": "shoulder_roll_confident",
+  "ten": "Quay vai tự tin",
+  "y_nghia": "Quay vai từ trước ra sau để tỏ vẻ tự tin và không màng chuyện.",
+  "khi_nao": "Khi bác bỏ lời chỉ trích hoặc khi nói rằng mình không quan tâm những ý kiến tiêu cực.",
+  "mo_ta_en": "Balance on both feet, weight centered. Roll right shoulder backward 16° (reverse of slouch), spine maintains 4° extension. Follow with left shoulder rolling back 16°, hips rotate 5° right then 5° left in sequence. Neck stays neutral. Both arms swing slightly outward at 30° elbow bend. Complete one full roll cycle in 2.8 seconds. Feet stay planted on the floor, no stepping.",
+  "giay": 2.8,
+  "cum": [
+   "Thôi kệ nó",
+   "Đó là chuyện của họ",
+   "Tôi chẳng sợ",
+   "Cứ để cho nó đi",
+   "Tôi vẫn là tôi"
+  ]
+ },
+ "shoulder_shrug_palms_up_weight_shift": {
+  "ma": "shoulder_shrug_palms_up_weight_shift",
+  "ten": "Nhún vai ngửa lòng bàn tay",
+  "y_nghia": "Thật sự không biết, không có thông tin gì cả.",
+  "khi_nao": "Khi được hỏi một câu mà mình hoàn toàn mù tịt, không có manh mối nào.",
+  "mo_ta_en": "Weight shifts onto left foot; right heel slightly pivots outward. Hips rotate 7° left. Spine stays upright, tilts 4° right. Both shoulders rise 12–14° simultaneously over 0.6s. Elbows bend 60°, forearms rotate supine, palms face upward at hip level, hands spread 38cm apart. Hold peak 0.5s, then release shoulders down 1.0s. Feet stay planted on the floor, no stepping.",
+  "giay": 2.5,
+  "cum": [
+   "Tôi không biết",
+   "Không rõ lắm",
+   "Mình cũng không hay",
+   "Chịu thôi",
+   "Không có thông tin",
+   "Hỏi người khác đi",
+   "Tôi mù tịt vụ đó",
+   "Không nắm được"
+  ]
+ },
+ "shoulder_shrug_tilt_doubt": {
+  "ma": "shoulder_shrug_tilt_doubt",
+  "ten": "Nhún vai nghiêng — nghi ngờ",
+  "y_nghia": "Bày tỏ sự hoài nghi, không hoàn toàn tin vào điều vừa nghe.",
+  "khi_nao": "Khi ai đó nói điều gì đó nghe có vẻ khó tin hoặc mâu thuẫn.",
+  "mo_ta_en": "Weight shifts 55% onto left foot, hips rotate right ~6°, spine holds firm at ~4° rotation. Left shoulder lifts ~10° and tilts inward, head leans left ~18°, chin slightly forward. Right arm stays low, left hand opens sideways at hip level. Eyebrows pull together. Flow from foot-load to hip to shoulder lift to head tilt over 1.0s, holds 2.0s. Feet stay planted on the floor, no stepping.",
+  "giay": 3.2,
+  "cum": [
+   "chắc không đó?",
+   "nghe lạ lạ á",
+   "thiệt hả?",
+   "không biết có đúng không",
+   "mình hơi ngờ ngờ",
+   "ai nói vậy?",
+   "có chắc không?"
+  ]
+ },
+ "shoulder_square_dominance": {
+  "ma": "shoulder_square_dominance",
+  "ten": "Kéo vai thẳng chủ động",
+  "y_nghia": "Kéo cả hai vai lên ngang tầm tai để thể hiện sự kiểm soát và thống lĩnh.",
+  "khi_nao": "Khi từ từ phát biểu một điều gì đó quan trọng hoặc khi muốn nhấn mạnh quyền lực.",
+  "mo_ta_en": "Shift weight to left foot (right foot on ball), hips compress 6° forward. Spine rigidly extends 4°. Both shoulders drive upward 18° simultaneously, creating horizontal line across chest. Arms extend slightly forward at 25° elbow angle, hands at waist level 38cm apart. Neck straightens to neutral position. Sustain for 1.8 seconds at peak. Feet stay planted on the floor, no stepping.",
+  "giay": 3.2,
+  "cum": [
+   "Điều này rất quan trọng",
+   "Tôi quyết định như vậy",
+   "Đó là lệnh",
+   "Không có gì bàn cải",
+   "Nghe tôi nói"
+  ]
+ },
+ "shy_chin_tuck_arms_cross": {
+  "ma": "shy_chin_tuck_arms_cross",
+  "ten": "Cúi đầu khoanh tay",
+  "y_nghia": "Người nói cảm thấy ngại ngùng, muốn che chắn bản thân bằng cách đóng lại cả phần trên cơ thể.",
+  "khi_nao": "Khi bị khen trực tiếp trước đám đông hoặc bị hỏi điều gì đó khiến họ không muốn trở thành tâm điểm chú ý.",
+  "mo_ta_en": "Weight shifts slightly onto left foot; hips rotate inward ~6° toward center, pelvis tucking subtly. Spine compresses ~4° into mild forward lean. Both shoulders round inward 12°, arms cross at forearms across the lower chest. Head tilts down 20°, chin drops toward sternum. Eyes glance sideways. Motion unfolds over 2.5s, held 1.5s. Feet stay planted on the floor, no stepping.",
+  "giay": 3.5,
+  "cum": [
+   "thôi thôi em không dám đâu",
+   "trời ơi anh/chị nói vậy em ngại lắm",
+   "không có gì đặc biệt đâu ạ",
+   "ủa sao mọi người nhìn em vậy",
+   "em làm bình thường thôi mà",
+   "dạ em không biết nói gì nữa",
+   "thật sự em không xứng đâu ạ",
+   "ôi chết con ngượng quá"
+  ]
+ },
+ "shy_ear_scratch_eyes_down": {
+  "ma": "shy_ear_scratch_eyes_down",
+  "ten": "Gãi tai cúi mắt",
+  "y_nghia": "Người nói đang nhận lời chê hoặc phản hồi tiêu cực, dùng cử chỉ gãi tai để xoa dịu nội tâm và tránh tiếp xúc mắt.",
+  "khi_nao": "Khi bị chỉ ra lỗi sai hoặc nghe nhận xét thẳng thắn khiến họ cảm thấy xấu hổ nhưng không phản bác được.",
+  "mo_ta_en": "Weight sinks onto left foot, left knee softens ~7°; hips tilt left ~6°, rotating ~5° leftward. Spine settles ~4° into subtle backward lean, chest narrows slightly. Right arm lifts in 1.5s, right hand reaches up to scratch behind right ear with two fingertips, elbow pointing outward at ~90°. Left arm hangs loose at side. Head tilts right 15°, gaze drops down-left toward floor. Hold 1.8s then arm lowers slowly 1.0s. Feet stay planted on the floor, no stepping.",
+  "giay": 4.0,
+  "cum": [
+   "dạ... ừ em biết rồi ạ",
+   "ừm thật ra em cũng không chắc lắm",
+   "dạ em xin lỗi em sẽ sửa",
+   "ừ thì em cũng thấy vậy mà",
+   "thôi thì tại em chưa nghĩ kỹ",
+   "dạ em hiểu ý anh/chị rồi",
+   "ừ em cũng tự thấy mình sai",
+   "thôi chết lần sau em cẩn thận hơn"
+  ]
+ },
+ "shy_hand_cover_mouth_look_away": {
+  "ma": "shy_hand_cover_mouth_look_away",
+  "ten": "Che miệng nhìn đi nơi khác",
+  "y_nghia": "Người nói vừa nói ra điều gì đó khiến bản thân cảm thấy buồn cười hoặc lỡ lời, phản ứng che giấu bằng cách bịt miệng và tránh nhìn.",
+  "khi_nao": "Khi vừa buột miệng nói điều riêng tư hoặc tự nhận thấy mình đang đỏ mặt trong cuộc trò chuyện thân mật.",
+  "mo_ta_en": "Weight transfers gently onto right foot; hips shift right ~5°, rotating ~6° rightward. Spine stays upright, minimal ~4° tilt. Right arm raises 2.0s, dominant right hand cups over the mouth, fingertips touching lips. Left hand rests at hip. Head turns 25° left, gaze averts downward-left. Shoulders rise ~10° in a quick shrug then settle. Full motion 2.8s. Feet stay planted on the floor, no stepping.",
+  "giay": 3.0,
+  "cum": [
+   "ủa sao em lại nói vậy nhỉ",
+   "thôi chết em lỡ miệng rồi",
+   "hehe em không nói nữa đâu",
+   "ôi trời em đỏ mặt rồi kìa",
+   "xí em không có ý đó đâu nha",
+   "mà thôi khỏi em ngại lắm",
+   "anh/chị đừng để ý chuyện đó nha",
+   "em nói bậy quá xá luôn"
+  ]
+ },
+ "shy_retreat_half_step_hug_self": {
+  "ma": "shy_retreat_half_step_hug_self",
+  "ten": "Rút người ôm mình",
+  "y_nghia": "Người nói cảm thấy bị tiến vào không gian cá nhân hoặc bị áp lực bởi câu hỏi quá thân mật, tạo khoảng cách bằng cách co người và tự ôm lấy mình.",
+  "khi_nao": "Khi bị hỏi chuyện riêng tư quá mức hoặc người đối diện đứng quá gần trong cuộc trò chuyện khiến họ cảm thấy lấn át.",
+  "mo_ta_en": "Weight pulls back onto right foot, right heel presses down, body center of gravity shifts rearward ~3cm over 1.2s; hips rotate ~7° rightward and tilt back slightly. Spine straightens to full upright ~4° then leans subtly away from conversation partner. Both arms wrap across torso—left hand grips right upper arm, right hand cups left elbow—at mid-chest height. Shoulders round forward 14°. Head retracts 15°, chin tucks, gaze drops down-center. Expression closes. Held 2.0s. Feet stay planted on the floor, no stepping.",
+  "giay": 3.5,
+  "cum": [
+   "ủa sao hỏi chuyện đó vậy",
+   "ừm chuyện đó hơi riêng tư á",
+   "thật ra em không muốn nói lắm",
+   "trời câu đó khó trả lời lắm nha",
+   "thôi bỏ qua chuyện đó đi anh/chị ơi",
+   "em chưa sẵn sàng kể chuyện này",
+   "ủa mình phải nói điều đó không",
+   "dạ thật ra em không chắc nên chia sẻ không"
+  ]
+ },
+ "shy_weight_shift_finger_fidget": {
+  "ma": "shy_weight_shift_finger_fidget",
+  "ten": "Dồn chân vặn tay",
+  "y_nghia": "Người nói tỏ ra bồn chồn, không biết làm gì với cơ thể mình, dùng chuyển động nhỏ ở tay và chân để xả sự ngượng ngùng.",
+  "khi_nao": "Khi được giới thiệu với người lạ lần đầu hoặc đứng một mình chờ đợi trong nhóm chưa quen, chưa tìm được chủ đề để nói.",
+  "mo_ta_en": "Weight rocks slowly left-right alternating every 1.2s, heel-to-heel pivot ~4° each side, hips sway laterally only ±0.7cm. Hips rotate ~7° with each shift. Spine stays tall, ~4° micro-oscillation. Both hands clasp loosely in front of lower abdomen, fingers interlock and fidget—thumbs circling, fingers pressing. Shoulders held slightly raised ~8°. Head stays level with minor 10° side glances. Cycle repeats 2×, total 3.5s. Feet stay planted on the floor, no stepping.",
+  "giay": 3.5,
+  "cum": [
+   "dạ... em chưa biết nói gì",
+   "ờ thì... em mới quen mọi người thôi",
+   "hehe ừ em cũng không rành lắm",
+   "anh/chị cứ tự nhiên đi ạ",
+   "em ngồi đây được không ạ",
+   "ừm... dạ em tên là...",
+   "thật ra em cũng hơi lạ chỗ",
+   "mọi người vui vẻ quá em chưa kịp quen"
+  ]
+ },
+ "sidestep_glance_back": {
+  "ma": "sidestep_glance_back",
+  "ten": "Dịch sang một bên, nhìn lại",
+  "y_nghia": "Tôi cần che giấu điều này, kiểm tra xung quanh có ai nghe không.",
+  "khi_nao": "Khi người nói sợ bị lộ bí mật, lo lắng có người khác nghe thấy.",
+  "mo_ta_en": "Weight transfers to right foot (65% load), left foot pivots on heel, hips rotate 8° rightward. Torso remains stable with 3° minimal spinal flexion. Left shoulder pulls back 6°, both arms fold across torso. Head rotates 20° left to check surroundings, eyes dart. Right hand touches sternum ~38cm. Both feet stay planted, no stepping forward. 3.0 seconds duration.",
+  "giay": 3.0,
+  "cum": [
+   "Chờ đã",
+   "Có ai nghe mình không nhỉ",
+   "Để tôi kiểm tra",
+   "Không được để ai biết",
+   "Nhìn quanh đã",
+   "Cẩn thận nhen"
+  ]
+ },
+ "sink_hips_fist_down": {
+  "ma": "sink_hips_fist_down",
+  "ten": "Chùng gối nắm tay dứt khoát",
+  "y_nghia": "Nhấn mạnh sự chắc chắn và quyết đoán bằng cách hạ trọng tâm xuống thấp, như cắm chốt ý kiến xuống đất.",
+  "khi_nao": "Khi kết luận một tranh luận hoặc khẳng định quyết định cuối cùng không thể thay đổi.",
+  "mo_ta_en": "Both knees flex 8°, lowering hips 3cm; weight distributes evenly across both feet, toes gripping floor; hips shift laterally 0.7cm left; spine holds at 4° forward inclination, chest stays open; right arm swings down 126° from shoulder, elbow bends 61°, hand forms loose fist and drives downward to hip level with a sharp 0.3s accent; left forearm crosses to mid-body at 61°. Hold 1.0s. Feet stay planted on the floor, no stepping.",
+  "giay": 2.0,
+  "cum": [
+   "và đó là kết luận cuối cùng",
+   "không còn bàn cãi gì nữa",
+   "tôi quyết định rồi",
+   "thế là xong không thay đổi",
+   "đây là điều tôi khẳng định",
+   "dứt khoát phải làm vậy",
+   "không có lựa chọn nào khác"
+  ]
+ },
+ "slow_scan_side_to_side": {
+  "ma": "slow_scan_side_to_side",
+  "ten": "Quét chậm cân nhắc hai phía",
+  "y_nghia": "Thể hiện sự cân nhắc chậm rãi, thận trọng chưa kết luận giữa hai vế.",
+  "khi_nao": "Khi người nói đang suy nghĩ to, chưa quyết định, diễn đạt sự lưỡng lự thực sự giữa hai phương án.",
+  "mo_ta_en": "Weight drifts slowly to left foot; hips ease ~6° left, spine shifts ~4°, head tilts ~20° left; left hand rises open-palm to mid-chest, traveling ~38cm over 1.1s. Pause 0.6s. Weight gradually transfers to right foot; hips ease ~6° right, head tilts ~20° right; right hand mirrors, rising open-palm ~38cm over 1.1s. Movement unhurried, breath-paced. Feet stay planted on the floor, no stepping.",
+  "giay": 4.0,
+  "cum": [
+   "cũng khó mà nói",
+   "một mặt thì thế này",
+   "nhưng mặt khác lại",
+   "cần cân nhắc thêm",
+   "mình vẫn chưa chắc",
+   "hai cái đều có vấn đề"
+  ]
+ },
+ "slow_shrug_head_tilt_doubtful": {
+  "ma": "slow_shrug_head_tilt_doubtful",
+  "ten": "Nhún vai chậm nghiêng đầu nghi ngờ",
+  "y_nghia": "Không chắc chắn, trong lòng còn hoài nghi về điều vừa nghe.",
+  "khi_nao": "Khi nghe một thông tin mơ hồ và không dám khẳng định đúng hay sai.",
+  "mo_ta_en": "Weight gradually shifts onto right foot over 0.8s; left knee softens 8°. Hips rotate 6° right. Spine neutral, 4° lateral tilt left. Right shoulder rises 13°, left shoulder rises 10° — asymmetric, right leads. Head tilts 22° right simultaneously. Both forearms lift 58°, hands loosely open near waist, 40cm apart. Whole movement unfolds over 1.8s, slow and uncertain. Feet stay planted on the floor, no stepping.",
+  "giay": 3.0,
+  "cum": [
+   "Không chắc lắm đâu",
+   "Nghe vậy mà",
+   "Có vẻ vậy nhưng mà",
+   "Tôi cũng không dám nói",
+   "Hình như là vậy",
+   "Chưa xác nhận được",
+   "Mình nghe loáng thoáng thôi",
+   "Chưa chắc đã đúng"
+  ]
+ },
+ "slow_tilt_confused_processing": {
+  "ma": "slow_tilt_confused_processing",
+  "ten": "Nghiêng chậm — đang xử lý",
+  "y_nghia": "Thể hiện đang cố gắng hiểu, não đang làm việc với thông tin phức tạp.",
+  "khi_nao": "Khi nghe xong một đoạn dài, phức tạp và cần thời gian tiêu hóa.",
+  "mo_ta_en": "Weight slowly transfers 58% to left foot over 1.5s, hip drifts left ~5°, spine rotates subtly ~4°. Left shoulder descends ~12° in a gradual arc, head tilts left ~25° at half-speed. Right hand rises to chin lightly, elbow at 60°. Eyes look slightly upward-left. Entire sequence is slow and continuous from foot-shift to shoulder to head over 2.0s, holds 1.5s. Feet stay planted on the floor, no stepping.",
+  "giay": 4.0,
+  "cum": [
+   "ờ để mình nghĩ cái đã",
+   "hmmm…",
+   "cái này phức tạp nhỉ",
+   "khoan để mình hiểu lại",
+   "nói nhanh quá mình không kịp",
+   "ý là… à…",
+   "mình đang cố hiểu",
+   "chờ mình tý"
+  ]
+ },
+ "startle_lean_back_burst_laugh": {
+  "ma": "startle_lean_back_burst_laugh",
+  "ten": "Ngả sau — bật cười",
+  "y_nghia": "Cú sốc bất ngờ hoá thành tiếng cười vỡ oà, cơ thể bung ra phía sau vì không kìm được.",
+  "khi_nao": "Nghe tin hay chi tiết hài hước đến mức không ngờ — bị làm cho cười bất thình lình.",
+  "mo_ta_en": "Weight drives back onto left heel, left knee softens 8°; hips swing backward 7° and rotate right 6°. Spine tips back 4°, chest opens upward. Both shoulders roll back 14°, arms swing wide: elbows extend outward 120°, forearms rise 55°, wrists arc out ~38 cm from torso. Head rocks back 20° as laughter releases, then returns forward 10°. Whole motion rebounds in 0.8 s, settles over 2.0 s. Feet stay planted on the floor, no stepping.",
+  "giay": 2.5,
+  "cum": [
+   "Trời, thật không trời?!",
+   "Hả?! Sao vậy được—",
+   "Ý anh là... ha ha—",
+   "Thôi cha ơi!",
+   "Xạo đi thôi!",
+   "Trời đất, buồn cười quá!"
+  ]
+ },
+ "startle_lean_back_freeze": {
+  "ma": "startle_lean_back_freeze",
+  "ten": "Ngả sau — đóng băng",
+  "y_nghia": "Bị sốc tức thì, cơ thể phản xạ lùi lại rồi cứng đờ tại chỗ.",
+  "khi_nao": "Nghe tin bất ngờ hoàn toàn, chưa kịp xử lý — sững lại giữa chừng câu chuyện.",
+  "mo_ta_en": "Weight shifts sharply onto the back foot (right), heel pressing down; hips rotate 7° backward and tilt 3° away. Spine extends 4° upward-back, chest lifts. Both shoulders pull back 12° simultaneously. Arms draw inward, elbows tucking to ribs, hands rise to chest level (wrists at ~30 cm height). Head snaps back 10° then holds frozen for 1.5 s. Total duration 2.5 s. Feet stay planted on the floor, no stepping.",
+  "giay": 2.5,
+  "cum": [
+   "Thật không?!",
+   "Ủa... cái gì vậy?",
+   "Hả?!",
+   "Trời ơi—",
+   "Không thể nào—",
+   "Sao lại thế được?"
+  ]
+ },
+ "startle_lean_back_hands_up_defensive": {
+  "ma": "startle_lean_back_hands_up_defensive",
+  "ten": "Ngả sau — giơ tay phòng thủ",
+  "y_nghia": "Bị tấn công thông tin bất ngờ, phản xạ phòng thủ — giơ tay như chặn làn sóng sốc lại.",
+  "khi_nao": "Ai đó đột ngột cáo buộc, chỉ trích hoặc tiết lộ điều liên quan đến chính mình — bản năng tự vệ bật ra.",
+  "mo_ta_en": "Weight snaps onto back-right foot in 0.3 s, right knee bends 8°; hips rotate right 7° and pull back 6°. Spine stays tall, extends 4° rearward. Both shoulders rise 14° and flare back 10°. Both arms thrust upward-forward: elbows at 125°, forearms at 60°, open palms facing outward at shoulder height (~155 cm), wrists ~35 cm apart. Head pulls back 15° and chin lowers 10° — guarded, wide-eyed. Hold position 1.5 s before gradual release over 1.0 s. Feet stay planted on the floor, no stepping.",
+  "giay": 3.0,
+  "cum": [
+   "Ê ê ê, khoan đã—",
+   "Không phải tôi!",
+   "Sao lại là tôi?",
+   "Xin lỗi, anh đang nói gì vậy?",
+   "Bình tĩnh, bình tĩnh nào—",
+   "Tôi không có làm chuyện đó!"
+  ]
+ },
+ "startle_recoil_cover_mouth": {
+  "ma": "startle_recoil_cover_mouth",
+  "ten": "Ngả sau — bịt miệng",
+  "y_nghia": "Bàng hoàng xen lẫn xúc động, phản xạ bưng miệng che đi cảm xúc vỡ oà.",
+  "khi_nao": "Nghe chuyện gây sốc nhưng có phần xúc cảm — tin buồn đột ngột, điều bí mật bị tiết lộ.",
+  "mo_ta_en": "Weight loads onto back-right foot, right heel grounds firmly; hips pull back 6° and rotate left 5°. Spine extends 4° rearward keeping torso upright. Shoulders draw back 10°, then dominant right arm sweeps up 110° in 0.6 s — palm covering mouth, fingertips at lip level (~145 cm height). Left arm crosses loosely over stomach. Head tilts back 12° then drops 8° forward over covering hand. Eyes wide. Hold 1.8 s. Feet stay planted on the floor, no stepping.",
+  "giay": 3.0,
+  "cum": [
+   "Ôi trời ơi...",
+   "Không... không phải thật đâu?",
+   "Thôi chết rồi—",
+   "Ổng ấy... ổng ấy sao?",
+   "Em không biết chuyện này...",
+   "Bao giờ vậy?"
+  ]
+ },
+ "startle_slow_step_back_disbelief": {
+  "ma": "startle_slow_step_back_disbelief",
+  "ten": "Ngả sau — lắc đầu không tin",
+  "y_nghia": "Sốc chậm, thấm dần — cơ thể lùi nhẹ trong khi tâm trí vẫn còn đang từ chối tin.",
+  "khi_nao": "Nghe điều gì đó phi lý đến mức não chưa chịu chấp nhận ngay — phản ứng trễ sau 1-2 giây.",
+  "mo_ta_en": "Weight transfers slowly onto back-left foot over 1.0 s, toes of right foot stay grounded; hips drift back 5° and rotate left 4°. Spine holds upright, extends only 4° rearward — no collapse. Left shoulder drops 6°, right shoulder rises 8° as right arm lifts — palm faces outward at chest height (~130 cm), fingers spread, held 40 cm from body. Head tilts right 8° then turns left 15° in a slow disbelieving shake, 0.8 s per sweep. Brow furrows. Feet stay planted on the floor, no stepping.",
+  "giay": 3.5,
+  "cum": [
+   "Khoan khoan khoan...",
+   "Ý anh nói là... cái đó?",
+   "Không... không đúng rồi.",
+   "Làm sao chuyện đó xảy ra được?",
+   "Em nghe nhầm không?",
+   "Thật sự hả anh?"
+  ]
+ },
+ "step_back_cross_arms_light": {
+  "ma": "step_back_cross_arms_light",
+  "ten": "Khoanh tay – giữ khoảng cách",
+  "y_nghia": "Dựng ranh giới nhẹ nhàng mà không thô lỗ.",
+  "khi_nao": "Khi ai đó đang thuyết phục quá nhiều và muốn ngăn lại khéo léo.",
+  "mo_ta_en": "Weight loads onto left heel (65/35), hips slide back 2.5cm and rotate right 7°, spine straightens 4° maintaining tall posture, shoulders draw back and together 3cm in 0.5s, both forearms cross at 55° across lower chest, hands rest lightly on opposite elbows, chin pulls back 15° and slightly down. Total motion 3.2s. Feet stay planted on the floor, no stepping.",
+  "giay": 3.2,
+  "cum": [
+   "Thật ra mình không chắc lắm",
+   "Mình không muốn bạn hiểu lầm",
+   "Bạn cứ nói vậy nhưng…",
+   "Mình có quan điểm khác một chút",
+   "Mình nghe rồi nhưng thôi",
+   "Chắc không phù hợp với mình"
+  ]
+ },
+ "step_toes_in_both_hands_press_down": {
+  "ma": "step_toes_in_both_hands_press_down",
+  "ten": "Dồn mũi chân ép hai tay xuống",
+  "y_nghia": "Nhấn mạnh sự kiểm soát và bình tĩnh bằng cách hạ thấp toàn bộ cử chỉ, như đang nén một làn sóng cảm xúc hay tốc độ xuống.",
+  "khi_nao": "Khi yêu cầu người nghe bình tĩnh lại, làm chậm lại tình huống, hoặc nhắc nhở giữ tiết chế.",
+  "mo_ta_en": "Weight drifts forward onto both toe pads simultaneously, heels remain on floor; hips shift 0.7cm forward and rotate 4°; knees soften 8°; spine holds upright at 4° forward tilt; both arms rise symmetrically to 90° abduction then both palms face downward; elbows bend 61°; hands descend slowly 41cm from chest to hip height over 2.0s with deliberate press; head stays level with 25° slight downward gaze. Feet stay planted on the floor, no stepping.",
+  "giay": 4.0,
+  "cum": [
+   "bình tĩnh nào từ từ đã",
+   "chúng ta hãy dừng lại chút",
+   "không cần phải vội vàng",
+   "hạ nhiệt xuống một chút đi",
+   "cứ từ từ nói chuyện đã",
+   "mọi thứ từ từ giải quyết được",
+   "giữ bình tĩnh sẽ tốt hơn",
+   "thở đi rồi mình nói tiếp"
+  ]
+ },
+ "storytelling_sway_buildup": {
+  "ma": "storytelling_sway_buildup",
+  "ten": "Lắc lư dồn đà",
+  "y_nghia": "Người kể đung đưa nhịp nhàng để tạo độ hồi hộp, kéo người nghe vào trước khi tung cú hài.",
+  "khi_nao": "Khi đang dẫn dắt chậm rãi đến đỉnh điểm của câu chuyện vui, chưa nói cái kết.",
+  "mo_ta_en": "Weight alternates right-left every 0.9s with hip rocking ±7°, spine stays upright rotating minimally ~4° opposite to hip. Knees soft-bend ~8° on each transfer. Arms cross loosely at waist level, forearms resting, swaying passively with torso ~20cm arc. Head bobs gently ~10° side-to-side in sync. Three full sway cycles over 3.2s, tempo steady like counting a beat. Feet stay planted on the floor, no stepping.",
+  "giay": 3.2,
+  "cum": [
+   "khoan khoan để tao kể từ từ",
+   "chưa hết đâu nghe tiếp đi",
+   "rồi thì biết chuyện gì xảy ra không",
+   "mà này mới là phần hay nè",
+   "tao đảm bảo mày sẽ không tin",
+   "cứ từ từ tao kể cho nghe"
+  ]
+ },
+ "storytelling_sway_chuckle": {
+  "ma": "storytelling_sway_chuckle",
+  "ten": "Lắc lư khúc khích",
+  "y_nghia": "Người kể đang cố nhịn cười nhưng không nịn được, thân mình rung theo tiếng cười bên trong.",
+  "khi_nao": "Khi người kể vừa nói tới đoạn buồn cười nhất của câu chuyện và bật cười trước cả người nghe.",
+  "mo_ta_en": "Weight shifts left onto left foot, hip sways left ~7°, spine follows with a soft rightward counter-lean ~4°. Shoulders drop and rise twice in 1.2s as suppressed laughter pulses upward. Both arms hang loosely at sides, forearms bounce ~15° outward each pulse. Head tilts right ~10°, chin tucks slightly. Two sway cycles over 2.8s total. Feet stay planted on the floor, no stepping.",
+  "giay": 2.8,
+  "cum": [
+   "rồi ổng mới nói là",
+   "trời ơi tao không nhịn được",
+   "mà ổng nói thiệt à nha",
+   "tới đó là tao bể luôn",
+   "bạn biết ổng làm gì không",
+   "tao thề tao không bịa"
+  ]
+ },
+ "storytelling_sway_infectious": {
+  "ma": "storytelling_sway_infectious",
+  "ten": "Lắc lư lan truyền",
+  "y_nghia": "Người kể hứng khởi lây lan sang người nghe, toàn thân rung lên theo nhịp tiếng cười chung.",
+  "khi_nao": "Khi cả hai (hoặc cả nhóm) đang cùng cười và người kể tiếp tục lắc theo đà vui chung.",
+  "mo_ta_en": "Weight bounces left-right rapidly every 0.6s, hip oscillates ±6° in short quick arcs. Knees flex ~8° alternating, transferring energy upward. Spine transmits wave ~4° rotation, shoulders roll loosely ±14° in counter-rhythm. Both elbows bent ~61°, forearms swing outward freely ~25cm each side, hands relaxed ~96° wrist extension. Head nods and tilts ~20° matching laughter rhythm. Four rapid cycles over 2.5s, energy decreasing last cycle. Feet stay planted on the floor, no stepping.",
+  "giay": 2.5,
+  "cum": [
+   "ờ ờ mày cũng thấy vậy hả",
+   "trời cười gì mà cười dữ vậy",
+   "thôi thôi bình tĩnh bình tĩnh",
+   "mà cũng buồn cười thật nha",
+   "haha ừ haha đúng rồi đó",
+   "tao cũng không nhịn được luôn"
+  ]
+ },
+ "storytelling_sway_nostalgic_amused": {
+  "ma": "storytelling_sway_nostalgic_amused",
+  "ten": "Lắc lư hoài niệm",
+  "y_nghia": "Người kể vừa nhớ lại vừa buồn cười, cử chỉ mang cả sự trìu mến lẫn hài hước của kỷ niệm xa.",
+  "khi_nao": "Khi kể chuyện vui về ngày xưa, về người thân hoặc bạn bè cũ với nụ cười ấm áp.",
+  "mo_ta_en": "Weight settles gently left, hip drifts left ~6°, slow deliberate transfer over 1.0s. Spine rotates right ~4°, torso leans forward ~5° from hips with warmth. Right arm rises, elbow ~61°, forearm gestures outward ~126° total arc tracing a slow wide loop ~41cm, palm open upward ~96°. Left hand rests near heart briefly. Head tilts right ~25°, gaze slightly upward as if seeing a memory. One long unhurried sway over 3.8s. Feet stay planted on the floor, no stepping.",
+  "giay": 3.8,
+  "cum": [
+   "hồi đó tụi tao hay làm vậy lắm",
+   "nhớ lại mà vẫn còn buồn cười",
+   "ổng hồi đó ngộ lắm bạn ơi",
+   "cái thời đó thiệt là",
+   "mà giờ nghĩ lại vẫn thấy vui",
+   "hồi nhỏ tao với thằng đó hay"
+  ]
+ },
+ "storytelling_sway_triumphant": {
+  "ma": "storytelling_sway_triumphant",
+  "ten": "Lắc lư đắc ý",
+  "y_nghia": "Người kể tự hào về cú twist hài hước vừa tung ra, lắc lư như đang thưởng thức phản ứng của người nghe.",
+  "khi_nao": "Ngay sau khi nói xong câu chốt hài, nhìn người nghe cười và tự mãn lắc lư.",
+  "mo_ta_en": "Weight drifts right onto right foot, hip rotates right ~7° and holds. Spine counter-rotates left ~4°, chest opens slightly. Right shoulder rolls back 14°, left shoulder eases forward. Both hands rise to mid-torso, wrists loose, palms face inward ~96° flexion, forearms angle outward ~61°. Arms spread gently ~41cm apart as if presenting. Head tilts left ~15°, eyebrows raised. Slow single sway settles over 2.2s. Feet stay planted on the floor, no stepping.",
+  "giay": 2.2,
+  "cum": [
+   "hiểu chưa? hiểu chưa?",
+   "tao nói có sai không nào",
+   "thấy chưa tao nói mà",
+   "xong chưa cười đi cười đi",
+   "hay không? hay không?",
+   "tao biết mà tao biết trước mà"
+  ]
+ },
+ "suppressed_fury_coil": {
+  "ma": "suppressed_fury_coil",
+  "ten": "Cuộn người nén giận",
+  "y_nghia": "Toàn thân siết lại như lò xo nén, bức xúc dồn vào từng cơ bắp nhưng chưa bùng phát.",
+  "khi_nao": "Khi buộc phải giữ lịch sự trong tình huống tức giận cao độ, chẳng hạn trước mặt sếp hay người lớn tuổi hơn.",
+  "mo_ta_en": "Weight loads onto left foot (65%), right foot rolls onto ball with heel grounded. Hips rotate 6° left, spine stiffens 4° with subtle forward lean. Shoulders hunch and draw inward 12°, both arms pull close to torso at 122° bend, forearms cross at 58° low in front, hands clench into fists ~15cm apart traveling ~20cm inward. Head bows forward 20°, neck taut. Duration 3.5s. Feet stay planted on the floor, no stepping.",
+  "giay": 3.5,
+  "cum": [
+   "Vâng... tôi hiểu rồi.",
+   "Dạ... như vậy ạ.",
+   "Tôi... sẽ xem lại.",
+   "Thưa anh, nhưng mà...",
+   "Dạ thôi được ạ.",
+   "Vâng, không sao ạ.",
+   "Tôi ghi nhận rồi ạ."
+  ]
+ },
+ "symmetry_both_palms_outward_push": {
+  "ma": "symmetry_both_palms_outward_push",
+  "ten": "Hai chân vững đẩy hai tay ra",
+  "y_nghia": "Khẳng định ranh giới hoặc sự thật bằng tư thế đối xứng uy quyền.",
+  "khi_nao": "Khi cần nhấn mạnh một điều với toàn bộ sức nặng lập luận, thường trước đám đông hoặc người cấp dưới.",
+  "mo_ta_en": "Weight distributes evenly on both feet shoulder-width apart, both knees soft at 8°. Hips remain square, minimal rotation 4°. Spine extends 4° upward. Both shoulders draw back symmetrically 14°. Both elbows rise to 61°, both forearms extend outward laterally 40cm, palms face outward at 96° wrist extension, held for 2.0s then slowly lower 1.5s. Feet stay planted on the floor, no stepping.",
+  "giay": 4.0,
+  "cum": [
+   "Nghe tôi nói đây",
+   "Tất cả mọi người hãy hiểu",
+   "Điều này áp dụng cho tất cả",
+   "Không có ngoại lệ nào hết",
+   "Tôi nói rõ một lần nữa",
+   "Hãy lắng nghe cho rõ"
+  ]
+ },
+ "thankful_bow_right_hand_chest": {
+  "ma": "thankful_bow_right_hand_chest",
+  "ten": "Cúi cảm ơn tay đặt ngực",
+  "y_nghia": "Lòng biết ơn xuất phát từ trái tim, cử chỉ ấm áp và chân thành.",
+  "khi_nao": "Khi cảm ơn ai đó đã làm điều có ý nghĩa sâu sắc về mặt tình cảm, như 'cảm ơn vì đã quan tâm đến em'.",
+  "mo_ta_en": "Weight drifts forward 60/40 onto left foot; right knee flexes ~8°, left ~6°; hips rotate left ~5°; spine inclines forward ~12° over 0.7s; right shoulder drops ~8° as right hand rises to rest flat on chest center; left arm hangs naturally; head bows ~18° downward, held 0.5s, then returns over 1.2s. Feet stay planted on the floor, no stepping.",
+  "giay": 3.0,
+  "cum": [
+   "cảm ơn vì đã quan tâm",
+   "em cảm động lắm",
+   "anh tốt với em quá",
+   "cảm ơn chị đã nghĩ đến em",
+   "em không biết nói gì hơn",
+   "thiệt lòng cảm ơn"
+  ]
+ },
+ "tired_face_palm_slump": {
+  "ma": "tired_face_palm_slump",
+  "ten": "Ôm mặt chùng vai",
+  "y_nghia": "Đây là sự mệt mỏi tinh thần lẫn thể xác tột cùng, cần che đi gương mặt một khoảnh khắc để tự thu mình lại.",
+  "khi_nao": "Khi nghe xong một tin tức xấu, một quyết định bất lợi, hoặc sau một cuộc tranh luận dai dẳng không có hồi kết.",
+  "mo_ta_en": "Weight shifts 60% onto left foot, left knee bends 8°; left hip drops 2 cm, hips rotate 5° left; spine flexes 4° forward from thoracic; both shoulders round forward 10° and drop 4 cm; both hands rise slowly over 1.5 s, palms cupping face at 15 cm travel, fingertips resting on forehead; elbows hang at 90°; head bows 20° forward into palms, held 1.5 s. Feet stay planted on the floor, no stepping.",
+  "giay": 4.0,
+  "cum": [
+   "trời ơi",
+   "sao lại thế này",
+   "không thể tin được",
+   "thôi xong",
+   "lại rồi",
+   "ừ tôi biết rồi mà"
+  ]
+ },
+ "tired_lean_back_brace": {
+  "ma": "tired_lean_back_brace",
+  "ten": "Ngả lưng chống đỡ",
+  "y_nghia": "Tìm điểm tựa tưởng tượng phía sau, như muốn cột sống được nâng đỡ khi không còn sức giữ thẳng.",
+  "khi_nao": "Khi đứng nói chuyện lâu và cảm thấy mỏi lưng, người nói vô thức đổ người ra sau nhẹ.",
+  "mo_ta_en": "Weight shifts 65% onto right foot, right knee softens 8°; right hip pushes forward 1.5 cm, pelvis tilts posteriorly 5°, hips rotate 6° right; spine extends passively 4° into mild lordosis; both hands move to lower back, palms pressing inward at 15 cm apart; shoulders pull back 5°; head remains level, chin slightly raised 8° over 2.0 s. Feet stay planted on the floor, no stepping.",
+  "giay": 2.0,
+  "cum": [
+   "nói thật là tôi mệt lắm rồi",
+   "chúng ta nói chuyện lâu thế này",
+   "ừ thì vẫn còn đó",
+   "cái này phức tạp lắm",
+   "để tôi nghĩ thêm",
+   "ừ mà thôi kệ"
+  ]
+ },
+ "tired_neck_roll_slack": {
+  "ma": "tired_neck_roll_slack",
+  "ten": "Cổ xoay rũ",
+  "y_nghia": "Đầu không còn đủ sức giữ thẳng, cổ xoay chậm chạp như muốn giải phóng sự căng cứng.",
+  "khi_nao": "Giữa chừng cuộc trò chuyện dài, người nói tạm dừng để thả lỏng cổ và vai trước khi tiếp tục.",
+  "mo_ta_en": "Weight settles evenly on both feet, knees softening 5°; hips rotate 4° right, spine holds at 4° of passive flexion; right shoulder drops 2 cm, left rises slightly 1 cm; head initiates slow lateral tilt 20° right then rolls 15° forward over 3.0 s, chin tracing a lazy arc; arms remain at sides with elbows slightly bent 15°. Feet stay planted on the floor, no stepping.",
+  "giay": 3.0,
+  "cum": [
+   "ừ ừ tôi nghe",
+   "cứ nói đi",
+   "hôm nay dài quá",
+   "à ý bạn là vậy hả",
+   "mình đang nói đến đâu nhỉ",
+   "ừ thì... thế"
+  ]
+ },
+ "tired_slow_sway_glaze": {
+  "ma": "tired_slow_sway_glaze",
+  "ten": "Lắc lư mơ màng",
+  "y_nghia": "Cơ thể tự lắc nhẹ theo nhịp riêng, tâm trí đang lơ đãng, không còn tập trung hoàn toàn vào cuộc trò chuyện.",
+  "khi_nao": "Khi phải nghe người khác nói một mình quá lâu và bắt đầu mất tập trung vì buồn ngủ hoặc kiệt sức.",
+  "mo_ta_en": "Weight oscillates slowly side to side: 55% left then 55% right over 3.5 s, each transfer taking 1.7 s; hips sway laterally ±0.7 cm, rotating alternately 5° left and 5° right; spine stays soft at 4° flexion throughout; shoulders follow passively with 6° lag; arms hang with slight 20° elbow bend, hands swaying 8 cm total arc; head bobs 10° gently with each sway. Feet stay planted on the floor, no stepping.",
+  "giay": 3.5,
+  "cum": [
+   "ừ... ừ...",
+   "vâng tôi nghe",
+   "à là vậy",
+   "ừ thì cũng được",
+   "hm...",
+   "ờ thì bạn cứ nói đi"
+  ]
+ },
+ "tired_weight_shift_exhale": {
+  "ma": "tired_weight_shift_exhale",
+  "ten": "Dồn trọng tâm thở dài",
+  "y_nghia": "Cơ thể buông lỏng hoàn toàn, thở ra nặng nề như trút đi gánh nặng.",
+  "khi_nao": "Sau khi vừa nghe xong một thông tin khó chịu hoặc kết thúc một việc căng thẳng kéo dài.",
+  "mo_ta_en": "Weight shifts 70% onto left foot; left hip drops 2 cm and rotates 7° left; spine softens 4° into slight forward lean; both shoulders drop 3 cm and round inward 8°; arms hang loose, wrists fall 6 cm below neutral; head tilts 10° forward, chin drops toward chest over 2.5 s. Feet stay planted on the floor, no stepping.",
+  "giay": 2.5,
+  "cum": [
+   "thôi xong rồi",
+   "mệt quá đi",
+   "ừ thì biết rồi",
+   "nói mãi cũng vậy",
+   "hết sức luôn",
+   "chịu không nổi nữa"
+  ]
+ },
+ "toe_press_stall": {
+  "ma": "toe_press_stall",
+  "ten": "Dồn mũi chân khi kéo dài thời gian",
+  "y_nghia": "Áp lực dồn xuống mũi bàn chân cho thấy người nói đang cố kéo dài thời gian suy nghĩ mà không muốn bộ lộ sự lúng túng.",
+  "khi_nao": "Khi bị hỏi một câu khó hoặc nhạy cảm và cần vài giây trước khi trả lời.",
+  "mo_ta_en": "Weight loads onto balls of both feet simultaneously, both heels rise 1cm over 0.7s, both knees flex 8° creating slight crouch. Hips lower 1.5cm, neutral rotation. Spine compresses minimally 4°, torso stays vertical. Shoulders hold level, arms remain at sides with elbows bent 30°, hands loosely closed. Head drops 10°, eyes lower briefly then return to speaker. Release slowly over 1.3s. Feet stay planted on the floor, no stepping.",
+  "giay": 3.2,
+  "cum": [
+   "Câu hỏi này...",
+   "Thì... ờ...",
+   "Cái đó hả...",
+   "Để tôi nghĩ...",
+   "Vấn đề là...",
+   "Trả lời thế nào nhỉ..."
+  ]
+ },
+ "topic_shift_gentle_sway": {
+  "ma": "topic_shift_gentle_sway",
+  "ten": "Chuyển chủ đề — lắc nhẹ dịu dàng",
+  "y_nghia": "Nhân vật chuyển chủ đề một cách tự nhiên, không đột ngột, thể hiện sự trôi chảy của cuộc trò chuyện và không khí thân mật.",
+  "khi_nao": "Dùng trong trò chuyện thân mật, nhẹ nhàng khi chủ đề mới liên quan đến chủ đề cũ, thường đi với 'Mà hỏi thêm một chút…' hay 'Nói đến đó tôi lại nhớ…'",
+  "mo_ta_en": "Weight gently sways from right to left foot over 0.6s, transferring 60% load to left; hips shift laterally left 0.5cm, rotating 5° softly; spine sways with hip movement, only 4° total, staying tall; right shoulder drops 8° naturally while left rises 6°; right arm drifts across body, forearm at 55°, hand relaxed open traveling ~35cm in a slow arc over 1.0s; left hand rests lightly on left hip. Movement is unhurried, fluid. Feet stay planted on the floor, no stepping.",
+  "giay": 3.0,
+  "cum": [
+   "Mà hỏi thêm một chút…",
+   "Nói đến đó tôi lại nhớ…",
+   "Tiện thể hỏi luôn…",
+   "Ừ mà tôi cũng tò mò…",
+   "À thật ra còn chuyện này…",
+   "Nghe xong tôi lại nghĩ đến…",
+   "Cũng liên quan đến chuyện đó…",
+   "Hồi nãy bạn nói vậy, tôi muốn hỏi…"
+  ]
+ },
+ "topic_shift_lean_forward": {
+  "ma": "topic_shift_lean_forward",
+  "ten": "Chuyển chủ đề — nghiêng tới",
+  "y_nghia": "Nhân vật chuyển sang chủ đề mới với thái độ háo hức, muốn kéo người nghe vào câu chuyện tiếp theo.",
+  "khi_nao": "Dùng khi dứt một ý và bắt đầu điều thú vị hơn, thường đi kèm 'À mà này…' hoặc 'Nhân tiện…'",
+  "mo_ta_en": "Weight shifts onto left foot over 0.4s; hips rotate left 7° and translate left 0.6cm; spine elongates slightly forward 4°, no bend; shoulders follow left 5°; right arm rises from rest, forearm sweeps upward 61° over 0.8s, wrist extends 30°, hand opens palm-up traveling ~38cm; left hand relaxed at side. Gaze lifts toward listener. Feet stay planted on the floor, no stepping.",
+  "giay": 2.5,
+  "cum": [
+   "À mà này…",
+   "Nhân tiện tôi muốn nói…",
+   "Chuyển sang chuyện khác một chút…",
+   "Ồ mà thôi, nói đến chuyện…",
+   "Thật ra còn một điều nữa…",
+   "Khoan đã, tôi nhớ ra rồi…",
+   "Mà nói đến đây tôi lại nghĩ…",
+   "Thôi bỏ cái đó đi, bây giờ…"
+  ]
+ },
+ "topic_shift_pivot_both_hands": {
+  "ma": "topic_shift_pivot_both_hands",
+  "ten": "Chuyển chủ đề — xoay người hai tay dẫn",
+  "y_nghia": "Nhân vật dùng cả hai tay đồng thời mở ra để 'đóng khung' chủ đề mới, tạo cảm giác chuyển cảnh rõ ràng và dứt khoát.",
+  "khi_nao": "Dùng khi chuyển sang chủ đề quan trọng hơn hoặc muốn nhấn mạnh sự thay đổi, thường đi với 'Quan trọng hơn là…' hay 'Điều tôi thực sự muốn nói…'",
+  "mo_ta_en": "Weight pivots decisively to left foot over 0.3s; left knee softens 8°; hips rotate left 7° and shift 0.6cm left; spine follows with 4° left rotation, torso orients toward listener; both arms rise symmetrically, elbows bend 60°, forearms open outward like a book over 0.9s, palms face up, each hand travels ~40cm apart; shoulders broaden 14°, chest opens. Gaze locks on listener directly. Feet stay planted on the floor, no stepping.",
+  "giay": 2.8,
+  "cum": [
+   "Quan trọng hơn là…",
+   "Điều tôi thực sự muốn nói…",
+   "Cái chính là…",
+   "Mấu chốt vấn đề là…",
+   "Nhưng mà điều này mới quan trọng…",
+   "Tôi muốn tập trung vào…",
+   "Thật ra vấn đề cốt lõi là…",
+   "Đây mới là điều tôi muốn hỏi…"
+  ]
+ },
+ "topic_shift_side_open": {
+  "ma": "topic_shift_side_open",
+  "ten": "Chuyển chủ đề — mở sang bên",
+  "y_nghia": "Nhân vật phân tách rõ ràng hai chủ đề bằng cách 'gạt' chủ đề cũ sang một bên, tạo không gian cho chủ đề mới.",
+  "khi_nao": "Dùng khi muốn đóng hẳn một chủ đề và mở chủ đề hoàn toàn khác, thường đi với 'Thôi dẹp chuyện đó đi…'",
+  "mo_ta_en": "Weight transfers to right foot over 0.3s; hips rotate right 6° and shift right 0.7cm; spine stays upright, minimal 4° rotation matching hips; left arm sweeps laterally outward 120° over 0.7s with open palm facing right, hand travels ~42cm, as if clearing space; right hand simultaneously moves to center torso, palm facing up 96°. Gaze pivots to a new focal point. Feet stay planted on the floor, no stepping.",
+  "giay": 2.8,
+  "cum": [
+   "Thôi dẹp chuyện đó đi…",
+   "Bỏ qua cái đó nhé…",
+   "Tạm gác lại đi…",
+   "Không nói chuyện đó nữa…",
+   "Sang chuyện khác thôi…",
+   "Quên cái đó đi…",
+   "Chuyện đó xong rồi, giờ…",
+   "Ừ thôi, nói thật ra là…"
+  ]
+ },
+ "topic_shift_weight_back_pause": {
+  "ma": "topic_shift_weight_back_pause",
+  "ten": "Chuyển chủ đề — lùi lại suy nghĩ",
+  "y_nghia": "Nhân vật lùi nhẹ trọng tâm như đang 'thu mình lại' để chuẩn bị tung ra chủ đề mới, tạo nhịp tạm dừng đầy ý nghĩa.",
+  "khi_nao": "Dùng khi chuyển sang chủ đề nhạy cảm hơn hoặc cần cân nhắc, thường đi kèm 'Thật ra mà nói…' hay 'Nói thẳng ra là…'",
+  "mo_ta_en": "Weight eases back onto right heel over 0.5s; right knee softens 8°; hips tilt back 5° and rotate right 6°; spine remains long, 4° posterior tilt only, chest stays open; both arms draw inward, forearms rise 55° with hands loosely clasped at mid-torso; after 0.6s pause, right hand releases and extends forward palm-up ~38cm over 0.8s. Chin drops 10° then lifts to signal topic arrival. Feet stay planted on the floor, no stepping.",
+  "giay": 3.5,
+  "cum": [
+   "Thật ra mà nói…",
+   "Nói thẳng ra là…",
+   "Tôi phải thành thật…",
+   "Mà thật sự thì…",
+   "Nếu nói thật lòng…",
+   "Có điều này tôi muốn nói…",
+   "Khó nói lắm nhưng mà…",
+   "Không biết nói thế nào nhưng…"
+  ]
+ },
+ "turn_back_gesture": {
+  "ma": "turn_back_gesture",
+  "ten": "Xoay nửa người về phía sau",
+  "y_nghia": "Nói về quá khứ, ký ức cũ hoặc nơi đã qua.",
+  "khi_nao": "Khi nhớ lại thời thơ ấu, nói về những năm tháng đã cũ, hoặc những chuyện xảy ra lâu rồi.",
+  "mo_ta_en": "Weight centers between both feet (0.4s). Hip rotation reaches 7° toward back-left. Spine twists 4° posteriorly. Shoulders pull back 14° with chest opening. Left arm extends backward 120° at shoulder, right arm rests at side. Neck rotates 25° backward. Gaze follows over left shoulder. Torso remains upright, no forward bend. Both feet pivot equally, heels stay down. Lateral displacement negligible. Feet stay planted on the floor, no stepping.",
+  "giay": 2.6,
+  "cum": [
+   "ồ, nhớ lại ngày xưa",
+   "thời bé tôi",
+   "cách đây lâu lắm",
+   "những năm tháng cũ",
+   "chuyện quá khứ",
+   "kỷ niệm xưa"
+  ]
+ },
+ "turn_diagonal_uncertain": {
+  "ma": "turn_diagonal_uncertain",
+  "ten": "Xoay người lệch 45° (ngả ngơn)",
+  "y_nghia": "Không chắc chắn về nơi hay thời gian, hoặc tìm cách diễn đạt.",
+  "khi_nao": "Khi nói những chuyện không rõ ràng, hay cố gắng nhớ lại chi tiết, hoặc đang suy nghĩ.",
+  "mo_ta_en": "Weight shifts to left-back foot (0.3s). Right hip rotates 7° forward, left hip 5° backward creating 45° diagonal stance. Spine twists 4° leftward and slightly forward. Shoulders angle 10° left of center. Left arm extends 110° at shoulder with palm up (uncertainty). Right hand touches chin thoughtfully, elbow bent 85°. Head tilts 20° left, eyes gaze to upper-left. Feet pivot to 45° angle, heels stay grounded, weight on ball of left foot. No lateral drift. Feet stay planted on the floor, no stepping.",
+  "giay": 3.2,
+  "cum": [
+   "hơi khó nhớ lại",
+   "tại mình không chắc",
+   "khoảng đâu đó",
+   "anh/chị ơi, mình tìm cách nói",
+   "không biết giải thích sao",
+   "chỗ nào đó vậy"
+  ]
+ },
+ "turn_front_emphasis": {
+  "ma": "turn_front_emphasis",
+  "ten": "Xoay trở lại phía trước (nhấn mạnh hiện tại)",
+  "y_nghia": "Kết thúc câu chuyện về quá khứ, quay về chủ đề chính hoặc sự thực hiện tại.",
+  "khi_nao": "Sau khi kể xong chuyện cũ, quay lại tập trung vào cuộc trò chuyện hiện tại.",
+  "mo_ta_en": "Weight redistributes evenly across both feet (0.5s). Hip centers to neutral (0° rotation). Spine returns to 0° twist, core engaged. Both shoulders face listener square-on, 0° rotation. Both arms drop naturally to sides, right hand gestures upward 96° at elbow. Head faces directly forward 0° rotation. Eyes lock with listener. Chest open, posture upright. Slight forward lean from ankles (~2°). Feet maintain equal pressure, no movement. Feet stay planted on the floor, no stepping.",
+  "giay": 2.0,
+  "cum": [
+   "nhưng thôi, quay lại",
+   "dù sao thì",
+   "bây giờ",
+   "hiện tại",
+   "sự thật là",
+   "mà mình nói chuyện"
+  ]
+ },
+ "turn_invite_bow_slight": {
+  "ma": "turn_invite_bow_slight",
+  "ten": "Xoay mời kèm cúi đầu nhẹ",
+  "y_nghia": "Thể hiện sự kính trọng và lịch sự cao hơn khi mời khách bề trên hoặc khách quan trọng.",
+  "khi_nao": "Khi tiếp đón khách lớn tuổi, cấp trên, hoặc đối tác quan trọng lần đầu đến thăm.",
+  "mo_ta_en": "Weight settles onto left foot, right heel pivots outward ~5°, hip rotates ~7° turning body toward guest. Spine holds firm ~4° lean, head nods downward ~25° in a respectful dip lasting 0.5 s. Both arms drop slightly at sides, forearms at ~61°, hands lowered at ~96° wrist angle. Shoulders descend ~14° symmetrically. Full motion completes in 2.0 s. Feet stay planted on the floor, no stepping.",
+  "giay": 2.0,
+  "cum": [
+   "Kính mời quý khách ạ",
+   "Chúng tôi rất vinh dự được đón tiếp",
+   "Dạ mời bác vào ạ",
+   "Xin kính mời anh chị",
+   "Chúng em xin phép dẫn đường",
+   "Bác cứ để chúng em lo ạ"
+  ]
+ },
+ "turn_invite_gesture_seat": {
+  "ma": "turn_invite_gesture_seat",
+  "ten": "Xoay chỉ ghế mời ngồi",
+  "y_nghia": "Xoay người kết hợp tay chỉ cụ thể vào vị trí ngồi, mời khách an vị một cách rõ ràng và ân cần.",
+  "khi_nao": "Khi khách còn đứng lưỡng lự chưa tìm được chỗ ngồi hoặc cần chỉ đúng vị trí đã chuẩn bị.",
+  "mo_ta_en": "Weight dips onto left foot, left knee bends ~8°, hips rotate ~7° rightward toward the seat. Spine holds at ~4°, stable and upright. Right shoulder rotates ~14°, arm extends at ~126° angled slightly downward toward the chair, forearm at ~61°, index finger and open palm at ~96° wrist angle point to the seat ~41 cm away, hold 1.0 s. Head tilts ~25° nodding toward the seat. Full sequence takes 2.2 s. Feet stay planted on the floor, no stepping.",
+  "giay": 2.5,
+  "cum": [
+   "Mời anh ngồi vào đây ạ",
+   "Chỗ này là dành cho chị đó",
+   "Anh chị ngồi chỗ này nhé",
+   "Đây là chỗ của bác rồi ạ",
+   "Mời anh ngồi xuống cho thoải mái",
+   "Chị ngồi đây cho gần ạ",
+   "Bác cứ ngồi xuống đi ạ"
+  ]
+ },
+ "turn_invite_open_palm": {
+  "ma": "turn_invite_open_palm",
+  "ten": "Xoay mời lòng bàn tay mở",
+  "y_nghia": "Mời khách bằng tư thế cởi mở, tay dẫn hướng chân thành và trân trọng.",
+  "khi_nao": "Khi chỉ hướng vào phòng hoặc mời khách ngồi vào chỗ đã chuẩn bị sẵn.",
+  "mo_ta_en": "Weight shifts to left foot, right hip rotates outward ~7°, spine rotates ~4° following the hip. Right shoulder turns ~14° toward the guest's direction. Right arm sweeps outward at ~126°, elbow gently extended, open palm faces upward at ~96° wrist angle, hand travels ~41 cm in a smooth arc over 1.5 s. Gaze follows the hand toward the invited space. Feet stay planted on the floor, no stepping.",
+  "giay": 2.5,
+  "cum": [
+   "Mời anh/chị vào trong ạ",
+   "Anh chị cứ tự nhiên nhé",
+   "Phòng đã sẵn sàng rồi ạ",
+   "Bên này anh chị ơi",
+   "Mời anh đi trước ạ",
+   "Chỗ này dành cho anh chị đây"
+  ]
+ },
+ "turn_invite_step_aside": {
+  "ma": "turn_invite_step_aside",
+  "ten": "Xoay nhường đường mời vào",
+  "y_nghia": "Nhường lối đi cho khách bằng cách xoay thân tạo khoảng trống, thể hiện sự nhường nhịn lịch thiệp.",
+  "khi_nao": "Khi đứng chắn lối vào cửa hoặc hành lang và cần nhường bước cho khách đi qua trước.",
+  "mo_ta_en": "Weight transfers firmly to right foot, right knee softens ~8°, hips pivot ~7° leftward to clear the path. Spine rotates ~4° left, torso opens sideways to the guest. Right arm sweeps ~126° outward gesturing the clear path, wrist at ~96°, hand arcs ~41 cm in 1.0 s. Left arm folds naturally at ~61° forearm angle across lower torso. Head turns ~25° toward guest with a slight nod. Feet stay planted on the floor, no stepping.",
+  "giay": 2.0,
+  "cum": [
+   "Mời anh chị đi trước ạ",
+   "Anh cứ vào trước đi",
+   "Chị đi trước em nhé",
+   "Không dám, mời anh ạ",
+   "Bác cứ tự nhiên qua đây",
+   "Em nhường chỗ cho anh chị"
+  ]
+ },
+ "turn_invite_two_hands_guide": {
+  "ma": "turn_invite_two_hands_guide",
+  "ten": "Xoay mời hai tay dẫn đường",
+  "y_nghia": "Dùng cả hai tay để mời, nhấn mạnh sự nhiệt tình và chu đáo trong đón tiếp.",
+  "khi_nao": "Khi muốn hướng dẫn khách đi qua không gian lạ hoặc nhấn mạnh lòng hiếu khách chân thành.",
+  "mo_ta_en": "Weight shifts to left foot, left knee softens ~8°, hips rotate ~7° rightward. Spine follows with ~4° rotation. Both shoulders open ~14° toward the direction of invitation. Both arms extend forward-outward at ~126°, elbows gently bent at ~61°, both palms face upward at ~96° wrist angle, hands travel ~41 cm apart in a symmetrical guiding arc over 1.8 s. Head turns ~25° toward the guest. Feet stay planted on the floor, no stepping.",
+  "giay": 3.0,
+  "cum": [
+   "Anh chị đi theo em nhé",
+   "Em dẫn anh chị vào trong ạ",
+   "Phía này anh chị ơi",
+   "Để em chỉ đường cho ạ",
+   "Mời hai bác theo lối này",
+   "Chỗ ngồi bên tay phải ạ",
+   "Em sẽ đưa anh chị đến ngay"
+  ]
+ },
+ "turn_left_gesture": {
+  "ma": "turn_left_gesture",
+  "ten": "Xoay người sang trái",
+  "y_nghia": "Chỉ về một địa điểm hoặc sự việc ở phía bên trái khi kể chuyện.",
+  "khi_nao": "Khi nói về quê hương, nhà riêng hoặc nơi quen thuộc ở phía tây hoặc trong quá khứ.",
+  "mo_ta_en": "Weight shifts to left foot (0.3s). Right hip rotates inward 7°, spine twists 4° leftward. Shoulders roll 14° left. Left arm extends 126° at shoulder, palm open facing listener. Gaze follows arm direction. Maintain hip displacement ±0.3cm. Right foot pressure increases slightly, left foot pivots on toe-ball contact. Duration 1.8s total. Feet stay planted on the floor, no stepping.",
+  "giay": 2.3,
+  "cum": [
+   "ở bên kia kìa",
+   "cái chỗ đó ở bên trái",
+   "chỉ về phía đó",
+   "ở tây bộ",
+   "nơi tôi từng sống",
+   "bên kia nước"
+  ]
+ },
+ "turn_right_gesture": {
+  "ma": "turn_right_gesture",
+  "ten": "Xoay người sang phải",
+  "y_nghia": "Chỉ về một nơi ở phía bên phải hoặc tương lai gần.",
+  "khi_nao": "Khi nhắc tới Sài Gòn, thành phố hiện đại, hoặc kế hoạch sắp tới.",
+  "mo_ta_en": "Weight shifts to right foot (0.3s). Left hip rotates 7° outward, spine extends 4° rightward maintaining neutral posture. Shoulders turn 14° right. Right arm lifts 126° with elbow bent 96°, fingers spread. Head tilts slightly right 25°. Left foot stays grounded, right foot rolls to ball contact. Hip lateral sway <±0.5cm. Upper body compact, no leaning. Feet stay planted on the floor, no stepping.",
+  "giay": 2.4,
+  "cum": [
+   "phía bên phải kia",
+   "ở phía đông",
+   "thành phố kia",
+   "hướng tới",
+   "cái nơi tươi sáng",
+   "công việc sắp tới"
+  ]
+ },
+ "two_foot_stance_crossed_arms_resist": {
+  "ma": "two_foot_stance_crossed_arms_resist",
+  "ten": "Trụ hai chân - khoanh tay cự tuyệt",
+  "y_nghia": "Thể hiện sự phòng thủ và từ chối tiếp nhận, đóng kín lập trường trước ý kiến đối phương.",
+  "khi_nao": "Khi nghe một đề nghị hoặc lý lẽ mà mình không muốn nghe và đã quyết tâm bác bỏ từ đầu.",
+  "mo_ta_en": "Weight settles evenly on both feet hip-width apart, knees softly bent 8°. Hips remain squared, spine held neutral at 4°. Both upper arms draw inward 126°, forearms cross over chest at 61°, right over left, completing in 1.0s. Shoulders rotate inward 14°, head turns 15° to the side with chin level. Feet stay planted on the floor, no stepping.",
+  "giay": 3.0,
+  "cum": [
+   "Thôi khỏi bàn cái đó nữa",
+   "Tôi nghe rồi nhưng không đồng ý",
+   "Ý kiến đó không ổn chút nào",
+   "Cứ nói thế nào tôi cũng không chịu",
+   "Anh/chị đang cố thuyết phục ai vậy",
+   "Không có gì để bàn thêm đâu"
+  ]
+ },
+ "two_foot_stance_firm_denial": {
+  "ma": "two_foot_stance_firm_denial",
+  "ten": "Trụ hai chân - phủ nhận dứt khoát",
+  "y_nghia": "Thể hiện sự kiên quyết không đồng ý, lập trường vững chắc không thể lay chuyển.",
+  "khi_nao": "Khi bị ai đó áp lực yêu cầu làm điều mình hoàn toàn không chấp nhận.",
+  "mo_ta_en": "Weight distributes evenly across both feet, shoulder-width apart. Hips square forward with zero rotation, spine elongates upward 4°. Both shoulders pull back 14°, chest opens slightly. Right forearm rises to 61°, palm faces outward at 96°, pushing forward 30cm in 0.8s. Head tilts back 10° with chin raised. Feet stay planted on the floor, no stepping.",
+  "giay": 2.5,
+  "cum": [
+   "Không, tôi không đồng ý",
+   "Việc đó tôi không làm được",
+   "Thôi được rồi, dừng lại đi",
+   "Anh/chị hiểu lầm rồi",
+   "Tôi đã nói rõ ràng rồi mà",
+   "Không phải vậy đâu"
+  ]
+ },
+ "two_foot_stance_lean_forward_challenge": {
+  "ma": "two_foot_stance_lean_forward_challenge",
+  "ten": "Trụ hai chân - nghiêng tới thách thức",
+  "y_nghia": "Thể hiện sự phản đối mang tính thách thức chủ động, ép đối phương phải giải thích hoặc nhượng bộ.",
+  "khi_nao": "Khi tranh luận căng thẳng và muốn buộc đối phương phải đối mặt trực tiếp với lập luận của mình.",
+  "mo_ta_en": "Weight presses forward onto balls of both feet, knees bent 8°. Hips drive forward 7°, spine holds firm at 4° with chest projecting slightly. Right arm extends forward at 126°, forearm at 61°, index finger points at 41cm from body in 0.7s. Left hand rests on hip. Shoulders square at 14°, head thrusts forward 25°, chin level and direct. Feet stay planted on the floor, no stepping.",
+  "giay": 2.0,
+  "cum": [
+   "Vậy anh/chị giải thích đi",
+   "Nói thẳng ra xem nào",
+   "Tôi muốn nghe lý do chính đáng",
+   "Anh/chị có dám nói lại không",
+   "Điều đó không đúng và anh/chị biết chứ",
+   "Thử nhìn thẳng vào vấn đề xem"
+  ]
+ },
+ "two_foot_stance_slow_headshake_weary": {
+  "ma": "two_foot_stance_slow_headshake_weary",
+  "ten": "Trụ hai chân - lắc đầu chán nản",
+  "y_nghia": "Thể hiện sự phản đối mệt mỏi, không còn sức tranh luận nhưng vẫn không chấp nhận.",
+  "khi_nao": "Khi đã giải thích nhiều lần mà đối phương vẫn không hiểu hoặc vẫn cố tình lặp lại điều sai.",
+  "mo_ta_en": "Weight settles heavy and even on both feet, knees gently bent 8°. Hips drop 7° as if exhaling downward, spine softens minimally at 4° but stays upright. Both arms lower to sides, right hand rises slowly to 96° palm-down at 38cm, waving once side to side over 1.5s. Head shakes slowly 25° left then right twice in 2.0s. Shoulders sink 14°. Feet stay planted on the floor, no stepping.",
+  "giay": 4.0,
+  "cum": [
+   "Thôi tôi không muốn tranh luận nữa",
+   "Nói mãi mà không hiểu thì biết sao",
+   "Tôi đã giải thích bao nhiêu lần rồi",
+   "Sao cứ phải như vậy hoài vậy",
+   "Anh/chị vẫn cứ không chịu nghe",
+   "Tôi bó tay với chuyện này rồi"
+  ]
+ },
+ "two_foot_stance_weight_back_skeptic": {
+  "ma": "two_foot_stance_weight_back_skeptic",
+  "ten": "Trụ hai chân - ngả người hoài nghi",
+  "y_nghia": "Thể hiện sự hoài nghi lạnh lùng, phản đối bằng thái độ không tin tưởng hơn là lời nói gay gắt.",
+  "khi_nao": "Khi nghe lý lẽ mà mình cho là vô lý hoặc không thực tế, muốn bày tỏ sự nghi ngờ không cần nổi giận.",
+  "mo_ta_en": "Weight shifts back onto both heels evenly, knees softly bent 8°. Hips tilt back 7°, spine leans rearward a minimal 4°. Right arm rises to 126°, elbow bends 61°, hand lifts palm-up at 96° in a rhetorical open gesture 35cm from torso over 1.2s. Left arm stays low. Head tilts 25° with one eyebrow raised. Feet stay planted on the floor, no stepping.",
+  "giay": 3.5,
+  "cum": [
+   "Thật sự anh/chị tin vào điều đó à",
+   "Nghe có vẻ... không thực tế lắm",
+   "Ý anh/chị là sao, tôi không hiểu",
+   "Điều đó có logic không vậy",
+   "Bằng chứng đâu, tôi chưa thấy",
+   "Cái này khó tin quá đi"
+  ]
+ },
+ "weight_back_head_tilt_smile": {
+  "ma": "weight_back_head_tilt_smile",
+  "ten": "Ngả nhẹ – lắc đầu hiền",
+  "y_nghia": "Từ chối ấm áp, vừa thể hiện sự cảm kích vừa giữ vững quyết định.",
+  "khi_nao": "Khi từ chối một lời mời chân thành và muốn đối phương không cảm thấy bị hắt hủi.",
+  "mo_ta_en": "Weight sinks into both heels equally, hips drift backward 3.5cm with subtle 5° left rotation, spine gently elongates upward 4° keeping torso open, shoulders drop and relax 2cm, both hands come together loosely at waist height elbows at 100°, head tilts right 20° then sways left 15° in a slow negation over 1.2s, chin slightly tucked. Total motion 3.5s. Feet stay planted on the floor, no stepping.",
+  "giay": 3.5,
+  "cum": [
+   "Ôi bạn tốt quá nhưng thôi",
+   "Mình trân trọng lắm nhưng không",
+   "Bạn đừng buồn nhé mình không được",
+   "Cảm ơn bạn nghĩ đến mình",
+   "Lần này mình xin phép vắng",
+   "Bạn vui vẻ đi mình không đi được đâu"
+  ]
+ },
+ "weight_shift_calm_conclude": {
+  "ma": "weight_shift_calm_conclude",
+  "ten": "Dồn chân – kết luận bình thản",
+  "y_nghia": "Người nói nhẹ nhàng khép lại vấn đề, không căng thẳng, chỉ đơn giản là xong.",
+  "khi_nao": "Khi kết thúc một cuộc trò chuyện thông thường hoặc giải thích xong một điều hiển nhiên.",
+  "mo_ta_en": "Weight gradually transfers to right foot over 0.8 s, left knee softens ~8°, left heel lifts slightly inward without leaving floor. Hips drift 0.6 cm right and rotate 6° right. Spine remains upright, 4° lateral sway. Right hand opens palm-up, floats gently downward ~35 cm from mid-chest to hip in 1.0 s. Head tilts 10° right with a small nod. Feet stay planted on the floor, no stepping.",
+  "giay": 3.0,
+  "cum": [
+   "Thế thôi, đơn giản vậy thôi",
+   "Cũng không có gì phức tạp",
+   "Vậy là ổn rồi đấy",
+   "Hiểu rồi chứ, vậy là xong",
+   "Thực ra cũng rõ ràng mà",
+   "Không có gì khó hiểu cả",
+   "Cứ vậy mà làm thôi"
+  ]
+ },
+ "weight_shift_final_step_land": {
+  "ma": "weight_shift_final_step_land",
+  "ten": "Dồn chân – Bước chốt cuối",
+  "y_nghia": "Đánh dấu bước cuối cùng, cơ thể 'đổ bộ' vào điểm kết thúc với sự hoàn tất rõ ràng.",
+  "khi_nao": "Khi tuyên bố bước cuối cùng của quy trình, giọng xuống thấp và chắc, cảm giác khép lại.",
+  "mo_ta_en": "Weight drops firmly onto right foot over 0.5s, left toe pivots outward 20°, hips rotate right ~7° and settle ~1cm lower as knees soften ~8°. Spine straightens from slight 4° forward curve to vertical. Right arm sweeps down and inward, ending with palm pressing flat downward at hip height, fingers together, held 0.8s. Left hand mirrors loosely. Head and neck lower ~10°. Feet stay planted on the floor, no stepping.",
+  "giay": 3.0,
+  "cum": [
+   "Và bước cuối cùng là…",
+   "Cuối cùng, chúng ta…",
+   "Bước kết thúc là…",
+   "Sau cùng phải…",
+   "Điểm chốt lại là…",
+   "Và đó là bước cuối…",
+   "Kết thúc bằng việc…"
+  ]
+ },
+ "weight_shift_pause_left": {
+  "ma": "weight_shift_pause_left",
+  "ten": "Dồn chân trái khi ngập ngừng",
+  "y_nghia": "Người nói đang tìm từ hoặc suy nghĩ chưa chắc, cơ thể dồn về phía trái để giữ thăng bằng cảm xúc.",
+  "khi_nao": "Khi đang giải thích điều gì đó rồi bỗng dừng lại giữa câu vì chưa nghĩ ra từ chính xác.",
+  "mo_ta_en": "Weight shifts smoothly onto left foot over 0.8s; right heel slightly lifts 1–2cm while right knee softens 6°. Hips translate left ~0.6cm and rotate left 6°. Spine stays upright, rotating minimally 3°. Left shoulder drops 2°, right arm drifts inward 5cm. Head tilts left 8°, eyes glance upward-left. Feet stay planted on the floor, no stepping.",
+  "giay": 2.5,
+  "cum": [
+   "Ừm... cái đó thì...",
+   "Tức là... ờ...",
+   "Để tôi nghĩ lại...",
+   "Cái này... hmm...",
+   "Thật ra là... ờ...",
+   "Khó nói lắm..."
+  ]
+ },
+ "weight_shift_step_count_chop": {
+  "ma": "weight_shift_step_count_chop",
+  "ten": "Dồn chân – Chặt từng bước",
+  "y_nghia": "Đếm quy trình bằng nhịp chặt tay dứt khoát, nhấn rõ ranh giới giữa các bước.",
+  "khi_nao": "Khi điểm danh nhanh toàn bộ các bước liên tiếp: 'Một – hai – ba', giọng gọn mạnh.",
+  "mo_ta_en": "Weight pulses left-right alternately with each count, each shift ~6° hip rotation over 0.4s per beat. Spine stays rigid ~4°. Right hand chops downward at 45° angle, palm-edge leading, traveling ~25cm per strike at solar-plexus height. Left hand rests loosely at side. Three beats total across 2.2s. Feet stay planted on the floor, no stepping.",
+  "giay": 2.5,
+  "cum": [
+   "Có ba bước: một,",
+   "Gồm bốn giai đoạn,",
+   "Tóm lại chỉ cần…",
+   "Ba điểm chính: đầu tiên,",
+   "Quy trình gồm: một –",
+   "Mình tóm tắt lại: một,"
+  ]
+ },
+ "weight_shift_step_one": {
+  "ma": "weight_shift_step_one",
+  "ten": "Dồn chân – Bước một",
+  "y_nghia": "Nhấn mạnh bước khởi đầu của quy trình, giọng chắc chắn và dứt khoát.",
+  "khi_nao": "Khi bắt đầu liệt kê quy trình và nói 'Bước một' hoặc 'Đầu tiên là...'",
+  "mo_ta_en": "Weight shifts firmly onto left foot, right heel lifts slightly inward. Hips rotate left ~7°, spine stays tall with minimal ~4° forward lean. Left shoulder drops ~14°, right arm sweeps forward-down, index finger extends and points toward listener at chest height, wrist cocked 30°. Hold 0.5s at peak. Feet stay planted on the floor, no stepping.",
+  "giay": 2.5,
+  "cum": [
+   "Bước một là…",
+   "Đầu tiên chúng ta cần…",
+   "Trước hết phải…",
+   "Thứ nhất,",
+   "Mình bắt đầu bằng…",
+   "Điểm đầu tiên là…"
+  ]
+ },
+ "weight_shift_step_pause_reflect": {
+  "ma": "weight_shift_step_pause_reflect",
+  "ten": "Dồn chân – Bước dừng suy",
+  "y_nghia": "Bước này cần cân nhắc kỹ, người nói tạm dừng để nhấn mạnh sự phức tạp hoặc lưu ý quan trọng.",
+  "khi_nao": "Khi nêu một bước quy trình mà có điểm cần chú ý đặc biệt hoặc dễ bị bỏ qua.",
+  "mo_ta_en": "Weight settles back onto left heel over 0.8s, torso leans back slightly ~4°, hips shift left ~6°. Right hand rises slowly to chin height, fingertips touch lower lip lightly for 0.5s, then drops to chest level, palm inward. Head tilts right ~8°. Left arm crosses loosely at waist. Shoulders settle ~12° asymmetric. Feet stay planted on the floor, no stepping.",
+  "giay": 3.5,
+  "cum": [
+   "Lưu ý ở bước này…",
+   "Đây là phần quan trọng nhất…",
+   "Bước này nhiều người hay bỏ qua…",
+   "Cần chú ý là…",
+   "Điểm mấu chốt ở đây…",
+   "Bước này hơi phức tạp một chút…",
+   "Phải cẩn thận ở chỗ này…"
+  ]
+ },
+ "weight_shift_step_two_open": {
+  "ma": "weight_shift_step_two_open",
+  "ten": "Dồn chân – Bước hai mở",
+  "y_nghia": "Chuyển sang bước kế tiếp với sự mở rộng, gợi ý bước này quan trọng không kém.",
+  "khi_nao": "Khi chuyển sang 'Bước hai' sau khi đã trình bày xong bước một, giọng tiếp nối.",
+  "mo_ta_en": "Weight transfers smoothly to right foot over 0.6s, left heel pivots inward ~5°. Hips rotate right ~7°, spine remains upright ~4° rotation. Both arms open laterally to about 40cm apart, palms facing up at waist height, elbows bent ~100°. Shoulders level, slight right shoulder lead ~14°. Hold open pose 0.7s. Feet stay planted on the floor, no stepping.",
+  "giay": 3.0,
+  "cum": [
+   "Tiếp theo là bước hai…",
+   "Sau đó chúng ta…",
+   "Thứ hai,",
+   "Kế đến,",
+   "Bước tiếp theo…",
+   "Rồi đến phần…",
+   "Sang bước hai…"
+  ]
+ },
+ "weight_sink_index_point_level": {
+  "ma": "weight_sink_index_point_level",
+  "ten": "Dồn chân chỉ thẳng ngang",
+  "y_nghia": "Nhắm thẳng vào một luận điểm cụ thể, khẳng định với độ chính xác cao.",
+  "khi_nao": "Khi phản bác một chi tiết sai hoặc chỉ ra đúng trọng tâm của vấn đề.",
+  "mo_ta_en": "Weight sinks 65% onto right foot, right knee bends 8°, left foot stays flat as counterbalance. Hips rotate 7° right over 0.4s. Spine holds 4° extension, no lean. Right shoulder rotates forward 14°. Right elbow extends forward 61°, forearm horizontal, index finger extends pointing straight ahead at shoulder height, wrist at 96° extension, held 1.5s. Feet stay planted on the floor, no stepping.",
+  "giay": 2.5,
+  "cum": [
+   "Chính cái này mới quan trọng",
+   "Đây mới là vấn đề",
+   "Không phải chỗ đó",
+   "Đúng điểm này tôi muốn nói",
+   "Anh nhìn vào đây này",
+   "Chỗ này mới sai"
+  ]
+ }
+}

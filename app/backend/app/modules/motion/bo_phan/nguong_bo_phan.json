@@ -1,0 +1,290 @@
+{
+ "_doc": "Trần theo bộ phận trên LƯỚI CHUẨN 60 fps (mọi clip qua ong.luoi_chuan trước khi đo). Hiệu chuẩn 2026-08-21 bằng tools/hieu_chuan_bo_phan.py trên 6 clip mocap BEAT: giữ tỉ lệ trần/mocap đã duyệt ở lưới gốc, chỉ đổi lưới. _luoi_goc = bộ số cũ để đối chiếu. Đơn vị world m/s, m/s²; góc rad/s, rad/s². v_vot = vận tốc MỘT khung coi là giật vị trí. | 2026-08-21 (chiều): trần GIA TỐC tay/khuỷu/đầu hạ về ~1,5x ĐỈNH người thật (xem _dinh_nguoi_that_beat_luoi60) — trần cũ = a95 x3,8 cho qua đỉnh gấp 2–3 lần người thật.",
+ "_mocap_p90": {
+  "dau_world": [
+   0.35,
+   2.3
+  ],
+  "tay_ban": [
+   1.15,
+   9.3
+  ],
+  "tay_khuyu": [
+   0.6,
+   3.9
+  ],
+  "dau_goc": [
+   0.79,
+   5.4
+  ],
+  "than_goc": [
+   0.96,
+   5.9
+  ],
+  "hong_goc": [
+   0.93,
+   5.7
+  ]
+ },
+ "_kho_trung_vi": {
+  "dau_world": [
+   0.16,
+   0.9
+  ],
+  "tay_ban": [
+   1.89,
+   12.0
+  ],
+  "tay_khuyu": [
+   0.74,
+   3.9
+  ],
+  "dau_goc": [
+   0.66,
+   3.8
+  ],
+  "than_goc": [
+   0.49,
+   2.3
+  ],
+  "hong_goc": [
+   0.39,
+   2.5
+  ]
+ },
+ "dau": {
+  "toc_goc_tran": 1.72,
+  "gia_toc_goc_tran": 19.44,
+  "toc_world_tran": 0.72,
+  "v_vot": 0.5,
+  "gia_toc_world_tran": 7.0,
+  "v_vot_cu": 2.0
+ },
+ "than": {
+  "toc_goc_tran": 2.57,
+  "gia_toc_goc_tran": 26.0,
+  "_cu": {
+   "gia_toc_goc_tran": 11.59,
+   "toc_goc_tran": 1.92
+  }
+ },
+ "tay": {
+  "toc_tran": 2.96,
+  "gia_toc_tran": 24.0,
+  "khuyu_toc_tran": 1.81,
+  "khuyu_gia_toc_tran": 14.0,
+  "v_vot": 1.5,
+  "v_vot_cu": 6.0
+ },
+ "hong": {
+  "toc_goc_tran": 1.69,
+  "gia_toc_goc_tran": 27.28,
+  "_cu": {
+   "gia_toc_goc_tran": 11.79,
+   "toc_goc_tran": 1.83
+  }
+ },
+ "_luoi_fps": 60.0,
+ "_luoi_goc": {
+  "_mocap_p90": {
+   "dau_world": [
+    0.34,
+    2.2
+   ],
+   "tay_ban": [
+    1.01,
+    8.4
+   ],
+   "tay_khuyu": [
+    0.53,
+    5.1
+   ],
+   "dau_goc": [
+    0.78,
+    5.0
+   ],
+   "than_goc": [
+    0.95,
+    5.6
+   ],
+   "hong_goc": [
+    1.07,
+    5.8
+   ]
+  },
+  "_kho_trung_vi": {
+   "dau_world": [
+    0.45,
+    2.5
+   ],
+   "tay_ban": [
+    2.3,
+    26.1
+   ],
+   "tay_khuyu": [
+    1.07,
+    10.9
+   ],
+   "dau_goc": [
+    1.67,
+    17.7
+   ],
+   "than_goc": [
+    0.78,
+    6.5
+   ],
+   "hong_goc": [
+    1.06,
+    8.5
+   ]
+  },
+  "dau": {
+   "toc_goc_tran": 1.7,
+   "gia_toc_goc_tran": 18.0,
+   "toc_world_tran": 0.7,
+   "v_vot": 2.0
+  },
+  "than": {
+   "toc_goc_tran": 1.9,
+   "gia_toc_goc_tran": 11.0
+  },
+  "tay": {
+   "toc_tran": 2.6,
+   "gia_toc_tran": 32.0,
+   "khuyu_toc_tran": 1.6,
+   "khuyu_gia_toc_tran": 16.0,
+   "v_vot": 6.0
+  },
+  "hong": {
+   "toc_goc_tran": 2.1,
+   "gia_toc_goc_tran": 12.0
+  }
+ },
+ "chan": {
+  "gia_toc_tran": 23.56,
+  "truot_tran": 0.32,
+  "v_vot": 1.0,
+  "_doc": "chân: mocap a95 4.1, Idle p90 7.6 -> trần 8; trượt 0.3 m/s; vọt 1.5 m/s một khung",
+  "v_vot_cu": 1.5,
+  "_cu": {
+   "gia_toc_tran": 8.0,
+   "truot_tran": 0.3
+  }
+ },
+ "_dinh_nguoi_that_beat_luoi60": {
+  "_doc": "Đỉnh gia tốc người thật (6 clip BEAT, 29 s, lưới 60): world m/s² [p99, p99.9, max]; góc rad/s² theo xương [p99, p99.9, max]. Dùng cho mốc đỉnh HUD (2x max) và trần gia tốc góc chuyển tiếp client (_A_CAP = p99.9).",
+  "world": {
+   "dau": [
+    2.9,
+    3.8,
+    4.9
+   ],
+   "tay": [
+    12.0,
+    15.1,
+    16.4
+   ],
+   "khuyu": [
+    5.5,
+    6.7,
+    9.8
+   ],
+   "chan": [
+    6.3,
+    7.9,
+    15.7
+   ]
+  },
+  "goc": {
+   "Hips": [
+    8.0,
+    10.4,
+    18.2
+   ],
+   "Spine": [
+    11.2,
+    15.9,
+    17.3
+   ],
+   "Neck/Head": [
+    7.3,
+    9.9,
+    11.5
+   ],
+   "Shoulder": [
+    18.7,
+    22.9,
+    30.0
+   ],
+   "Arm": [
+    22.8,
+    29.2,
+    40.4
+   ],
+   "ForeArm": [
+    69.6,
+    79.1,
+    111.1
+   ],
+   "Hand": [
+    38.6,
+    47.4,
+    64.7
+   ]
+  }
+ },
+ "_luoi_goc_a95x": {
+  "tay": 35.43,
+  "khuyu": 12.24,
+  "dau_world": 6.27,
+  "_doc": "bộ trần cũ (mocap a95 x3,8) — quá lỏng so với ĐỈNH người thật"
+ },
+ "_v_vot_nguoi_that_beat_luoi60": {
+  "_doc": "Vận tốc world người thật (6 clip BEAT, lưới 60.0) m/s. Bắt giật = v > v_vot VÀ v > 2.0x p95 của chính clip — ngưỡng tuyệt đối một mình không đủ (kho sau ống nhanh gấp rưỡi mocap). Hiệu chuẩn 2026-08-22 bằng tools/hieu_chuan_v_vot.py.",
+  "ty_le_nen": 2.0,
+  "phan_vi_nen": 95,
+  "tay": {
+   "p95": 1.01,
+   "p99.9": 1.45,
+   "max": 1.47,
+   "v_vot": 1.5
+  },
+  "dau": {
+   "p95": 0.28,
+   "p99.9": 0.41,
+   "max": 0.42,
+   "v_vot": 0.5
+  },
+  "chan": {
+   "p95": 0.65,
+   "p99.9": 0.92,
+   "max": 0.93,
+   "v_vot": 1.0
+  }
+ },
+ "_lung_nguoi_that_beat_luoi60": {
+  "_doc": "Lưng (chuỗi Spine/Spine1/Spine2/Spine3) của 6 clip mocap BEAT trên lưới 60. Trần = 1.5x max theo quy ước CLAUDE.md §7. Hiệu chuẩn 2026-08-22 bằng tools/hieu_chuan_lung.py. Trần CŨ (11,59) đặt hồi ống lưng còn đóng băng nên chưa bao giờ bị chạm tới.",
+  "gia_toc_goc": {
+   "p95": 6.63,
+   "p99": 11.19,
+   "p99.9": 15.95,
+   "max": 17.34
+  },
+  "toc_goc_max": 1.71
+ },
+ "_hieu_chuan_tran": {
+  "_doc": "Trần = 1.5x max người thật (6 clip BEAT, lưới 60); riêng chan.truot_tran = 1.5x p95 vì trượt là hiện tượng kéo dài, không phải một khung đỉnh. Hiệu chuẩn 2026-08-23 bằng tools/hieu_chuan_tran.py. Phép kiểm bắt buộc: mocap người thật phải QUA ĐƯỢC trần.",
+  "than": {
+   "gia_toc_goc_tran": 17.337,
+   "toc_goc_tran": 1.714
+  },
+  "hong": {
+   "gia_toc_goc_tran": 18.189,
+   "toc_goc_tran": 1.124
+  },
+  "chan": {
+   "gia_toc_tran": 15.706,
+   "truot_tran": 0.215
+  }
+ }
+}

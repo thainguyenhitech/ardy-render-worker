@@ -1,0 +1,4132 @@
+{
+ "alert_open_palm_barrier": {
+  "cum": [
+   "Khoan đã",
+   "Đừng làm vậy",
+   "Dừng lại đi",
+   "Chưa được đâu",
+   "Không nên thế",
+   "Hãy suy nghĩ lại",
+   "Để tôi nói xong đã"
+  ],
+  "cau": [
+   "Khoan đã, đừng làm vậy vội!",
+   "Dừng lại ngay, đường này không an toàn đâu!",
+   "Thôi thôi, bình tĩnh lại đi đã nào.",
+   "Em chờ một chút, chưa đến lúc đâu!",
+   "Anh nghĩ lại đi, chuyện này nguy hiểm lắm!",
+   "Không được, hướng đó sai rồi, quay lại đây!",
+   "Cậu đừng tiếp tục, nghe tôi nói đã!",
+   "Nhớ nhé, vượt qua ranh giới này là không ổn đâu!"
+  ]
+ },
+ "alert_side_step_pivot_gesture": {
+  "cum": [
+   "Tất cả mọi người nghe đây",
+   "Toàn bộ khu vực này",
+   "Không ai được vào đó",
+   "Nguy hiểm ở khắp nơi",
+   "Cả chỗ này không an toàn",
+   "Phải cảnh giác hết",
+   "Đừng ai chủ quan"
+  ],
+  "cau": [
+   "Cả khu vực này đều nguy hiểm, đừng ai tiến vào!",
+   "Nguy hiểm không chỉ ở một chỗ đâu, nó trải khắp nơi đây rồi.",
+   "Tất cả mọi người lui ra, vùng này không an toàn chút nào!",
+   "Không phải một điểm đâu nhé, toàn bộ khu này đều có vấn đề.",
+   "Nhìn xem, từ đây cho đến đó đều đang trong tầm nguy hiểm đấy.",
+   "Mọi người chú ý, mối đe dọa đang bao phủ khắp vùng này rồi!",
+   "Đừng nghĩ chỉ chỗ đó thôi, cả một khoảng rộng đang có nguy cơ đó.",
+   "Ai đang ở đây cũng cần cẩn thận, không ai ngoại lệ hết đâu nhé."
+  ]
+ },
+ "alert_slow_rise_hai_tay": {
+  "cum": [
+   "Bình tĩnh nào",
+   "Từ từ thôi",
+   "Nghe tôi nói",
+   "Tình hình nghiêm lắm",
+   "Cần phải cẩn thận",
+   "Không đơn giản đâu",
+   "Đừng hành động vội"
+  ],
+  "cau": [
+   "Khoan đã, bình tĩnh, nghe anh nói đã.",
+   "Em cần hít thở, tình hình chưa đến mức đó đâu.",
+   "Chờ một chút, đừng vội kết luận như vậy.",
+   "Nghe anh nói xong rồi lo cũng chưa muộn.",
+   "Dừng lại đi, còn nhiều điều em chưa biết.",
+   "Anh hiểu em đang sợ nhưng mình cần tỉnh táo.",
+   "Từ từ thôi, hành động sai lúc này sẽ tệ hơn.",
+   "Bình tĩnh lại, chuyện này còn nghiêm trọng hơn em tưởng."
+  ]
+ },
+ "alert_spine_tall_chin_drop": {
+  "cum": [
+   "Anh hiểu tôi đang nói gì không",
+   "Tôi chỉ nói một lần thôi",
+   "Đừng để tôi phải nhắc lại",
+   "Coi chừng đó",
+   "Tôi không đùa đâu",
+   "Hậu quả sẽ rất nặng",
+   "Nghĩ kỹ đi"
+  ],
+  "cau": [
+   "Tôi chỉ nói một lần thôi đấy.",
+   "Đừng để tôi phải nhắc lại điều này.",
+   "Cậu có chắc mình muốn làm vậy không?",
+   "Lần này tôi bỏ qua, lần sau thì không.",
+   "Hãy suy nghĩ thật kỹ trước khi hành động.",
+   "Tôi không đùa đâu, anh hiểu chứ?",
+   "Nếu tiếp tục, anh sẽ tự chịu hậu quả.",
+   "Tôi đã cho cô cơ hội rồi đó."
+  ]
+ },
+ "alert_weight_shift_forward": {
+  "cum": [
+   "Nghe tôi nói đây",
+   "Anh phải hiểu điều này",
+   "Đây không phải chuyện đùa",
+   "Cẩn thận đấy",
+   "Tôi đang nói thật",
+   "Đừng có xem thường",
+   "Lần này khác rồi đó"
+  ],
+  "cau": [
+   "Nghe tôi nói, đừng đi theo đường đó!",
+   "Mày phải dừng lại ngay bây giờ, hiểu chưa?",
+   "Cái thứ đó nguy hiểm lắm, đừng chạm vào!",
+   "Tôi không nói chơi đâu, rút lui đi ngay!",
+   "Nếu mày bước thêm một bước nữa là xong đó!",
+   "Họ đang ở phía sau, chạy ngay đi!",
+   "Cẩn thận, cái bẫy đó sắp sập rồi!",
+   "Đây là lần cuối tôi cảnh báo mày, hãy nghe tôi!"
+  ]
+ },
+ "anchor_stance_firm_conclude": {
+  "cum": [
+   "Vậy là rõ rồi nhé",
+   "Đó là kết luận cuối cùng",
+   "Không còn gì để bàn nữa",
+   "Tóm lại là như vậy",
+   "Chúng ta thống nhất điều này",
+   "Đây là quyết định rồi",
+   "Mọi thứ đã được chốt"
+  ],
+  "cau": [
+   "Vậy là xong, không cần bàn thêm gì nữa.",
+   "Quyết định đã được đưa ra, chúng ta đi theo hướng này.",
+   "Đây là kết luận cuối cùng, không thay đổi nữa đâu.",
+   "Tôi đã nghe hết rồi, và câu trả lời vẫn là không.",
+   "Chúng ta đã nói đủ rồi, giờ là lúc hành động thôi.",
+   "Mọi thứ đã rõ ràng, tôi không có gì để thêm nữa.",
+   "Cuộc thảo luận kết thúc ở đây, phương án này là chọn lựa cuối cùng.",
+   "Không có gì phải do dự nữa, đây chính là quyết định của chúng ta."
+  ]
+ },
+ "apologetic_bow_hands_clasped": {
+  "cum": [
+   "Con xin lỗi ạ, con sai rồi",
+   "Dạ em thật sự xin lỗi anh",
+   "Mình xin lỗi, mình không cố ý",
+   "Tôi thành thật xin lỗi ông",
+   "Dạ cháu xin phép lỗi cô",
+   "Em biết em có lỗi, em xin lỗi"
+  ],
+  "cau": [
+   "Con xin lỗi mẹ, con đã sai rồi ạ.",
+   "Cháu thật sự rất ân hận về chuyện hôm qua, xin bác tha thứ cho cháu.",
+   "Em xin lỗi anh, em không cố ý làm vậy đâu ạ.",
+   "Thưa chú, cháu biết mình đã làm chú thất vọng, cháu xin lỗi chú.",
+   "Con đã nghĩ lại và thấy mình hoàn toàn có lỗi, xin ba tha thứ cho con.",
+   "Cháu xin phép được nói lời xin lỗi, cháu đã hành động thiếu suy nghĩ quá.",
+   "Em biết lời xin lỗi chưa đủ, nhưng em thật sự hối hận lắm anh ơi.",
+   "Thưa thầy, con đã sai và con mong thầy cho con cơ hội sửa lỗi ạ."
+  ]
+ },
+ "apologetic_head_tilt_hands_up_surrender": {
+  "cum": [
+   "Ừ thôi được rồi, mình sai",
+   "Okay okay, mình nhận lỗi",
+   "Thôi mình chịu thua, xin lỗi",
+   "Đúng rồi đúng rồi, mình xin lỗi",
+   "Không chối nữa, mình có lỗi thật",
+   "Ừ ừ mình hiểu rồi, sorry"
+  ],
+  "cau": [
+   "Ừ thôi được rồi, tôi sai, tôi nhận.",
+   "Okay okay, bạn nói đúng hết rồi, tôi chịu thua.",
+   "Thôi thôi, tôi xin lỗi, không cãi nữa đâu.",
+   "Được rồi, mình thừa nhận là mình đã sai hoàn toàn.",
+   "Anh đầu hàng rồi đó, em nói đúng từ đầu đến cuối.",
+   "Tôi biết tôi sai rồi, không cần nói thêm nữa đâu.",
+   "Thôi thua rồi, mình không có lý gì để biện hộ hết.",
+   "Ừ, bắt được rồi, tôi không chối nữa, lỗi tại tôi."
+  ]
+ },
+ "apologetic_one_shoulder_wince": {
+  "cum": [
+   "Ơ chết, mình quên mất tiêu",
+   "Thôi chết rồi, muộn rồi à",
+   "Ui trời ơi, lỡ tay mất rồi",
+   "Ừ thì mình có lỗi thật",
+   "Biết rồi biết rồi, xin lỗi đi",
+   "Thông cảm nha, mình không để ý"
+  ],
+  "cau": [
+   "Ừ thôi xin lỗi nha, tại mình quên mất thật.",
+   "Ôi trời, mình lỡ hẹn rồi, ngại ghê.",
+   "Thật ra mình có nhớ đấy, nhưng mà... thôi, xin lỗi bạn nhé.",
+   "Hehe, lần này mình sai thật, đừng giận mình nha.",
+   "Mình biết bạn đợi lâu rồi, tại mình bị kẹt tí thôi.",
+   "Xin lỗi xin lỗi, lần sau mình không để vậy nữa đâu.",
+   "Ừ, mình quên thật, biết nói sao giờ.",
+   "Thôi chết, mình làm bạn chờ mà không nhắn gì hết, ngại quá."
+  ]
+ },
+ "apologetic_shoulder_hunch_slight": {
+  "cum": [
+   "Ừ thôi xin lỗi nha",
+   "Thông cảm cho mình với",
+   "Mình lỡ miệng rồi, sorry",
+   "Không có ý đó đâu",
+   "Ối trời, mình quên mất",
+   "Xin lỗi nha, nhỏ thôi mà"
+  ],
+  "cau": [
+   "Ồ xin lỗi, mình vô ý quá!",
+   "Thôi chết, mình nói nhầm rồi, bỏ qua cho mình nhé!",
+   "Ái, mình lỡ làm phiền bạn rồi, sorry nha!",
+   "Mình xin lỗi nha, không cố ý đâu đó!",
+   "Ừ thôi, lỗi mình, mình nhận liền!",
+   "Khổ quá, mình lại nói sai nữa rồi, thứ lỗi nha!",
+   "Xin lỗi xin lỗi, mình không để ý, bỏ qua giùm mình với!",
+   "Hehe, mình quên mất, sorry bạn nhiều nha!"
+  ]
+ },
+ "apologetic_shrink_arms_crossed": {
+  "cum": [
+   "Mình xấu hổ lắm, xin lỗi mọi người",
+   "Trời ơi sao mình lại làm vậy",
+   "Mình không ngờ lại ra nông nỗi này",
+   "Xin lỗi, mình thật sự có lỗi",
+   "Mình hiểu mình đã sai rồi",
+   "Không biết nói gì hơn, xin lỗi"
+  ],
+  "cau": [
+   "Trời ơi, em xin lỗi, em không ngờ lại ra nông nỗi này.",
+   "Con... con biết con sai rồi, mọi người đừng nhìn con như vậy được không.",
+   "Tôi thật sự rất hổ thẹn, không biết phải nói gì nữa.",
+   "Ừ, lỗi của mình, mình nhận hết, mình xin lỗi tất cả mọi người.",
+   "Em chỉ muốn độn thổ xuống đất cho rồi, em sai hoàn toàn rồi.",
+   "Anh không ngờ việc nhỏ của anh lại ảnh hưởng lớn đến vậy, anh xin lỗi.",
+   "Xấu hổ lắm, thật sự xấu hổ lắm, mong mọi người tha thứ cho tôi.",
+   "Tôi biết bây giờ nói gì cũng muộn, nhưng tôi thực sự rất ân hận."
+  ]
+ },
+ "back_shift_one_hand_wave_off": {
+  "cum": [
+   "Thôi thôi khỏi đi bạn ơi",
+   "Ây dà không cần đâu",
+   "Cái đó mình không dính vào đâu",
+   "Khỏi khỏi mình ổn rồi",
+   "Bạn cứ tự nhiên đừng lo mình",
+   "Mình không có nhu cầu đâu"
+  ],
+  "cau": [
+   "Thôi thôi, không cần phải như vậy đâu.",
+   "Ây dà, chuyện nhỏ mà lo gì vậy.",
+   "Khỏi đi, tính sau cũng được mà.",
+   "Thôi kệ đi, đừng bận tâm nữa nhé.",
+   "Ừ thôi, chuyện đó bỏ qua đi bạn ơi.",
+   "Không sao không sao, khỏi cần nghĩ tới nữa.",
+   "Thôi mà, đừng có đề nghị vậy tội nghiệp tui.",
+   "Ây, cái đó không cần thiết đâu bạn ơi."
+  ]
+ },
+ "both_feet_press_solemn_conclude": {
+  "cum": [
+   "Đây là điều tôi muốn nói cuối cùng",
+   "Tôi hy vọng mọi người hiểu được",
+   "Đó là tất cả những gì tôi có thể làm",
+   "Chúng ta phải chịu trách nhiệm về điều này",
+   "Tôi xin cam kết điều này trước mọi người",
+   "Đây không phải chuyện nhỏ, hãy ghi nhớ",
+   "Kết thúc, tôi chỉ muốn nói rằng",
+   "Cảm ơn mọi người đã lắng nghe"
+  ],
+  "cau": [
+   "Đây là quyết định cuối cùng của tôi, không thay đổi nữa.",
+   "Tôi xin hứa trước mọi người, sẽ không để điều này xảy ra thêm lần nào nữa.",
+   "Dù thế nào đi nữa, chúng ta vẫn phải tiếp tục bước về phía trước.",
+   "Sau tất cả những gì đã xảy ra, tôi nghĩ chúng ta đều hiểu mình cần làm gì.",
+   "Không còn gì để bàn thêm nữa, con đường này là lựa chọn duy nhất.",
+   "Tôi mang trách nhiệm này trên vai và tôi sẵn sàng gánh chịu hậu quả.",
+   "Câu chuyện của chúng ta kết thúc ở đây, nhưng ký ức sẽ không bao giờ phai.",
+   "Hôm nay, trước tất cả mọi người, tôi tuyên bố rằng mình sẽ không bao giờ bỏ cuộc."
+  ]
+ },
+ "chest_tap_commitment": {
+  "cum": [
+   "Từ tâm tôi",
+   "Tôi đảm bảo",
+   "Trên danh dự",
+   "Hứa thật lòng",
+   "Không lừa anh/chị",
+   "Bằng tất cả"
+  ],
+  "cau": [
+   "Tôi thề với em, không bao giờ tôi dối lòng mình về điều này.",
+   "Lời này tôi nói từ tận đáy tim, không phải chỉ để anh nghe.",
+   "Dù có chuyện gì xảy ra, tôi vẫn sẽ ở bên cậu.",
+   "Em tin tôi đi, tôi không bao giờ phản bội lời hứa này.",
+   "Danh dự của tôi đặt vào đây, tôi không thể sai lời được.",
+   "Tôi nói thật lòng, không có gì ở đây là giả dối cả.",
+   "Cảm xúc này tôi giữ từ lâu lắm rồi, không phải nói cho có.",
+   "Bạn có thể tin tôi, vì tôi chưa bao giờ nói lời này với ai khác."
+  ]
+ },
+ "compare_buildup_crescendo": {
+  "cum": [
+   "Thứ nhất là... thứ hai là... và quan trọng nhất là...",
+   "Cứ nhìn vào từng điểm một",
+   "Điểm này, rồi điểm kia, rồi xem",
+   "Cộng hết lại thì thấy ngay",
+   "Tiêu chí đầu... tiêu chí hai... tiêu chí ba...",
+   "So từng cái một sẽ hiểu ngay thôi"
+  ],
+  "cau": [
+   "Cái này rẻ hơn, bền hơn, lại còn đẹp hơn nữa — chọn cái gì bây giờ?",
+   "Nó nhanh hơn, mượt hơn, pin trâu hơn, thì còn đắn đo gì nữa?",
+   "Bên kia thì gần hơn, yên tĩnh hơn, giá lại mềm hơn — rõ ràng là phải chọn chỗ đó rồi.",
+   "Anh ấy kinh nghiệm hơn, chịu khó hơn, lại biết làm việc nhóm — em nghĩ ai xứng đáng hơn?",
+   "Loại này nhẹ hơn, chắc hơn, chống nước tốt hơn, thì còn lăn tăn gì chứ?",
+   "Ở đây thoáng hơn, sạch hơn, tiện đường đi làm hơn — thế thì rõ rồi còn gì.",
+   "Cô ấy cẩn thận hơn, sáng tạo hơn, còn giao tiếp tốt hơn — mình nghĩ đây mới là người cần tuyển.",
+   "Cái đó nhỏ gọn hơn, dùng ít điện hơn, lại bảo hành dài hơn — thật ra không cần so nhiều nữa đâu."
+  ]
+ },
+ "compare_dismiss_one_side": {
+  "cum": [
+   "Cái đó thôi, bỏ cái kia đi",
+   "Không cần so sánh nữa, rõ ràng là...",
+   "Cái này hơn hẳn rồi",
+   "Cái kia không đáng để xét nữa",
+   "Dứt khoát chọn cái này luôn",
+   "Không có gì phải bàn thêm"
+  ],
+  "cau": [
+   "Thôi cái này bỏ đi, chọn cái kia cho xong.",
+   "Phương án A không ổn, mình đi theo phương án B thôi.",
+   "Cái đó không cần bàn nữa, rõ ràng hướng này tốt hơn nhiều.",
+   "Không, không, không — cứ làm theo cách này là được rồi.",
+   "Quên cái đó đi, tập trung vào hướng này mới đúng.",
+   "Hai cái so ra thì cái này ăn đứt, không có gì phải nghĩ thêm.",
+   "Bỏ qua lựa chọn đầu tiên đi, mình chốt cái này luôn nhé.",
+   "Cách cũ thì không hiệu quả, còn cách này mới thật sự ra vấn đề."
+  ]
+ },
+ "compare_lean_left_right": {
+  "cum": [
+   "Cái này thì như thế này, còn cái kia thì...",
+   "Một bên là... một bên lại là...",
+   "So sánh thì thấy ngay thôi",
+   "Bên này được cái... nhưng bên kia...",
+   "Hai cái hoàn toàn khác nhau",
+   "Nếu chọn cái này thì... còn nếu chọn kia..."
+  ],
+  "cau": [
+   "Một bên là tiết kiệm, một bên là tận hưởng, bạn chọn cái nào?",
+   "Đi làm sớm thì ổn định hơn, còn khởi nghiệp thì tự do hơn nhưng rủi ro hơn nhiều.",
+   "Ở lại thành phố thì cơ hội nhiều, về quê thì gần gia đình — khó lắm.",
+   "Phương án A nhanh hơn nhưng tốn tiền, phương án B rẻ hơn nhưng mất thời gian.",
+   "Học đại học chính quy khác với học online lắm, không thể so sánh đơn giản được.",
+   "Cái này nhẹ nhàng hơn, cái kia thực tế hơn — tùy mình ưu tiên gì thôi.",
+   "Làm một mình thì chủ động, làm nhóm thì nhanh hơn nhưng hay xảy ra bất đồng.",
+   "Yêu sớm có cái hay của nó, yêu muộn cũng có cái hay riêng, chẳng cái nào hoàn hảo cả."
+  ]
+ },
+ "compare_mirror_echo": {
+  "cum": [
+   "Nhìn thì giống vậy đó nhưng mà...",
+   "Bề ngoài như nhau, bên trong khác hoàn toàn",
+   "Đừng nhầm, trông vậy thôi chứ...",
+   "Tưởng như nhau nhưng thật ra không phải",
+   "Hình thức giống nhau, bản chất thì ngược lại",
+   "Cùng cái tên nhưng hai thứ khác nhau hoàn toàn"
+  ],
+  "cau": [
+   "Trông thì giống nhau đấy, nhưng bên trong hoàn toàn khác biệt.",
+   "Hai cái này nhìn qua tưởng một, mà thực ra chẳng liên quan gì nhau cả.",
+   "Hình thức y chang, nhưng bản chất thì trời vực nhé.",
+   "Đừng nhầm,겉모습겉모습... ý tôi là bề ngoài giống vậy thôi, còn ruột gan khác hẳn.",
+   "Cùng một vẻ ngoài, nhưng cái này và cái kia không hề giống nhau về cốt lõi.",
+   "Nhìn thì đối xứng đẹp lắm, nhưng mà hai thứ này hoàn toàn đối lập về bản chất.",
+   "Thoạt nhìn cứ tưởng anh em sinh đôi, thật ra chúng khác nhau từ trong ra ngoài.",
+   "So sánh cho thấy rõ — giống về hình, nhưng mà khác hoàn toàn về chất."
+  ]
+ },
+ "compare_pivot_left_then_right": {
+  "cum": [
+   "bên này thì khác",
+   "so với cái kia",
+   "một bên là thế này",
+   "còn bên kia lại",
+   "hai cái hoàn toàn khác nhau",
+   "mình đặt cạnh nhau xem"
+  ],
+  "cau": [
+   "Bên này thì rẻ hơn, còn bên kia thì chất lượng hơn.",
+   "Phương án A nhanh nhưng tốn tiền, phương án B chậm nhưng tiết kiệm hơn nhiều.",
+   "Cái này phù hợp cho người mới bắt đầu, cái kia dành cho người có kinh nghiệm rồi.",
+   "Nếu chọn hướng này thì an toàn, nhưng nếu đi hướng kia thì mạo hiểm hơn đấy.",
+   "Làm theo cách cũ thì quen tay, nhưng cách mới lại hiệu quả gấp đôi luôn.",
+   "Người thứ nhất thì thích sự ổn định, còn người thứ hai lại muốn thay đổi liên tục.",
+   "Sáng thì mình có thể họp online, chiều thì mình ưu tiên gặp trực tiếp hơn.",
+   "Mua ngay bây giờ thì giá cao, nhưng chờ thêm một tháng thì có thể rẻ hơn nhiều."
+  ]
+ },
+ "compare_weigh_uncertain": {
+  "cum": [
+   "Ừm... cũng khó nói lắm",
+   "Cái nào cũng có cái hay của nó",
+   "Tôi chưa chắc lắm thật ra",
+   "Hai cái ngang nhau thôi",
+   "Biết chọn cái nào bây giờ",
+   "Mỗi cái có một cái lợi riêng"
+  ],
+  "cau": [
+   "Ừm, cái này tôi chưa chắc lắm đâu nhé.",
+   "Thật ra thì... tôi vẫn đang phân vân giữa hai cái này.",
+   "Khó mà nói ngay được, để tôi nghĩ thêm chút.",
+   "Một bên cũng có lý, mà bên kia cũng không tệ.",
+   "Tôi chưa ngả về phía nào hết,솔직히 nói vậy.",
+   "Hai lựa chọn này đều ổn theo cách riêng của nó.",
+   "Để xem nào... tôi vẫn chưa quyết được.",
+   "Nói thật là tôi đang lưỡng lự, chưa biết chọn cái nào."
+  ]
+ },
+ "conspiratorial_weight_drop": {
+  "cum": [
+   "Nè nè cho tao kể cái này",
+   "Bạn biết không chuyện này bí lắm",
+   "Không được nói cho ai biết nha",
+   "Mà thật ra hắn ấy...",
+   "Thề giữa chúng mình thôi nha",
+   "Tao biết cái này mới chết",
+   "Nghe xong đừng có cười to",
+   "Bạn chuẩn bị tinh thần chưa?"
+  ],
+  "cau": [
+   "Ê, tao kể mày nghe cái này, buồn cười lắm á!",
+   "Thôi được rồi, tao nói thật cho mà nghe nha...",
+   "Khoan, mày có biết hôm qua chuyện gì xảy ra không?",
+   "Này này, đừng nói với ai nha, nhưng mà...",
+   "Tao thề là tao không có bịa, chuyện có thật đó!",
+   "Hồi nãy tao thấy cái cảnh mà tao suýt ngã ra đất luôn!",
+   "Mày ơi, tao vừa phát hiện ra một điều ngu hết sức...",
+   "Bí mật nha, nhưng mà tao không nhịn được phải kể!"
+  ]
+ },
+ "contrast_open_palms_alternating": {
+  "cum": [
+   "cái nào cũng có cái hay",
+   "mỗi thứ một kiểu",
+   "không nhất thiết phải chọn",
+   "tùy theo hoàn cảnh thôi",
+   "đều có lý do của nó",
+   "hai cái đều được cả"
+  ],
+  "cau": [
+   "Cái này hợp với người này, cái kia lại hợp với người khác thôi.",
+   "Mỗi cái có cái hay riêng của nó, không so được đâu.",
+   "Tùy hoàn cảnh mà chọn, không cái nào đúng hơn cái nào hết.",
+   "Một bên thiên về cảm xúc, một bên thiên về lý trí — cả hai đều cần.",
+   "Không phải cái này tốt hơn cái kia, chỉ là khác nhau thôi.",
+   "Người thích yên tĩnh chọn cái này, người thích sôi động chọn cái kia, ai cũng có lý.",
+   "Hai hướng đi khác nhau nhưng đều dẫn đến đích, tùy mình thôi.",
+   "Cả hai đều có chỗ đứng của nó, mình không nên vội phán xét."
+  ]
+ },
+ "crouch_whisper": {
+  "cum": [
+   "Cúi xuống nghe nào",
+   "Chuyện này rất nhạy cảm",
+   "Chỉ nói với mình",
+   "Không được nói ra",
+   "Bảo mật tuyệt đối",
+   "Nghe kỹ đó"
+  ],
+  "cau": [
+   "Lại đây, đừng để ai nghe thấy nhé.",
+   "Tao biết chuyện mà không ai dám kể cho mày đâu.",
+   "Thật ra cái vụ đó... có liên quan đến sếp lớn đấy.",
+   "Cẩn thận, đừng nhắc lại với bất kỳ ai nghe chưa.",
+   "Mày có biết tại sao hắn đột nhiên biến mất không?",
+   "Bí mật này mà lọt ra ngoài thì xong cả đám rồi.",
+   "Tao chỉ nói với mày thôi, không được kể cho ai hết.",
+   "Hồi đó có chuyện xảy ra mà người ta cố tình giấu đi."
+  ]
+ },
+ "deep_bow_prolonged_gratitude": {
+  "cum": [
+   "nhờ có anh mà em mới được vậy",
+   "em cảm ơn chị từ tận đáy lòng",
+   "ơn này em không biết lấy gì đáp lại",
+   "nếu không có anh thì em không biết sao",
+   "chị đã giúp em rất nhiều",
+   "em sẽ không bao giờ quên điều này"
+  ],
+  "cau": [
+   "Không có anh thì em không biết mình sẽ ra sao nữa.",
+   "Ơn này em mang theo suốt đời, anh ơi.",
+   "Em cảm ơn anh nhiều lắm, thật lòng mà nói vậy.",
+   "Chính anh đã thay đổi tất cả đối với em, em biết ơn lắm.",
+   "Anh đã cho em cơ hội mà em không dám mơ tới.",
+   "Nhờ có anh mà em mới có được ngày hôm nay, em không quên điều đó bao giờ.",
+   "Em không có lời nào đủ để nói hết lòng biết ơn của em với anh.",
+   "Anh không biết đâu, anh đã thay đổi cuộc đời em hoàn toàn đấy."
+  ]
+ },
+ "dismissive_left_accent_right": {
+  "cum": [
+   "cái đó thì không được",
+   "không phải như vậy",
+   "bỏ cái đó đi",
+   "còn cái này thì khác",
+   "cái này mới thực sự",
+   "rõ ràng phải chọn cái này"
+  ],
+  "cau": [
+   "Cách đó không hiệu quả đâu, cách này mới thực sự giải quyết được vấn đề.",
+   "Đừng chọn phương án kia, phương án này rõ ràng tốt hơn nhiều.",
+   "Không phải vậy đâu bạn ơi, đây mới là hướng đi đúng đắn nhất.",
+   "Ý đó có vẻ hay nhưng thực ra không khả thi, còn ý này mới thực sự hiệu quả.",
+   "Bỏ cái đó đi, cái này mới là thứ chúng ta thực sự cần.",
+   "Làm theo cách cũ sẽ không ổn, làm theo cách này mới ra kết quả.",
+   "Tôi hiểu tại sao bạn nghĩ vậy, nhưng thực tế thì phương án này vượt trội hơn hẳn.",
+   "Không, không phải cái đó, chính cái này mới là câu trả lời đúng."
+  ]
+ },
+ "double_foot_press_single_palm_down": {
+  "cum": [
+   "Thôi được rồi",
+   "Không cần nói thêm",
+   "Vậy là xong",
+   "Dừng lại đi",
+   "Tôi đã quyết rồi",
+   "Không bàn nữa nhé"
+  ],
+  "cau": [
+   "Thôi, chuyện này coi như kết thúc ở đây nhé.",
+   "Tôi không muốn nghe thêm bất kỳ lý do nào nữa.",
+   "Đã quyết rồi, không bàn thêm nữa đâu.",
+   "Vậy là đủ rồi, mình dừng ở đây thôi.",
+   "Không cần giải thích thêm, tôi đã hiểu hết rồi.",
+   "Chốt lại như vậy đi, đừng kéo dài thêm nữa.",
+   "Ý kiến của tôi là vậy, không thay đổi được đâu.",
+   "Thôi được rồi, không cần tranh luận thêm nữa."
+  ]
+ },
+ "emphasize_number_ascending": {
+  "cum": [
+   "Tăng dần",
+   "Phát triển theo",
+   "Từ thấp lên cao",
+   "Gia tăng liên tục",
+   "Lớn hơn từng bước",
+   "Xu hướng tăng"
+  ],
+  "cau": [
+   "Từ một nghìn lên mười nghìn, rồi cả trăm nghìn người dùng!",
+   "Con số cứ tăng dần đều, tháng này hơn tháng trước rõ ràng.",
+   "Năm ngoái mình có năm chi nhánh, năm nay đã lên mười rồi!",
+   "Bắt đầu từ mười triệu, rồi hai mươi, rồi năm mươi triệu đồng doanh thu.",
+   "Nhìn xem, tuần đầu có hai mươi đơn, tuần sau sáu mươi, tuần này hơn một trăm!",
+   "Cộng đồng mình ngày càng lớn, từ vài chục người lên đến cả ngàn thành viên.",
+   "Tốc độ tăng trưởng cứ nhân đôi mỗi quý, không có dấu hiệu dừng lại đâu.",
+   "Điểm số của bạn đi lên từng ngày, bảy mươi, tám mươi, rồi chín mươi lăm điểm!"
+  ]
+ },
+ "emphasize_number_contrast": {
+  "cum": [
+   "Mặt khác",
+   "Ngược lại",
+   "So sánh với",
+   "Nhưng mà",
+   "Trái ngược hoàn toàn",
+   "Khác hẳn"
+  ],
+  "cau": [
+   "Trước kia chỉ có 3 người, bây giờ đã lên tới 300 rồi!",
+   "Năm ngoái lỗ mất 50 triệu, năm nay lời đến 500 triệu luôn.",
+   "Hồi đó giá chỉ 2 đô, giờ vọt lên 200 đô rồi bạn ơi.",
+   "Từ 1 chi nhánh nhỏ, chúng tôi mở rộng ra 100 chi nhánh toàn quốc.",
+   "Mới đầu chỉ có 10 khách hàng thôi, mà giờ đã 10.000 người rồi đó.",
+   "Lúc trước tốc độ chỉ đạt 5km/h, còn bây giờ nhanh gấp 100 lần luôn.",
+   "Ngày xưa học sinh bỏ học nhiều lắm, 80%, giờ còn chưa tới 8% thôi.",
+   "Từ con số 0 tròn trĩnh, công ty tăng trưởng lên đến 1 tỷ đô chỉ trong 5 năm."
+  ]
+ },
+ "emphasize_number_multiplicity": {
+  "cum": [
+   "Có nhiều con số",
+   "Các tỷ lệ khác nhau",
+   "So sánh với nhau",
+   "Dữ liệu đa chiều",
+   "Ngoài ra còn",
+   "Thêm vào đó"
+  ],
+  "cau": [
+   "Cái này có đến ba loại khác nhau, không phải một hay hai đâu nhé.",
+   "Tỉ lệ thành công là tám mươi phần trăm, còn thất bại chỉ hai mươi thôi.",
+   "Nhóm một có năm người, nhóm hai mười người, nhóm ba lại chỉ có ba người.",
+   "Từ một triệu tăng lên năm triệu, tức là gấp năm lần trong vòng hai năm.",
+   "Hôm qua bán được mười cái, hôm nay hai mươi, ngày mai có thể ba mươi luôn.",
+   "Cái loại rẻ giá hai trăm, loại trung bình năm trăm, loại xịn thì cả triệu đó.",
+   "Không phải chỉ một hay hai trường hợp, mà đã có đến chín trường hợp tương tự rồi.",
+   "Mười năm trước chỉ có năm nghìn người dùng, giờ đã lên đến năm triệu rồi đó."
+  ]
+ },
+ "emphasize_number_one": {
+  "cum": [
+   "Cái thứ nhất là",
+   "Đó là điểm chính",
+   "Quan trọng nhất",
+   "Bước đầu tiên",
+   "Yếu tố then chốt"
+  ],
+  "cau": [
+   "Đây là điều quan trọng nhất bạn cần nhớ.",
+   "Lý do số một chính là vấn đề niềm tin.",
+   "Trước tiên, chúng ta phải giải quyết điều này.",
+   "Bước đầu tiên luôn là quan trọng nhất đấy.",
+   "Chỉ có một điều bạn không được bỏ qua.",
+   "Ưu tiên hàng đầu của tôi chính là an toàn.",
+   "Không gì quan trọng hơn điều tôi sắp nói.",
+   "Đây là yếu tố then chốt của toàn bộ kế hoạch."
+  ]
+ },
+ "emphasize_number_precise": {
+  "cum": [
+   "Đúng là",
+   "Con số cụ thể",
+   "Chính xác là",
+   "Không phải xấp xỉ",
+   "Rõ ràng là",
+   "Chính là"
+  ],
+  "cau": [
+   "Không phải khoảng ba trăm đâu, đúng ba trăm mười hai người.",
+   "Con số chính xác là bảy phẩy tám phần trăm, không phải gần tám đâu nhé.",
+   "Tôi nói rõ lại: doanh thu quý này là hai tỷ ba trăm triệu, không làm tròn.",
+   "Đúng một nghìn bốn trăm hai mươi lăm đơn hàng, tôi đếm kỹ rồi.",
+   "Bốn mươi bảy phút, không phải khoảng nửa tiếng như anh nói đâu.",
+   "Số liệu ghi rõ ở đây: năm nghìn sáu trăm tám mươi ba ca nhiễm.",
+   "Chính xác là mười lăm điểm phần trăm, không hơn không kém.",
+   "Ngân sách còn lại là chín trăm sáu mươi hai triệu đồng, tôi vừa kiểm tra xong."
+  ]
+ },
+ "exasperated_chest_open": {
+  "cum": [
+   "Thôi được rồi...",
+   "Tôi không nói nữa đâu.",
+   "Ừ, tùy anh thôi.",
+   "Cứ làm theo ý anh đi.",
+   "Hít thở nào...",
+   "Bình tĩnh, bình tĩnh...",
+   "Tôi chịu, tôi chịu rồi."
+  ],
+  "cau": [
+   "Thôi được, tôi hiểu rồi, không cần giải thích thêm nữa.",
+   "Ừ... cứ như anh nói đi, tôi không tranh luận nữa đâu.",
+   "Bình tĩnh... bình tĩnh... mình phải bình tĩnh mới được.",
+   "Được rồi, tôi nghe thấy hết rồi, thôi xong nhé.",
+   "Không sao, không sao, chuyện nhỏ thôi mà... chuyện nhỏ.",
+   "Tôi... tôi không nói gì thêm nữa đâu, thôi bỏ qua đi.",
+   "Cứ nghĩ mình đang xử lý ổn, mà trời ơi khó thật sự.",
+   "Được, anh thắng rồi đó, tôi chịu thua, xong chưa?"
+  ]
+ },
+ "excited_rise_both_arms_overhead": {
+  "cum": [
+   "Ôi trời ơi!",
+   "Không thể tin nổi!",
+   "Quá đỉnh luôn!",
+   "Thật hả?! Thật hả?!",
+   "Hú hú hú!",
+   "Tuyệt vời quá đi!",
+   "Mừng quá mừng quá!"
+  ],
+  "cau": [
+   "Ôi trời ơi, không thể tin được luôn!",
+   "Thật sự rồi hả, đỉnh quá đỉnh quá!",
+   "Yeahhh, cái này là đỉnh của đỉnh rồi!",
+   "Chờ cái gì, kết quả vậy thật á?!",
+   "Trời đất, mình không mơ chứ đây?!",
+   "Quá xá là vui, không kìm được nữa rồi!",
+   "Ủa mà sao hay vậy, mình không ngờ luôn!",
+   "Tuyệt vời quá, hôm nay là ngày đẹp nhất!"
+  ]
+ },
+ "excited_rise_chest_open": {
+  "cum": [
+   "Ôi thật không?",
+   "Hay quá trời!",
+   "Không thể tin được!",
+   "Thật sự á?",
+   "Tuyệt vời luôn!",
+   "Giỏi thật đó!",
+   "Cái này ngon lắm!"
+  ],
+  "cau": [
+   "Ôi trời, thật sao, tuyệt vời quá đi!",
+   "Không thể tin được, chuyện này có thật không?!",
+   "Ý anh là... họ đồng ý rồi hả?!",
+   "Hay vậy, em chưa bao giờ nghĩ đến điều này!",
+   "Đúng rồi đúng rồi, giờ em hiểu ra rồi!",
+   "Thế thì quá tốt luôn, mình làm được thật sao?!",
+   "Ơ mà... cái này hay hơn em tưởng nhiều!",
+   "Vậy là mọi thứ ổn hết rồi, hả anh?!"
+  ]
+ },
+ "excited_rise_fist_pump_single": {
+  "cum": [
+   "Đúng rồi đó!",
+   "Mình biết mà!",
+   "Thắng rồi!",
+   "Ăn rồi nhé!",
+   "Chuẩn luôn!",
+   "Xong rồi bạn ơi!",
+   "Vậy là được rồi!"
+  ],
+  "cau": [
+   "Tôi biết ngay mà, đúng không nào!",
+   "Chuẩn luôn, không sai một chút nào!",
+   "Ôi trời, kết quả vượt ngoài mong đợi rồi!",
+   "Đỉnh quá, mình đoán đúng từ đầu rồi đó!",
+   "Yes! Đúng y như mình nghĩ luôn!",
+   "Không thể tin được, tốt hơn cả kỳ vọng!",
+   "Xong rồi, thành công thật sự rồi bạn ơi!",
+   "Mình đã nói trước rồi còn gì!"
+  ]
+ },
+ "excited_rise_sway_side_affirm": {
+  "cum": [
+   "Ừ ừ đúng rồi!",
+   "Tôi cũng nghĩ vậy!",
+   "Hợp ý nhau ghê!",
+   "Vui ghê bạn ơi!",
+   "Hay thiệt hay thiệt!",
+   "Đồng ý liền!",
+   "Chuẩn không cần chỉnh!"
+  ],
+  "cau": [
+   "Ừ đúng rồi đúng rồi, mình nghĩ vậy luôn!",
+   "Trời ơi y chang những gì tớ đang nghĩ!",
+   "Ha, chuẩn luôn, không sai một chút nào!",
+   "Ý tưởng này hay thật sự, mình thích quá!",
+   "Đúng đúng đúng, bạn hiểu ý mình rồi đó!",
+   "Thấy chưa, mình cũng đang nghĩ vậy nè!",
+   "Ôi mà đúng vậy thật, hay ghê không!",
+   "Nói tiếp đi, mình đang nghe và đồng ý lắm!"
+  ]
+ },
+ "excited_rise_tiptoe_lean_forward": {
+  "cum": [
+   "Chờ chờ chờ!",
+   "Ý tôi là—",
+   "Khoan đã khoan!",
+   "Thật ra là vậy này!",
+   "Cái đó hay lắm nè!",
+   "Tôi biết cái này!",
+   "Nghe nè nghe nè!"
+  ],
+  "cau": [
+   "Ơ mà khoan, chuyện đó xảy ra như thế nào vậy?",
+   "Thật không, kể tiếp đi, đừng dừng lại!",
+   "Hả, rồi sau đó sao nữa, nói nhanh lên!",
+   "Ủa mà bạn có biết cái đó liên quan đến cái gì không?",
+   "Tôi biết, tôi biết, cho tôi nói một cái này!",
+   "Đợi đợi, cái phần vừa rồi bạn nói lại đi!",
+   "Hay quá, mà tôi cũng có chuyện tương tự luôn đó!",
+   "Không, không, ý bạn là theo kiểu đó hả?"
+  ]
+ },
+ "exhausted_admission_sink": {
+  "cum": [
+   "Mình mệt thật rồi, không giấu được nữa",
+   "Thú thật là mình không còn sức nữa",
+   "Mình đã cố gắng hết mức có thể rồi",
+   "Nó quá sức mình rồi",
+   "Mình không biết kéo dài thêm được không",
+   "Cứ làm hoài mà không thấy đi đến đâu",
+   "Mình cảm thấy trống không",
+   "Mình không okay đâu, thật ra là vậy",
+   "Kiệt sức rồi bạn ơi"
+  ],
+  "cau": [
+   "Thôi, tôi xin thú thật là tôi đã kiệt sức rồi.",
+   "Mệt lắm rồi, không còn giả vờ được nữa đâu.",
+   "Cứ tưởng mình chịu được, nhưng đến đây là hết.",
+   "Tôi không còn sức để tiếp tục như vậy nữa.",
+   "Nói thật đi, tôi đang không ổn chút nào hết.",
+   "Hết rồi, tôi không cố được thêm nữa đâu.",
+   "Cơ thể với đầu óc tôi đều đang kêu cứu đó.",
+   "Tôi đã cố gắng lắm rồi, nhưng mà không đủ sức nữa."
+  ]
+ },
+ "explosive_stand_ground": {
+  "cum": [
+   "Đủ rồi đó!",
+   "Tôi không chịu nữa!",
+   "Dừng lại đi!",
+   "Nói thẳng luôn nha!",
+   "Tôi phải nói thật rồi!",
+   "Không được như vậy!",
+   "Chấm dứt chuyện này đi!",
+   "Tôi có quyền nói chứ?"
+  ],
+  "cau": [
+   "Tôi không thể im lặng thêm được nữa!",
+   "Đủ rồi, anh nghe cho rõ vào!",
+   "Không, lần này tôi sẽ không nhường!",
+   "Cô biết không, tôi đã chịu đựng quá lâu rồi!",
+   "Bây giờ thì không còn chuyện nhượng bộ nữa!",
+   "Tôi đứng đây và nói thẳng, không ai ngăn được tôi!",
+   "Dừng lại, hãy nghe tôi nói hết câu này!",
+   "Không thể tiếp tục như thế này được, phải thay đổi ngay!"
+  ]
+ },
+ "firm_nod_promise": {
+  "cum": [
+   "Tôi chắc chắn",
+   "Hứa với anh/chị",
+   "Sẽ làm ngay",
+   "Tin tôi đi",
+   "Không thể sai",
+   "Cam kết 100%"
+  ],
+  "cau": [
+   "Tôi hứa sẽ hoàn thành đúng hạn, không cần lo.",
+   "Yên tâm đi, việc này tôi chắc chắn làm được.",
+   "Đã nói là làm, anh cứ tin tôi đi.",
+   "Lời hứa này tôi sẽ giữ đến cùng.",
+   "Không cần nghi ngờ, tôi sẽ không để bạn thất vọng.",
+   "Tôi cam kết điều này bằng cả danh dự của mình.",
+   "Cứ để đó cho tôi, tôi lo được hết.",
+   "Bạn có thể hoàn toàn tin tưởng vào lời tôi nói."
+  ]
+ },
+ "firm_stance_chest_open": {
+  "cum": [
+   "Tôi khẳng định điều này",
+   "Đây là sự thật",
+   "Không còn gì phải bàn",
+   "Tôi chắc chắn hoàn toàn",
+   "Không ai có thể phủ nhận",
+   "Đó là điều hiển nhiên"
+  ],
+  "cau": [
+   "Đây là sự thật, không có gì để bàn cãi thêm.",
+   "Tôi đã quyết định rồi, không ai thay đổi được điều này.",
+   "Kết quả đã rõ ràng, chúng ta không cần tranh luận nữa.",
+   "Không cần phải giải thích thêm, mọi thứ đã hiển nhiên.",
+   "Đây chính là câu trả lời cuối cùng, không có lựa chọn nào khác.",
+   "Sự thật vẫn là sự thật dù anh có chấp nhận hay không.",
+   "Tôi biết mình đúng và tôi sẽ không lùi bước.",
+   "Mọi bằng chứng đều chỉ về một hướng duy nhất, đó là tôi."
+  ]
+ },
+ "forward_lean_earnest": {
+  "cum": [
+   "Anh/chị ơi",
+   "Nghe tôi",
+   "Tôi thật lòng",
+   "Không lừa đâu",
+   "Hứa với lòng chân thành",
+   "Tôi sẽ không thất vọng"
+  ],
+  "cau": [
+   "Tôi không nói cho có, tôi thật lòng đấy.",
+   "Bạn cứ tin tôi đi, lần này tôi sẽ không để bạn thất vọng.",
+   "Đây không phải lời hứa xã giao, tôi nói thật từ trong lòng.",
+   "Lời này tôi giữ, dù có khó đến đâu.",
+   "Tôi biết trước đây tôi chưa làm tốt, nhưng lần này khác rồi.",
+   "Không phải vì tôi phải nói, mà vì tôi thực sự muốn làm được điều đó cho bạn.",
+   "Tôi hứa với bạn, và tôi hiểu hứa là phải giữ.",
+   "Bạn đừng nghĩ tôi nói cho qua chuyện, tôi nghiêm túc lắm."
+  ]
+ },
+ "frustrated_weight_shift_forward": {
+  "cum": [
+   "Tôi đã nói rồi mà!",
+   "Sao không hiểu vậy?",
+   "Nghe tôi nói này!",
+   "Cứ như thế này mãi à?",
+   "Không thể chấp nhận được!",
+   "Rõ ràng như vậy mà!",
+   "Anh có nghe không đó?"
+  ],
+  "cau": [
+   "Tôi đã nói bao nhiêu lần rồi mà anh vẫn không hiểu à?",
+   "Nghe tôi nói đây này, cái này không thể làm theo kiểu đó được!",
+   "Ừ thì được, cứ làm đi rồi xem kết quả ra sao!",
+   "Không phải tôi không giải thích, là anh không chịu nghe đấy!",
+   "Trời ơi, đơn giản vậy mà sao cứ phải nói mãi không thôi!",
+   "Thôi được rồi, lần này tôi nói thẳng luôn cho rõ nhé!",
+   "Anh có thực sự hiểu tôi đang nói gì không vậy?",
+   "Tôi không biết phải giải thích kiểu nào cho anh hiểu nữa!"
+  ]
+ },
+ "fun_story_bounce_chuckle": {
+  "cum": [
+   "thôi chết tui cười quá",
+   "xin lỗi xin lỗi để tui kể tiếp",
+   "ý là kiểu như",
+   "haha ừ rồi nó",
+   "khoan để tui bình tĩnh cái đã",
+   "mà nghĩ lại vẫn thấy buồn cười"
+  ],
+  "cau": [
+   "Khoan, để tôi kể xong đã... hehe, hôm đó nó ngã đúng vào vũng bùn!",
+   "Trời ơi tôi không nhịn được, cái mặt anh ấy lúc đó...",
+   "Ừ thì... heheh... tóm lại là cái bánh nó bay thẳng vào mặt sếp!",
+   "Mà thôi chết, tôi cười quá, ý là... cái kết nó tệ lắm bạn ơi!",
+   "Xin lỗi xin lỗi, nhưng mà... hehe... lúc đó nó mặc ngược áo đi họp luôn đó!",
+   "Bình thường thôi nhưng mà... ôi trời... con mèo nó nhảy trúng bánh sinh nhật!",
+   "Không không tôi ổn, chỉ là... cái cảnh đó nó cứ hiện ra trong đầu tôi hoài!",
+   "Heheh thôi được rồi, nói thật là lúc đó tôi cũng ngã theo nó luôn!"
+  ]
+ },
+ "fun_story_hip_sway_left": {
+  "cum": [
+   "rồi bạn biết không",
+   "tự nhiên ổng lại",
+   "mà hay nhất là",
+   "đến đoạn này mới ghê",
+   "trời ơi hồi đó",
+   "nó làm tui cười muốn xỉu"
+  ],
+  "cau": [
+   "Khoan đã, cái đoạn này mới thật sự buồn cười nè!",
+   "Rồi bạn biết chuyện gì xảy ra không, trời ơi!",
+   "Đây là phần hay nhất, chuẩn bị đi nha!",
+   "Mà tới đây thì mọi người cười ngất luôn đó!",
+   "Ủa mà ổng làm cái gì biết không, haha!",
+   "Chờ chờ, để tui kể cái này cái đã!",
+   "Cái kết này mới bá đạo, nghe nè nghe nè!",
+   "Trời đất ơi cái màn tiếp theo mới chết cười!"
+  ]
+ },
+ "fun_story_lean_conspire": {
+  "cum": [
+   "nói thiệt nha tui nói thiệt",
+   "mà chỉ mình bạn biết thôi đó",
+   "cái này mắc cười lắm",
+   "ổng không biết mình đang",
+   "kiểu bạn hình dung không",
+   "giữa thanh thiên bạch nhật luôn"
+  ],
+  "cau": [
+   "Nè, kể cho nghe cái này nhưng đừng nói với ai nha.",
+   "Thật ra hồi đó tụi mình đã... ừ thôi biết rồi đó.",
+   "Giữa chúng ta thôi nghen, chuyện này hơi buồn cười xíu.",
+   "Cái vụ đó á, nói ra mắc cỡ lắm nhưng mà thôi.",
+   "Bạn có muốn nghe bí mật hơi ngớ ngẩn không, thật sự đó.",
+   "Ủa mà bạn có hay chuyện hôm qua chưa, trời ơi kinh lắm.",
+   "Nói nhỏ thôi nha, cái đó không phải ai cũng biết đâu.",
+   "Thật ra tôi cũng có dính líu vô vụ đó một chút xíu."
+  ]
+ },
+ "fun_story_pop_punchline": {
+  "cum": [
+   "rồi bạn biết ổng nói gì không",
+   "câu đó mới là câu chính nè",
+   "và ổng nói luôn là",
+   "kết thúc bằng một câu",
+   "không ai ngờ được luôn đó",
+   "ổng quay qua nói thẳng"
+  ],
+  "cau": [
+   "Và rồi hóa ra... đó là con mèo của hàng xóm!",
+   "Cả phòng im lặng, còn anh ấy vẫn đứng giữ nguyên tư thế đó!",
+   "Bác sĩ nhìn lại tờ kết quả rồi nói: sai bệnh nhân rồi!",
+   "Sau tất cả những chuyện đó... hắn vẫn không trả tiền!",
+   "Đúng lúc đó điện thoại reo lên — chính là sếp gọi!",
+   "Và người đó không ai khác chính là... bố tôi!",
+   "Cuối cùng con chó mới là người hiểu chuyện nhất nhà!",
+   "Cả câu chuyện chỉ vì một tô mì nguội ngắt!"
+  ]
+ },
+ "fun_story_whole_body_sway": {
+  "cum": [
+   "rồi nó cứ đi qua đi lại kiểu",
+   "bước một bước hai rồi lại",
+   "mà cứ lặp đi lặp lại vậy",
+   "tui nhìn mà không biết nói gì",
+   "ý tui là kiểu nhịp nhịp vậy đó",
+   "cả phòng chết lặng nhìn ổng"
+  ],
+  "cau": [
+   "Cứ như vậy mà nó lắc qua lắc lại suốt!",
+   "Bước một, bước hai, bước một, bước hai — cứ thế mà đi!",
+   "Đu đưa đu đưa, không chịu dừng luôn đó!",
+   "Tàu điện nó lăn bánh kiểu này này, rồi hắn ngã!",
+   "Đung đưa như cái võng mà không ai đẩy hết!",
+   "Máy giặt quay vòng còn nhanh hơn mấy bước nhảy của nó!",
+   "Qua trái, qua phải, qua trái, qua phải — hết buổi luôn!",
+   "Mỗi bước đi là một lần lắc, nhìn mà xỉu luôn ấy!"
+  ]
+ },
+ "grateful_bow_weight_shift": {
+  "cum": [
+   "cảm ơn anh nhiều lắm",
+   "em cảm ơn chị",
+   "dạ cảm ơn ạ",
+   "ơn anh quá",
+   "cảm ơn anh chị đã giúp",
+   "em biết ơn lắm"
+  ],
+  "cau": [
+   "Cảm ơn anh nhiều lắm, thật sự không biết nói gì hơn.",
+   "Em xin cảm ơn chị, ơn này em không quên đâu.",
+   "Anh đã giúp em rất nhiều, em thật sự biết ơn anh.",
+   "Chị tốt bụng quá, em cảm ơn chị từ tận đáy lòng.",
+   "Cảm ơn anh đã không bỏ mặc em lúc khó khăn như vậy.",
+   "Em không biết phải cảm ơn chị thế nào cho đủ nữa.",
+   "Nhờ có anh mà mọi chuyện mới ổn được, em biết ơn lắm.",
+   "Chị đã giúp em rất nhiều, em thật lòng cảm ơn chị."
+  ]
+ },
+ "grief_weight_sink": {
+  "cum": [
+   "Ông mình mất hồi tháng trước",
+   "Tụi mình chia tay rồi",
+   "Không còn như xưa nữa rồi",
+   "Mình không biết phải làm sao nữa",
+   "Cái đó mình không lấy lại được",
+   "Cứ nghĩ tới là mình thấy nặng lắm",
+   "Mình đã cố giữ nhưng không được",
+   "Mất rồi, không còn cơ hội nữa"
+  ],
+  "cau": [
+   "Nghe tin đó xong, tôi không biết mình còn đứng được nữa không.",
+   "Có những lúc mình chỉ muốn ngồi xuống và khóc thật to ấy.",
+   "Hôm đó anh ra đi, tôi đứng đó mà chân cứng đờ không nhấc lên được.",
+   "Không phải tôi không muốn mạnh mẽ, chỉ là... nặng lắm.",
+   "Mất đi rồi mới biết mình đã dựa vào điều đó nhiều đến mức nào.",
+   "Cái cảm giác đó nó kéo mình xuống, không cưỡng lại được đâu.",
+   "Tôi cứ nghĩ mình quen rồi với việc mất mát, nhưng lần này khác hẳn.",
+   "Chân tôi run, tim tôi nghẹn — tôi chỉ muốn ai đó đỡ tôi lại thôi."
+  ]
+ },
+ "guilt_confession_sink": {
+  "cum": [
+   "Tại mình hết, mình xin lỗi",
+   "Mình đã không nghĩ cho kỹ",
+   "Mình sai rồi, mình biết",
+   "Thật lòng mà nói thì mình có lỗi",
+   "Mình không có lý do gì để biện hộ",
+   "Mình hiểu nếu bạn giận",
+   "Đáng lẽ mình không nên làm vậy",
+   "Mình đã làm bạn buồn"
+  ],
+  "cau": [
+   "Tôi biết mình đã sai, xin lỗi anh.",
+   "Em thực sự rất hối hận về chuyện đó.",
+   "Mình không có quyền làm tổn thương bạn như vậy.",
+   "Lỗi này hoàn toàn do tôi, tôi xin nhận.",
+   "Anh có thể tha thứ cho em không, em sai rồi.",
+   "Tất cả là tại tôi, tôi hiểu điều đó.",
+   "Bạn không đáng bị đối xử như vậy, tôi xin lỗi.",
+   "Em không thể biện minh cho những gì mình đã làm."
+  ]
+ },
+ "half_turn_compare_sides": {
+  "cum": [
+   "bên này thì như vậy còn bên kia",
+   "so sánh hai cái này",
+   "cái này khác cái kia ở chỗ",
+   "một bên là thế này một bên là thế kia",
+   "nếu chọn hướng này thì",
+   "hai hướng đều có cái hay",
+   "tôi để hai cái cạnh nhau cho bạn thấy",
+   "bên trái và bên phải khác nhau hoàn toàn"
+  ],
+  "cau": [
+   "Bên này thì rẻ hơn, nhưng bên kia lại tiện hơn nhiều.",
+   "Nếu chọn phương án A thì nhanh, còn phương án B thì chắc chắn hơn.",
+   "Quán bên này đông khách hơn, nhưng quán bên kia yên tĩnh hơn để nói chuyện.",
+   "Cái này nhẹ hơn, còn cái kia bền hơn — tùy bạn ưu tiên cái nào.",
+   "Sống ở đây thì gần chỗ làm, còn ở đó thì không khí thoáng hơn nhiều.",
+   "Học online thì linh hoạt hơn, nhưng học trực tiếp lại dễ hỏi han hơn đó.",
+   "Phương án đầu tiết kiệm chi phí, phương án sau lại tiết kiệm thời gian hơn.",
+   "Hai chỗ này đều có ưu điểm riêng, nên mình cần cân nhắc kỹ thêm một chút."
+  ]
+ },
+ "half_turn_dismiss_side": {
+  "cum": [
+   "thôi bỏ cái đó đi",
+   "không cần nhìn về phía đó",
+   "cái đó không liên quan",
+   "tôi không quan tâm bên đó",
+   "hướng đó không phải",
+   "đừng để ý mấy cái đó",
+   "gạt nó ra một bên đi"
+  ],
+  "cau": [
+   "Thôi dẹp cái chuyện đó đi, không bàn nữa.",
+   "Không, không, không, tôi không chấp nhận phương án này.",
+   "Bỏ qua đi, ý kiến đó không ổn chút nào.",
+   "Cái đó loại ra khỏi danh sách luôn đi nhé.",
+   "Không cần xét tới nữa, không phù hợp rồi.",
+   "Thôi gạt sang một bên, mình tính chuyện khác đi.",
+   "Ý đó không được, tôi đã nói rõ rồi mà.",
+   "Dứt khoát là không, đừng nhắc lại nữa nhé."
+  ]
+ },
+ "half_turn_glance_back": {
+  "cum": [
+   "hồi nãy tôi thấy",
+   "vừa mới đi qua đây",
+   "anh ấy vừa ở đây",
+   "phía sau tôi vừa rồi",
+   "cái đó lúc nãy",
+   "không biết đi đâu rồi",
+   "tôi tưởng còn ở đó"
+  ],
+  "cau": [
+   "Hình như vừa có người đi qua đây không?",
+   "Ủa, cái đó vừa biến đi đâu rồi vậy?",
+   "Tôi cứ tưởng mình nhìn thấy gì đó lúc nãy.",
+   "Lạ thật, vừa nãy còn có ai đó ở đây mà.",
+   "Khoan, anh ấy vừa đi qua chỗ này à?",
+   "Không biết mình có nhìn nhầm không nữa.",
+   "Cô ấy mới đi qua đây thôi, tôi chắc chắn mà.",
+   "Cảm giác như vừa có gì đó lướt qua phía sau tôi."
+  ]
+ },
+ "half_turn_invite_follow": {
+  "cum": [
+   "đi theo tôi nào",
+   "lối đi là hướng này",
+   "bên phía này đi",
+   "mình qua đó nhé",
+   "hướng này mới đúng",
+   "theo hướng này đi bạn",
+   "để tôi dẫn bạn qua"
+  ],
+  "cau": [
+   "Nào, đi theo tôi nhé, chỗ đó không xa lắm đâu.",
+   "Lối này thôi, mình cùng đi cho nhanh nào.",
+   "Đi hướng này là đúng rồi, theo tôi nhé.",
+   "Lại đây, tôi dẫn bạn đến chỗ đó cho.",
+   "Mình đi phía này, sắp tới nơi rồi đó.",
+   "Theo tôi đi, tôi biết đường ở đây mà.",
+   "Hướng này nè, đừng lo tôi dẫn đường cho.",
+   "Đây rồi, đi theo chiều này là tới ngay."
+  ]
+ },
+ "half_turn_point_away": {
+  "cum": [
+   "ở đằng kia kìa",
+   "phía bên đó",
+   "chỗ đó là",
+   "bạn thấy chỗ kia không",
+   "tôi chỉ cho bạn xem",
+   "ngay phía sau bạn",
+   "cái đó ở đằng kia"
+  ],
+  "cau": [
+   "Chỗ anh Nam đứng đằng kia kìa, bạn thấy không?",
+   "Nhà hàng mình hay ăn ở tận cuối con đường đó.",
+   "Cô giáo chủ nhiệm của mình đang đứng ở phía bên kia hội trường.",
+   "Khu vực triển lãm chính nằm ở phía tận cùng trong góc đó.",
+   "Bạn nhìn sang bên trái đi, người mặc áo đỏ đó là sếp tôi đấy.",
+   "Trạm xe buýt gần nhất cách đây khoảng hai trăm mét về hướng đó.",
+   "Đội kỹ thuật đang làm việc ở phòng tận cuối hành lang kia.",
+   "Siêu thị lớn nhất khu này nằm ngay sau tòa nhà cao tầng đó bạn ơi."
+  ]
+ },
+ "hands_clasp_resolve": {
+  "cum": [
+   "Tôi sẽ làm",
+   "Xin đảm bảo",
+   "Không có ngoại lệ",
+   "Chắc 100%",
+   "Quyết định rồi",
+   "Tin tôi hoàn toàn"
+  ],
+  "cau": [
+   "Dù khó đến đâu, tôi cũng sẽ hoàn thành việc này.",
+   "Không có gì có thể ngăn tôi thực hiện lời hứa đó.",
+   "Tôi cam kết với anh, việc này nhất định sẽ xong đúng hạn.",
+   "Lần này tôi sẽ không để thất bại xảy ra nữa.",
+   "Cứ tin tôi đi, tôi đã quyết là làm được.",
+   "Dù mất bao lâu, tôi cũng sẽ tìm ra cách giải quyết.",
+   "Chưa bao giờ tôi nghiêm túc đến thế này đâu.",
+   "Tôi đặt cả danh dự của mình vào lời cam kết hôm nay."
+  ]
+ },
+ "hands_shelter_mouth": {
+  "cum": [
+   "Nói nhỏ thôi",
+   "Đừng để ai nghe",
+   "Bảo mật này",
+   "Chỉ mình bạn nghe",
+   "Thầm thì thôi",
+   "Ơi trời ơi"
+  ],
+  "cau": [
+   "Suỵt, đừng để ai nghe thấy nhé!",
+   "Mình nói nhỏ thôi, hắn đang ở ngay đằng kia kìa.",
+   "Bí mật đấy, cậu không được kể cho ai hết.",
+   "Thôi chết, nhỡ có người nghe thì sao?",
+   "Cậu biết không, hôm qua họ cãi nhau to lắm đó.",
+   "Giữ kín giùm mình nha, chuyện này quan trọng lắm.",
+   "Nói khẽ thôi, sếp vẫn còn trong phòng kia.",
+   "Tớ chỉ nói với cậu thôi, đừng để lộ ra đâu đấy."
+  ]
+ },
+ "head_tilt_soft_wonder": {
+  "cum": [
+   "ủa thật không?",
+   "cái đó là sao?",
+   "ý bạn là…?",
+   "mình chưa hiểu lắm",
+   "nói lại đi",
+   "thế thì kỳ nhỉ",
+   "sao lại vậy?"
+  ],
+  "cau": [
+   "Ủa, cái đó hoạt động theo kiểu nào vậy?",
+   "Thật ra mình chưa hiểu lắm, bạn có thể nói thêm không?",
+   "Khoan, ý bạn là sao cơ, mình chưa theo kịp.",
+   "Nghe lạ thật, chuyện đó xảy ra như thế nào?",
+   "Hm, mình tò mò quá, kể tiếp đi bạn.",
+   "Cái này mình chưa nghe bao giờ, thật sự à?",
+   "Sao lại như vậy được nhỉ, có lý do gì không?",
+   "Bạn vừa nói vậy là ý nghĩa gì, mình chưa hiểu rõ lắm."
+  ]
+ },
+ "heavy_news_knee_sink": {
+  "cum": [
+   "Anh phải nói thật với em một chuyện",
+   "Không có cách nào khác đâu",
+   "Tình hình nó không tốt lắm",
+   "Chuyện này rất khó nói",
+   "Em cần chuẩn bị tinh thần nhé",
+   "Thật ra thì... không phải vậy đâu",
+   "Anh cũng không muốn nói điều này",
+   "Kết quả nó như vậy đó"
+  ],
+  "cau": [
+   "Anh phải nói thật với em điều này, dù rất khó.",
+   "Kết quả xét nghiệm vừa ra... không được như mong đợi.",
+   "Họ đã quyết định rồi, mình không thể làm gì thêm nữa.",
+   "Tin này tôi cũng không muốn báo cho anh đâu.",
+   "Chuyến đi của chúng ta có lẽ phải hủy thôi, bạn ơi.",
+   "Sự thật là công ty đang cân nhắc cắt giảm nhân sự đợt này.",
+   "Em cần biết rằng bố đã nằm viện từ sáng hôm qua rồi.",
+   "Tôi biết nghe xong cậu sẽ không vui, nhưng mà sự thật là vậy."
+  ]
+ },
+ "heel_pivot_open_palm_away": {
+  "cum": [
+   "Mình xin phép không tham gia",
+   "Thôi bạn ơi đừng ép mình",
+   "Mình đã nói là không rồi đó",
+   "Bạn tìm người khác giúp nhé",
+   "Mình không thể nhận được",
+   "Cảm ơn nhưng thật sự không"
+  ],
+  "cau": [
+   "Thôi, chủ đề này mình dừng ở đây nhé.",
+   "Mình nghĩ mình không muốn tiếp tục chuyện này nữa.",
+   "Cảm ơn bạn, nhưng mình xin phép không nói thêm về điều đó.",
+   "Mình hiểu ý bạn, nhưng thật sự mình muốn đổi sang chủ đề khác.",
+   "Không, mình không muốn bàn sâu hơn về việc này đâu.",
+   "Bạn ơi, mình thấy chúng ta nên dừng lại ở đây thôi.",
+   "Mình đã nói rồi, và mình nghĩ vậy là đủ rồi đó.",
+   "Thật ra mình không thoải mái khi tiếp tục chuyện này bạn ạ."
+  ]
+ },
+ "hesitate_rock_back": {
+  "cum": [
+   "Ủa mà khoan...",
+   "Thật ra chưa chắc...",
+   "Hmm, không biết nữa...",
+   "Tôi nói vậy nhưng mà...",
+   "Hay là không phải vậy?",
+   "Chờ chút đã..."
+  ],
+  "cau": [
+   "Ờ mà thôi, để mình nghĩ lại cái đã.",
+   "Khoan, hình như mình vừa nói sai rồi thì phải.",
+   "À... thật ra mình không chắc lắm đâu.",
+   "Mình nói vậy nhưng mà... chưa chắc đã đúng hoàn toàn.",
+   "Thật ra thì... có thể mình nhầm cũng nên.",
+   "Ủa khoan, mình vừa nói gì vậy ta, để xem lại.",
+   "Nói vậy thôi chứ mình cũng chưa chắc chắn đâu nha.",
+   "Hmm, hay là mình hiểu chưa đúng về cái này?"
+  ]
+ },
+ "hip_arc_right_curve": {
+  "cum": [
+   "con đường nó uốn cong như vầy",
+   "chạy vòng sang bên phải rồi mới thẳng",
+   "lộ trình nó không thẳng đâu nha",
+   "cái đường cong ra phía đó",
+   "nó men theo bờ sông rồi vòng",
+   "từ đây nó nghiêng dần sang phải",
+   "tuyến đường vòng cung như thế này",
+   "đi theo đường cong chứ không thẳng"
+  ],
+  "cau": [
+   "Con đường này nó cong sang phải rồi mới thẳng ra nhé.",
+   "Dòng sông uốn khúc về phía bên phải, đẹp lắm đó!",
+   "Bạn đi đến đây thì rẽ cong sang phải, không đi thẳng đâu nhé.",
+   "Lộ trình không đi thẳng đâu, nó vòng sang phải như vậy này.",
+   "Chỗ này con đường ôm sang phải một cái rồi mới đến đích.",
+   "Cái nhánh sông này nó uốn mềm qua bên phải, nhìn từ trên xuống đẹp lắm.",
+   "Đừng tưởng đường thẳng nhé, nó cong sang phải một đoạn khá dài đó.",
+   "Hướng đi của mình sẽ lượn nhẹ về phía phải, không đi thẳng đâu bạn ơi."
+  ]
+ },
+ "hip_arc_sweep_wide": {
+  "cum": [
+   "nó gạt hết cả bàn luôn",
+   "tôi quét một cái là sạch",
+   "rồi ném thẳng sang bên kia",
+   "vung tay một cái rất mạnh",
+   "gạt ra cho rảnh chỗ",
+   "xua hết không để lại gì",
+   "tôi đẩy tất cả sang đây",
+   "quét một vòng là xong hết"
+  ],
+  "cau": [
+   "Tao gạt hết đống rác này ra ngoài rồi!",
+   "Cả cái bàn này tao dọn sạch không còn một thứ gì!",
+   "Ném cái đó đi, không cần giữ lại làm gì nữa!",
+   "Xua hết chúng nó ra khỏi đây đi, không muốn thấy mặt!",
+   "Tôi quét toàn bộ khu vực này trong chớp mắt thôi!",
+   "Hắn vung tay một cái là sạch bong cả góc phòng luôn!",
+   "Đẩy hết sang một bên cho tôi nhờ, chỗ này chật quá!",
+   "Một lần gạt là bay hết, không còn lại gì cả đâu!"
+  ]
+ },
+ "hip_coil_pull_back": {
+  "cum": [
+   "tôi giật tay lại ngay",
+   "mình rút về liền tức thì",
+   "nó kéo cái đó ra khỏi tay tôi",
+   "tôi không kịp phản ứng",
+   "mình thu về là xong",
+   "giật lại một cái rất nhanh",
+   "rút ra kịp không thôi",
+   "tôi lấy lại ngay lập tức"
+  ],
+  "cau": [
+   "Tay tôi tự nhiên rút lại ngay lập tức.",
+   "Tôi giật tay ra không kịp nghĩ gì hết.",
+   "Lúc đó tôi kéo cái túi về phía mình luôn.",
+   "Không ai chạm được vào, tôi rút lại rồi.",
+   "Bản năng thôi, tay mình đã co về trước rồi.",
+   "Chị ấy định lấy nhưng tôi thu tay lại kịp.",
+   "Cả người giật lùi ra, không dám đứng gần nữa.",
+   "Tôi vừa chạm vào là rút tay ra ngay."
+  ]
+ },
+ "hip_cross_body_diagonal": {
+  "cum": [
+   "đường chéo qua đây là gần nhất",
+   "nó cắt chéo qua khu vực đó",
+   "đi đường tắt chéo ngang qua đây",
+   "lộ trình nó xéo như thế này",
+   "từ góc này cắt sang góc kia",
+   "đường chéo nó ngắn hơn đường vòng",
+   "cắt ngang qua đây là ra tới đó",
+   "hướng đi chéo về phía bên kia"
+  ],
+  "cau": [
+   "Từ đây mình đi chéo qua bên kia là nhanh nhất đó.",
+   "Đường chéo này cắt thẳng qua khu chợ luôn.",
+   "Thay vì đi vòng, bạn cứ cắt chéo qua công viên đi.",
+   "Con đường này chạy xéo từ góc trường sang tới bệnh viện.",
+   "Nếu đi chéo như vậy thì tiết kiệm được mấy phút đó.",
+   "Lối tắt này xéo từ đầu phố sang tận cuối ngõ kia kìa.",
+   "Cắt ngang qua đây là ra đúng chỗ cần đến liền à.",
+   "Hướng di chuyển là chéo từ góc trái phía trước sang góc phải phía sau."
+  ]
+ },
+ "hip_forward_push_path": {
+  "cum": [
+   "cứ đi thẳng một mạch là tới",
+   "đường thẳng tắp không có rẽ đâu",
+   "từ đây đi thẳng ra đến đó",
+   "tuyến đường thẳng không vòng vèo",
+   "chạy thẳng một đoạn dài như vậy",
+   "không có ngã rẽ cứ đi thẳng",
+   "khoảng cách từ đây ra đến đó",
+   "đường thẳng đứng tắp luôn"
+  ],
+  "cau": [
+   "Cứ đi thẳng theo con đường này là tới thôi.",
+   "Từ đây đến đó còn xa lắm, phải đi một đoạn dài nữa mới tới nơi.",
+   "Nhà ga nằm ngay trước mặt mình, đi thẳng không rẽ vào đâu cả.",
+   "Đường này chạy thẳng tắp ra tận ngoài bìa rừng luôn.",
+   "Chỉ cần tiếp tục đi thẳng, khoảng vài cây số nữa là thấy biển ngay.",
+   "Không cần rẽ đâu hết, cứ nhắm thẳng hướng đó mà đi.",
+   "Tuyến đường cao tốc này kéo dài thẳng đến tận thành phố phía trước.",
+   "Đích đến vẫn còn phía trước kia, còn phải đi thêm một quãng dài nữa."
+  ]
+ },
+ "hip_oscillate_alternating": {
+  "cum": [
+   "rồi nó nói tôi nói nó nói",
+   "cứ qua lại như vậy mãi",
+   "hết tôi rồi đến nó rồi lại tôi",
+   "hai đứa cứ đẩy qua đẩy lại",
+   "lần này tôi lần sau nó",
+   "cứ thế đổi nhau làm",
+   "nó làm rồi tôi làm lại",
+   "qua lại nhiều lần như vậy"
+  ],
+  "cau": [
+   "Hai đứa cứ bảo qua bảo lại mãi không xong.",
+   "Nó nói một câu, mình đáp một câu, cứ thế cả buổi.",
+   "Hết mình nhường rồi tới nó nhường, vòng vòng hoài.",
+   "Tranh luận kiểu đó chẳng ai chịu thua ai hết.",
+   "Công việc này làm đi làm lại riết cũng quen tay.",
+   "Hai bên cứ đẩy qua đẩy lại, chả giải quyết được gì.",
+   "Lúc tôi nói thì nó im, tới lượt nó nói thì tôi im.",
+   "Cứ anh một lần tôi một lần, mãi không tới đâu cả."
+  ]
+ },
+ "hip_pivot_point_aside": {
+  "cum": [
+   "nó đứng ngay chỗ kia kìa",
+   "bên đó có một cái",
+   "rồi nó đi về phía này",
+   "chỗ đó bên tay phải",
+   "góc kia có người đứng",
+   "cạnh đó có để sẵn",
+   "phía này nó đặt cái",
+   "ngay bên đây này nè"
+  ],
+  "cau": [
+   "Hồi đó anh ấy đứng ngay phía này, cạnh cái cây to lắm.",
+   "Chỗ này là nơi bọn mình hay tụ tập mỗi chiều.",
+   "Cô ấy đi về hướng đó rồi mất hút luôn.",
+   "Cái bàn hồi xưa để ngay chỗ này, sát tường.",
+   "Họ chạy thẳng về phía đó, không ngoái đầu lại.",
+   "Nhà bà nội mình nằm ngay hướng này, đi bộ cũng tới.",
+   "Lúc xảy ra chuyện, anh ta đứng ngay góc kia kìa.",
+   "Hướng này là lối mà mấy đứa nhỏ hay chạy ra chơi."
+  ]
+ },
+ "hip_sway_storytelling": {
+  "cum": [
+   "Rồi bạn ơi nghe này nè",
+   "Mà chuyện buồn cười lắm á",
+   "Tao thề tao không bịa đâu nha",
+   "Hắn làm vậy đó bạn ơi",
+   "Trời đất tao cười không nổi",
+   "Mà lúc đó mọi người hết hồn",
+   "Nó vô tư lắm không biết gì hết",
+   "Kết là ra nông nỗi đó đó"
+  ],
+  "cau": [
+   "Ối trời ơi, hôm qua cái chuyện đó buồn cười lắm luôn!",
+   "Rồi thì bạn biết không, ổng té ngay trước mặt sếp!",
+   "Haha, mà cái mặt ổng lúc đó mới tội chứ!",
+   "Nghe tới đây là mình cũng không nhịn được nữa rồi!",
+   "Xong cô ấy cứ tỉnh bơ như không có chuyện gì xảy ra hết!",
+   "Mà trời, tụi mình cười đến chảy nước mắt luôn đó!",
+   "Cái kết thì ai mà ngờ được chứ, hay quá đi!",
+   "Kể lại mà mình vẫn còn buồn cười muốn xỉu luôn nè!"
+  ]
+ },
+ "hip_sweep_left_path": {
+  "cum": [
+   "đi theo hướng này sang trái",
+   "rẽ sang bên trái là tới",
+   "con đường chạy về phía đó",
+   "từ đây mình quẹo trái",
+   "nó kéo dài qua bên này",
+   "lộ trình đi vòng sang trái",
+   "cứ đi thẳng rồi rẽ trái",
+   "tuyến đường nó men theo đây"
+  ],
+  "cau": [
+   "Bạn rẽ trái ở ngã tư đèn đỏ đó nhé.",
+   "Cứ đi thẳng rồi sang trái là tới thôi.",
+   "Từ đây mình phải đi về phía bên trái.",
+   "Rẽ trái vào con hẻm nhỏ đó là đúng rồi.",
+   "Đường này nó vòng sang bên trái, bạn đừng đi thẳng.",
+   "Qua cây xăng thì quẹo trái ngay nhé.",
+   "Hồi đó tôi đi theo hướng bên trái, thấy nhanh hơn nhiều.",
+   "Lối sang trái đó mới dẫn ra chỗ bến xe đó."
+  ]
+ },
+ "hip_swing_reach_forward": {
+  "cum": [
+   "tôi với tay ra là",
+   "lúc đó tôi đưa cho nó",
+   "tôi cầm lấy cái đó",
+   "tôi chìa tay ra thì",
+   "tôi với một cái là",
+   "nó đẩy lại về phía tôi",
+   "tôi đặt ngay vào tay nó",
+   "mình đưa qua đây này"
+  ],
+  "cau": [
+   "Tôi với tay lấy cái chai trên kệ cao.",
+   "Nó đưa cho tôi tờ giấy mà không nói gì.",
+   "Bà ấy chìa tay ra và tôi đặt tiền vào.",
+   "Lúc đó tôi chộp ngay lấy cơ hội đó.",
+   "Anh ấy với tay qua bàn và đẩy tài liệu sang phía tôi.",
+   "Tôi đưa cốc nước cho cô bé đang khóc.",
+   "Mình vừa với tới thì nó rơi xuống đất mất rồi.",
+   "Cô ấy nhận lấy bông hoa mà mắt đỏ hoe."
+  ]
+ },
+ "hip_turn_affirm_nod": {
+  "cum": [
+   "đúng rồi đó bạn",
+   "mình cũng nghĩ vậy",
+   "ừ ừ mình hiểu",
+   "chính xác luôn đó",
+   "đồng ý với bạn hoàn toàn",
+   "bạn nói đúng thật",
+   "mình cũng thấy vậy nè"
+  ],
+  "cau": [
+   "Đúng rồi, mình cũng nghĩ y như vậy!",
+   "Ừ, tôi hoàn toàn đồng ý với quan điểm đó.",
+   "Chính xác luôn, bạn nói trúng ý tôi rồi đó.",
+   "Ừa, mình cũng thấy vậy là hợp lý nhất.",
+   "Đồng ý, hướng đó tôi thấy rất đúng đắn.",
+   "Thật ra tôi cũng đang nghĩ theo hướng đó nè.",
+   "Ừ đúng, cách đó mới là cách nên làm.",
+   "Tôi đồng tình hoàn toàn, không có gì phải bàn thêm nữa."
+  ]
+ },
+ "hip_turn_bow_elder_invite": {
+  "cum": [
+   "Dạ mời ông ngồi vào đây ạ",
+   "Con mời bà ngồi nghỉ đây ạ",
+   "Dạ mời bác cứ ngồi xuống đây",
+   "Kính mời cụ ngồi cho đỡ mệt ạ",
+   "Dạ ông ngồi vào đây cho thoải mái ạ",
+   "Mời thầy ngồi xuống đây ạ",
+   "Bác ngồi nghỉ chân đây đi ạ",
+   "Con mời mẹ ngồi vào đây ạ"
+  ],
+  "cau": [
+   "Mời bà vào ngồi trong này cho thoáng ạ.",
+   "Con mời bố ngồi đây nghỉ ngơi một lúc ạ.",
+   "Ông vào đây ngồi cho thoải mái ạ, để cháu rót nước.",
+   "Mời mẹ ngồi xuống đây, con kể chuyện này hay lắm ạ.",
+   "Bà ngồi vào đây đi ạ, ghế này êm hơn đấy.",
+   "Con mời bác ngồi, để con lấy thêm ghế cho thoải mái ạ.",
+   "Cụ vào đây ngồi nghỉ đi ạ, trời nắng mệt lắm rồi.",
+   "Mời ông ngồi vào đây ạ, cho con hầu chuyện ông một lát."
+  ]
+ },
+ "hip_turn_explain_assert": {
+  "cum": [
+   "thật ra vấn đề là thế này",
+   "bạn phải hiểu rằng",
+   "điều quan trọng nhất là",
+   "mình nói thật nhé",
+   "cái này cần phải rõ ràng",
+   "để mình giải thích cho",
+   "không phải vậy đâu bạn ơi",
+   "thực chất thì khác hơn"
+  ],
+  "cau": [
+   "Nghe tôi nói điều này một lần thôi nhé.",
+   "Đây là điểm mấu chốt bạn cần phải hiểu rõ.",
+   "Không phải ngẫu nhiên mà tôi nhắc đến chuyện này đâu.",
+   "Bạn phải tin tôi, quyết định này hoàn toàn đúng đắn.",
+   "Tôi khẳng định với bạn, không có cách nào khác cả.",
+   "Hãy lắng nghe kỹ vì tôi chỉ giải thích một lần.",
+   "Sự thật là chúng ta không còn nhiều lựa chọn nữa.",
+   "Đây chính là lý do tại sao tôi luôn nhấn mạnh điều đó."
+  ]
+ },
+ "hip_turn_lean_in_curious": {
+  "cum": [
+   "ủa thật không vậy",
+   "rồi sau đó thì sao",
+   "bạn nói lại đi mình chưa hiểu",
+   "ý bạn là kiểu gì",
+   "thú vị thật đó nha",
+   "mình tò mò lắm luôn",
+   "kể tiếp đi bạn ơi",
+   "hả cái đó hả"
+  ],
+  "cau": [
+   "Ủa, bạn vừa nói cái gì vậy?",
+   "Thật không? Kể thêm đi, mình muốn nghe!",
+   "Khoan, ý bạn là... chuyện đó thật sự xảy ra à?",
+   "Hay vậy, mình chưa nghe ai nói điều này bao giờ.",
+   "Hả, tại sao lại như vậy được nhỉ?",
+   "Mình không ngờ lại có chuyện thế, tiếp tục đi bạn!",
+   "Cái này nghe lạ lắm đó, bạn nói rõ hơn được không?",
+   "Ồ thú vị thật, rồi sau đó chuyện gì xảy ra?"
+  ]
+ },
+ "hip_turn_open_invite": {
+  "cum": [
+   "nói chuyện với mình đi",
+   "bạn cứ thoải mái nhé",
+   "mình lắng nghe bạn đó",
+   "kể cho mình nghe với",
+   "ý bạn là sao ấy",
+   "thật ra thì thế này",
+   "mình muốn hỏi bạn là"
+  ],
+  "cau": [
+   "Lại đây với mình đi, mình đang kể cho nghe nè!",
+   "Ơi, chào bạn, tớ vui lắm khi gặp bạn đó!",
+   "Nào, cùng nhau nói chuyện một chút nhé!",
+   "Hôm nay mình có nhiều điều muốn chia sẻ với bạn lắm!",
+   "Bạn ơi, đến đây ngồi gần mình một chút nào!",
+   "Trời ơi, may quá, gặp được bạn ở đây rồi!",
+   "Mình đang chờ bạn mãi đó, kể chuyện cho nghe nhé!",
+   "Vào đây đi bạn, mình có chuyện hay lắm muốn kể!"
+  ]
+ },
+ "hip_turn_open_palm_invite": {
+  "cum": [
+   "Mời anh ngồi đây ạ",
+   "Anh cứ ngồi tự nhiên",
+   "Chị ngồi vào đây cho thoải mái",
+   "Mời bác ngồi xuống đây",
+   "Anh vui lòng ngồi đây nhé",
+   "Chỗ này anh ngồi được ạ",
+   "Mời anh ngồi chơi đã"
+  ],
+  "cau": [
+   "Mời anh vào ngồi cho thoải mái nhé!",
+   "Bạn cứ ngồi xuống đây đi, đừng ngại!",
+   "Dạ mời chị ngồi, để em pha trà cho.",
+   "Anh chị cứ vào ngồi đi, trời nắng chắc mệt lắm rồi.",
+   "Mời bác ngồi nghỉ chân một chút ạ.",
+   "Thôi nào, vào ngồi đây nói chuyện cho vui!",
+   "Cô cứ tự nhiên ngồi xuống đây cho thoải mái ạ.",
+   "Mời anh ngồi đây, mình từ từ nói chuyện nhé!"
+  ]
+ },
+ "hip_turn_quick_point_casual": {
+  "cum": [
+   "Ngồi xuống đi",
+   "Ê ngồi đây đi",
+   "Cậu ngồi đây nhé",
+   "Ngồi chỗ đó cũng được",
+   "Bạn cứ ngồi tự nhiên nha",
+   "Ngồi đại đây đi nào",
+   "Chỗ đó trống đó ngồi đi"
+  ],
+  "cau": [
+   "Ngồi đây đi, chỗ này rộng lắm!",
+   "Ừ thì ngồi xuống đi bạn ơi, không cần khách khí!",
+   "Cứ tự nhiên như ở nhà nha, ngồi đâu cũng được!",
+   "Vào đây rồi thì ngồi xuống nói chuyện cho thoải mái nào!",
+   "Ê, ngồi xuống đây chơi chút đi!",
+   "Thôi ngồi đi, đứng vậy trông kỳ lắm!",
+   "Chỗ này trống đó, ngồi vào đây với tao đi!",
+   "Có chỗ trống ngay đây rồi, ngồi xuống nhanh đi bạn!"
+  ]
+ },
+ "hip_turn_side_step_usher": {
+  "cum": [
+   "Mời anh đi vào trong ngồi ạ",
+   "Chị cứ đi vào đây ngồi cho mát",
+   "Dạ mời bác vào trong ngồi nghỉ",
+   "Anh đi thẳng vào trong ngồi nhé",
+   "Mời chị vào phòng trong ngồi đợi ạ",
+   "Bác vào trong kia ngồi cho thoải mái",
+   "Dạ anh vào đây rồi ngồi xuống đây ạ",
+   "Mời anh chị vào trong ngồi đã"
+  ],
+  "cau": [
+   "Mời anh đi vào đây ạ, chỗ ngồi ở phía trong.",
+   "Dạ em tránh ra rồi, anh cứ tự nhiên bước vào ạ.",
+   "Chỗ ngồi của anh ở trong kia, mời anh vào ạ.",
+   "Xin lỗi anh nhé, mời anh đi vào phía này ạ.",
+   "Dạ mời chị vào trong, em chỉ chỗ cho chị ngay.",
+   "Anh cứ đi thẳng vào, chỗ của anh ở đó ạ.",
+   "Mời chị bước vào đây, em dẫn chị đến chỗ ngồi.",
+   "Dạ em nhường đường rồi, mời anh vào trong ạ."
+  ]
+ },
+ "hip_turn_soft_confide": {
+  "cum": [
+   "này bạn ơi nói thật nhé",
+   "mình kể bạn nghe cái này",
+   "đừng nói với ai nha",
+   "thật ra mình thấy là",
+   "chỉ mình bạn biết thôi",
+   "mình chưa nói với ai đâu",
+   "cái này hơi tế nhị nhưng mà",
+   "bạn giữ bí mật được không"
+  ],
+  "cau": [
+   "Này, mình nói nhỏ thôi nhé, đừng để ai nghe thấy.",
+   "Chỉ mình em biết điều này thôi đó.",
+   "Thật ra thì... anh chưa kể chuyện này cho ai bao giờ.",
+   "Em có giữ bí mật được không? Chị muốn nói thật với em.",
+   "Hồi đó chuyện xảy ra không ai hay, chỉ mình tao biết thôi.",
+   "Cậu là người duy nhất tớ tin để kể điều này.",
+   "Đừng nói với ai nhé, đây là chuyện giữa hai đứa mình thôi.",
+   "Mình ghé lại gần chút, tớ không muốn người khác nghe thấy."
+  ]
+ },
+ "hip_turn_two_hand_guide": {
+  "cum": [
+   "Kính mời bác ngồi vào đây ạ",
+   "Dạ mời thầy ngồi chỗ này ạ",
+   "Mời anh vào đây ngồi cho thoải mái",
+   "Bác cứ tự nhiên ngồi xuống đây",
+   "Kính mời cô ngồi phía này ạ",
+   "Mời sếp ngồi vào ghế này ạ",
+   "Dạ chỗ này dành cho bác đây ạ",
+   "Mời ông ngồi vào đây cho ấm"
+  ],
+  "cau": [
+   "Mời bác vào, chỗ ngồi đã chuẩn bị sẵn ạ.",
+   "Kính mời quý khách tiến vào phía trong ạ.",
+   "Dạ, xin mời anh vào chỗ danh dự ạ.",
+   "Quý vị ơi, xin mời vào chỗ ngồi của mình ạ.",
+   "Thưa bác, chúng cháu đã dành chỗ tốt nhất cho bác ạ.",
+   "Xin kính mời đại biểu vào vị trí đã sắp xếp sẵn ạ.",
+   "Chỗ của anh ở phía trong, xin mời anh vào ạ.",
+   "Dạ thưa chú, xin phép mời chú vào chỗ ngồi chính ạ."
+  ]
+ },
+ "hip_wide_bilateral_spread": {
+  "cum": [
+   "khu vực này nó trải rộng ra như vầy",
+   "đường đi kéo dài từ đây ra đến đó",
+   "toàn bộ vùng này đều như thế",
+   "nó bao phủ một khoảng rộng lớn",
+   "từ phía này đến phía kia hết",
+   "phạm vi của nó rộng lắm",
+   "cả một dải dài như vậy đó",
+   "đường đi trải dài theo chiều ngang"
+  ],
+  "cau": [
+   "Khu vực này trải dài từ đây cho tới tận đằng kia.",
+   "Toàn bộ vùng đồng bằng rộng lớn này đều thuộc phạm vi quy hoạch.",
+   "Con đường chạy suốt từ đầu thành phố đến cuối huyện.",
+   "Dọc theo tuyến này có rất nhiều điểm tham quan thú vị.",
+   "Phạm vi ảnh hưởng của cơn bão bao phủ gần như cả miền Trung.",
+   "Từ bờ biển cho đến chân núi, tất cả đều là đất canh tác.",
+   "Lộ trình di chuyển của đoàn kéo dài qua nhiều tỉnh thành khác nhau.",
+   "Cả một dải đất rộng lớn như vậy mà chỉ có vài nghìn dân thôi."
+  ]
+ },
+ "indignant_weight_back": {
+  "cum": [
+   "Cái gì cơ?!",
+   "Anh nói gì vậy?",
+   "Sao lại thế được?",
+   "Trời ơi là trời!",
+   "Không thể tin được!",
+   "Ý anh là sao?",
+   "Tôi làm gì sai à?"
+  ],
+  "cau": [
+   "Cái gì?! Anh dám nói tôi làm chuyện đó?!",
+   "Không thể tin được, sao anh lại nói vậy với tôi?!",
+   "Vu khống! Tôi chưa bao giờ làm chuyện đó!",
+   "Thôi đừng có bịa đặt, tôi không chịu nổi đâu!",
+   "Trời ơi, câu đó anh nói thật hay đùa vậy?!",
+   "Tôi mà làm chuyện đó? Anh điên rồi à?!",
+   "Xin lỗi, anh vừa nói cái gì tôi nghe không rõ!",
+   "Vô lý quá, sao lại đổ oan cho tôi như vậy?!"
+  ]
+ },
+ "knee_buckle_shock": {
+  "cum": [
+   "Không thể tin",
+   "Sao lại vậy?",
+   "Mẹ ơi",
+   "Giận dữ",
+   "Hoang mang",
+   "Tủi cực"
+  ],
+  "cau": [
+   "Trời ơi… cái gì vậy, sao lại thế được?",
+   "Không… không thể nào, tôi không tin nổi.",
+   "Ủa khoan, anh vừa nói cái gì vậy?",
+   "Má ơi… tin này là thật hả?",
+   "Sao bây giờ mới nói cho tôi biết vậy?",
+   "Tôi… tôi cần ngồi xuống một chút.",
+   "Chờ chờ, ý bạn là… chuyện đó đã xảy ra rồi?",
+   "Lạy Chúa, tôi không ngờ được điều này xảy ra."
+  ]
+ },
+ "knee_collapse_despair": {
+  "cum": [
+   "Tuyệt vọng",
+   "Không sống nổi",
+   "Mất hết",
+   "Đau đớn quá",
+   "Trời ơi",
+   "Sao tự dưng vậy"
+  ],
+  "cau": [
+   "Trời ơi... tôi không thể tin được điều này.",
+   "Vậy là xong rồi sao, tất cả đều xong rồi?",
+   "Không... không thể như vậy được, không thể.",
+   "Tôi phải làm sao bây giờ, trời ơi.",
+   "Hết rồi, mọi thứ tôi xây dựng đều hết rồi.",
+   "Sao lại xảy ra với tôi, sao lại thế này?",
+   "Tôi không còn sức để đứng dậy nữa rồi.",
+   "Cả cuộc đời tôi... tan vỡ hết rồi."
+  ]
+ },
+ "knee_drop_deflated": {
+  "cum": [
+   "Ôi không",
+   "Mong manh quá",
+   "Chán thật",
+   "Thất vọng",
+   "Ngẩn ngơ",
+   "Buồn bã"
+  ],
+  "cau": [
+   "Ôi thôi, vậy là hỏng kế hoạch rồi hả?",
+   "Trời ơi, lại hoãn nữa sao chứ?",
+   "Nghĩ mãi mà rồi cũng không được.",
+   "Thôi được rồi, đành chịu vậy thôi.",
+   "Hả, sao lại ra nông nỗi này?",
+   "Tin đó mà nghe xong buồn ghê đó.",
+   "Vậy là tất cả công sức bỏ đi hết rồi.",
+   "Ừ thôi, biết làm gì được nữa đâu."
+  ]
+ },
+ "knee_lean_resignation": {
+  "cum": [
+   "Được rồi",
+   "Tính toán lại",
+   "Thôi đi",
+   "Biết mà",
+   "Không còn cách nào",
+   "Chịu thôi"
+  ],
+  "cau": [
+   "Thôi được rồi, mình chấp nhận vậy đi.",
+   "Ừ... biết làm sao được nữa.",
+   "Thật ra mình cũng đã biết từ lâu rồi.",
+   "Không cưỡng lại được thì đành chịu thôi.",
+   "Nghe xong cũng thấy nhẹ hơn một chút, dù đau.",
+   "Mình không muốn tin nhưng mà đó là sự thật.",
+   "Có lẽ mình phải học cách sống với điều này.",
+   "Dù sao thì mọi chuyện cũng đã như vậy rồi."
+  ]
+ },
+ "knee_weak_embarrassed": {
+  "cum": [
+   "Biết điều",
+   "Rồi biết rồi",
+   "Xin lỗi",
+   "Tôi không có lý do",
+   "Chỳa mặt",
+   "Nhục quá"
+  ],
+  "cau": [
+   "Ôi trời, em xấu hổ quá, chui xuống đất mất thôi.",
+   "Sao anh lại nói điều đó ra trước mặt mọi người vậy?",
+   "Thôi xong rồi, mọi người nhìn em hết rồi này.",
+   "Em biết em sai mà, cần gì phải nói to như vậy.",
+   "Giờ em không biết phải nhìn vào mặt ai nữa.",
+   "Chết thật, chuyện đó mà cũng bị đem ra nói.",
+   "Em chỉ muốn biến mất khỏi đây ngay lúc này thôi.",
+   "Ừ thì em có lỗi, nhưng mà... thôi, em hiểu rồi."
+  ]
+ },
+ "lateral_sway_search": {
+  "cum": [
+   "Ờ cái tên là...",
+   "Hồi đó ở... ở đâu nhỉ?",
+   "Người đó tên gì ấy nhỉ...",
+   "Năm đó... năm bao nhiêu...",
+   "Quên mất rồi...",
+   "Hình như là... hmm..."
+  ],
+  "cau": [
+   "Ừm, cái tên của anh ấy là... ờ, để mình nghĩ lại xem.",
+   "Hồi đó mình có đến một quán ở... chỗ đó gọi là gì nhỉ?",
+   "Người kể câu chuyện đó cho mình nghe là... ôi, quên mất tên rồi.",
+   "Cái phim đó tên là gì... trên đầu lưỡi mà không ra được.",
+   "Bạn thân hồi cấp ba của mình tên là... khoan, mình nhớ ra ngay thôi.",
+   "Hôm đó mình đi cùng với... ờ thôi, kể sau vậy, mình đang nhớ ra.",
+   "Cái món đó gọi là gì ấy nhỉ, mình ăn ở... ở đâu đó gần bờ hồ.",
+   "Anh chàng đó làm nghề gì ấy, tên bắt đầu bằng chữ T hay chữ H gì đó."
+  ]
+ },
+ "lean_back_amused_surprise": {
+  "cum": [
+   "Trời, buồn cười quá!",
+   "Ôi thôi, cái đó nữa!",
+   "Sao mà kỳ cục vậy?",
+   "Haha, không ngờ á!",
+   "Ủa mà sao lại vậy được ta?",
+   "Thật ra là thế à, trời!"
+  ],
+  "cau": [
+   "Ơ kìa, chuyện này có thật không vậy trời?!",
+   "Thôi chết, mình không ngờ lại ra nông nỗi đó luôn!",
+   "Hả?! Ủa mà sao lại thế được cơ chứ?",
+   "Trời ơi, buồn cười quá đi mà lại thấy tội nữa chứ!",
+   "Không không không, khoan đã, kể lại từ đầu coi!",
+   "Ủa thật á?! Kiểu đó mà cũng xảy ra được hả trời?",
+   "Chờ chút, mình cần một giây để tiêu hóa cái này đã!",
+   "Trời đất ơi, vừa ngớ ngẩn vừa đáng yêu không chịu được luôn!"
+  ]
+ },
+ "lean_back_disbelief_head_shake": {
+  "cum": [
+   "Không, không đúng đâu",
+   "Thôi đi, bịa đặt rồi",
+   "Ai mà tin được chứ",
+   "Chắc nghe nhầm rồi",
+   "Không có chuyện đó đâu",
+   "Đùa tôi à?"
+  ],
+  "cau": [
+   "Cái này nghe có vẻ khó tin quá đi.",
+   "Thật ra tôi không chắc chuyện đó có thật không.",
+   "Ủa, ai bảo anh chuyện đó vậy?",
+   "Không có chuyện đó đâu, bạn ơi.",
+   "Nghe vô lý lắm, tôi không tin nổi.",
+   "Kiểu gì mà có chuyện như vậy được?",
+   "Thôi thôi, đừng có bịa chuyện nữa.",
+   "Cái con số đó ở đâu ra vậy, trời?"
+  ]
+ },
+ "lean_back_mild_surprise": {
+  "cum": [
+   "Thật không?",
+   "Ủa, vậy hả?",
+   "Không ngờ vậy luôn",
+   "Hả, thiệt á?",
+   "Ờ… mà sao kỳ vậy?",
+   "Không biết nữa…"
+  ],
+  "cau": [
+   "Ừ thật à, mình không ngờ đâu.",
+   "Thế cơ ấy, mình chưa nghe bao giờ.",
+   "Hả, hôm nay tăng giá rồi hả?",
+   "Ừ nhỉ, nghe cũng hơi bất ngờ đó.",
+   "Thật không, kể mình nghe thêm đi.",
+   "Vậy mà mình không hay biết gì hết.",
+   "À, hóa ra là vậy, mình cứ tưởng khác."
+  ]
+ },
+ "lean_back_shock_hands_up": {
+  "cum": [
+   "Trời ơi!",
+   "Thôi chết rồi!",
+   "Cái gì vậy trời?!",
+   "Sao lại thế được?!",
+   "Không thể tin được!",
+   "Ôi trời đất ơi!"
+  ],
+  "cau": [
+   "Trời ơi, chuyện đó có thật không vậy?!",
+   "Ôi không, sao lại xảy ra chuyện này được?!",
+   "Hả?! Anh vừa nói cái gì tôi nghe không rõ!",
+   "Không thể nào, tôi không tin nổi điều đó!",
+   "Cái gì?! Tai nạn à, hồi nào vậy?!",
+   "Ủa sao bỗng dưng lại có chuyện như vậy?!",
+   "Chết rồi, tôi không ngờ tình trạng lại tệ đến vậy!",
+   "Thôi chết, chuyện đó nghiêm trọng lắm rồi còn gì!"
+  ]
+ },
+ "lean_back_slow_realization": {
+  "cum": [
+   "Ờ… mà khoan đã",
+   "Tức là… à, ra vậy",
+   "Để tôi hiểu lại cái này",
+   "Nghĩa là lúc đó…",
+   "Ờ thì ra thế",
+   "Hóa ra là như vậy sao"
+  ],
+  "cau": [
+   "Ờ... ờ khoan, ý bạn là từ đầu nó đã như vậy rồi à?",
+   "Thì ra là... mình đã hiểu sai ý của anh ấy từ hồi đó tới giờ.",
+   "Chờ chút, tức là cái chuyện hôm qua không phải do tôi sao?",
+   "Á... á tôi hiểu rồi, hóa ra toàn bộ vụ này là vì cái đó.",
+   "Ừm... nếu vậy thì mọi thứ tôi nghĩ trước giờ đều sai hết rồi.",
+   "Không phải... hả, vậy là bạn không hề có ý đó với tôi?",
+   "Trời ơi, vậy mà bấy lâu nay tôi cứ tưởng là khác.",
+   "Tức là... cái lý do thực sự là vì chuyện đó chứ không phải tôi?"
+  ]
+ },
+ "lean_back_soft_decline": {
+  "cum": [
+   "Thôi để lần khác đi bạn ơi",
+   "Mình chưa tiện lắm",
+   "Cảm ơn bạn nhưng thôi",
+   "Ý bạn hay đấy nhưng…",
+   "Mình nghĩ chưa cần thiết",
+   "Để mình xem lại đã"
+  ],
+  "cau": [
+   "Thôi để lần khác đi bạn ơi, lần này mình chưa tiện lắm.",
+   "Cảm ơn bạn đã nghĩ đến mình, nhưng mình xin phép không tham gia lần này nhé.",
+   "Mình hiểu ý bạn, chỉ là mình không phù hợp với việc này lắm.",
+   "Ôi nghe hay đấy, nhưng thật ra mình cần thời gian suy nghĩ thêm đã.",
+   "Bạn cứ làm trước đi, mình chắc sẽ không theo kịp đâu.",
+   "Mình nghĩ có người khác sẽ làm tốt hơn mình nhiều đó bạn.",
+   "À thật ra mình đang có chút việc rồi, bạn thông cảm cho mình nhé.",
+   "Lần này để người khác có cơ hội thử đi, mình nhường thôi."
+  ]
+ },
+ "lean_engaged_nod": {
+  "cum": [
+   "Ừ ừ, mình nghe",
+   "Đúng rồi đúng rồi",
+   "Uh huh, tiếp đi",
+   "Ừ, mình hiểu rồi",
+   "Vậy là…",
+   "Ok ok, rồi thì?",
+   "Nghe rõ rồi",
+   "Ừ, cứ nói đi"
+  ],
+  "cau": [
+   "Ừ ừ, anh cứ nói tiếp đi.",
+   "Vâng, em đang nghe anh đây ạ.",
+   "Aha, tiếp tục đi bạn ơi.",
+   "Ờ, mình hiểu rồi, bạn nói tiếp nhé.",
+   "Vâng vâng, anh kể tiếp đi ạ.",
+   "Ừ, chị cứ nói, em theo kịp rồi.",
+   "Được rồi, rồi chuyện gì xảy ra tiếp theo?"
+  ]
+ },
+ "lean_in_conspiratorial": {
+  "cum": [
+   "Nghe nè",
+   "Chỉ có mình mình biết",
+   "Tôi tin bạn",
+   "Chuyện này đừng bật ra",
+   "Nghe tôi nói",
+   "Giữa chúng mình thôi"
+  ],
+  "cau": [
+   "Này, tôi kể cho bạn nghe một chuyện nhé.",
+   "Chỉ mình bạn biết thôi đấy, đừng nói với ai.",
+   "Thật ra chuyện đó không phải như vậy đâu.",
+   "Tôi chưa kể điều này với ai bao giờ cả.",
+   "Bạn hứa giữ bí mật cho tôi không đã?",
+   "Nói nhỏ thôi, đừng để người khác nghe thấy.",
+   "Có chuyện này tôi chỉ tin tưởng kể với bạn.",
+   "Tôi sắp chia sẻ với bạn điều rất quan trọng đây."
+  ]
+ },
+ "lean_in_conspire": {
+  "cum": [
+   "Tụi mình làm vậy này, nghe chưa",
+   "Tao có kế hoạch rồi nè",
+   "Mày làm vậy, tao làm vậy",
+   "Đừng ai biết là được",
+   "Nếu tụi mình hợp lại thì xong",
+   "Kế hoạch hoàn hảo luôn"
+  ],
+  "cau": [
+   "Này, lại đây tao nói cái này cho nghe, đừng để ai biết nhé.",
+   "Tao có một kế hoạch hay lắm, mày nghe xong chắc chắn thích liền.",
+   "Chỉ mình mày biết thôi đấy, đừng hở ra với ai khác.",
+   "Cơ hội này hiếm lắm, mình phải hành động trước khi họ kịp phản ứng.",
+   "Nè, tao với mày hợp sức lại thì chuyện này chắc chắn thành công.",
+   "Shh, giữ im lặng đi, tao sắp tiết lộ cho mày biết điều này.",
+   "Mày có muốn cùng tao làm một chuyện to không, đảm bảo không ai ngờ tới đâu.",
+   "Đây là bí mật giữa hai đứa mình thôi, người khác không cần biết làm gì."
+  ]
+ },
+ "lean_in_curious": {
+  "cum": [
+   "Thật hả?",
+   "Ủa rồi sao?",
+   "Anh nói thêm đi",
+   "Ý bạn là…?",
+   "Hả, nghiêm túc không?",
+   "Tiếp đi tiếp đi",
+   "Thế à, kể nghe",
+   "Không hiểu lắm, ý là sao?"
+  ],
+  "cau": [
+   "Ủa, bạn vừa nói cái gì vậy?",
+   "Thật không? Kể thêm đi, mình muốn hiểu hơn.",
+   "Khoan, ý bạn là sao cơ?",
+   "Hay thật đấy, chuyện đó xảy ra như thế nào?",
+   "Mình chưa nghe chuyện này bao giờ, tiếp đi!",
+   "Cái đó nghe lạ lắm, bạn có thể giải thích không?",
+   "Hmm, nghĩ sao mà bạn lại nghĩ vậy nhỉ?",
+   "Ồ, hóa ra là thế, nhưng tại sao lại như vậy?"
+  ]
+ },
+ "lean_in_gossip": {
+  "cum": [
+   "Mày biết chuyện của con đó chưa",
+   "Tao mới nghe nóng hổi luôn",
+   "Trời ơi mày chưa biết hả",
+   "Con nhỏ đó với thằng kia á",
+   "Đừng nói là tao kể nha",
+   "Giật mình luôn khi nghe chuyện này"
+  ],
+  "cau": [
+   "Ê, tao kể mày nghe cái này hay lắm nha!",
+   "Bí mật đó nha, đừng có nói với ai!",
+   "Trời ơi mày có biết chuyện gì không, hồi sáng tao thấy...",
+   "Thôi chết, mày chưa nghe chuyện của thằng đó hả?",
+   "Thật ra thì hai đứa đó đang có chuyện với nhau đó!",
+   "Đừng nói tao kể nha, nhưng mà nghe này...",
+   "Hôm qua con nhỏ đó bị bắt gặp đi với ai biết không?",
+   "Tao thề là tao tận mắt thấy hai đứa đó nắm tay nhau luôn!"
+  ]
+ },
+ "lean_in_secret_share": {
+  "cum": [
+   "Này, tao kể mày nghe cái này nha",
+   "Chỉ mình mày biết thôi đó",
+   "Đừng nói với ai khác nghen",
+   "Tao chưa kể ai hết",
+   "Cái này bí mật lắm",
+   "Lại gần tao nói cho nghe"
+  ],
+  "cau": [
+   "Này, đừng để ai nghe thấy nhé, tớ kể cho cậu điều này thôi.",
+   "Thật ra hả, chuyện đó không ai biết đâu, chỉ mình tớ biết thôi.",
+   "Cậu hứa không nói với ai rồi tớ mới kể nghe.",
+   "Tớ chỉ nói riêng với cậu thôi, người khác đừng biết chuyện này.",
+   "Bí mật đó lắm, nhưng tớ tin cậu nên mới dám kể.",
+   "Shhh, nhỏ thôi, cái này mình mình biết với nhau thôi nha.",
+   "Tớ chưa kể cho ai nghe chuyện này, cậu là người đầu tiên đó.",
+   "Cậu có muốn biết chuyện đó không, nhưng giữ kín giùm tớ nha."
+  ]
+ },
+ "lean_in_tilt_curious_probe": {
+  "cum": [
+   "rồi sau đó thì sao?",
+   "vậy thì cái này nghĩa là gì?",
+   "ý chính là…?",
+   "mình muốn hỏi thẳng",
+   "bạn định nói cái gì?",
+   "phần đó quan trọng lắm",
+   "khoan, chỗ này là thế nào?"
+  ],
+  "cau": [
+   "Vậy thì theo bạn, điều gì mới là quan trọng nhất ở đây?",
+   "Nhưng mà... bạn thực sự muốn gì trong chuyện này?",
+   "Ý bạn là như thế, hay còn điều gì khác nữa?",
+   "Cái phần đó bạn chưa nói rõ, thực ra là sao?",
+   "Khoan đã, vậy lúc đó bạn nghĩ gì?",
+   "Nếu phải chọn một lý do duy nhất, bạn chọn cái nào?",
+   "Nghe có vẻ còn nhiều hơn thế, bạn kể tiếp đi.",
+   "Bạn nói vậy, nhưng cảm giác thật sự của bạn là gì?"
+  ]
+ },
+ "lean_in_urgent_warn": {
+  "cum": [
+   "Nghe tao nói cái này quan trọng lắm",
+   "Mày phải cẩn thận vụ đó",
+   "Đừng tin cái đó, nguy hiểm lắm",
+   "Tao nói thiệt, mày phải để ý",
+   "Tao biết rõ chuyện này rồi",
+   "Làm vậy là hỏng hết đó mày"
+  ],
+  "cau": [
+   "Nghe tôi nói, đừng đi đường đó tối nay.",
+   "Cẩn thận, tình hình đang rất nguy hiểm đấy.",
+   "Bạn phải rời khỏi đây ngay bây giờ, không chần chừ nữa.",
+   "Đừng tin người đó, họ đang lừa bạn đó.",
+   "Tôi nói thật, chuyện này nghiêm trọng hơn bạn nghĩ nhiều.",
+   "Dừng lại, đừng ký vào tờ giấy đó.",
+   "Hãy gọi ngay cho tôi nếu có gì bất thường xảy ra.",
+   "Nó đang đến gần, chúng ta phải hành động ngay thôi."
+  ]
+ },
+ "lean_in_vulnerable": {
+  "cum": [
+   "Thật ra tao muốn nói thiệt với mày",
+   "Tao chưa bao giờ kể ai chuyện này",
+   "Mày đừng cười tao nha",
+   "Tao cũng không hiểu sao mình lại vậy",
+   "Nói ra kỳ lắm nhưng mà thật",
+   "Tao sợ mày nghĩ xấu về tao"
+  ],
+  "cau": [
+   "Thật ra... em chưa bao giờ dám nói điều này với ai cả.",
+   "Anh biết không, có những đêm em khóc mà không hiểu tại sao.",
+   "Em xấu hổ lắm khi nhận ra mình đã sai từ đầu.",
+   "Nói thật thì... em sợ bị bỏ lại một mình hơn bất cứ điều gì.",
+   "Mình không mạnh mẽ như mọi người nghĩ đâu, thật ra mình yếu lắm.",
+   "Em không biết có nên kể không, nhưng em cần ai đó nghe em một lần.",
+   "Cái cảm giác đó... nó cứ đeo bám em mãi mà em không thoát được.",
+   "Chưa bao giờ em thừa nhận điều này, nhưng hôm nay em muốn nói thật với anh."
+  ]
+ },
+ "lean_intimate_confide": {
+  "cum": [
+   "Nói thật nha, giữa hai đứa thôi",
+   "Đừng kể ai nghe nha",
+   "Mình nói nhỏ thôi",
+   "Bạn có biết không…",
+   "Thật ra là…",
+   "Chuyện này hơi tế nhị",
+   "Chỉ bạn mình biết thôi",
+   "Nè, lại đây nói"
+  ],
+  "cau": [
+   "Ừ, kể anh nghe đi, anh nghe đây.",
+   "Nói nhỏ thôi, chỉ mình tụi mình biết thôi.",
+   "Sao vậy, có chuyện gì à? Kể đi.",
+   "Ơ, bí mật hả? Được rồi, anh giữ kín cho.",
+   "Nói đi em, anh không kể cho ai đâu.",
+   "Thật ra chuyện này chỉ mình em biết thôi à?",
+   "Cứ nói thật đi, ở đây chỉ có hai đứa mình.",
+   "Khoan, từ từ nói anh nghe rõ hơn nào."
+  ]
+ },
+ "lean_side_empathy": {
+  "cum": [
+   "Trời ơi, khổ vậy",
+   "Mình hiểu cảm giác đó",
+   "Chắc lúc đó mệt lắm nhỉ",
+   "Nghe mà thấy thương",
+   "Thật sự á, tội quá",
+   "Ừ, mình cũng từng vậy",
+   "Ổn không bạn?",
+   "Nghe mà thấy nặng lòng"
+  ],
+  "cau": [
+   "Nghe xong mình cũng thấy nặng lòng lắm.",
+   "Chắc dạo này bạn mệt mỏi lắm nhỉ.",
+   "Mình hiểu cảm giác đó, không dễ chút nào đâu.",
+   "Thật sự rất khó khi phải một mình chịu đựng như vậy.",
+   "Ừ, chuyện đó mà xảy ra với mình chắc mình cũng không biết làm sao.",
+   "Bạn kể mình nghe, mình đang lắng nghe đây.",
+   "Cảm ơn bạn đã tin tưởng chia sẻ điều này với mình.",
+   "Không có gì phải xấu hổ khi cảm thấy như vậy đâu bạn ơi."
+  ]
+ },
+ "lean_skeptical_assess": {
+  "cum": [
+   "Hmm… chắc không?",
+   "Ờ, nhưng mà…",
+   "Khoan, để mình nghĩ cái đã",
+   "Nghe có vẻ lạ",
+   "Nguồn đâu vậy?",
+   "Thiệt không ta?",
+   "Mình chưa chắc lắm",
+   "Ý đó hơi khó tin"
+  ],
+  "cau": [
+   "Khoan đã, cái này nghe có vẻ lạ lắm.",
+   "Ừm… anh chắc chắn về điều đó không?",
+   "Tôi chưa rõ lắm, cần nghĩ thêm một chút.",
+   "Nghe thì hay đấy, nhưng mà thật không?",
+   "Cái lý do đó… chưa thuyết phục tôi hoàn toàn.",
+   "Sao tôi vẫn cảm thấy có gì đó sai sai?",
+   "Để tôi hiểu đúng không, ý anh là vậy thật à?",
+   "Hmm, tôi cần xem lại toàn bộ chuyện này đã."
+  ]
+ },
+ "lean_weight_forward_point": {
+  "cum": [
+   "phải hiểu rõ điều này",
+   "đây là điểm mấu chốt",
+   "tôi nói thật với anh",
+   "không phải ngẫu nhiên đâu",
+   "chính xác là như vậy",
+   "anh phải nhớ kỹ điều này",
+   "đây mới là vấn đề"
+  ],
+  "cau": [
+   "Đây là điều mày cần nhớ kỹ nhất.",
+   "Nghe tao nói đây, cái này quan trọng lắm.",
+   "Sự thật là không ai có thể thay đổi được điều đó.",
+   "Mày phải hiểu rõ một điều — không có ngoại lệ nào cả.",
+   "Chính cái khoảnh khắc đó đã quyết định tất cả mọi thứ.",
+   "Tao nói thật với mày, đây không phải chuyện đùa đâu.",
+   "Bản chất của vấn đề nằm ngay chỗ này, không đâu khác.",
+   "Một điều chắc chắn là cơ hội này sẽ không quay lại."
+  ]
+ },
+ "light_bow_shy_smile": {
+  "cum": [
+   "ôi không dám đâu ạ",
+   "thôi anh ơi em ngại lắm",
+   "ủa chị giúp em vậy sao",
+   "không có gì đâu anh",
+   "trời ơi cảm ơn chị quá",
+   "em không biết phải nói gì"
+  ],
+  "cau": [
+   "Ôi, cảm ơn anh nhiều lắm, em không biết nói gì nữa.",
+   "Thật ra em không nghĩ mình xứng đáng được giúp nhiều đến vậy đâu.",
+   "Anh tốt quá, em ngại quá trời luôn ấy.",
+   "Chưa có ai làm cho em như vậy bao giờ, em cảm ơn anh thật lòng.",
+   "Em không quen được người khác quan tâm nhiều thế này, cảm ơn anh nha.",
+   "Trời, anh làm em không biết phải phản ứng thế nào nữa, cảm ơn anh nhiều lắm.",
+   "Anh giúp em nhiều quá, em thấy mình chưa làm được gì để xứng đáng hết.",
+   "Em cảm ơn anh, nhưng mà... anh không cần phải làm vậy đâu, em ngại lắm á."
+  ]
+ },
+ "mock_challenge_stance": {
+  "cum": [
+   "Dám làm không nào?",
+   "Thử đi xem sao?",
+   "Tao dám mà mày thì sao?",
+   "Dễ ợt mà ngại cái gì?",
+   "Ăn thua gì đâu nào?",
+   "Mày sợ rồi à haha?",
+   "Bao nhiêu tao làm hết",
+   "Cá với tao không?"
+  ],
+  "cau": [
+   "Dám không? Tao chờ đấy nhé!",
+   "Ờ thì làm đi, nếu mày dám!",
+   "Thách mày làm được cái này luôn!",
+   "Nào, thử xem mày có gan không nào!",
+   "Tưởng ghê lắm, làm thử coi!",
+   "Mày mà làm được tao đội nón thua liền!",
+   "Hehe, cá là mày không dám đâu đó!",
+   "Không dám thì thôi, đừng có nói nhiều!"
+  ]
+ },
+ "one_side_shrug_smirk_casual": {
+  "cum": [
+   "Ừ thì ai biết",
+   "Cũng được thôi",
+   "Không quan trọng lắm",
+   "Kệ đi mà",
+   "Có gì đâu",
+   "Tính sao cũng được",
+   "Chuyện nhỏ thôi",
+   "Mình cũng không care lắm"
+  ],
+  "cau": [
+   "Thôi kệ đi, không quan trọng lắm đâu.",
+   "Mình cũng chẳng rõ nữa, mà thật ra cũng không cần biết lắm.",
+   "Ừ thì ai biết được, chuyện đó tính sau vậy.",
+   "Không biết, nhưng mà cũng không sao.",
+   "Chuyện đó hả? Mình không để ý mấy đâu.",
+   "Có lẽ vậy, có lẽ không, cũng được thôi.",
+   "Mình không nắm rõ lắm, nhưng mà cũng chẳng ảnh hưởng gì.",
+   "Thật ra mình không chắc, nhưng thôi cũng được vậy."
+  ]
+ },
+ "pivot_heel_conclude_turn": {
+  "cum": [
+   "Còn về phần kia thì sao",
+   "Được rồi, bây giờ sang vấn đề khác",
+   "Xong phần đó, tiếp theo là",
+   "Cái đó chốt rồi, còn cái này",
+   "Tạm thời là như vậy, nhưng còn",
+   "Ổn, giờ mình nói về chuyện khác",
+   "Kết thúc phần này rồi nhé, tiếp là"
+  ],
+  "cau": [
+   "Được rồi, giờ mình chuyển sang phần tiếp theo nhé.",
+   "Vậy là xong chuyện đó, còn anh kia thì sao?",
+   "Ổn, điểm này đã rõ, nhưng bên cạnh đó còn một vấn đề nữa.",
+   "Thôi kết luận vậy đi, bây giờ tôi muốn nghe ý kiến của bạn.",
+   "Phần này tạm gọi là xong, để tôi nói tiếp về chuyện khác.",
+   "Coi như chúng ta đồng ý điểm đó rồi, giờ quay lại câu hỏi ban đầu nào.",
+   "Tóm lại là như thế, và điều tôi thực sự muốn nói tiếp theo mới quan trọng hơn.",
+   "Xong phần một rồi đấy, bây giờ mình nhìn vào góc độ hoàn toàn khác nhé."
+  ]
+ },
+ "pivot_heel_open_palm": {
+  "cum": [
+   "nhìn từ góc độ khác",
+   "nếu mình xét thêm thì",
+   "có một điều nữa là",
+   "thử nghĩ theo hướng này",
+   "tôi đặt câu hỏi thế này",
+   "cũng có thể hiểu là",
+   "bên cạnh đó chúng ta thấy"
+  ],
+  "cau": [
+   "Còn một điều nữa tôi muốn mọi người cùng cân nhắc.",
+   "Thử nhìn từ góc độ khác xem sao nhỉ?",
+   "Bây giờ ta xét đến khía cạnh thứ hai của vấn đề.",
+   "Liệu chúng ta có đang bỏ qua một yếu tố quan trọng không?",
+   "Đặt sang một bên những gì vừa nói, hãy cùng xem xét điều này.",
+   "Mình muốn đưa ra thêm một góc nhìn để anh chị tham khảo.",
+   "Nếu nhìn theo hướng này thì câu chuyện lại khác hẳn đấy.",
+   "Có một khía cạnh khác mà tôi nghĩ cũng đáng để chúng ta bàn tới."
+  ]
+ },
+ "pivot_heel_think": {
+  "cum": [
+   "Hoặc là... hmm...",
+   "Cũng có thể...",
+   "Mà nếu nhìn theo cách khác...",
+   "Tôi đang nghĩ xem...",
+   "Không hẳn là vậy...",
+   "Khía cạnh khác thì sao nhỉ?"
+  ],
+  "cau": [
+   "Khoan đã, để mình nghĩ lại một chút.",
+   "Ừm... thực ra góc nhìn này cũng chưa hẳn đúng.",
+   "Hay là mình thử tiếp cận theo hướng khác xem sao?",
+   "Mình vừa nghĩ ra một điều, nhưng nó lại mâu thuẫn với những gì mình nói lúc nãy.",
+   "Chờ chút, có cái gì đó mình chưa tính đến.",
+   "Nếu đổi điểm xuất phát thì toàn bộ kết luận sẽ thay đổi hoàn toàn.",
+   "À không, mình nhầm rồi — phải xem lại từ đầu.",
+   "Thực ra vấn đề này còn một chiều nữa mà mình bỏ qua."
+  ]
+ },
+ "planted_lean_in_conclude": {
+  "cum": [
+   "Tin tôi đi, đúng là như vậy",
+   "Đây là điều tôi chắc chắn",
+   "Bạn phải nhìn nhận điều này",
+   "Tôi khẳng định với bạn",
+   "Không thể khác được đâu",
+   "Hãy nghĩ lại mà xem",
+   "Thực tế đã chứng minh rồi"
+  ],
+  "cau": [
+   "Nghe tôi nói đi, đây là sự thật không thể chối cãi.",
+   "Bạn phải thừa nhận rằng không có lựa chọn nào tốt hơn thế này.",
+   "Tất cả những gì tôi vừa phân tích đều dẫn đến một điều duy nhất.",
+   "Hãy tin tôi, đây là con đường đúng đắn nhất lúc này.",
+   "Không cần phải do dự nữa, mọi thứ đã rõ ràng rồi đó.",
+   "Chính bạn cũng biết trong lòng rằng tôi nói đúng.",
+   "Đây không phải ý kiến cá nhân, đây là kết luận không thể bác bỏ.",
+   "Cứ suy nghĩ thêm đi, rồi bạn sẽ thấy tôi hoàn toàn có lý."
+  ]
+ },
+ "playful_lean_into_joke": {
+  "cum": [
+   "Ê mà thật không đấy?",
+   "Trời ơi mày nghiêm túc á?",
+   "Đùa thôi mà hihi",
+   "Tao biết mày thích mà",
+   "Thôi thôi tao xin lỗi nè",
+   "Ui xấu hổ chưa kìa",
+   "Nói thật đó nha không đùa đâu",
+   "Mày đỏ mặt rồi kìa"
+  ],
+  "cau": [
+   "Thấy chưa, anh nói đúng không nào?",
+   "Ê, phản ứng gì vậy, buồn cười lắm đó!",
+   "Giờ biết thua chưa, hả hả?",
+   "Nói thật nha, em không nhịn được cười đâu đó.",
+   "Ui trời, mặt kìa, anh đoán được mà!",
+   "Cưng ơi, câu đó hay không, nói đi!",
+   "Xem này, anh vừa nói đúng tim rồi đó nhé.",
+   "Thôi thú nhận đi, buồn cười lắm phải không?"
+  ]
+ },
+ "polite_bow_both_hands_clasp": {
+  "cum": [
+   "dạ con cảm ơn cô ạ",
+   "cháu xin cảm ơn bác",
+   "con cảm ơn thầy nhiều",
+   "dạ em cảm ơn anh ạ",
+   "cảm ơn chú đã chỉ bảo",
+   "em cảm ơn rất nhiều ạ"
+  ],
+  "cau": [
+   "Con xin cảm ơn bác rất nhiều ạ.",
+   "Cháu thật sự biết ơn những gì chú đã làm cho cháu ạ.",
+   "Con không biết nói gì hơn ngoài lời cảm ơn chân thành nhất ạ.",
+   "Ơn này cháu xin ghi nhớ mãi, thưa bác ạ.",
+   "Con cảm ơn thầy đã tận tình chỉ dạy cho con suốt thời gian qua ạ.",
+   "Nhờ có cô giúp đỡ, cháu mới vượt qua được giai đoạn khó khăn đó ạ.",
+   "Con xin phép bày tỏ lòng biết ơn sâu sắc đến bác ạ.",
+   "Cháu thật may mắn khi được bác quan tâm và giúp đỡ như vậy ạ."
+  ]
+ },
+ "quick_shrug_pullback_arms": {
+  "cum": [
+   "Không phải chuyện của tôi",
+   "Tôi không dính vô đâu",
+   "Hỏi tôi làm gì",
+   "Mình không biết gì hết",
+   "Việc đó tôi không hay",
+   "Không liên quan tới tôi",
+   "Tôi đứng ngoài chuyện đó",
+   "Kệ người ta đi"
+  ],
+  "cau": [
+   "Ôi chuyện đó tôi không biết gì đâu nhé.",
+   "Việc của người ta thì liên quan gì đến tôi?",
+   "Thôi thôi, chuyện đó hỏi người khác đi, không phải tôi.",
+   "Tôi không dính vào vụ đó, hỏi sai người rồi.",
+   "Chuyện của họ thì tôi biết gì đâu mà hỏi.",
+   "Khoan đã, cái đó không phải việc của tôi nha.",
+   "Tôi đứng ngoài chuyện này từ đầu đến giờ luôn.",
+   "Hỏi tôi làm gì, tôi có liên quan đâu chứ?"
+  ]
+ },
+ "relief_both_hands_drop_sigh": {
+  "cum": [
+   "Thôi xong rồi, kệ đi",
+   "Quyết rồi, không nghĩ nữa",
+   "Nói chuyện xong rồi là xong",
+   "Cứ vậy mà làm thôi",
+   "Giải quyết được rồi",
+   "Thở đi, xong hết rồi"
+  ],
+  "cau": [
+   "Ổn rồi, xong rồi, không cần lo nữa.",
+   "Thôi được, quyết định rồi thì cứ vậy mà làm.",
+   "Cuối cùng cũng xong, mệt quá đi thôi.",
+   "Được rồi, vậy là xong chuyện đó.",
+   "Thở cái đã, xong rồi còn gì nữa đâu.",
+   "Ừ thôi, dù sao cũng đã quyết rồi mà.",
+   "May quá, tưởng còn dài hơn nữa chứ.",
+   "Thôi kệ, chuyện đó tính sau vậy."
+  ]
+ },
+ "relief_exhale_settle": {
+  "cum": [
+   "Xong rồi, thở được rồi",
+   "Ổn rồi, không sao đâu",
+   "Trời ơi may quá",
+   "Cuối cùng cũng xong",
+   "Thế là xong hết rồi",
+   "Không phải lo nữa rồi"
+  ],
+  "cau": [
+   "Ôi trời, cuối cùng cũng xong rồi nhỉ.",
+   "Thật ra mình lo lắng từ sáng tới giờ đấy.",
+   "Được rồi, vậy là ổn hết rồi, không còn gì phải lo nữa.",
+   "Hú hồn, cứ tưởng lần này không qua được.",
+   "Mệt thật, nhưng mà xong là vui rồi.",
+   "Thở được rồi, lúc nãy căng lắm luôn ấy.",
+   "Vậy là xong, không còn phải nghĩ đến chuyện đó nữa rồi.",
+   "Cảm giác nhẹ cả người luôn, may quá là may."
+  ]
+ },
+ "relief_lean_back_open": {
+  "cum": [
+   "Nhẹ cả người luôn",
+   "Cảm giác như vừa trút được gánh nặng",
+   "Mình cứ lo mãi không biết",
+   "Bây giờ thoải mái rồi",
+   "Không còn áp lực nữa",
+   "Tự do rồi, thật sự tự do"
+  ],
+  "cau": [
+   "Ôi trời, cuối cùng thì xong rồi!",
+   "Nhẹ cả người luôn, không tưởng tượng được đâu.",
+   "Mày biết không, tao cảm giác như vừa trút được cả núi vậy.",
+   "Thở được rồi, lâu lắm mới thấy dễ chịu thế này.",
+   "Xong rồi, không cần lo nữa, thoải mái hẳn ra.",
+   "Cái này mà giải quyết được thì còn gì bằng nữa.",
+   "Tao không nghĩ nó lại kết thúc êm đẹp như thế này.",
+   "Thôi được rồi, buông hết đi cho nhẹ, sống tiếp thôi mày ơi."
+  ]
+ },
+ "relief_soft_sway_eyes_close": {
+  "cum": [
+   "Vượt qua được rồi, hú hồn",
+   "Giai đoạn đó khó lắm nhưng qua rồi",
+   "Mình cũng không ngờ mình làm được",
+   "Nhìn lại thấy mình cũng giỏi đó chứ",
+   "Thật sự là nhẹ nhõm lắm",
+   "Cảm giác bình yên lại rồi"
+  ],
+  "cau": [
+   "Qua rồi, mọi thứ cuối cùng cũng qua rồi.",
+   "Hồi đó mình tưởng không trụ nổi, vậy mà vẫn ổn.",
+   "Cái giai đoạn đó... nặng lắm, nhưng giờ nhẹ hẳn rồi.",
+   "Mình không nghĩ mình có thể vượt qua được, thật sự không nghĩ vậy.",
+   "Giờ nhìn lại thấy mình đã đi qua được quãng đường dài thật.",
+   "Có những đêm mệt đến mức không muốn nghĩ gì nữa, nhưng rồi sáng vẫn đến.",
+   "Bây giờ ngồi đây kể lại mà cảm giác như chuyện của người khác vậy.",
+   "Thở được rồi, cảm giác thở được rồi sau tất cả những chuyện đó."
+  ]
+ },
+ "relief_weight_shift_slow_smile": {
+  "cum": [
+   "À thì ra là vậy",
+   "Mình lo quá hóa ra không cần",
+   "Ừ, đúng rồi, ổn mà",
+   "Thôi được rồi, cũng được",
+   "Không đến nỗi nào đâu",
+   "Nhìn lại thấy không có gì"
+  ],
+  "cau": [
+   "Ừ thôi, nghĩ lại thì cũng không có gì to tát lắm.",
+   "Thực ra mọi chuyện vẫn đang ổn mà, mình lo hơi nhiều quá.",
+   "Haha, lo bù đầu mà cuối cùng chẳng có gì xảy ra cả.",
+   "Được rồi, cứ bình tĩnh thì mọi thứ đều giải quyết được thôi.",
+   "Mình cứ nghĩ là sẽ tệ lắm, ai ngờ lại ổn vậy.",
+   "Thôi kệ, căng thẳng mãi cũng chẳng ích gì đâu nhỉ.",
+   "À, hóa ra chuyện đó không đáng lo đến vậy đâu.",
+   "Nhìn lại thì thấy mình lo lắng hơi thừa rồi đấy."
+  ]
+ },
+ "reluctant_truth_sink": {
+  "cum": [
+   "Nói thật thì mình thấy không ổn",
+   "Mình không muốn nói nhưng mà...",
+   "Bạn hỏi thì mình phải nói thôi",
+   "Thật ra mình không đồng ý",
+   "Nghe có vẻ khó chịu nhưng đó là thật",
+   "Mình cũng không thoải mái khi nói cái này",
+   "Bạn có muốn nghe thật không",
+   "Mình nói thẳng nha dù sao đi nữa"
+  ],
+  "cau": [
+   "Thôi được rồi, để tôi nói thẳng vậy.",
+   "Tôi không muốn nói điều này nhưng... anh cần biết.",
+   "Nghe này, thật ra kết quả không được như mình nghĩ đâu.",
+   "Ừ thì... chả ai muốn nghe, nhưng sự thật là vậy.",
+   "Khó mà nói lắm, nhưng cậu xứng đáng được biết sự thật.",
+   "Tôi biết cô không thích nghe, mà tôi vẫn phải nói.",
+   "Chuyện này... thật ra từ đầu tôi đã thấy có vấn đề rồi.",
+   "Nói ra thì ngại lắm, nhưng không nói thì không được."
+  ]
+ },
+ "resigned_shrug_exhale_weight_drop": {
+  "cum": [
+   "Thôi kệ",
+   "Tính sao giờ",
+   "Biết làm sao được",
+   "Cố mà vẫn không ra",
+   "Hết cách rồi",
+   "Nghĩ mãi cũng không biết",
+   "Không tìm ra được",
+   "Đành chịu vậy thôi"
+  ],
+  "cau": [
+   "Thôi được rồi, mình không hiểu nổi thứ này đâu.",
+   "Nghĩ mãi mà vẫn không ra, chịu thua thôi.",
+   "Ừ thì mình không biết, kệ vậy đi.",
+   "Cái này khó quá, mình bó tay rồi.",
+   "Hỏi người khác đi, tao không biết thật sự.",
+   "Mình đã cố lắm rồi mà vẫn không hiểu ra sao.",
+   "Thú thật là mình cũng chẳng rõ tại sao nữa.",
+   "Đành chịu thôi, không nghĩ ra được đâu."
+  ]
+ },
+ "retreat_step_lock_arms": {
+  "cum": [
+   "Thôi, quên đi",
+   "Không nên nói",
+   "Tôi không thể",
+   "Giữ cho mình",
+   "Xin lỗi, tôi im",
+   "Chuyện khác đi"
+  ],
+  "cau": [
+   "Thôi... thôi không nói nữa đâu.",
+   "Quên đi, em lỡ miệng rồi.",
+   "Không, không, chị không có ý đó.",
+   "Ờ thì... anh đừng để ý câu đó nhé.",
+   "Thật ra mình cũng không chắc lắm, bỏ qua đi.",
+   "Tự nhiên em nói gì vậy, thôi kệ.",
+   "Anh đừng hỏi thêm, em không muốn nói nữa.",
+   "Chị nhầm rồi, không phải vậy đâu, thôi đổi chủ đề đi."
+  ]
+ },
+ "retreat_tease_pull_back": {
+  "cum": [
+   "Ủa tao có nói gì đâu?",
+   "Thôi thôi không phải tao",
+   "Ừ thì... tao nói rồi đó",
+   "Bình tĩnh bình tĩnh haha",
+   "Ai nói chứ không phải tao",
+   "Tao vô tội hoàn toàn nha",
+   "Đùa mà giận chi vậy trời",
+   "Thôi xí xóa đi nào mà"
+  ],
+  "cau": [
+   "Ừ thì tao nói rồi đó, kệ tao!",
+   "Thôi thôi, tao không có nói gì hết nha.",
+   "Ý tao là... ừ thôi bỏ qua đi, hehe.",
+   "Khoan khoan, tao vừa nói cái gì vậy nhỉ?",
+   "Đừng nhìn tao như vậy, tao vô tội mà!",
+   "Ai nói? Tao không có nói gì hết đâu nha.",
+   "Thôi kệ, mày nghe nhầm rồi đó, tin tao đi.",
+   "Tao chỉ ho thôi, không có nói câu đó đâu!"
+  ]
+ },
+ "rooted_fist_chest_level": {
+  "cum": [
+   "Tôi sẽ không thay đổi",
+   "Lập trường của tôi rõ ràng",
+   "Tôi quyết tâm điều này",
+   "Không ai bắt tôi thay đổi được",
+   "Tôi giữ nguyên quan điểm",
+   "Đây là điều tôi tin"
+  ],
+  "cau": [
+   "Tôi đã quyết định rồi, không ai thay đổi được đâu.",
+   "Dù có khó khăn đến đâu, tôi vẫn giữ nguyên lập trường này.",
+   "Không, tôi không lùi bước trước áp lực của bất kỳ ai.",
+   "Lòng tôi đã định, chuyện này không cần bàn thêm nữa.",
+   "Cứ nói đi, quan điểm của tôi sẽ không thay đổi đâu nhé.",
+   "Tôi cam kết điều này và tôi sẽ giữ lời hứa đó.",
+   "Đây là lập trường của tôi, tôi sẵn sàng bảo vệ đến cùng.",
+   "Dù bạn phản đối, tôi vẫn tin mình đang đi đúng hướng."
+  ]
+ },
+ "sharp_size_contrast_gesture": {
+  "cum": [
+   "cái này chỉ nhỏ vậy thôi",
+   "còn cái kia thì to lắm",
+   "chênh nhau nhiều lắm",
+   "không thể so sánh được",
+   "một trời một vực",
+   "to hơn rất nhiều lần"
+  ],
+  "cau": [
+   "Cái nhà máy đó lớn gấp trăm lần cái xưởng nhỏ này.",
+   "Ngân sách của họ khổng lồ, còn của mình thì chỉ bằng hạt cát.",
+   "Ảnh hưởng của sự kiện đó so với cái này... một trời một vực luôn.",
+   "Số lượng khách hàng bên đó áp đảo hoàn toàn so với bên mình.",
+   "Vấn đề lớn kia chưa giải quyết xong, đừng lo mấy chuyện vặt này.",
+   "Khoảng cách giữa hai con số này xa lắm, không phải gần đâu nhé.",
+   "Tầm quan trọng của dự án chính so với dự án phụ này khác nhau hoàn toàn.",
+   "Phần lớn hơn nhiều so với phần kia, mình đừng nhầm lẫn nha."
+  ]
+ },
+ "sharp_tilt_snap_question": {
+  "cum": [
+   "khoan, cái đó là gì?",
+   "bạn vừa nói cái gì?",
+   "cụ thể là thế nào?",
+   "điểm đó bạn chắc chưa?",
+   "không, ý mình là—",
+   "đó là lý do hay là kết quả?",
+   "hỏi thẳng luôn nhé"
+  ],
+  "cau": [
+   "Rốt cuộc anh muốn gì từ tôi?",
+   "Cô có thể giải thích rõ hơn không?",
+   "Tại sao lại làm vậy mà không nói trước?",
+   "Điều đó có nghĩa là gì với anh?",
+   "Bao giờ thì chuyện này kết thúc?",
+   "Ai cho phép anh quyết định chuyện đó?",
+   "Thực ra bạn đang cố nói điều gì?",
+   "Chính xác thì chuyện gì đã xảy ra ở đó?"
+  ]
+ },
+ "shift_back_cross_arms_tilt_head": {
+  "cum": [
+   "nhưng mà anh có chắc không",
+   "tôi chưa thấy thuyết phục lắm",
+   "điều đó không hẳn đúng",
+   "ừ nhưng mà thực ra thì",
+   "chờ chờ để tôi hỏi lại",
+   "nghe có vẻ chưa ổn lắm",
+   "tôi không đồng ý điểm đó"
+  ],
+  "cau": [
+   "Khoan đã, tôi chưa chắc điều đó đúng.",
+   "Ý kiến đó nghe có vẻ chưa thuyết phục lắm.",
+   "Anh có bằng chứng gì cho luận điểm này không?",
+   "Tôi không nghĩ mọi thứ đơn giản như vậy đâu.",
+   "Nghe thì hay đấy, nhưng thực tế thì sao?",
+   "Cứ bình tĩnh, chuyện này phức tạp hơn anh nghĩ nhiều.",
+   "Tôi có lý do để nghi ngờ điều bạn vừa nói.",
+   "Chưa ai chứng minh được điều đó cả đâu nhé."
+  ]
+ },
+ "shoulder_back_champion": {
+  "cum": [
+   "Chúng tôi đã thắng!",
+   "Tôi là số một",
+   "Đó là vinh quang của tôi",
+   "Hãy nhìn kìa!",
+   "Tôi là vua"
+  ],
+  "cau": [
+   "Cuối cùng thì tao cũng thắng rồi đấy nhé!",
+   "Đây mới là cảm giác của người chiến thắng thực sự.",
+   "Không ai có thể ngăn được tôi hôm nay cả.",
+   "Tất cả những gì tôi đã cố gắng giờ đã được đền đáp.",
+   "Xem đi, đây là thành quả của sự kiên trì bạn ơi.",
+   "Lần này thì tôi đã chứng minh được điều mình muốn.",
+   "Cảm giác đứng trên đỉnh này thật sự rất tuyệt vời.",
+   "Hôm nay là ngày của tôi, không còn nghi ngờ gì nữa."
+  ]
+ },
+ "shoulder_lift_proud": {
+  "cum": [
+   "Tôi đã làm được!",
+   "Tự hào quá",
+   "Nó bằng không so với tôi",
+   "Coi chừng tôi đây",
+   "Hehe, dễ thôi"
+  ],
+  "cau": [
+   "Tất nhiên rồi, mình đã nói là được thì được.",
+   "Kết quả đó mình đã cố gắng cả năm mới có được.",
+   "Không phải ai cũng làm được điều này đâu nhé.",
+   "Dự án đó mình hoàn thành trước deadline hai ngày luôn.",
+   "Mình biết mình có thể làm được từ đầu rồi.",
+   "Thành tích đó mình tự hào lắm, xứng đáng với công sức bỏ ra.",
+   "Lần này mình vượt chỉ tiêu gần gấp đôi đấy.",
+   "Cứ tin mình đi, chưa khi nào mình thất bại chuyện này cả."
+  ]
+ },
+ "shoulder_lift_subtle_pride": {
+  "cum": [
+   "Cảm ơn bạn",
+   "Tôi cũng thấy vậy",
+   "Mình đã cố gắng rồi",
+   "Đó là tự nhiên",
+   "Bình thường thôi"
+  ],
+  "cau": [
+   "Thật ra mình đã nghĩ đến điều này từ lâu rồi.",
+   "Không phải ngẫu nhiên mà mọi thứ ra được như vậy đâu.",
+   "Cảm ơn, nhưng mình chỉ làm những gì mình nghĩ là đúng thôi.",
+   "Đôi khi nỗ lực âm thầm mới là thứ tạo ra sự khác biệt.",
+   "Mình không nói nhiều, nhưng mình biết mình đã làm tốt.",
+   "Kết quả nó nói lên tất cả rồi, cần gì phải giải thích thêm.",
+   "Có những thứ mình biết từ trong lòng, không cần ai xác nhận cũng được."
+  ]
+ },
+ "shoulder_raise_steadfast": {
+  "cum": [
+   "Tôi xứng đáng",
+   "Chắc chắn được",
+   "Tôi có thể",
+   "Không lo lắng",
+   "Sẽ xong ngay",
+   "Tin vào tôi"
+  ],
+  "cau": [
+   "Tôi đã hứa thì sẽ làm được, yên tâm đi.",
+   "Việc này khó nhưng để tôi lo, không phải chuyện lớn.",
+   "Cứ giao cho tôi, tôi chắc chắn xử lý được mà.",
+   "Đã nhận thì tôi không bỏ dở giữa chừng bao giờ.",
+   "Anh không cần lo, tôi biết mình đang làm gì.",
+   "Tôi đã từng vượt qua những thứ khó hơn thế này nhiều rồi.",
+   "Lời hứa của tôi không phải loại nói cho có đâu nhé.",
+   "Tin tôi đi, đến hạn là có kết quả ngay thôi."
+  ]
+ },
+ "shoulder_roll_confident": {
+  "cum": [
+   "Thôi kệ nó",
+   "Đó là chuyện của họ",
+   "Tôi chẳng sợ",
+   "Cứ để cho nó đi",
+   "Tôi vẫn là tôi"
+  ],
+  "cau": [
+   "Kệ họ thôi, mình cứ sống theo cách của mình.",
+   "Ý kiến đó không ảnh hưởng gì đến tôi cả.",
+   "Người ta nói gì thì nói, tôi vẫn làm theo kế hoạch.",
+   "Chuyện nhỏ mà, lo gì cho mệt vậy?",
+   "Tôi không cần ai đồng ý với quyết định của mình.",
+   "Họ nghĩ sao thì nghĩ, không liên quan đến tôi đâu.",
+   "Mấy chuyện đó chẳng đáng để mình bận tâm.",
+   "Cứ để người ta nói, mình biết mình đang làm gì."
+  ]
+ },
+ "shoulder_shrug_palms_up_weight_shift": {
+  "cum": [
+   "Tôi không biết",
+   "Không rõ lắm",
+   "Mình cũng không hay",
+   "Chịu thôi",
+   "Không có thông tin",
+   "Hỏi người khác đi",
+   "Tôi mù tịt vụ đó",
+   "Không nắm được"
+  ],
+  "cau": [
+   "Thật ra mình cũng không biết gì về chuyện đó cả.",
+   "Ừ thì tôi mù tịt chuyện này, chịu thôi.",
+   "Cái này hả? Trời ơi, không có khái niệm gì luôn.",
+   "Hỏi tôi thì tôi cũng bí, không rõ tí nào hết.",
+   "Nghe lạ lắm, mà thật sự tôi chưa từng nghe qua.",
+   "Không biết nha, mà không phải giả vờ đâu đó.",
+   "Tôi cũng muốn biết lắm, nhưng mà không có thông tin gì cả.",
+   "Câu này thì xin chịu, hoàn toàn không nắm được gì."
+  ]
+ },
+ "shoulder_shrug_tilt_doubt": {
+  "cum": [
+   "chắc không đó?",
+   "nghe lạ lạ á",
+   "thiệt hả?",
+   "không biết có đúng không",
+   "mình hơi ngờ ngờ",
+   "ai nói vậy?",
+   "có chắc không?"
+  ],
+  "cau": [
+   "Ừ thì... tôi không chắc chuyện đó có thật không.",
+   "Nghe hay đấy, nhưng mà tôi hơi khó tin.",
+   "Cái này... hmm, không rõ anh nói vậy có đúng không.",
+   "Thật sự hả? Tôi chưa dám khẳng định gì đâu.",
+   "Không biết nữa, câu chuyện nghe có vẻ kỳ lắm.",
+   "Có thể vậy, nhưng tôi vẫn còn nghi ngờ lắm.",
+   "Chờ chút, điều đó nghe không ổn lắm với tôi.",
+   "Ý bạn vậy à? Tôi vẫn chưa tin lắm đâu nhé."
+  ]
+ },
+ "shoulder_square_dominance": {
+  "cum": [
+   "Điều này rất quan trọng",
+   "Tôi quyết định như vậy",
+   "Đó là lệnh",
+   "Không có gì bàn cải",
+   "Nghe tôi nói"
+  ],
+  "cau": [
+   "Đây là quyết định cuối cùng, không cần bàn thêm nữa.",
+   "Tất cả mọi người ở đây đều nghe tôi nói.",
+   "Kế hoạch này do tôi định ra, ai cũng phải tuân theo.",
+   "Từ giờ trở đi, mọi thứ sẽ theo cách của tôi.",
+   "Không ai có thể thay đổi những gì tôi đã quyết.",
+   "Tôi nắm toàn bộ tình hình trong tay, yên tâm đi.",
+   "Đây là lúc các anh chứng kiến tôi làm điều này.",
+   "Quyền lực nằm ở chỗ biết khi nào cần im lặng."
+  ]
+ },
+ "shy_chin_tuck_arms_cross": {
+  "cum": [
+   "thôi thôi em không dám đâu",
+   "trời ơi anh/chị nói vậy em ngại lắm",
+   "không có gì đặc biệt đâu ạ",
+   "ủa sao mọi người nhìn em vậy",
+   "em làm bình thường thôi mà",
+   "dạ em không biết nói gì nữa",
+   "thật sự em không xứng đâu ạ",
+   "ôi chết con ngượng quá"
+  ],
+  "cau": [
+   "Thôi thôi, mọi người đừng nhìn em như vậy chứ...",
+   "Ơ, em có làm gì đặc biệt đâu mà khen dữ vậy.",
+   "Dạ... em không quen được chú ý nhiều như thế này lắm.",
+   "Câu đó hỏi khó quá, em chịu thua thật sự rồi.",
+   "Trời ơi, sao lại hỏi em trước cả lớp vậy nè.",
+   "Dạ thôi anh ơi, anh khen vậy em ngại lắm á.",
+   "Mấy người đừng nhìn em nữa được không, em mắc cỡ lắm rồi.",
+   "Em không biết phải trả lời sao cho đúng nữa."
+  ]
+ },
+ "shy_ear_scratch_eyes_down": {
+  "cum": [
+   "dạ... ừ em biết rồi ạ",
+   "ừm thật ra em cũng không chắc lắm",
+   "dạ em xin lỗi em sẽ sửa",
+   "ừ thì em cũng thấy vậy mà",
+   "thôi thì tại em chưa nghĩ kỹ",
+   "dạ em hiểu ý anh/chị rồi",
+   "ừ em cũng tự thấy mình sai",
+   "thôi chết lần sau em cẩn thận hơn"
+  ],
+  "cau": [
+   "Ừ thì... mình có làm chưa đúng thật.",
+   "Thôi được rồi, tại mình không chú ý.",
+   "Ừ ừ, anh nói vậy cũng có lý.",
+   "Mình biết rồi, lần sau sẽ cẩn thận hơn.",
+   "Dạ... em hiểu ý chị muốn nói rồi.",
+   "Ừ, mà thật ra mình cũng đoán vậy.",
+   "Thôi thì... lỗi của mình, không cãi được.",
+   "Dạ, anh nhận xét vậy em xin ghi nhận."
+  ]
+ },
+ "shy_hand_cover_mouth_look_away": {
+  "cum": [
+   "ủa sao em lại nói vậy nhỉ",
+   "thôi chết em lỡ miệng rồi",
+   "hehe em không nói nữa đâu",
+   "ôi trời em đỏ mặt rồi kìa",
+   "xí em không có ý đó đâu nha",
+   "mà thôi khỏi em ngại lắm",
+   "anh/chị đừng để ý chuyện đó nha",
+   "em nói bậy quá xá luôn"
+  ],
+  "cau": [
+   "Thôi chết, em lỡ miệng rồi, quên đi nhé!",
+   "Ý em không phải vậy, ý em là... thôi em không nói nữa!",
+   "Ôi trời ơi, sao em lại nói cái đó ra được chứ!",
+   "Không không, anh đừng để ý câu vừa rồi của em!",
+   "Em... em không có ý gì đâu, thật mà, em thề!",
+   "Ừ thì em có thích anh một chút, nhưng mà... thôi bỏ qua đi!",
+   "Sao tự nhiên em lại nói vậy nhỉ, kỳ quá!",
+   "Anh giả vờ như không nghe câu đó được không ạ?"
+  ]
+ },
+ "shy_retreat_half_step_hug_self": {
+  "cum": [
+   "ủa sao hỏi chuyện đó vậy",
+   "ừm chuyện đó hơi riêng tư á",
+   "thật ra em không muốn nói lắm",
+   "trời câu đó khó trả lời lắm nha",
+   "thôi bỏ qua chuyện đó đi anh/chị ơi",
+   "em chưa sẵn sàng kể chuyện này",
+   "ủa mình phải nói điều đó không",
+   "dạ thật ra em không chắc nên chia sẻ không"
+  ],
+  "cau": [
+   "Ừ thì... bạn đừng hỏi sâu vậy được không?",
+   "Chuyện đó mình chưa muốn kể cho ai nghe đâu.",
+   "Sao bạn cứ hỏi mấy chuyện kiểu này vậy?",
+   "Mình cần một chút không gian, bạn thông cảm nha.",
+   "Thật ra... mình không thoải mái lắm khi nói về chuyện này.",
+   "Bạn có thể hỏi chuyện khác không, mình xin lỗi.",
+   "Câu hỏi đó hơi... khó trả lời với mình lắm.",
+   "Mình biết bạn tò mò nhưng chuyện này mình giữ cho riêng mình thôi."
+  ]
+ },
+ "shy_weight_shift_finger_fidget": {
+  "cum": [
+   "dạ... em chưa biết nói gì",
+   "ờ thì... em mới quen mọi người thôi",
+   "hehe ừ em cũng không rành lắm",
+   "anh/chị cứ tự nhiên đi ạ",
+   "em ngồi đây được không ạ",
+   "ừm... dạ em tên là...",
+   "thật ra em cũng hơi lạ chỗ",
+   "mọi người vui vẻ quá em chưa kịp quen"
+  ],
+  "cau": [
+   "Ừ thì... mình cũng mới đến thôi.",
+   "Haha ừ, mình chưa quen mấy anh chị ở đây lắm.",
+   "Trời hôm nay hơi nóng nhỉ, hay là tại trong này đông người?",
+   "Không biết chương trình bắt đầu lúc mấy giờ nhỉ.",
+   "Ừ ừ, mình cũng đang chờ bạn mình qua nữa.",
+   "Thật ra mình cũng không rành chỗ này cho lắm đâu.",
+   "Mình thấy quen quen mà không nhớ ra mình gặp bạn ở đâu.",
+   "Không biết lát nữa có chỗ ngồi không hay phải đứng suốt."
+  ]
+ },
+ "sidestep_glance_back": {
+  "cum": [
+   "Chờ đã",
+   "Có ai nghe mình không nhỉ",
+   "Để tôi kiểm tra",
+   "Không được để ai biết",
+   "Nhìn quanh đã",
+   "Cẩn thận nhen"
+  ],
+  "cau": [
+   "Khẽ thôi, đừng để ai nghe thấy nhé.",
+   "Chỗ này chỉ mình mình biết thôi đấy, không được kể cho ai.",
+   "Thật ra... tôi không dám nói to đâu, nhưng mà...",
+   "Bí mật đấy, hứa với tôi là không nói lại.",
+   "Hình như có người ở đây thì phải, nói sau đi.",
+   "Tôi chỉ kể riêng cho mình nghe thôi, không ai được biết chuyện này.",
+   "Đừng phản ứng mạnh quá, giả vờ bình thường đi nào.",
+   "Nếu chuyện này lọt ra ngoài thì cả hai đứa mình đều xong."
+  ]
+ },
+ "sink_hips_fist_down": {
+  "cum": [
+   "và đó là kết luận cuối cùng",
+   "không còn bàn cãi gì nữa",
+   "tôi quyết định rồi",
+   "thế là xong không thay đổi",
+   "đây là điều tôi khẳng định",
+   "dứt khoát phải làm vậy",
+   "không có lựa chọn nào khác"
+  ],
+  "cau": [
+   "Đây là quyết định cuối cùng, không bàn thêm nữa.",
+   "Tôi đã nói rồi, chuyện này kết thúc ở đây.",
+   "Không có gì phải tranh luận thêm, đã xong.",
+   "Vậy là chốt, không ai được thay đổi nữa.",
+   "Nghe cho rõ, tôi chỉ nói một lần thôi.",
+   "Cứ thế mà làm, không cần bàn lui bàn tới.",
+   "Đã quyết là quyết, không có chuyện xét lại.",
+   "Thế là xong, tôi không muốn nghe thêm ý kiến nào nữa."
+  ]
+ },
+ "slow_scan_side_to_side": {
+  "cum": [
+   "cũng khó mà nói",
+   "một mặt thì thế này",
+   "nhưng mặt khác lại",
+   "cần cân nhắc thêm",
+   "mình vẫn chưa chắc",
+   "hai cái đều có vấn đề"
+  ],
+  "cau": [
+   "Một bên thì lợi, một bên lại rủi ro, khó nói lắm.",
+   "Làm hay không làm... tôi vẫn chưa chắc được.",
+   "Cách này có vẻ ổn hơn, nhưng cách kia cũng không tệ.",
+   "Để tôi nghĩ thêm chút, hai phương án đều có lý cả.",
+   "Nếu chọn vế này thì được cái nọ, mà lại mất cái kia.",
+   "Hmm... bên trái hay bên phải đây, thật sự khó quyết.",
+   "Cả hai đều có điểm hay riêng, tôi chưa nghiêng về phía nào cả.",
+   "Tôi cứ đắn đo mãi giữa hai cái này mà chưa ra."
+  ]
+ },
+ "slow_shrug_head_tilt_doubtful": {
+  "cum": [
+   "Không chắc lắm đâu",
+   "Nghe vậy mà",
+   "Có vẻ vậy nhưng mà",
+   "Tôi cũng không dám nói",
+   "Hình như là vậy",
+   "Chưa xác nhận được",
+   "Mình nghe loáng thoáng thôi",
+   "Chưa chắc đã đúng"
+  ],
+  "cau": [
+   "Ừm... cái đó tôi không dám chắc lắm.",
+   "Nghe có vẻ đúng nhưng mà tôi chưa chắc.",
+   "Không biết nữa, hơi khó tin một chút.",
+   "Thật sự hả? Tôi vẫn còn hơi ngờ ngợ.",
+   "Cái này mà đúng thì cũng lạ thật đấy.",
+   "Tôi không dám khẳng định điều đó đâu nhé.",
+   "Kể cũng có lý, nhưng mà... không biết nữa.",
+   "Ừ thì nghe vậy thôi chứ tôi chưa tin hẳn."
+  ]
+ },
+ "slow_tilt_confused_processing": {
+  "cum": [
+   "ờ để mình nghĩ cái đã",
+   "cái này phức tạp nhỉ",
+   "khoan để mình hiểu lại",
+   "nói nhanh quá mình không kịp",
+   "ý là… à…",
+   "mình đang cố hiểu",
+   "chờ mình tý"
+  ],
+  "cau": [
+   "Ừm... để mình nghĩ xem nào.",
+   "Khoan đã, nhiều thứ quá mình cần sắp xếp lại.",
+   "Cái này... phức tạp hơn mình tưởng nhiều.",
+   "Mình đang cố hiểu hết những gì bạn vừa nói.",
+   "Thông tin này cần thời gian để mình tiêu hóa một chút.",
+   "Được rồi, mình đang ghép các mảnh lại với nhau.",
+   "Có mấy điểm mình chưa chắc mình hiểu đúng hết.",
+   "Hm, bạn cho mình một chút xíu nhé."
+  ]
+ },
+ "startle_lean_back_burst_laugh": {
+  "cum": [
+   "Trời, thật không trời?!",
+   "Hả?! Sao vậy được—",
+   "Ý anh là... ha ha—",
+   "Thôi cha ơi!",
+   "Xạo đi thôi!",
+   "Trời đất, buồn cười quá!"
+  ],
+  "cau": [
+   "Ơ trời ơi, cái này có thật không vậy trời?!",
+   "Haha không không không, mày nói thật à, trời đất!",
+   "Chết tôi rồi, ai mà nghĩ ra cái chuyện này được chứ!",
+   "Ahahaha thôi xong, tôi không tin nổi luôn đấy!",
+   "Cái gì cơ, hả?! Hahaha ừ thôi được rồi tôi chịu thua!",
+   "Khùng chưa, mà sao lại buồn cười thế này hả trời!",
+   "Ha ha ha — thôi thôi, đừng kể nữa tôi không thở được rồi!",
+   "Ủa mà sao chuyện đó lại xảy ra được vậy, hahaha tôi chết mất!"
+  ]
+ },
+ "startle_lean_back_freeze": {
+  "cum": [
+   "Thật không?!",
+   "Ủa... cái gì vậy?",
+   "Trời ơi—",
+   "Không thể nào—",
+   "Sao lại thế được?"
+  ],
+  "cau": [
+   "Ơ... cái gì cơ, anh vừa nói gì vậy?",
+   "Khoan đã, bạn... bạn nói thật không?",
+   "Trời ơi, tôi không nghe nhầm chứ?",
+   "Cái này... cái này mà thật sao?",
+   "Xin lỗi, em vừa nói anh ấy... mất rồi ạ?",
+   "Không, không thể nào, chuyện đó không xảy ra được.",
+   "Đợi tôi một giây, não tôi chưa xử lý kịp.",
+   "Ủa, hồi nãy mày nói... mày nói là cô ấy biết hết rồi?"
+  ]
+ },
+ "startle_lean_back_hands_up_defensive": {
+  "cum": [
+   "Ê ê ê, khoan đã—",
+   "Không phải tôi!",
+   "Sao lại là tôi?",
+   "Xin lỗi, anh đang nói gì vậy?",
+   "Bình tĩnh, bình tĩnh nào—",
+   "Tôi không có làm chuyện đó!"
+  ],
+  "cau": [
+   "Khoan khoan khoan, cái gì vừa xảy ra vậy?",
+   "Ơ, ơ, ơ — anh đừng có nói vậy!",
+   "Tôi không liên quan gì đến chuyện đó cả!",
+   "Chờ đã, chờ đã — bạn đang nói về tôi à?",
+   "Thật sự không phải như anh nghĩ đâu!",
+   "Này, này — bình tĩnh lại đã, đừng đổ lên tôi!",
+   "Sao tự nhiên lại kéo tôi vào chuyện này?",
+   "Tôi chưa nghe ai nói điều đó bao giờ!"
+  ]
+ },
+ "startle_recoil_cover_mouth": {
+  "cum": [
+   "Ôi trời ơi...",
+   "Không... không phải thật đâu?",
+   "Thôi chết rồi—",
+   "Ổng ấy... ổng ấy sao?",
+   "Em không biết chuyện này...",
+   "Bao giờ vậy?"
+  ],
+  "cau": [
+   "Trời ơi… sao lại có chuyện như vậy được?",
+   "Không… không thể nào, mình không tin nổi.",
+   "Ôi, cái này… mình không biết phải nói gì nữa.",
+   "Thật sự hả? Sao bây giờ mới kể cho mình nghe?",
+   "Chúa ơi, chuyện đó xảy ra hồi nào vậy?",
+   "Mình… mình không ngờ lại là chuyện này.",
+   "Ủa, mà… sao cậu lại giữ chuyện đó một mình lâu vậy?",
+   "Nghe mà lòng mình cũng đau theo, thiệt sự đó."
+  ]
+ },
+ "startle_slow_step_back_disbelief": {
+  "cum": [
+   "Khoan khoan khoan...",
+   "Ý anh nói là... cái đó?",
+   "Không... không đúng rồi.",
+   "Làm sao chuyện đó xảy ra được?",
+   "Em nghe nhầm không?",
+   "Thật sự hả anh?"
+  ],
+  "cau": [
+   "Khoan đã... cái đó có thật không vậy?",
+   "Ý anh là... họ thật sự làm chuyện đó?",
+   "Không, không thể nào chuyện đó xảy ra được.",
+   "Tôi vừa nghe đúng không, hay tai tôi có vấn đề?",
+   "Trời ơi... tôi không biết phải nói gì nữa.",
+   "Mà sao chuyện như vậy mà tôi mới biết bây giờ?",
+   "Thật sự hả... tôi cần một chút để xử lý cái này.",
+   "Bạn nói lại đi, tôi vẫn chưa hiểu rõ lắm."
+  ]
+ },
+ "step_back_cross_arms_light": {
+  "cum": [
+   "Thật ra mình không chắc lắm",
+   "Mình không muốn bạn hiểu lầm",
+   "Bạn cứ nói vậy nhưng…",
+   "Mình có quan điểm khác một chút",
+   "Mình nghe rồi nhưng thôi",
+   "Chắc không phù hợp với mình"
+  ],
+  "cau": [
+   "Thôi để mình suy nghĩ thêm đã nhé.",
+   "Bạn nói nhiều quá, mình cần không gian một chút.",
+   "Cảm ơn bạn, nhưng mình tự quyết được.",
+   "Mình nghe rồi, không cần thuyết phục thêm đâu.",
+   "Chuyện này để mình tự lo nhé, cảm ơn.",
+   "Ý bạn mình hiểu rồi, dừng ở đây thôi.",
+   "Mình cần thời gian, đừng thúc mình vội vàng.",
+   "Bạn quan tâm mình biết, nhưng thôi được rồi."
+  ]
+ },
+ "step_toes_in_both_hands_press_down": {
+  "cum": [
+   "bình tĩnh nào từ từ đã",
+   "chúng ta hãy dừng lại chút",
+   "không cần phải vội vàng",
+   "hạ nhiệt xuống một chút đi",
+   "cứ từ từ nói chuyện đã",
+   "mọi thứ từ từ giải quyết được",
+   "giữ bình tĩnh sẽ tốt hơn",
+   "thở đi rồi mình nói tiếp"
+  ],
+  "cau": [
+   "Từ từ thôi, đừng vội vàng như vậy.",
+   "Bình tĩnh nào, mọi chuyện vẫn trong tầm kiểm soát.",
+   "Hít thở sâu đi, chưa đến mức đó đâu.",
+   "Không cần cuống lên, cứ chậm rãi mà làm.",
+   "Thôi nào, dừng lại một chút rồi nghĩ lại đi.",
+   "Cần gì phải hối hả, giờ ta còn thời gian mà.",
+   "Kéo mình lại đi, làm vậy chỉ thêm rối thôi.",
+   "Nhẹ thôi, mọi thứ sẽ ổn nếu ta giữ được đầu."
+  ]
+ },
+ "storytelling_sway_buildup": {
+  "cum": [
+   "khoan khoan để tao kể từ từ",
+   "chưa hết đâu nghe tiếp đi",
+   "rồi thì biết chuyện gì xảy ra không",
+   "mà này mới là phần hay nè",
+   "tao đảm bảo mày sẽ không tin",
+   "cứ từ từ tao kể cho nghe"
+  ],
+  "cau": [
+   "Rồi cái thằng bạn tui nó làm một cái chuyện mà...",
+   "Khoan đã khoan đã, nghe tui kể tiếp nè...",
+   "Thì lúc đó bả đang cầm cái đó trên tay, mà...",
+   "Ờ ờ ờ, sắp tới chỗ hay rồi, chờ chút...",
+   "Nên là... nên là... ổng mới bước vô trong đó thì...",
+   "Tưởng là xong rồi đúng không, nhưng mà khoan...",
+   "Cái hồi đó tui cũng không ngờ luôn, mà thôi để tui kể nốt...",
+   "Haha không không, chưa phải chỗ đó đâu, còn cái này nữa..."
+  ]
+ },
+ "storytelling_sway_chuckle": {
+  "cum": [
+   "rồi ổng mới nói là",
+   "trời ơi tao không nhịn được",
+   "mà ổng nói thiệt à nha",
+   "tới đó là tao bể luôn",
+   "bạn biết ổng làm gì không",
+   "tao thề tao không bịa"
+  ],
+  "cau": [
+   "Xin lỗi xin lỗi, tại cái đoạn đó nó buồn cười lắm!",
+   "Haha thôi chết, tí mình kể tiếp nhé...",
+   "Ôi trời ơi, cái mặt anh ấy lúc đó ấy!",
+   "Khoan khoan để tao lấy lại bình tĩnh cái đã!",
+   "Mà thiệt ra cái phần sau còn dữ hơn nữa kìa!",
+   "Tao thề là lúc đó tao không nhịn được luôn!",
+   "Úi chao, nhớ lại vẫn còn buồn cười ghê!",
+   "Cái kết mới là phần hay nhất, chờ tí nghe!"
+  ]
+ },
+ "storytelling_sway_infectious": {
+  "cum": [
+   "ờ ờ mày cũng thấy vậy hả",
+   "trời cười gì mà cười dữ vậy",
+   "thôi thôi bình tĩnh bình tĩnh",
+   "mà cũng buồn cười thật nha",
+   "haha ừ haha đúng rồi đó",
+   "tao cũng không nhịn được luôn"
+  ],
+  "cau": [
+   "Trời ơi, cái đó buồn cười không chịu được luôn!",
+   "Haha, mà thật ra mình cũng không ngờ đâu nha!",
+   "Không không không, khoan đã, còn cái vụ sau hay hơn nữa kìa!",
+   "Ôi cái mặt ông lúc đó, tôi thề tôi không quên được đâu!",
+   "Mà tụi mình hồi đó điên thiệt, làm vậy mà dám làm!",
+   "Haha bây giờ nhớ lại vẫn còn thấy ngớ ngẩn quá đi!",
+   "Thôi thôi bình tĩnh, mình kể tiếp nha, còn hay hơn nữa!",
+   "Ừ đúng đúng, lúc đó mình cũng không nhịn được cười luôn ấy!"
+  ]
+ },
+ "storytelling_sway_nostalgic_amused": {
+  "cum": [
+   "hồi đó tụi tao hay làm vậy lắm",
+   "nhớ lại mà vẫn còn buồn cười",
+   "ổng hồi đó ngộ lắm bạn ơi",
+   "cái thời đó thiệt là",
+   "mà giờ nghĩ lại vẫn thấy vui",
+   "hồi nhỏ tao với thằng đó hay"
+  ],
+  "cau": [
+   "Hồi đó tụi mình nghèo mà vui ghê, cười suốt ngày không biết mệt.",
+   "Bà ngoại hay làm món đó lắm, mùi thơm tới giờ vẫn còn nhớ như in.",
+   "Cha ơi, cái thời đó mà, đi học bằng xe đạp cọc cạch mà hạnh phúc dữ lắm.",
+   "Thằng bạn thân hồi cấp hai của tao nó phá trời phá đất, giờ nghĩ lại vẫn còn buồn cười.",
+   "Mấy cái trò chơi hồi nhỏ bây giờ con nít không ai chơi nữa, tiếc thật.",
+   "Tết năm đó cả nhà quây quần đông lắm, ồn ào mà thương vô cùng.",
+   "Chao, nhớ lại mà không nhịn được cười, hồi đó mình ngây thơ tới mức đó cơ chứ.",
+   "Dì Hai mỗi lần gặp là kẹo bánh đầy túi, chưa thấy mặt đã thấy thương rồi."
+  ]
+ },
+ "storytelling_sway_triumphant": {
+  "cum": [
+   "hiểu chưa? hiểu chưa?",
+   "tao nói có sai không nào",
+   "thấy chưa tao nói mà",
+   "xong chưa cười đi cười đi",
+   "hay không? hay không?",
+   "tao biết mà tao biết trước mà"
+  ],
+  "cau": [
+   "Hehe, nghe xong rồi đúng không, hay không?",
+   "Cái đó mới gọi là twist chứ, hả hả hả.",
+   "Ừ ừ, từ từ thấm vào đi, tôi chờ.",
+   "Thấy chưa, tôi bảo mà, hay vãi.",
+   "Cười đi cười đi, không cần nhịn đâu nha.",
+   "Ý tưởng đó ra lò tự nhiên lắm, không cần cố đâu nha.",
+   "Cái kết đó mới là đỉnh, mấy cái trước chỉ là khởi động thôi.",
+   "Tự nhiên thôi, tài năng nó vậy đó, biết làm sao giờ."
+  ]
+ },
+ "suppressed_fury_coil": {
+  "cum": [
+   "Vâng... tôi hiểu rồi.",
+   "Dạ... như vậy ạ.",
+   "Tôi... sẽ xem lại.",
+   "Thưa anh, nhưng mà...",
+   "Dạ thôi được ạ.",
+   "Vâng, không sao ạ.",
+   "Tôi ghi nhận rồi ạ."
+  ],
+  "cau": [
+   "Dạ, em... em hiểu ý anh rồi ạ.",
+   "Vâng, tôi sẽ... xem lại phần đó sau.",
+   "Ừ thì... cũng được, không sao cả.",
+   "Được rồi, tôi nghe thấy anh nói rồi.",
+   "Dạ thưa chú, cháu sẽ cố gắng điều chỉnh ạ.",
+   "Thôi thì... để tôi nghĩ thêm một chút đã.",
+   "Vâng, ý kiến của anh rất... rất đáng xem xét.",
+   "Dạ, cháu xin ghi nhận ý kiến của bác ạ."
+  ]
+ },
+ "symmetry_both_palms_outward_push": {
+  "cum": [
+   "Nghe tôi nói đây",
+   "Tất cả mọi người hãy hiểu",
+   "Điều này áp dụng cho tất cả",
+   "Không có ngoại lệ nào hết",
+   "Tôi nói rõ một lần nữa",
+   "Hãy lắng nghe cho rõ"
+  ],
+  "cau": [
+   "Đây là ranh giới cuối cùng, không ai được phép vượt qua.",
+   "Sự thật không thay đổi dù anh có muốn hay không.",
+   "Tôi nói rõ một lần để mọi người hiểu cho đúng.",
+   "Không có chỗ thương lượng ở đây, quyết định đã xong rồi.",
+   "Các anh nghe tôi nói đây, không được làm khác đi.",
+   "Điều này tôi đã khẳng định từ đầu và tôi vẫn giữ nguyên.",
+   "Luật này áp dụng cho tất cả, không có ngoại lệ nào hết.",
+   "Tôi đứng đây để nói thẳng, không ai bác bỏ được điều này."
+  ]
+ },
+ "thankful_bow_right_hand_chest": {
+  "cum": [
+   "cảm ơn vì đã quan tâm",
+   "em cảm động lắm",
+   "anh tốt với em quá",
+   "cảm ơn chị đã nghĩ đến em",
+   "em không biết nói gì hơn",
+   "thiệt lòng cảm ơn"
+  ],
+  "cau": [
+   "Cảm ơn anh đã luôn ở đây với em.",
+   "Em thật sự biết ơn vì những gì anh đã làm cho em.",
+   "Không có anh thì em không biết phải làm sao nữa.",
+   "Điều anh làm cho em có ý nghĩa rất lớn, em cảm ơn anh nhiều lắm.",
+   "Em xúc động lắm, cảm ơn anh đã quan tâm đến em như vậy.",
+   "Chưa bao giờ em cảm thấy được trân trọng nhiều đến thế này.",
+   "Anh không biết đâu, điều đó có ý nghĩa với em nhiều lắm.",
+   "Em chân thành cảm ơn anh từ tận đáy lòng."
+  ]
+ },
+ "tired_face_palm_slump": {
+  "cum": [
+   "trời ơi",
+   "sao lại thế này",
+   "không thể tin được",
+   "thôi xong",
+   "lại rồi",
+   "ừ tôi biết rồi mà"
+  ],
+  "cau": [
+   "Thôi được rồi, tôi hiểu rồi, không cần nói thêm nữa.",
+   "Trời ơi, sao lại đến nông nỗi này chứ.",
+   "Cứ để tôi một chút, tôi cần bình tĩnh lại đã.",
+   "Không... không thể như vậy được, không thể.",
+   "Mệt lắm rồi, tranh luận mãi cũng chẳng đi đến đâu.",
+   "Tôi không biết phải nói gì nữa thật sự.",
+   "Ừ thì được, muốn sao thì sao, tôi chịu thua rồi.",
+   "Cái này... cái này tôi không ngờ đến được."
+  ]
+ },
+ "tired_lean_back_brace": {
+  "cum": [
+   "nói thật là tôi mệt lắm rồi",
+   "chúng ta nói chuyện lâu thế này",
+   "ừ thì vẫn còn đó",
+   "cái này phức tạp lắm",
+   "để tôi nghĩ thêm",
+   "ừ mà thôi kệ"
+  ],
+  "cau": [
+   "Ừ thì đứng mãi cũng mỏi lưng lắm chứ.",
+   "Câu chuyện này dài hơn tôi nghĩ nhiều.",
+   "Thôi cứ từ từ nói, không vội được đâu.",
+   "Hồi xưa đứng cả ngày chẳng thấy gì, giờ khác rồi.",
+   "Bạn vừa nói đến đâu rồi nhỉ, tôi đang nghe đây.",
+   "Mấy cái vụ này giải thích thật ra cũng không đơn giản.",
+   "Ý tôi muốn nói là chúng ta cần nhìn lại toàn bộ vấn đề.",
+   "Cứ nói tiếp đi, tôi vẫn đang theo dõi mà."
+  ]
+ },
+ "tired_neck_roll_slack": {
+  "cum": [
+   "ừ ừ tôi nghe",
+   "cứ nói đi",
+   "hôm nay dài quá",
+   "à ý bạn là vậy hả",
+   "mình đang nói đến đâu nhỉ",
+   "ừ thì... thế"
+  ],
+  "cau": [
+   "Ừ, chờ mình chút, nói nhiều quá cũng mỏi.",
+   "Thôi để mình hít thở cái đã rồi mình tiếp tục nhé.",
+   "Mình ngồi lâu quá rồi, cứng hết cả người luôn.",
+   "Tí nữa nói tiếp nha, mình cần nghỉ một chút.",
+   "Ờ mà câu chuyện này dài thật, dài hơn mình nghĩ nhiều.",
+   "Bạn cứ từ từ đi, mình vẫn đang theo dõi hết đó.",
+   "Nói chuyện với bạn vui thật nhưng mình cần thả lỏng tí.",
+   "Khoan đã, để mình lấy lại sức rồi nói nốt phần còn lại."
+  ]
+ },
+ "tired_slow_sway_glaze": {
+  "cum": [
+   "ừ... ừ...",
+   "vâng tôi nghe",
+   "à là vậy",
+   "ừ thì cũng được",
+   "ờ thì bạn cứ nói đi"
+  ],
+  "cau": [
+   "Ừ... ừ... anh nói tiếp đi nào...",
+   "Nghe mà cứ thấy mắt nặng dần rồi...",
+   "Cái gì vậy... à ừ, em đang nghe mà...",
+   "Hm... hm... vậy hả, rồi sao nữa...",
+   "Xin lỗi, bạn vừa nói gì vậy nhỉ...",
+   "Dài quá đi... não mình cứ trôi đi đâu mất rồi...",
+   "Ừ ừ, cứ kể tiếp đi, mình đang nghe đây...",
+   "Mình nghe đấy nhưng mà... ừ thôi kể tiếp đi..."
+  ]
+ },
+ "tired_weight_shift_exhale": {
+  "cum": [
+   "thôi xong rồi",
+   "mệt quá đi",
+   "ừ thì biết rồi",
+   "nói mãi cũng vậy",
+   "hết sức luôn",
+   "chịu không nổi nữa"
+  ],
+  "cau": [
+   "Thôi được rồi, xong rồi thì thôi.",
+   "Mệt thật, không ngờ lại kéo dài đến vậy.",
+   "Ừ, biết rồi... cũng chẳng làm gì được nữa.",
+   "Cuối cùng cũng qua, nhưng mà nặng lắm.",
+   "Nghe xong mà không biết phải nói gì.",
+   "Thở được rồi, cứ tưởng hôm nay không qua nổi.",
+   "Ừ thôi, chấp nhận vậy đi, còn biết làm sao.",
+   "Xong rồi đấy, mà sao lòng vẫn nặng thế này."
+  ]
+ },
+ "toe_press_stall": {
+  "cum": [
+   "Câu hỏi này...",
+   "Thì... ờ...",
+   "Cái đó hả...",
+   "Để tôi nghĩ...",
+   "Vấn đề là...",
+   "Trả lời thế nào nhỉ..."
+  ],
+  "cau": [
+   "Ừm... để mình nghĩ xem đã nhé.",
+   "Câu này hay đấy, để mình nghĩ thêm chút.",
+   "Thật ra thì... ý mình là...",
+   "Hmm, mình chưa chắc lắm về điều này.",
+   "Khoan đã, mình cần sắp xếp lại ý một chút.",
+   "Câu hỏi này... không đơn giản như mình tưởng.",
+   "Mình biết mà, chỉ là cần nhớ lại thôi.",
+   "À, ý bạn hỏi theo nghĩa nào vậy?"
+  ]
+ },
+ "topic_shift_gentle_sway": {
+  "cum": [
+   "Mà hỏi thêm một chút…",
+   "Nói đến đó tôi lại nhớ…",
+   "Tiện thể hỏi luôn…",
+   "Ừ mà tôi cũng tò mò…",
+   "À thật ra còn chuyện này…",
+   "Nghe xong tôi lại nghĩ đến…",
+   "Cũng liên quan đến chuyện đó…",
+   "Hồi nãy bạn nói vậy, tôi muốn hỏi…"
+  ],
+  "cau": [
+   "Mà hỏi thêm một chút, bạn thường ngủ mấy tiếng mỗi đêm?",
+   "Nói đến đó tôi lại nhớ, hôm qua bạn có xem trận đấu đó không?",
+   "Ừ mà thôi, kể tôi nghe về chuyến đi của bạn đi.",
+   "Thú vị thật, à mà nhân tiện, dạo này bạn hay đọc sách gì vậy?",
+   "Nghe bạn nói tôi lại tò mò, hồi nhỏ bạn thích môn học nào nhất?",
+   "Chợt nghĩ ra, bạn có thích cà phê hay trà hơn không nhỉ?",
+   "Mà nhắc đến điều đó, cuối tuần này bạn có kế hoạch gì chưa?",
+   "Ý hay đấy, tiện đây hỏi luôn, bạn quen biết anh ấy từ khi nào vậy?"
+  ]
+ },
+ "topic_shift_lean_forward": {
+  "cum": [
+   "À mà này…",
+   "Nhân tiện tôi muốn nói…",
+   "Chuyển sang chuyện khác một chút…",
+   "Ồ mà thôi, nói đến chuyện…",
+   "Thật ra còn một điều nữa…",
+   "Khoan đã, tôi nhớ ra rồi…",
+   "Mà nói đến đây tôi lại nghĩ…",
+   "Thôi bỏ cái đó đi, bây giờ…"
+  ],
+  "cau": [
+   "À mà này, cái chuyện đó mới thật sự hay nè!",
+   "Nhân tiện, bạn có nghe chuyện về cái này chưa?",
+   "Ủa mà thôi để tui kể cái này cho nghe, hay hơn nhiều!",
+   "À mà khoan, còn có chuyện này nữa cơ!",
+   "Nhân tiện nhắc tới đó, tui nhớ ra một chuyện rất buồn cười!",
+   "Thôi bỏ cái đó đi, nói chuyện kia hay hơn nè!",
+   "À này này, cái vụ đó mới đáng nói chứ!",
+   "Ôi mà này, tui đang muốn kể bạn nghe cái chuyện khác hay lắm!"
+  ]
+ },
+ "topic_shift_pivot_both_hands": {
+  "cum": [
+   "Quan trọng hơn là…",
+   "Điều tôi thực sự muốn nói…",
+   "Cái chính là…",
+   "Mấu chốt vấn đề là…",
+   "Nhưng mà điều này mới quan trọng…",
+   "Tôi muốn tập trung vào…",
+   "Thật ra vấn đề cốt lõi là…",
+   "Đây mới là điều tôi muốn hỏi…"
+  ],
+  "cau": [
+   "Quan trọng hơn là chúng ta cần nói về điều này.",
+   "Điều tôi thực sự muốn nói lại là vấn đề khác.",
+   "Thôi, bỏ cái đó sang một bên đi.",
+   "Nhưng mà khoan, có chuyện này hay hơn nè.",
+   "Để tôi chuyển sang phần chính nhé.",
+   "Cái này quan trọng hơn nhiều, nghe tôi nói này.",
+   "Ừ nhưng thực ra điểm mấu chốt là đây này.",
+   "Chờ chút, có một điều tôi muốn nhấn mạnh hơn."
+  ]
+ },
+ "topic_shift_side_open": {
+  "cum": [
+   "Thôi dẹp chuyện đó đi…",
+   "Bỏ qua cái đó nhé…",
+   "Tạm gác lại đi…",
+   "Không nói chuyện đó nữa…",
+   "Sang chuyện khác thôi…",
+   "Quên cái đó đi…",
+   "Chuyện đó xong rồi, giờ…",
+   "Ừ thôi, nói thật ra là…"
+  ],
+  "cau": [
+   "Thôi dẹp chuyện đó đi, giờ nói chuyện khác nào.",
+   "Ừ thôi kệ đi, sang chuyện quan trọng hơn nè.",
+   "Chuyện đó tính sau, bây giờ mình nói cái này trước.",
+   "Thôi bỏ qua đi, có chuyện hay hơn muốn kể cho bạn nghe.",
+   "Dẹp hết sang một bên đi, tập trung vào vấn đề chính thôi.",
+   "Thôi thôi, không bàn nữa, chuyển sang chủ đề khác đi.",
+   "Cái đó để đó đã, bạn có nghe chuyện này chưa?",
+   "Ừ thôi gác lại đó đi, mình cần nói về chuyện kia cơ."
+  ]
+ },
+ "topic_shift_weight_back_pause": {
+  "cum": [
+   "Thật ra mà nói…",
+   "Nói thẳng ra là…",
+   "Tôi phải thành thật…",
+   "Mà thật sự thì…",
+   "Nếu nói thật lòng…",
+   "Có điều này tôi muốn nói…",
+   "Khó nói lắm nhưng mà…",
+   "Không biết nói thế nào nhưng…"
+  ],
+  "cau": [
+   "Thật ra mà nói, chuyện này phức tạp hơn mình tưởng nhiều.",
+   "Nói thẳng ra là… mình không chắc mọi người đã sẵn sàng nghe chưa.",
+   "Ừ mà khoan, có một điều mình cứ muốn đề cập mãi.",
+   "Thôi để mình nói thật luôn cho rồi, dù có hơi khó nghe.",
+   "Tạm gác chuyện đó sang một bên, cái này quan trọng hơn đấy.",
+   "Mình ngập ngừng mãi, nhưng thật ra có điều này cần nói.",
+   "Chuyển sang hướng khác một chút… cái này mình đang cân nhắc kỹ lắm.",
+   "Nói ra thì hơi kỳ, nhưng mình nghĩ cần phải đề cập đến."
+  ]
+ },
+ "turn_back_gesture": {
+  "cum": [
+   "ồ, nhớ lại ngày xưa",
+   "thời bé tôi",
+   "cách đây lâu lắm",
+   "những năm tháng cũ",
+   "chuyện quá khứ",
+   "kỷ niệm xưa"
+  ],
+  "cau": [
+   "Hồi đó mình còn nhỏ lắm, chừng bảy tám tuổi gì đó.",
+   "Ôi, cái chỗ đó bây giờ không còn nữa rồi.",
+   "Nhớ lại những năm tháng đó mà thấy bồi hồi ghê.",
+   "Ngày xưa ở đây vui lắm, khác bây giờ nhiều lắm.",
+   "Mấy chục năm trước chỗ này còn là cánh đồng không.",
+   "Thuở đó tụi mình hay ra đây chơi mỗi chiều.",
+   "Quay lại chỗ cũ mà cứ tưởng như mới hôm qua.",
+   "Cái ký ức đó cứ theo mình hoài không quên được."
+  ]
+ },
+ "turn_diagonal_uncertain": {
+  "cum": [
+   "hơi khó nhớ lại",
+   "tại mình không chắc",
+   "khoảng đâu đó",
+   "anh/chị ơi, mình tìm cách nói",
+   "không biết giải thích sao",
+   "chỗ nào đó vậy"
+  ],
+  "cau": [
+   "Hình như là... ở đâu đó gần khu chợ ấy nhỉ?",
+   "Ừm, tôi không chắc lắm, có lẽ khoảng tuần trước?",
+   "Chờ tôi nghĩ xem... hồi đó hình như là mùa hè thì phải.",
+   "Không biết nữa, cái này tôi cũng mù tịt luôn.",
+   "Để tôi nhớ lại xem, hình như anh ấy nói vào buổi chiều.",
+   "Ờ thì... cũng không rõ lắm, có thể là ở đó hoặc chỗ khác.",
+   "Cái này tôi đang cố nhớ, nhưng mà lâu rồi nên quên mất rồi.",
+   "Khó nói lắm, chuyện đó xảy ra hồi nào tôi cũng không còn nhớ rõ."
+  ]
+ },
+ "turn_front_emphasis": {
+  "cum": [
+   "nhưng thôi, quay lại",
+   "dù sao thì",
+   "bây giờ",
+   "hiện tại",
+   "sự thật là",
+   "mà mình nói chuyện"
+  ],
+  "cau": [
+   "Thôi, chuyện đó qua rồi, giờ mình nói về cái này đi.",
+   "Nhưng mà đó là hồi xưa, bây giờ khác rồi bạn ơi.",
+   "Okay, kể vậy đủ rồi, quay lại chủ đề chính nào.",
+   "Dù sao thì hiện tại mới là điều quan trọng hơn.",
+   "Thôi để chuyện cũ sang một bên, mình tập trung vào đây.",
+   "Nhắc lại chút để bạn hiểu bối cảnh thôi, giờ ta tiếp tục nhé.",
+   "Cũ rồi đó, điều mình muốn nói bây giờ là thế này.",
+   "Đó là quá khứ rồi, còn hiện tại thì sao bạn biết không?"
+  ]
+ },
+ "turn_invite_bow_slight": {
+  "cum": [
+   "Kính mời quý khách ạ",
+   "Chúng tôi rất vinh dự được đón tiếp",
+   "Dạ mời bác vào ạ",
+   "Xin kính mời anh chị",
+   "Chúng em xin phép dẫn đường",
+   "Bác cứ để chúng em lo ạ"
+  ],
+  "cau": [
+   "Kính mời bác vào trong ạ, trời nắng lắm ạ.",
+   "Dạ, mời anh vào dùng nước ạ.",
+   "Chào mừng chú đến thăm công ty chúng cháu ạ.",
+   "Xin kính mời quý vị vào phòng họp ạ.",
+   "Dạ thưa bác, bác vào trong kẻo nắng ạ.",
+   "Mời giám đốc vào, chúng tôi đã chuẩn bị sẵn sàng rồi ạ.",
+   "Thưa anh, xin mời anh vào phòng tiếp khách ạ.",
+   "Kính mời quý khách vào bên trong để tiện trao đổi ạ."
+  ]
+ },
+ "turn_invite_gesture_seat": {
+  "cum": [
+   "Mời anh ngồi vào đây ạ",
+   "Chỗ này là dành cho chị đó",
+   "Anh chị ngồi chỗ này nhé",
+   "Đây là chỗ của bác rồi ạ",
+   "Mời anh ngồi xuống cho thoải mái",
+   "Chị ngồi đây cho gần ạ",
+   "Bác cứ ngồi xuống đi ạ"
+  ],
+  "cau": [
+   "Mời anh ngồi xuống đây ạ, chỗ này thoải mái hơn.",
+   "Bạn ngồi vào chỗ này đi, mình đã chuẩn bị sẵn rồi.",
+   "Đây là chỗ của chị đó, mời chị an tọa ạ.",
+   "Anh cứ ngồi xuống đây đi, đừng ngại nhé.",
+   "Chỗ này dành cho bạn đó, ngồi xuống đi cho thoải mái.",
+   "Mời cô ngồi vào đây ạ, chúng ta bắt đầu nhé.",
+   "Bác ngồi đây cho tiện nhé, chỗ này rộng rãi hơn đấy ạ.",
+   "Chị cứ ngồi xuống đây đi, mình nói chuyện cho thoải mái."
+  ]
+ },
+ "turn_invite_open_palm": {
+  "cum": [
+   "Mời anh/chị vào trong ạ",
+   "Anh chị cứ tự nhiên nhé",
+   "Phòng đã sẵn sàng rồi ạ",
+   "Bên này anh chị ơi",
+   "Mời anh đi trước ạ",
+   "Chỗ này dành cho anh chị đây"
+  ],
+  "cau": [
+   "Mời anh vào, chỗ ngồi đã sẵn sàng rồi ạ.",
+   "Phòng họp ở phía trong này, mời chị theo tôi.",
+   "Bàn của quý khách ở đây, mời anh ngồi xuống ạ.",
+   "Chị cứ tự nhiên vào, đừng ngại gì cả.",
+   "Đây là khu vực nghỉ ngơi, mời anh vào dùng trà.",
+   "Mời quý khách vào trong, chúng tôi đã chuẩn bị sẵn ạ.",
+   "Chỗ ngồi của anh ở đây, mời anh vào ạ.",
+   "Phòng tiếp khách ngay đây, mời chị bước vào ạ."
+  ]
+ },
+ "turn_invite_step_aside": {
+  "cum": [
+   "Mời anh chị đi trước ạ",
+   "Anh cứ vào trước đi",
+   "Chị đi trước em nhé",
+   "Không dám, mời anh ạ",
+   "Bác cứ tự nhiên qua đây",
+   "Em nhường chỗ cho anh chị"
+  ],
+  "cau": [
+   "Mời anh đi trước, để tôi tránh cho.",
+   "Thôi nào, mời chị vào đi ạ.",
+   "Anh cứ tự nhiên, đừng ngại gì hết.",
+   "Mời bạn vào trước, tôi không vội đâu.",
+   "Ồ xin lỗi, mời chị qua đây ạ.",
+   "Không có gì, mời anh đi thẳng vào.",
+   "Chỗ này rộng rồi, mời chị cứ đi ạ.",
+   "Mời anh vào trước đi, tôi chờ được mà."
+  ]
+ },
+ "turn_invite_two_hands_guide": {
+  "cum": [
+   "Anh chị đi theo em nhé",
+   "Em dẫn anh chị vào trong ạ",
+   "Phía này anh chị ơi",
+   "Để em chỉ đường cho ạ",
+   "Mời hai bác theo lối này",
+   "Chỗ ngồi bên tay phải ạ",
+   "Em sẽ đưa anh chị đến ngay"
+  ],
+  "cau": [
+   "Mời anh chị đi theo lối này nhé!",
+   "Quý khách cứ tự nhiên, để tôi dẫn đường cho ạ.",
+   "Bên này lối vào rộng hơn, mời anh chị qua đây!",
+   "Đi theo tôi nha, tôi sẽ chỉ cho biết chỗ ngồi.",
+   "Mời chị, phía tay phải có chỗ ngồi thoải mái hơn đấy ạ.",
+   "Không gian bên trong mát lắm, mời anh chị vào trong đi ạ.",
+   "Khu vực chúng ta cần đến ngay phía trước đây thôi ạ.",
+   "Để tôi dẫn quý khách qua đây cho tiện, mời anh chị!"
+  ]
+ },
+ "turn_left_gesture": {
+  "cum": [
+   "ở bên kia kìa",
+   "cái chỗ đó ở bên trái",
+   "chỉ về phía đó",
+   "ở tây bộ",
+   "nơi tôi từng sống",
+   "bên kia nước"
+  ],
+  "cau": [
+   "Quê tôi ở phía đó, cách đây không xa lắm.",
+   "Hồi nhỏ tôi hay chạy chơi bên đó.",
+   "Nhà tôi nằm về phía đó, cuối con đường ấy.",
+   "Ký ức tuổi thơ của tôi gắn liền với vùng đó.",
+   "Bên đó có cái chợ cũ tôi hay ghé mỗi sáng.",
+   "Ngày xưa gia đình tôi sống ở phía đó.",
+   "Chỗ đó là nơi tôi lớn lên từ bé.",
+   "Cái làng tôi sinh ra nằm tận phía đó kìa."
+  ]
+ },
+ "turn_right_gesture": {
+  "cum": [
+   "phía bên phải kia",
+   "ở phía đông",
+   "thành phố kia",
+   "hướng tới",
+   "cái nơi tươi sáng",
+   "công việc sắp tới"
+  ],
+  "cau": [
+   "Sài Gòn bây giờ sầm uất lắm, anh biết không?",
+   "Tuần tới mình sẽ có kế hoạch cụ thể hơn rồi.",
+   "Thành phố này đang thay đổi từng ngày đó.",
+   "Dự án sắp tới của tụi mình khá thú vị đấy.",
+   "Hồi này Sài Gòn mọc lên nhiều tòa nhà mới lắm.",
+   "Chỉ vài ngày nữa thôi là xong hết rồi.",
+   "Khu đó bây giờ hiện đại hơn hồi xưa nhiều.",
+   "Sắp tới mình cũng có chuyến đi thú vị lắm."
+  ]
+ },
+ "two_foot_stance_crossed_arms_resist": {
+  "cum": [
+   "Thôi khỏi bàn cái đó nữa",
+   "Tôi nghe rồi nhưng không đồng ý",
+   "Ý kiến đó không ổn chút nào",
+   "Cứ nói thế nào tôi cũng không chịu",
+   "Anh/chị đang cố thuyết phục ai vậy",
+   "Không có gì để bàn thêm đâu"
+  ],
+  "cau": [
+   "Thôi, anh đừng có nói thêm nữa.",
+   "Tôi không muốn nghe bất kỳ lý do gì cả.",
+   "Quyết định của tôi rồi, không thay đổi được đâu.",
+   "Cậu giải thích thế nào tôi cũng không chấp nhận.",
+   "Không cần bàn thêm, tôi đã nói là không rồi.",
+   "Dù mày nói gì đi nữa, tao vẫn giữ ý kiến của mình.",
+   "Ý kiến đó tôi nghe rồi, và câu trả lời vẫn là không.",
+   "Thôi được rồi, tôi không có hứng thú với chuyện này."
+  ]
+ },
+ "two_foot_stance_firm_denial": {
+  "cum": [
+   "Không, tôi không đồng ý",
+   "Việc đó tôi không làm được",
+   "Thôi được rồi, dừng lại đi",
+   "Anh/chị hiểu lầm rồi",
+   "Tôi đã nói rõ ràng rồi mà",
+   "Không phải vậy đâu"
+  ],
+  "cau": [
+   "Tôi sẽ không làm điều đó, dù bất cứ điều gì xảy ra.",
+   "Không, tôi không chấp nhận chuyện này đâu.",
+   "Bạn có nói mãi thì tôi cũng không thay đổi ý kiến.",
+   "Đừng mất công thuyết phục nữa, quyết định của tôi đã rõ ràng rồi.",
+   "Câu trả lời của tôi là không, và sẽ mãi là không.",
+   "Tôi đã nói là không thì không, không có gì bàn cãi thêm nữa.",
+   "Dù bạn có áp lực đến đâu, tôi vẫn giữ nguyên lập trường của mình.",
+   "Xin lỗi nhưng đây là giới hạn của tôi, tôi không thể nhượng bộ được."
+  ]
+ },
+ "two_foot_stance_lean_forward_challenge": {
+  "cum": [
+   "Vậy anh/chị giải thích đi",
+   "Nói thẳng ra xem nào",
+   "Tôi muốn nghe lý do chính đáng",
+   "Anh/chị có dám nói lại không",
+   "Điều đó không đúng và anh/chị biết chứ",
+   "Thử nhìn thẳng vào vấn đề xem"
+  ],
+  "cau": [
+   "Nói đi, mày có đủ bằng chứng không?",
+   "Tao đứng đây chờ mày giải thích đấy.",
+   "Mày cứ nói tiếp xem, tao nghe đây.",
+   "Vậy thì chứng minh cho tao thấy đi.",
+   "Không có lý do thuyết phục thì đừng kỳ vọng tao đồng ý.",
+   "Mày tưởng tao sẽ chịu lui khi chưa nghe lý lẽ thật sự à?",
+   "Đây, tao đứng đây, mày muốn nói gì thì nói thẳng ra.",
+   "Lập luận của mày yếu như vậy mà cũng dám đòi tao nhượng bộ?"
+  ]
+ },
+ "two_foot_stance_slow_headshake_weary": {
+  "cum": [
+   "Thôi tôi không muốn tranh luận nữa",
+   "Nói mãi mà không hiểu thì biết sao",
+   "Tôi đã giải thích bao nhiêu lần rồi",
+   "Sao cứ phải như vậy hoài vậy",
+   "Anh/chị vẫn cứ không chịu nghe",
+   "Tôi bó tay với chuyện này rồi"
+  ],
+  "cau": [
+   "Thôi được rồi, tôi không giải thích nữa đâu.",
+   "Nói mãi mà anh vẫn không chịu hiểu thì tôi biết làm sao bây giờ.",
+   "Ừ, muốn nghĩ sao thì nghĩ, tôi chịu rồi.",
+   "Tôi đã nói bao nhiêu lần rồi mà vẫn vậy.",
+   "Không, cái đó sai rồi, nhưng thôi kệ, tôi mệt lắm rồi.",
+   "Cứ làm theo ý chị đi, nhưng tôi không đồng ý đâu nhé.",
+   "Giải thích hoài mà không ai nghe thì nói làm gì nữa.",
+   "Thôi tôi không cãi nữa, nhưng tôi vẫn không chấp nhận chuyện đó."
+  ]
+ },
+ "two_foot_stance_weight_back_skeptic": {
+  "cum": [
+   "Thật sự anh/chị tin vào điều đó à",
+   "Nghe có vẻ... không thực tế lắm",
+   "Ý anh/chị là sao, tôi không hiểu",
+   "Điều đó có logic không vậy",
+   "Bằng chứng đâu, tôi chưa thấy",
+   "Cái này khó tin quá đi"
+  ],
+  "cau": [
+   "Ừ thì cứ nói vậy đi, tôi nghe đây.",
+   "Thật không? Nghe có vẻ… khó tin thật.",
+   "Anh chắc chắn là mình không nhầm chứ?",
+   "Kiểu gì mà dễ vậy được, tôi không hiểu.",
+   "Nói thẳng ra là tôi chưa tin lắm đâu nhé.",
+   "Lý do đó nghe hay đấy, nhưng mà…",
+   "Tôi chỉ muốn hỏi thật, cái này có thật không?",
+   "Nghe thì hợp lý, nhưng tôi vẫn còn ngờ ngợ lắm."
+  ]
+ },
+ "weight_back_head_tilt_smile": {
+  "cum": [
+   "Ôi bạn tốt quá nhưng thôi",
+   "Mình trân trọng lắm nhưng không",
+   "Bạn đừng buồn nhé mình không được",
+   "Cảm ơn bạn nghĩ đến mình",
+   "Lần này mình xin phép vắng",
+   "Bạn vui vẻ đi mình không đi được đâu"
+  ],
+  "cau": [
+   "Thôi để lần khác đi, hôm nay mình chưa tiện.",
+   "Cảm ơn bạn nhiều lắm, nhưng mình xin phép từ chối nhé.",
+   "Ý tốt của bạn mình hiểu, nhưng thật sự mình không tham gia được.",
+   "Mình trân trọng lắm, chỉ là lần này chưa hợp với mình thôi.",
+   "Không phải vì không quý bạn đâu, chỉ là mình cần ở nhà hôm nay.",
+   "Bạn cứ đi trước đi, mình không đi được lần này đâu.",
+   "Mình xin lỗi nhé, nhưng mình thật sự không thể nhận lời được.",
+   "Lần này cho mình miễn nhé, hẹn dịp khác mình bù lại."
+  ]
+ },
+ "weight_shift_calm_conclude": {
+  "cum": [
+   "Thế thôi, đơn giản vậy thôi",
+   "Cũng không có gì phức tạp",
+   "Vậy là ổn rồi đấy",
+   "Hiểu rồi chứ, vậy là xong",
+   "Thực ra cũng rõ ràng mà",
+   "Không có gì khó hiểu cả",
+   "Cứ vậy mà làm thôi"
+  ],
+  "cau": [
+   "Thôi vậy, xong rồi, không có gì thêm nữa đâu.",
+   "Ừ, cơ bản là mình hiểu nhau rồi đó.",
+   "Vậy thôi, đơn giản thế thôi mà.",
+   "Được rồi, chuyện này coi như khép lại nhé.",
+   "Thế là ổn rồi, không cần băn khoăn thêm đâu.",
+   "Nói chung là vậy, không có gì phức tạp hơn đâu.",
+   "Rõ chưa? Vậy là xong, không còn gì nữa.",
+   "Cũng chỉ có vậy thôi, mình hiểu là được rồi."
+  ]
+ },
+ "weight_shift_final_step_land": {
+  "cum": [
+   "Và bước cuối cùng là…",
+   "Cuối cùng, chúng ta…",
+   "Bước kết thúc là…",
+   "Sau cùng phải…",
+   "Điểm chốt lại là…",
+   "Và đó là bước cuối…",
+   "Kết thúc bằng việc…"
+  ],
+  "cau": [
+   "Và đây là bước cuối cùng, xong rồi đó.",
+   "Chốt lại một điểm duy nhất — không còn gì thêm nữa.",
+   "Tất cả dẫn đến đây, chỉ cần bước này thôi.",
+   "Bước cuối, mình khép lại ở chỗ này nhé.",
+   "Đây rồi, điểm kết thúc mà mình hướng đến từ đầu.",
+   "Không còn bước nào sau đây nữa — đây là tất cả.",
+   "Cứ làm đúng bước này, coi như hoàn tất toàn bộ.",
+   "Hạ xuống đây, đặt dấu chấm hết tại điểm này."
+  ]
+ },
+ "weight_shift_pause_left": {
+  "cum": [
+   "Ừm... cái đó thì...",
+   "Tức là... ờ...",
+   "Để tôi nghĩ lại...",
+   "Cái này... hmm...",
+   "Thật ra là... ờ...",
+   "Khó nói lắm..."
+  ],
+  "cau": [
+   "Cái này thì... ừm, nó hoạt động theo kiểu...",
+   "Tôi muốn nói là... thật ra thì...",
+   "Bởi vì lý do đó nên... à, làm sao giải thích nhỉ...",
+   "Hồi đó chúng tôi có dùng một cái... một loại... ừ, quên mất tên rồi.",
+   "Nó giống như là... không, chưa đúng lắm...",
+   "Chờ tôi một chút, cái khái niệm này nó... phức tạp lắm.",
+   "Ý tôi là... thật ra ban đầu thì...",
+   "Phương pháp đó hiệu quả vì... vì... ừ, để tôi nghĩ lại đã."
+  ]
+ },
+ "weight_shift_step_count_chop": {
+  "cum": [
+   "Có ba bước: một,",
+   "Gồm bốn giai đoạn,",
+   "Tóm lại chỉ cần…",
+   "Ba điểm chính: đầu tiên,",
+   "Quy trình gồm: một –",
+   "Mình tóm tắt lại: một,"
+  ],
+  "cau": [
+   "Một – chuẩn bị, hai – thực hiện, ba – kiểm tra lại ngay!",
+   "Quy trình chỉ có ba bước: nhận, xử lý, chuyển đi.",
+   "Nghe cho rõ – bước một, bước hai, bước ba, không được bỏ bước nào.",
+   "Đơn giản lắm: vào – làm – ra, xong.",
+   "Tất cả gồm ba giai đoạn: khởi động, vận hành, kết thúc.",
+   "Nhớ kỹ nhé – một là lên kế hoạch, hai là triển khai, ba là đánh giá.",
+   "Cứ theo đúng thứ tự: thu thập – phân tích – báo cáo, không lộn.",
+   "Ba bước thôi – cắt, ghép, hoàn thiện – làm đúng là xong."
+  ]
+ },
+ "weight_shift_step_one": {
+  "cum": [
+   "Bước một là…",
+   "Đầu tiên chúng ta cần…",
+   "Trước hết phải…",
+   "Thứ nhất,",
+   "Mình bắt đầu bằng…",
+   "Điểm đầu tiên là…"
+  ],
+  "cau": [
+   "Bước một, mình cần xác định rõ mục tiêu trước đã.",
+   "Đầu tiên là phải chuẩn bị đầy đủ nguyên liệu nhé.",
+   "Trước hết, bạn phải đăng nhập vào hệ thống.",
+   "Bước đầu tiên trong quy trình này là kiểm tra tài liệu.",
+   "Okay, đầu tiên là mình sẽ tắt nguồn thiết bị đi.",
+   "Bước một — khởi động ứng dụng lên rồi mình mới làm tiếp.",
+   "Điều đầu tiên cần làm là điền thông tin vào form này.",
+   "Muốn làm đúng thì bước một phải là lên kế hoạch trước."
+  ]
+ },
+ "weight_shift_step_pause_reflect": {
+  "cum": [
+   "Lưu ý ở bước này…",
+   "Đây là phần quan trọng nhất…",
+   "Bước này nhiều người hay bỏ qua…",
+   "Cần chú ý là…",
+   "Điểm mấu chốt ở đây…",
+   "Bước này hơi phức tạp một chút…",
+   "Phải cẩn thận ở chỗ này…"
+  ],
+  "cau": [
+   "Khoan đã, bước này có điểm cần lưu ý đấy nhé.",
+   "Chỗ này nhiều người hay bỏ qua lắm, cẩn thận một chút.",
+   "Đợi một giây, mình cần nói rõ hơn về phần này.",
+   "À nhưng mà ở đây có điều hơi phức tạp một chút.",
+   "Dừng lại đây đã, vì bước này không đơn giản như vẻ ngoài của nó đâu.",
+   "Cái này trông có vẻ dễ nhưng thực ra cần chú ý kỹ hơn nhiều.",
+   "Phần này mình muốn mọi người hiểu thật rõ trước khi tiếp tục.",
+   "Nếu bỏ qua chỗ này thì về sau sẽ gặp rắc rối đấy, chú ý nha."
+  ]
+ },
+ "weight_shift_step_two_open": {
+  "cum": [
+   "Tiếp theo là bước hai…",
+   "Sau đó chúng ta…",
+   "Thứ hai,",
+   "Kế đến,",
+   "Bước tiếp theo…",
+   "Rồi đến phần…",
+   "Sang bước hai…"
+  ],
+  "cau": [
+   "Và bước tiếp theo cũng không kém phần quan trọng đâu nhé.",
+   "Giờ mình sang phần hai — phần này thực ra còn thú vị hơn đó.",
+   "Bước hai, và đây là lúc mọi thứ bắt đầu rõ ràng hơn.",
+   "Tiếp theo, có một điều mình muốn bạn đặc biệt chú ý.",
+   "Oke, xong bước một rồi — bước hai này mình cần bạn theo dõi kỹ hơn nha.",
+   "Và phần tiếp theo đây, theo mình là phần cốt lõi của cả quá trình.",
+   "Chuyển sang bước hai nhé, vì bước này sẽ quyết định phần lớn kết quả đấy.",
+   "Mình không dừng ở đó thôi đâu — bước kế tiếp còn quan trọng hơn nhiều."
+  ]
+ },
+ "weight_sink_index_point_level": {
+  "cum": [
+   "Chính cái này mới quan trọng",
+   "Đây mới là vấn đề",
+   "Không phải chỗ đó",
+   "Đúng điểm này tôi muốn nói",
+   "Anh nhìn vào đây này",
+   "Chỗ này mới sai"
+  ],
+  "cau": [
+   "Đây, chính chỗ này mới là vấn đề cốt lõi.",
+   "Không phải cái đó — cái này mới đúng.",
+   "Anh nhầm rồi, con số thực tế là 47 triệu.",
+   "Đúng điểm này, không phải điểm kia.",
+   "Tôi nói rõ luôn: đây là nguyên nhân thật sự.",
+   "Sai ngay chỗ này — dữ liệu không hề nói vậy.",
+   "Chính xác tại đây, bạn đang bỏ qua điều đó.",
+   "Nhìn vào đây đi — câu trả lời nằm ngay chỗ này."
+  ]
+ }
+}

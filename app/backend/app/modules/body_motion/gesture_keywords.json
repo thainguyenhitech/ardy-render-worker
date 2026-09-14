@@ -1,0 +1,2302 @@
+{
+ "arms_cross_look_away_pout": {
+  "cum": [
+   "ai nói gì cũng",
+   "cứ làm ngơ thôi",
+   "dỗi rồi không nói",
+   "giả vờ không biết",
+   "không thèm nghe nữa",
+   "không thèm nhìn đâu",
+   "mình hơi giận đó",
+   "mình không quan tâm",
+   "mình không thèm hỏi",
+   "phớt lờ cho rồi"
+  ],
+  "uu_tien": 1
+ },
+ "arms_cross_pout_turn": {
+  "cum": [
+   "ai muốn nghĩ gì thì nghĩ",
+   "hừ không nói chuyện đâu",
+   "kệ ai cần biết",
+   "nói mãi cũng vậy thôi",
+   "thôi được rồi tùy",
+   "tôi im luôn cho xong",
+   "tôi không nói gì thêm",
+   "tôi không quan tâm nữa"
+  ],
+  "uu_tien": 1
+ },
+ "arms_crossed_look_away_sulk": {
+  "cum": [
+   "anh không hiểu gì hết",
+   "biết rồi khổ lắm nói mãi",
+   "cứ làm theo ý anh đi",
+   "em im luôn cho rồi",
+   "em không muốn nói nữa",
+   "nói mãi có nghe đâu",
+   "thôi được rồi tùy anh"
+  ],
+  "uu_tien": 1
+ },
+ "beat_alternating_paddle": {
+  "cum": [
+   "cứ thế tiếp tục",
+   "hai là tiếp theo",
+   "hết cái này tới",
+   "liên tục như vậy",
+   "nối tiếp nhau mà",
+   "rồi lại rồi lại",
+   "theo thứ tự nhé",
+   "điểm này điểm kia",
+   "đều đều không ngừng"
+  ],
+  "uu_tien": 1
+ },
+ "beat_double_tap_chest": {
+  "cum": [
+   "chắc chắn như vậy",
+   "không cần nghi ngờ",
+   "thật sự là vậy",
+   "trong lòng tôi",
+   "tôi biết mà",
+   "tôi cam đoan",
+   "tôi tin chắc",
+   "điều này rõ ràng",
+   "đây là thực tế",
+   "đó là sự thật"
+  ],
+  "uu_tien": 1
+ },
+ "beat_finger_spread_flare": {
+  "cum": [
+   "chính thời điểm ấy",
+   "ngay lúc đó",
+   "nổ ra như vậy",
+   "phát ra ngay",
+   "và rồi bùm",
+   "đúng khoảnh khắc đó",
+   "đột nhiên xảy ra"
+  ],
+  "uu_tien": 1
+ },
+ "beat_fingertips_pinch_open": {
+  "cum": [
+   "chi tiết quan trọng là",
+   "cần hiểu rõ hơn",
+   "không phải ngẫu nhiên đâu",
+   "nhỏ nhưng rất quan trọng",
+   "nằm ở chỗ đó đó",
+   "tinh tế ở chỗ",
+   "đúng ở điểm này",
+   "đặc biệt lưu ý điều này"
+  ],
+  "uu_tien": 1
+ },
+ "beat_flat_palm_bounce": {
+  "cum": [
+   "cần chú ý kỹ",
+   "không thể bỏ qua",
+   "phải nhớ rằng",
+   "quan trọng hơn nữa",
+   "rõ ràng từng điểm",
+   "theo thứ tự đó",
+   "từng cái một nhé"
+  ],
+  "uu_tien": 1
+ },
+ "beat_sideways_chop_alternating": {
+  "cum": [
+   "cứ thế mà làm",
+   "không chần chừ nữa",
+   "không có thời gian chờ",
+   "làm liền đi thôi",
+   "mạnh mẽ và quyết đoán",
+   "một hai ba bắt đầu",
+   "rõ ràng và nhanh chóng"
+  ],
+  "uu_tien": 1
+ },
+ "build_up_layers_explain": {
+  "cum": [
+   "bước kế tiếp",
+   "càng lên cao",
+   "cộng thêm vào đó",
+   "dựa trên đó",
+   "tiếp theo đó",
+   "tầng tiếp theo",
+   "xây lên trên"
+  ],
+  "uu_tien": 1
+ },
+ "calculator_tap_result": {
+  "cum": [
+   "bấm máy cho chắc",
+   "con số không khớp",
+   "cộng lại xem nào",
+   "kiểm tra lần nữa",
+   "nhẩm không ra đâu",
+   "ra kết quả rồi",
+   "số tiền khá lớn",
+   "tính ra bao nhiêu",
+   "tính đi tính lại",
+   "tổng cộng là đây"
+  ],
+  "uu_tien": 1
+ },
+ "carry_shoulder": {
+  "cum": [
+   "gánh trên vai",
+   "vác lên vai",
+   "vác nặng",
+   "vác trên vai",
+   "vác đi"
+  ],
+  "uu_tien": 1
+ },
+ "chest_lift_chin_up_proud": {
+  "cum": [
+   "ai cũng khen mình",
+   "công sức của mình",
+   "không ai làm được",
+   "kết quả không tệ",
+   "mình khá giỏi đó",
+   "mình tự tay làm",
+   "mình xứng đáng được",
+   "thành tích của mình",
+   "tự hào về điều này",
+   "đáng tự hào thật",
+   "đó là thành quả"
+  ],
+  "uu_tien": 1
+ },
+ "chop_herbs_rapid": {
+  "cum": [
+   "băm nhỏ hành tỏi",
+   "băm thịt cho nhuyễn",
+   "băm ớt cay nè",
+   "bếp rộn ràng lắm",
+   "chuẩn bị vào bếp thôi",
+   "dao sắc băm nhanh",
+   "rau thơm băm nhuyễn",
+   "sơ chế nguyên liệu",
+   "tay băm liên tục",
+   "thớt kêu lộc cộc"
+  ],
+  "uu_tien": 1
+ },
+ "climax_fist_hold_overhead": {
+  "cum": [
+   "cao trào rồi đây",
+   "dồn hết sức lại",
+   "giờ phút quyết định",
+   "không có đường lui",
+   "không thể nào thua",
+   "một mất một còn",
+   "đây là khoảnh khắc",
+   "đỉnh điểm của chuyện"
+  ],
+  "uu_tien": 1
+ },
+ "come_here_family_beckon": {
+  "cum": [
+   "con ơi lại mẹ",
+   "em lại gần xem",
+   "lại gần anh coi",
+   "vào đây ngồi chơi",
+   "vào đây với chị"
+  ],
+  "uu_tien": 1
+ },
+ "count_money_rub": {
+  "cum": [
+   "chi phí cao quá",
+   "cần thêm tiền",
+   "không đủ tiền tiêu",
+   "kiếm được bao nhiêu",
+   "lương tháng này",
+   "tiền đâu ra",
+   "trả tiền mặt",
+   "tốn kém lắm",
+   "đếm từng đồng"
+  ],
+  "uu_tien": 1
+ },
+ "count_money_thumb_flip": {
+  "cum": [
+   "bao nhiêu tiền đây",
+   "chi phí hết bao nhiêu",
+   "còn bao nhiêu tiền",
+   "kiểm lại tiền",
+   "lật từng tờ",
+   "nhận lương rồi",
+   "thanh toán tiền mặt",
+   "tiền trong tay",
+   "trả tiền ngay",
+   "đếm tiền mặt"
+  ],
+  "uu_tien": 1
+ },
+ "cup_both_hands_offer_forward": {
+  "cum": [
+   "cháu xin dâng lên",
+   "mời anh dùng cơm",
+   "mời bác vào nhà",
+   "mời chị ngồi đây",
+   "mời cả nhà dùng bữa",
+   "mời ông xơi trước",
+   "xin kính mời quý vị"
+  ],
+  "uu_tien": 1
+ },
+ "cup_tea_offer": {
+  "cum": [
+   "chút lòng thành kính",
+   "con kính mời bác",
+   "có chút trà mạn",
+   "mời anh dùng trà",
+   "mời bác ngồi uống",
+   "mời chị uống nước",
+   "mời cụ xơi nước",
+   "trà nóng mới pha",
+   "trà thơm mời anh"
+  ],
+  "uu_tien": 1
+ },
+ "deadline_countdown_finger": {
+  "cum": [
+   "chạy nước rút thôi",
+   "còn ba ngày thôi",
+   "còn hai tiếng thôi",
+   "còn một ngày nữa",
+   "deadline đến rồi",
+   "hạn nộp rất gần",
+   "hết giờ rồi đó",
+   "nhanh lên không kịp",
+   "thời gian cạn dần",
+   "trễ là hỏng hết"
+  ],
+  "uu_tien": 1
+ },
+ "deadline_tap_wrist_watch": {
+  "cum": [
+   "còn ít thời gian",
+   "deadline rồi đó",
+   "hạn chót hôm nay",
+   "hết giờ rồi",
+   "phải nộp đúng hạn",
+   "trễ deadline mất"
+  ],
+  "uu_tien": 1
+ },
+ "double_fist_tap_together": {
+  "cum": [
+   "cam kết từ đầu đến cuối",
+   "chúng ta làm được",
+   "cùng nhau vượt qua",
+   "không thể chùn bước",
+   "nhất định phải thành công",
+   "tôi tin vào điều đó",
+   "đây là lúc hành động"
+  ],
+  "uu_tien": 1
+ },
+ "elder_hand_hold_both": {
+  "cum": [
+   "cháu thương bà nhiều",
+   "cháu vẫn nhớ bác",
+   "con chúc bác khỏe",
+   "con lo cho bác",
+   "con mừng gặp lại",
+   "con nhớ ông lắm",
+   "tay bác còn ấm",
+   "thương bác như cha",
+   "ông bà còn mạnh không",
+   "ông già rồi đấy"
+  ],
+  "uu_tien": 1
+ },
+ "elder_two_hand_receive_gift": {
+  "cum": [
+   "cho con đỡ giúp",
+   "cho phép con nhận",
+   "cháu kính biếu bác",
+   "cháu xin biếu ông",
+   "con xin nhận ạ",
+   "kính dâng lên thầy",
+   "kính tặng hai tay",
+   "nhận bằng hai tay",
+   "thành kính dâng lên"
+  ],
+  "uu_tien": 1
+ },
+ "exhale_relief_chest_drop": {
+  "cum": [
+   "lo mãi giờ mới yên",
+   "may mà không có chuyện gì",
+   "trời ơi cuối cùng ổn",
+   "tưởng không xong được",
+   "vậy là ổn rồi nha",
+   "ôi trời cũng xong rồi"
+  ],
+  "uu_tien": 1
+ },
+ "finger_drum_tabletop": {
+  "cum": [
+   "cụ thể từng cái",
+   "không bỏ sót điểm nào",
+   "liệt kê rõ ràng",
+   "mỗi bước đều quan trọng",
+   "theo đúng thứ tự"
+  ],
+  "uu_tien": 1
+ },
+ "finger_kiss": {
+  "cum": [
+   "hoàn hảo",
+   "ngon hết sảy",
+   "tuyệt hảo",
+   "đỉnh của đỉnh"
+  ],
+  "uu_tien": 1
+ },
+ "flip_side_reverse": {
+  "cum": [
+   "chiều ngược lại",
+   "lật lại vấn đề",
+   "mặt kia là",
+   "nhìn từ phía",
+   "nhưng ngược lại",
+   "nhưng nếu đổi",
+   "phản lại thì",
+   "điều ngược lại",
+   "đảo lại thì"
+  ],
+  "uu_tien": 1
+ },
+ "freeze_gasp_hands_up": {
+  "cum": [
+   "ai mà dám ngờ",
+   "bàng hoàng không nói được",
+   "cứng đờ tại chỗ",
+   "giật mình thon thót",
+   "rồi đột nhiên",
+   "sững người lại",
+   "tim như ngừng đập",
+   "trời ơi đất hỡi"
+  ],
+  "uu_tien": 1
+ },
+ "freeze_gasp_wide": {
+  "cum": [
+   "chuyện gì vừa xảy ra",
+   "cả người tôi tê liệt",
+   "tim tôi như ngừng đập",
+   "tôi không tin nổi",
+   "tôi đứng hình luôn"
+  ],
+  "uu_tien": 1
+ },
+ "funnel_cause_narrow": {
+  "cum": [
+   "lý do chính là đây",
+   "nhìn sâu vào thì thấy",
+   "quy về một mối thôi",
+   "thu lại mà xét"
+  ],
+  "uu_tien": 1
+ },
+ "funnel_down_conclude": {
+  "cum": [
+   "gom hết lại ta thấy",
+   "hội tụ về một chỗ",
+   "kết luận chung là",
+   "rút ra được một điều",
+   "sau cùng ta có được"
+  ],
+  "uu_tien": 1
+ },
+ "funnel_narrow_down": {
+  "cum": [
+   "chắt lọc từ",
+   "cuối cùng còn",
+   "lọc lại còn",
+   "rút ra một điều",
+   "sàng lọc ra",
+   "thu hẹp xuống",
+   "tập trung vào",
+   "từ nhiều về một"
+  ],
+  "uu_tien": 1
+ },
+ "gentle_push_forward_encourage": {
+  "cum": [
+   "anh tin em mà",
+   "ba luôn bên con",
+   "con cứ tự tin đi",
+   "cứ thử xem nào",
+   "mình tin cậu lắm",
+   "mẹ ủng hộ con",
+   "tụi mình ủng hộ bạn",
+   "đi đi không sao"
+  ],
+  "uu_tien": 1
+ },
+ "invite_both_palms_up_guest": {
+  "cum": [
+   "anh chị vào đây",
+   "bác cứ tự nhiên",
+   "cứ tự nhiên nhé",
+   "mời anh vào",
+   "mời bác dùng",
+   "mời quý vị",
+   "nhà cửa đơn sơ",
+   "thỉnh mời thầy",
+   "vào nhà đi anh",
+   "xin kính mời"
+  ],
+  "uu_tien": 1
+ },
+ "palm_flick_outward_beat": {
+  "cum": [
+   "không cần bàn thêm",
+   "không thể phủ nhận",
+   "kết luận ở đây là",
+   "rõ ràng như vậy",
+   "thực tế đã chứng minh",
+   "đây là câu trả lời",
+   "đó chính là vấn đề",
+   "đơn giản thôi mà"
+  ],
+  "uu_tien": 1
+ },
+ "parallel_compare_two_sides": {
+  "cum": [
+   "cái a thì thế này",
+   "cái b thì ngược lại",
+   "hai cái này không giống nhau",
+   "một bên thì mạnh hơn",
+   "nếu so sánh ra",
+   "điểm khác biệt là",
+   "ưu điểm bên trái là"
+  ],
+  "uu_tien": 1
+ },
+ "parallel_tracks_compare": {
+  "cum": [
+   "cái này thì vậy còn cái kia",
+   "giống nhau nhưng lại khác",
+   "hai cái khác nhau chỗ",
+   "khác nhau hoàn toàn ở điểm",
+   "so sánh thẳng hai cái"
+  ],
+  "uu_tien": 1
+ },
+ "pat_own_chest_affirm": {
+  "cum": [
+   "anh bao hết nhé",
+   "con hứa với mẹ",
+   "con xin hứa bố",
+   "cứ để anh lo",
+   "nhất định làm được",
+   "tôi chịu trách nhiệm",
+   "tôi đứng ra lo",
+   "để tôi lo cho"
+  ],
+  "uu_tien": 1
+ },
+ "phone_scroll_feed": {
+  "cum": [
+   "bao nhiêu bài vậy",
+   "cuộn xuống tiếp đi",
+   "cuộn xuống xem nào",
+   "feed toàn quảng cáo",
+   "lướt không ngừng được",
+   "lướt mãi không thôi",
+   "mỏi ngón tay rồi",
+   "tốn thời gian quá",
+   "vuốt cả buổi sáng",
+   "xem đến tận đêm"
+  ],
+  "uu_tien": 1
+ },
+ "pothole_dodge_swerve": {
+  "cum": [
+   "bánh xe lọt hố",
+   "hố to giữa đường",
+   "suýt ngã xe rồi",
+   "tránh ổ gà kịp",
+   "vá đường mãi không xong",
+   "đánh lái sang trái",
+   "đường nhiều ổ gà",
+   "đường này nát lắm",
+   "đường xấu quá trời",
+   "ổ gà sau mưa"
+  ],
+  "uu_tien": 1
+ },
+ "roll_dough_hands": {
+  "cum": [
+   "bếp nhà cuối tuần",
+   "bột nở đều tay",
+   "bột vừa đủ dai",
+   "cán bột mỏng ra",
+   "cán thêm một lượt nữa",
+   "công thức bánh mì",
+   "làm bánh cuốn nhé",
+   "làm bánh từ đầu",
+   "lớp bột mịn lắm",
+   "nhào bột cho dẻo",
+   "tay cán đều đều"
+  ],
+  "uu_tien": 1
+ },
+ "roll_spring_roll": {
+  "cum": [
+   "bánh tráng cuốn nhân",
+   "bánh tráng vừa nhúng",
+   "chiên vàng giòn lên",
+   "cuốn chả giò nào",
+   "cuốn chặt tay vào",
+   "cuốn từng cái một",
+   "cuốn đều tay thôi",
+   "gói nhân cho gọn",
+   "làm nem cùng nhau",
+   "nem rán giòn rụm"
+  ],
+  "uu_tien": 1
+ },
+ "rub_belly_delicious": {
+  "cum": [
+   "ngon quá xá",
+   "no căng bụng",
+   "thỏa mãn lắm",
+   "ăn no rồi"
+  ],
+  "uu_tien": 1
+ },
+ "scene_cut_clap_transition": {
+  "cum": [
+   "bước sang một ngày mới",
+   "chuyện chưa dừng ở đó",
+   "nhảy sang phần hai",
+   "sang cảnh tiếp theo nhé",
+   "tiếp tục câu chuyện nào",
+   "và đây là phần hay nhất",
+   "đến đây câu chuyện rẽ nhánh"
+  ],
+  "uu_tien": 1
+ },
+ "scene_cut_double_chop": {
+  "cum": [
+   "cắt qua luôn",
+   "ngắt ra đây đã",
+   "nhảy sang hôm sau",
+   "quay lại thời điểm",
+   "sang chương tiếp theo",
+   "tua nhanh lên nào",
+   "đến đây là hết",
+   "đổi sang phần hai"
+  ],
+  "uu_tien": 1
+ },
+ "scene_cut_pivot": {
+  "cum": [
+   "ngay lúc đó thì",
+   "nhảy sang lúc đó",
+   "nhảy vọt qua luôn",
+   "sang bối cảnh mới",
+   "tua nhanh đến chỗ này",
+   "và rồi đột nhiên",
+   "đổi sang góc đó"
+  ],
+  "uu_tien": 1
+ },
+ "scoop_bowl_eat": {
+  "cum": [
+   "bát cơm đầy",
+   "bữa cơm gia đình",
+   "cơm nhà vẫn ngon nhất",
+   "cơm vừa chín tới",
+   "húp thêm chút canh",
+   "múc một muỗng",
+   "mời mọi người ăn",
+   "no bụng chưa em",
+   "ăn cơm thôi nào",
+   "ăn đi cho nóng"
+  ],
+  "uu_tien": 1
+ },
+ "scoop_eat_chopsticks": {
+  "cum": [
+   "gắp lên ăn",
+   "gắp một miếng",
+   "gắp thức ăn",
+   "gắp đũa",
+   "ăn bằng đũa"
+  ],
+  "uu_tien": 1
+ },
+ "scratch_back_of_head_sheepish": {
+  "cum": [
+   "em cũng không ngờ",
+   "hehe ngượng quá",
+   "không có ý vậy",
+   "lần sau rút kinh nghiệm",
+   "thôi thì biết sao giờ",
+   "thú thật là ngại lắm",
+   "xấu hổ thiệt sự",
+   "ừ cũng tại mình",
+   "ừ thì lỡ rồi"
+  ],
+  "uu_tien": 1
+ },
+ "scratch_head_embarrassed": {
+  "cum": [
+   "có hơi quá một chút",
+   "cũng may là ổn",
+   "không dám nhận đâu",
+   "không nghĩ được khen vậy",
+   "mình lỡ nói vậy thôi",
+   "thôi thôi xấu hổ lắm",
+   "tôi chỉ làm bình thường",
+   "tôi không cố ý",
+   "ừ thì tôi cũng ngại"
+  ],
+  "uu_tien": 1
+ },
+ "scratch_head_sheepish": {
+  "cum": [
+   "hơi xấu hổ chút",
+   "không ngờ lại vậy",
+   "kiểu ngượng ngượng vậy",
+   "kiểu như lỡ rồi",
+   "mình cũng không biết",
+   "thú thật là ngượng",
+   "thật sự hơi quê",
+   "ừ thì hơi kỳ",
+   "ừ thì mình lỡ"
+  ],
+  "uu_tien": 1
+ },
+ "slow_exhale_shoulders_drop_relief": {
+  "cum": [
+   "cuối cùng cũng ổn",
+   "lo cả ngày nay",
+   "may mà kịp giải quyết",
+   "tim đập lại bình thường",
+   "trút được gánh nặng rồi",
+   "ổn rồi không sao nữa"
+  ],
+  "uu_tien": 1
+ },
+ "smell_aroma_inhale": {
+  "cum": [
+   "gia vị bay thơm",
+   "hít hà cái đã",
+   "hương quế hồi đặc trưng",
+   "mùi bếp quen thuộc",
+   "mùi hành phi rồi đó",
+   "mùi nước dùng ngào ngạt",
+   "mùi phở buổi sáng",
+   "ngon từ cái mùi",
+   "ngửi thôi đã thèm",
+   "thơm lừng cả xóm",
+   "thơm quá trời ơi"
+  ],
+  "uu_tien": 1
+ },
+ "step_by_step_count_forward": {
+  "cum": [
+   "cứ theo thứ tự mà làm",
+   "không được bỏ qua bước nào",
+   "quy trình gồm ba giai đoạn",
+   "rồi sau đó thì",
+   "theo đúng trình tự",
+   "tiếp theo ta làm"
+  ],
+  "uu_tien": 1
+ },
+ "step_by_step_enumerate": {
+  "cum": [
+   "bước này xong rồi mới",
+   "không được bỏ qua bước",
+   "làm theo thứ tự này",
+   "quy trình gồm ba bước",
+   "rồi đến bước ba",
+   "theo đúng trình tự này",
+   "tiếp theo bước hai là",
+   "đầu tiên phải làm gì"
+  ],
+  "uu_tien": 1
+ },
+ "sudden_gasp_recoil": {
+  "cum": [
+   "chẳng có dấu hiệu gì",
+   "cú sốc lớn đó",
+   "giật cả mình",
+   "trời ơi bất ngờ quá",
+   "xảy ra đột ngột lắm",
+   "đùng một cái"
+  ],
+  "uu_tien": 1
+ },
+ "tap_wrist_now": {
+  "cum": [
+   "lúc này",
+   "ngay lập tức"
+  ],
+  "uu_tien": 1
+ },
+ "tension_build_slow_raise": {
+  "cum": [
+   "chờ đợi đến phát điên",
+   "hắn bước lại gần",
+   "không khí như đặc lại",
+   "từng giây trôi qua chậm",
+   "áp lực dồn lên",
+   "đến giây phút quyết định"
+  ],
+  "uu_tien": 1
+ },
+ "tension_coil_then_burst": {
+  "cum": [
+   "cao trào là đây",
+   "dồn hết vào đó",
+   "khoảnh khắc quyết định",
+   "không kiềm được nữa",
+   "nín thở chờ đợi",
+   "vỡ òa luôn đó",
+   "đến lúc bùng ra rồi"
+  ],
+  "uu_tien": 1
+ },
+ "traffic_jam_crawl": {
+  "cum": [
+   "giờ cao điểm mà",
+   "không nhúc nhích được",
+   "kẹt từ đầu đến cuối",
+   "nhích rồi lại dừng",
+   "nhích từng chút thôi",
+   "ra đường là kẹt",
+   "xe đông nghịt đường",
+   "đứng yên cả tiếng"
+  ],
+  "uu_tien": 1
+ },
+ "umbrella_open_overhead": {
+  "cum": [
+   "che nắng chứ",
+   "không có ô rồi",
+   "lấy ô đi thôi",
+   "mở ô ra nhanh",
+   "nắng gắt quá",
+   "quên mang ô",
+   "trời chuyển mưa",
+   "ô bị gió lật"
+  ],
+  "uu_tien": 1
+ },
+ "umbrella_open_rain": {
+  "cum": [
+   "bung ô ra nhanh",
+   "chạy vào trú mưa",
+   "cơn mưa chiều tối",
+   "mưa bóng mây đột ngột",
+   "mưa như trút nước",
+   "mưa rào mùa hè",
+   "mưa đổ bất ngờ",
+   "quên mang ô rồi",
+   "ướt hết rồi này"
+  ],
+  "uu_tien": 1
+ },
+ "wipe_rain_windshield": {
+  "cum": [
+   "gạt nước bị hỏng",
+   "gạt nước không kịp",
+   "không thấy đường đi",
+   "kính xe bị mờ",
+   "mưa lớn trên đường",
+   "mưa rào bất ngờ",
+   "tầm nhìn rất kém",
+   "đường trơn nguy hiểm"
+  ],
+  "uu_tien": 1
+ },
+ "zip_lips": {
+  "cum": [
+   "câm miệng lại",
+   "không nói với ai",
+   "kéo khóa miệng",
+   "tuyệt đối im"
+  ],
+  "uu_tien": 1
+ },
+ "alert_open_palm_barrier": {
+  "cum": [
+   "chưa được đâu",
+   "hãy suy nghĩ lại",
+   "không nên thế",
+   "để tôi nói xong đã",
+   "đừng làm vậy"
+  ],
+  "uu_tien": 1
+ },
+ "alert_slow_rise_hai_tay": {
+  "cum": [
+   "cần phải cẩn thận",
+   "không đơn giản đâu",
+   "tình hình nghiêm lắm",
+   "từ từ thôi",
+   "đừng hành động vội"
+  ],
+  "uu_tien": 1
+ },
+ "alert_spine_tall_chin_drop": {
+  "cum": [
+   "anh hiểu tôi đang nói gì không",
+   "coi chừng đó",
+   "nghĩ kỹ đi",
+   "tôi chỉ nói một lần thôi",
+   "tôi không đùa đâu",
+   "đừng để tôi phải nhắc lại"
+  ],
+  "uu_tien": 1
+ },
+ "alert_weight_shift_forward": {
+  "cum": [
+   "anh phải hiểu điều này",
+   "cẩn thận đấy",
+   "lần này khác rồi đó",
+   "tôi đang nói thật",
+   "đây không phải chuyện đùa",
+   "đừng có xem thường"
+  ],
+  "uu_tien": 1
+ },
+ "apologetic_head_tilt_hands_up_surrender": {
+  "cum": [
+   "không chối nữa mình có lỗi thật",
+   "okay okay mình nhận lỗi",
+   "ừ thôi được rồi mình sai",
+   "ừ ừ mình hiểu rồi sorry"
+  ],
+  "uu_tien": 1
+ },
+ "apologetic_one_shoulder_wince": {
+  "cum": [
+   "biết rồi biết rồi xin lỗi đi",
+   "thôi chết rồi muộn rồi à",
+   "thông cảm nha mình không để ý",
+   "ui trời ơi lỡ tay mất rồi",
+   "ơ chết mình quên mất tiêu",
+   "ừ thì mình có lỗi thật"
+  ],
+  "uu_tien": 1
+ },
+ "apologetic_shoulder_hunch_slight": {
+  "cum": [
+   "không có ý đó đâu",
+   "mình lỡ miệng rồi sorry",
+   "thông cảm cho mình với",
+   "ối trời mình quên mất"
+  ],
+  "uu_tien": 1
+ },
+ "apologetic_shrink_arms_crossed": {
+  "cum": [
+   "không biết nói gì hơn xin lỗi",
+   "trời ơi sao mình lại làm vậy",
+   "xin lỗi mình thật sự có lỗi"
+  ],
+  "uu_tien": 1
+ },
+ "back_shift_one_hand_wave_off": {
+  "cum": [
+   "cái đó mình không dính vào đâu",
+   "khỏi khỏi mình ổn rồi",
+   "mình không có nhu cầu đâu",
+   "thôi thôi khỏi đi bạn ơi",
+   "ây dà không cần đâu"
+  ],
+  "uu_tien": 1
+ },
+ "both_feet_press_solemn_conclude": {
+  "cum": [
+   "kết thúc tôi chỉ muốn nói rằng",
+   "tôi hy vọng mọi người hiểu được"
+  ],
+  "uu_tien": 1
+ },
+ "chest_tap_commitment": {
+  "cum": [
+   "hứa thật lòng",
+   "không lừa anh chị",
+   "trên danh dự",
+   "tôi đảm bảo",
+   "từ tâm tôi"
+  ],
+  "uu_tien": 1
+ },
+ "compare_buildup_crescendo": {
+  "cum": [
+   "cộng hết lại thì thấy ngay",
+   "cứ nhìn vào từng điểm một",
+   "điểm này rồi điểm kia rồi xem"
+  ],
+  "uu_tien": 1
+ },
+ "compare_dismiss_one_side": {
+  "cum": [
+   "cái kia không đáng để xét nữa",
+   "cái đó thôi bỏ cái kia đi",
+   "không có gì phải bàn thêm"
+  ],
+  "uu_tien": 1
+ },
+ "compare_lean_left_right": {
+  "cum": [
+   "so sánh thì thấy ngay thôi"
+  ],
+  "uu_tien": 1
+ },
+ "compare_weigh_uncertain": {
+  "cum": [
+   "biết chọn cái nào bây giờ",
+   "hai cái ngang nhau thôi",
+   "mỗi cái có một cái lợi riêng",
+   "ừm cũng khó nói lắm"
+  ],
+  "uu_tien": 1
+ },
+ "conspiratorial_weight_drop": {
+  "cum": [
+   "bạn chuẩn bị tinh thần chưa",
+   "không được nói cho ai biết nha",
+   "nghe xong đừng có cười to",
+   "tao biết cái này mới chết",
+   "thề giữa chúng mình thôi nha"
+  ],
+  "uu_tien": 1
+ },
+ "contrast_open_palms_alternating": {
+  "cum": [
+   "cái nào cũng có cái hay",
+   "hai cái đều được cả",
+   "không nhất thiết phải chọn",
+   "mỗi thứ một kiểu",
+   "tùy theo hoàn cảnh thôi",
+   "đều có lý do của nó"
+  ],
+  "uu_tien": 1
+ },
+ "crouch_whisper": {
+  "cum": [
+   "bảo mật tuyệt đối",
+   "chuyện này rất nhạy cảm",
+   "chỉ nói với mình",
+   "nghe kỹ đó"
+  ],
+  "uu_tien": 1
+ },
+ "emphasize_number_ascending": {
+  "cum": [
+   "gia tăng liên tục",
+   "phát triển theo",
+   "từ thấp lên cao",
+   "xu hướng tăng"
+  ],
+  "uu_tien": 1
+ },
+ "emphasize_number_contrast": {
+  "cum": [
+   "khác hẳn",
+   "ngược lại",
+   "nhưng mà",
+   "trái ngược hoàn toàn"
+  ],
+  "uu_tien": 1
+ },
+ "emphasize_number_multiplicity": {
+  "cum": [
+   "các tỷ lệ khác nhau",
+   "có nhiều con số",
+   "dữ liệu đa chiều",
+   "ngoài ra còn",
+   "thêm vào đó"
+  ],
+  "uu_tien": 1
+ },
+ "emphasize_number_one": {
+  "cum": [
+   "bước đầu tiên",
+   "yếu tố then chốt"
+  ],
+  "uu_tien": 1
+ },
+ "emphasize_number_precise": {
+  "cum": [
+   "chính là",
+   "con số cụ thể",
+   "không phải xấp xỉ",
+   "rõ ràng là",
+   "đúng là"
+  ],
+  "uu_tien": 1
+ },
+ "exasperated_chest_open": {
+  "cum": [
+   "bình tĩnh bình tĩnh",
+   "cứ làm theo ý anh đi",
+   "hít thở nào",
+   "tôi chịu tôi chịu rồi",
+   "tôi không nói nữa đâu",
+   "ừ tùy anh thôi"
+  ],
+  "uu_tien": 1
+ },
+ "excited_rise_both_arms_overhead": {
+  "cum": [
+   "hú hú hú",
+   "mừng quá mừng quá",
+   "thật hả thật hả"
+  ],
+  "uu_tien": 1
+ },
+ "excited_rise_chest_open": {
+  "cum": [
+   "cái này ngon lắm",
+   "giỏi thật đó",
+   "hay quá trời",
+   "thật sự á",
+   "ôi thật không"
+  ],
+  "uu_tien": 1
+ },
+ "excited_rise_tiptoe_lean_forward": {
+  "cum": [
+   "chờ chờ chờ",
+   "cái đó hay lắm nè",
+   "tôi biết cái này",
+   "ý tôi là"
+  ],
+  "uu_tien": 1
+ },
+ "exhausted_admission_sink": {
+  "cum": [
+   "mình cảm thấy trống không",
+   "nó quá sức mình rồi"
+  ],
+  "uu_tien": 1
+ },
+ "explosive_stand_ground": {
+  "cum": [
+   "chấm dứt chuyện này đi",
+   "không được như vậy",
+   "tôi có quyền nói chứ",
+   "tôi không chịu nữa",
+   "tôi phải nói thật rồi",
+   "đủ rồi đó"
+  ],
+  "uu_tien": 1
+ },
+ "firm_nod_promise": {
+  "cum": [
+   "cam kết 100",
+   "hứa với anh chị",
+   "không thể sai",
+   "sẽ làm ngay",
+   "tin tôi đi",
+   "tôi chắc chắn"
+  ],
+  "uu_tien": 1
+ },
+ "firm_stance_chest_open": {
+  "cum": [
+   "không ai có thể phủ nhận",
+   "không còn gì phải bàn",
+   "tôi chắc chắn hoàn toàn",
+   "tôi khẳng định điều này",
+   "đây là sự thật",
+   "đó là điều hiển nhiên"
+  ],
+  "uu_tien": 1
+ },
+ "frustrated_weight_shift_forward": {
+  "cum": [
+   "anh có nghe không đó",
+   "cứ như thế này mãi à",
+   "không thể chấp nhận được",
+   "nghe tôi nói này",
+   "rõ ràng như vậy mà",
+   "sao không hiểu vậy"
+  ],
+  "uu_tien": 1
+ },
+ "fun_story_bounce_chuckle": {
+  "cum": [
+   "haha ừ rồi nó",
+   "khoan để tui bình tĩnh cái đã",
+   "mà nghĩ lại vẫn thấy buồn cười",
+   "thôi chết tui cười quá",
+   "ý là kiểu như"
+  ],
+  "uu_tien": 1
+ },
+ "fun_story_hip_sway_left": {
+  "cum": [
+   "nó làm tui cười muốn xỉu",
+   "tự nhiên ổng lại",
+   "đến đoạn này mới ghê"
+  ],
+  "uu_tien": 1
+ },
+ "fun_story_lean_conspire": {
+  "cum": [
+   "cái này mắc cười lắm",
+   "giữa thanh thiên bạch nhật luôn",
+   "kiểu bạn hình dung không",
+   "mà chỉ mình bạn biết thôi đó",
+   "nói thiệt nha tui nói thiệt",
+   "ổng không biết mình đang"
+  ],
+  "uu_tien": 1
+ },
+ "fun_story_pop_punchline": {
+  "cum": [
+   "câu đó mới là câu chính nè",
+   "không ai ngờ được luôn đó",
+   "kết thúc bằng một câu",
+   "rồi bạn biết ổng nói gì không",
+   "và ổng nói luôn là"
+  ],
+  "uu_tien": 1
+ },
+ "grief_weight_sink": {
+  "cum": [
+   "cái đó mình không lấy lại được",
+   "không còn như xưa nữa rồi",
+   "mình không biết phải làm sao nữa",
+   "mình đã cố giữ nhưng không được",
+   "mất rồi không còn cơ hội nữa",
+   "tụi mình chia tay rồi",
+   "ông mình mất hồi tháng trước"
+  ],
+  "uu_tien": 1
+ },
+ "guilt_confession_sink": {
+  "cum": [
+   "mình hiểu nếu bạn giận",
+   "mình đã không nghĩ cho kỹ",
+   "mình đã làm bạn buồn",
+   "tại mình hết mình xin lỗi",
+   "đáng lẽ mình không nên làm vậy"
+  ],
+  "uu_tien": 1
+ },
+ "half_turn_compare_sides": {
+  "cum": [
+   "cái này khác cái kia ở chỗ",
+   "hai hướng đều có cái hay",
+   "nếu chọn hướng này thì",
+   "so sánh hai cái này"
+  ],
+  "uu_tien": 1
+ },
+ "half_turn_dismiss_side": {
+  "cum": [
+   "cái đó không liên quan",
+   "gạt nó ra một bên đi",
+   "hướng đó không phải",
+   "thôi bỏ cái đó đi",
+   "tôi không quan tâm bên đó",
+   "đừng để ý mấy cái đó"
+  ],
+  "uu_tien": 1
+ },
+ "half_turn_point_away": {
+  "cum": [
+   "bạn thấy chỗ kia không",
+   "chỗ đó là",
+   "phía bên đó",
+   "tôi chỉ cho bạn xem"
+  ],
+  "uu_tien": 1
+ },
+ "hands_clasp_resolve": {
+  "cum": [
+   "chắc 100",
+   "không có ngoại lệ",
+   "quyết định rồi",
+   "tin tôi hoàn toàn",
+   "xin đảm bảo"
+  ],
+  "uu_tien": 1
+ },
+ "hands_shelter_mouth": {
+  "cum": [
+   "bảo mật này",
+   "chỉ mình bạn nghe",
+   "thầm thì thôi",
+   "đừng để ai nghe",
+   "ơi trời ơi"
+  ],
+  "uu_tien": 1
+ },
+ "head_tilt_soft_wonder": {
+  "cum": [
+   "cái đó là sao",
+   "mình chưa hiểu lắm",
+   "nói lại đi",
+   "thế thì kỳ nhỉ",
+   "ủa thật không"
+  ],
+  "uu_tien": 1
+ },
+ "heavy_news_knee_sink": {
+  "cum": [
+   "anh cũng không muốn nói điều này",
+   "chuyện này rất khó nói",
+   "em cần chuẩn bị tinh thần nhé",
+   "không có cách nào khác đâu",
+   "kết quả nó như vậy đó",
+   "tình hình nó không tốt lắm"
+  ],
+  "uu_tien": 1
+ },
+ "heel_pivot_open_palm_away": {
+  "cum": [
+   "bạn tìm người khác giúp nhé",
+   "cảm ơn nhưng thật sự không",
+   "mình không thể nhận được",
+   "thôi bạn ơi đừng ép mình"
+  ],
+  "uu_tien": 1
+ },
+ "hesitate_rock_back": {
+  "cum": [
+   "hmm không biết nữa",
+   "tôi nói vậy nhưng mà",
+   "ủa mà khoan"
+  ],
+  "uu_tien": 1
+ },
+ "hip_cross_body_diagonal": {
+  "cum": [
+   "lộ trình nó xéo như thế này",
+   "nó cắt chéo qua khu vực đó",
+   "từ góc này cắt sang góc kia",
+   "đi đường tắt chéo ngang qua đây",
+   "đường chéo nó ngắn hơn đường vòng",
+   "đường chéo qua đây là gần nhất"
+  ],
+  "uu_tien": 1
+ },
+ "hip_oscillate_alternating": {
+  "cum": [
+   "cứ qua lại như vậy mãi",
+   "cứ thế đổi nhau làm",
+   "hai đứa cứ đẩy qua đẩy lại",
+   "lần này tôi lần sau nó",
+   "nó làm rồi tôi làm lại",
+   "qua lại nhiều lần như vậy"
+  ],
+  "uu_tien": 1
+ },
+ "hip_pivot_point_aside": {
+  "cum": [
+   "bên đó có một cái",
+   "chỗ đó bên tay phải",
+   "cạnh đó có để sẵn",
+   "góc kia có người đứng",
+   "ngay bên đây này nè",
+   "nó đứng ngay chỗ kia kìa",
+   "phía này nó đặt cái",
+   "rồi nó đi về phía này"
+  ],
+  "uu_tien": 1
+ },
+ "hip_sweep_left_path": {
+  "cum": [
+   "cứ đi thẳng rồi rẽ trái",
+   "lộ trình đi vòng sang trái",
+   "rẽ sang bên trái là tới",
+   "tuyến đường nó men theo đây",
+   "từ đây mình quẹo trái",
+   "đi theo hướng này sang trái"
+  ],
+  "uu_tien": 1
+ },
+ "hip_swing_reach_forward": {
+  "cum": [
+   "lúc đó tôi đưa cho nó",
+   "mình đưa qua đây này",
+   "nó đẩy lại về phía tôi",
+   "tôi chìa tay ra thì",
+   "tôi cầm lấy cái đó",
+   "tôi với một cái là",
+   "tôi với tay ra là",
+   "tôi đặt ngay vào tay nó"
+  ],
+  "uu_tien": 1
+ },
+ "hip_turn_affirm_nod": {
+  "cum": [
+   "bạn nói đúng thật",
+   "mình cũng nghĩ vậy",
+   "mình cũng thấy vậy nè",
+   "ừ ừ mình hiểu"
+  ],
+  "uu_tien": 1
+ },
+ "hip_turn_bow_elder_invite": {
+  "cum": [
+   "bác ngồi nghỉ chân đây đi ạ",
+   "con mời bà ngồi nghỉ đây ạ",
+   "con mời mẹ ngồi vào đây ạ",
+   "dạ mời bác cứ ngồi xuống đây",
+   "dạ mời ông ngồi vào đây ạ",
+   "mời thầy ngồi xuống đây ạ"
+  ],
+  "uu_tien": 1
+ },
+ "hip_turn_explain_assert": {
+  "cum": [
+   "bạn phải hiểu rằng",
+   "cái này cần phải rõ ràng",
+   "thực chất thì khác hơn",
+   "để mình giải thích cho"
+  ],
+  "uu_tien": 1
+ },
+ "hip_turn_open_invite": {
+  "cum": [
+   "kể cho mình nghe với",
+   "mình muốn hỏi bạn là",
+   "nói chuyện với mình đi",
+   "ý bạn là sao ấy"
+  ],
+  "uu_tien": 1
+ },
+ "hip_turn_open_palm_invite": {
+  "cum": [
+   "anh cứ ngồi tự nhiên",
+   "anh vui lòng ngồi đây nhé",
+   "chị ngồi vào đây cho thoải mái",
+   "chỗ này anh ngồi được ạ",
+   "mời anh ngồi chơi đã",
+   "mời anh ngồi đây ạ",
+   "mời bác ngồi xuống đây"
+  ],
+  "uu_tien": 1
+ },
+ "hip_turn_soft_confide": {
+  "cum": [
+   "chỉ mình bạn biết thôi",
+   "cái này hơi tế nhị nhưng mà",
+   "mình chưa nói với ai đâu",
+   "mình kể bạn nghe cái này",
+   "đừng nói với ai nha"
+  ],
+  "uu_tien": 1
+ },
+ "hip_wide_bilateral_spread": {
+  "cum": [
+   "cả một dải dài như vậy đó",
+   "phạm vi của nó rộng lắm",
+   "từ phía này đến phía kia hết",
+   "đường đi trải dài theo chiều ngang"
+  ],
+  "uu_tien": 1
+ },
+ "indignant_weight_back": {
+  "cum": [
+   "anh nói gì vậy",
+   "cái gì cơ",
+   "tôi làm gì sai à",
+   "ý anh là sao"
+  ],
+  "uu_tien": 1
+ },
+ "knee_collapse_despair": {
+  "cum": [
+   "không sống nổi",
+   "mất hết",
+   "sao tự dưng vậy",
+   "tuyệt vọng",
+   "đau đớn quá"
+  ],
+  "uu_tien": 1
+ },
+ "knee_drop_deflated": {
+  "cum": [
+   "buồn bã",
+   "chán thật",
+   "mong manh quá",
+   "ngẩn ngơ",
+   "thất vọng",
+   "ôi không"
+  ],
+  "uu_tien": 1
+ },
+ "knee_lean_resignation": {
+  "cum": [
+   "biết mà",
+   "không còn cách nào",
+   "thôi đi",
+   "tính toán lại"
+  ],
+  "uu_tien": 1
+ },
+ "knee_weak_embarrassed": {
+  "cum": [
+   "biết điều",
+   "chỳa mặt",
+   "nhục quá",
+   "rồi biết rồi",
+   "tôi không có lý do",
+   "xin lỗi"
+  ],
+  "uu_tien": 1
+ },
+ "lateral_sway_search": {
+  "cum": [
+   "hình như là hmm",
+   "người đó tên gì ấy nhỉ",
+   "năm đó năm bao nhiêu",
+   "quên mất rồi",
+   "ờ cái tên là"
+  ],
+  "uu_tien": 1
+ },
+ "lean_back_amused_surprise": {
+  "cum": [
+   "haha không ngờ á",
+   "sao mà kỳ cục vậy",
+   "trời buồn cười quá",
+   "ôi thôi cái đó nữa",
+   "ủa mà sao lại vậy được ta"
+  ],
+  "uu_tien": 1
+ },
+ "lean_back_disbelief_head_shake": {
+  "cum": [
+   "ai mà tin được chứ",
+   "chắc nghe nhầm rồi",
+   "không có chuyện đó đâu",
+   "thôi đi bịa đặt rồi",
+   "đùa tôi à"
+  ],
+  "uu_tien": 1
+ },
+ "lean_back_mild_surprise": {
+  "cum": [
+   "hả thiệt á",
+   "không biết nữa",
+   "không ngờ vậy luôn",
+   "ờ mà sao kỳ vậy",
+   "ủa vậy hả"
+  ],
+  "uu_tien": 1
+ },
+ "lean_back_shock_hands_up": {
+  "cum": [
+   "cái gì vậy trời",
+   "ôi trời đất ơi"
+  ],
+  "uu_tien": 1
+ },
+ "lean_back_slow_realization": {
+  "cum": [
+   "hóa ra là như vậy sao",
+   "để tôi hiểu lại cái này",
+   "ờ thì ra thế"
+  ],
+  "uu_tien": 1
+ },
+ "lean_back_soft_decline": {
+  "cum": [
+   "mình chưa tiện lắm",
+   "mình nghĩ chưa cần thiết",
+   "thôi để lần khác đi bạn ơi",
+   "ý bạn hay đấy nhưng",
+   "để mình xem lại đã"
+  ],
+  "uu_tien": 1
+ },
+ "lean_engaged_nod": {
+  "cum": [
+   "nghe rõ rồi",
+   "ok ok rồi thì",
+   "uh huh tiếp đi",
+   "vậy là",
+   "ừ cứ nói đi",
+   "ừ mình hiểu rồi",
+   "ừ ừ mình nghe"
+  ],
+  "uu_tien": 1
+ },
+ "lean_in_conspiratorial": {
+  "cum": [
+   "chuyện này đừng bật ra",
+   "chỉ có mình mình biết",
+   "giữa chúng mình thôi",
+   "tôi tin bạn"
+  ],
+  "uu_tien": 1
+ },
+ "lean_in_conspire": {
+  "cum": [
+   "kế hoạch hoàn hảo luôn",
+   "mày làm vậy tao làm vậy",
+   "tao có kế hoạch rồi nè",
+   "tụi mình làm vậy này nghe chưa",
+   "đừng ai biết là được"
+  ],
+  "uu_tien": 1
+ },
+ "lean_in_curious": {
+  "cum": [
+   "anh nói thêm đi",
+   "hả nghiêm túc không",
+   "không hiểu lắm ý là sao",
+   "thật hả",
+   "thế à kể nghe",
+   "tiếp đi tiếp đi",
+   "ủa rồi sao"
+  ],
+  "uu_tien": 1
+ },
+ "lean_in_tilt_curious_probe": {
+  "cum": [
+   "bạn định nói cái gì",
+   "khoan chỗ này là thế nào",
+   "mình muốn hỏi thẳng",
+   "phần đó quan trọng lắm",
+   "ý chính là"
+  ],
+  "uu_tien": 1
+ },
+ "lean_in_urgent_warn": {
+  "cum": [
+   "làm vậy là hỏng hết đó mày",
+   "mày phải cẩn thận vụ đó",
+   "tao biết rõ chuyện này rồi",
+   "tao nói thiệt mày phải để ý",
+   "đừng tin cái đó nguy hiểm lắm"
+  ],
+  "uu_tien": 1
+ },
+ "lean_in_vulnerable": {
+  "cum": [
+   "mày đừng cười tao nha",
+   "nói ra kỳ lắm nhưng mà thật",
+   "tao sợ mày nghĩ xấu về tao"
+  ],
+  "uu_tien": 1
+ },
+ "lean_intimate_confide": {
+  "cum": [
+   "bạn có biết không",
+   "chuyện này hơi tế nhị",
+   "chỉ bạn mình biết thôi",
+   "nói thật nha giữa hai đứa thôi",
+   "đừng kể ai nghe nha"
+  ],
+  "uu_tien": 1
+ },
+ "lean_side_empathy": {
+  "cum": [
+   "chắc lúc đó mệt lắm nhỉ",
+   "mình hiểu cảm giác đó",
+   "nghe mà thấy nặng lòng",
+   "nghe mà thấy thương",
+   "thật sự á tội quá",
+   "trời ơi khổ vậy",
+   "ổn không bạn",
+   "ừ mình cũng từng vậy"
+  ],
+  "uu_tien": 1
+ },
+ "lean_skeptical_assess": {
+  "cum": [
+   "hmm chắc không",
+   "mình chưa chắc lắm",
+   "nghe có vẻ lạ",
+   "nguồn đâu vậy",
+   "thiệt không ta",
+   "ý đó hơi khó tin",
+   "ờ nhưng mà"
+  ],
+  "uu_tien": 1
+ },
+ "lean_weight_forward_point": {
+  "cum": [
+   "anh phải nhớ kỹ điều này",
+   "không phải ngẫu nhiên đâu",
+   "phải hiểu rõ điều này",
+   "tôi nói thật với anh"
+  ],
+  "uu_tien": 1
+ },
+ "one_side_shrug_smirk_casual": {
+  "cum": [
+   "chuyện nhỏ thôi",
+   "có gì đâu",
+   "cũng được thôi",
+   "không quan trọng lắm",
+   "mình cũng không care lắm",
+   "tính sao cũng được",
+   "ừ thì ai biết"
+  ],
+  "uu_tien": 1
+ },
+ "pivot_heel_open_palm": {
+  "cum": [
+   "bên cạnh đó chúng ta thấy",
+   "có một điều nữa là",
+   "cũng có thể hiểu là",
+   "nhìn từ góc độ khác",
+   "nếu mình xét thêm thì",
+   "thử nghĩ theo hướng này",
+   "tôi đặt câu hỏi thế này"
+  ],
+  "uu_tien": 1
+ },
+ "pivot_heel_think": {
+  "cum": [
+   "cũng có thể",
+   "hoặc là hmm",
+   "khía cạnh khác thì sao nhỉ",
+   "không hẳn là vậy",
+   "mà nếu nhìn theo cách khác",
+   "tôi đang nghĩ xem"
+  ],
+  "uu_tien": 1
+ },
+ "planted_lean_in_conclude": {
+  "cum": [
+   "bạn phải nhìn nhận điều này",
+   "hãy nghĩ lại mà xem",
+   "không thể khác được đâu",
+   "thực tế đã chứng minh rồi",
+   "tin tôi đi đúng là như vậy",
+   "tôi khẳng định với bạn",
+   "đây là điều tôi chắc chắn"
+  ],
+  "uu_tien": 1
+ },
+ "playful_lean_into_joke": {
+  "cum": [
+   "mày đỏ mặt rồi kìa",
+   "nói thật đó nha không đùa đâu",
+   "tao biết mày thích mà",
+   "thôi thôi tao xin lỗi nè",
+   "trời ơi mày nghiêm túc á",
+   "ui xấu hổ chưa kìa",
+   "ê mà thật không đấy",
+   "đùa thôi mà hihi"
+  ],
+  "uu_tien": 1
+ },
+ "relief_both_hands_drop_sigh": {
+  "cum": [
+   "giải quyết được rồi",
+   "nói chuyện xong rồi là xong",
+   "quyết rồi không nghĩ nữa",
+   "thở đi xong hết rồi"
+  ],
+  "uu_tien": 1
+ },
+ "relief_exhale_settle": {
+  "cum": [
+   "cuối cùng cũng xong",
+   "không phải lo nữa rồi",
+   "thế là xong hết rồi",
+   "xong rồi thở được rồi",
+   "ổn rồi không sao đâu"
+  ],
+  "uu_tien": 1
+ },
+ "relief_lean_back_open": {
+  "cum": [
+   "bây giờ thoải mái rồi",
+   "không còn áp lực nữa",
+   "mình cứ lo mãi không biết",
+   "nhẹ cả người luôn",
+   "tự do rồi thật sự tự do"
+  ],
+  "uu_tien": 1
+ },
+ "relief_soft_sway_eyes_close": {
+  "cum": [
+   "cảm giác bình yên lại rồi",
+   "mình cũng không ngờ mình làm được",
+   "thật sự là nhẹ nhõm lắm"
+  ],
+  "uu_tien": 1
+ },
+ "relief_weight_shift_slow_smile": {
+  "cum": [
+   "không đến nỗi nào đâu",
+   "nhìn lại thấy không có gì",
+   "thôi được rồi cũng được",
+   "à thì ra là vậy"
+  ],
+  "uu_tien": 1
+ },
+ "resigned_shrug_exhale_weight_drop": {
+  "cum": [
+   "biết làm sao được",
+   "cố mà vẫn không ra",
+   "hết cách rồi",
+   "không tìm ra được",
+   "nghĩ mãi cũng không biết",
+   "tính sao giờ",
+   "đành chịu vậy thôi"
+  ],
+  "uu_tien": 1
+ },
+ "rooted_fist_chest_level": {
+  "cum": [
+   "không ai bắt tôi thay đổi được",
+   "lập trường của tôi rõ ràng",
+   "tôi giữ nguyên quan điểm",
+   "tôi sẽ không thay đổi",
+   "đây là điều tôi tin"
+  ],
+  "uu_tien": 1
+ },
+ "sharp_tilt_snap_question": {
+  "cum": [
+   "bạn vừa nói cái gì",
+   "cụ thể là thế nào",
+   "hỏi thẳng luôn nhé",
+   "khoan cái đó là gì",
+   "không ý mình là",
+   "điểm đó bạn chắc chưa"
+  ],
+  "uu_tien": 1
+ },
+ "shift_back_cross_arms_tilt_head": {
+  "cum": [
+   "chờ chờ để tôi hỏi lại",
+   "nghe có vẻ chưa ổn lắm",
+   "nhưng mà anh có chắc không",
+   "tôi chưa thấy thuyết phục lắm",
+   "điều đó không hẳn đúng"
+  ],
+  "uu_tien": 1
+ },
+ "shoulder_back_champion": {
+  "cum": [
+   "chúng tôi đã thắng",
+   "hãy nhìn kìa",
+   "tôi là vua",
+   "đó là vinh quang của tôi"
+  ],
+  "uu_tien": 1
+ },
+ "shoulder_lift_proud": {
+  "cum": [
+   "coi chừng tôi đây",
+   "hehe dễ thôi",
+   "tự hào quá"
+  ],
+  "uu_tien": 1
+ },
+ "shoulder_lift_subtle_pride": {
+  "cum": [
+   "bình thường thôi",
+   "mình đã cố gắng rồi",
+   "tôi cũng thấy vậy",
+   "đó là tự nhiên"
+  ],
+  "uu_tien": 1
+ },
+ "shoulder_raise_steadfast": {
+  "cum": [
+   "chắc chắn được",
+   "không lo lắng",
+   "sẽ xong ngay",
+   "tin vào tôi",
+   "tôi có thể",
+   "tôi xứng đáng"
+  ],
+  "uu_tien": 1
+ },
+ "shoulder_roll_confident": {
+  "cum": [
+   "cứ để cho nó đi",
+   "tôi chẳng sợ",
+   "tôi vẫn là tôi",
+   "đó là chuyện của họ"
+  ],
+  "uu_tien": 1
+ },
+ "shoulder_shrug_palms_up_weight_shift": {
+  "cum": [
+   "hỏi người khác đi",
+   "không có thông tin",
+   "không nắm được",
+   "không rõ lắm",
+   "mình cũng không hay",
+   "tôi không biết",
+   "tôi mù tịt vụ đó"
+  ],
+  "uu_tien": 1
+ },
+ "shoulder_shrug_tilt_doubt": {
+  "cum": [
+   "ai nói vậy",
+   "chắc không đó",
+   "có chắc không",
+   "không biết có đúng không",
+   "mình hơi ngờ ngờ",
+   "nghe lạ lạ á",
+   "thiệt hả"
+  ],
+  "uu_tien": 1
+ },
+ "shoulder_square_dominance": {
+  "cum": [
+   "không có gì bàn cải",
+   "tôi quyết định như vậy",
+   "điều này rất quan trọng",
+   "đó là lệnh"
+  ],
+  "uu_tien": 1
+ },
+ "shy_chin_tuck_arms_cross": {
+  "cum": [
+   "dạ em không biết nói gì nữa",
+   "em làm bình thường thôi mà",
+   "không có gì đặc biệt đâu ạ",
+   "thôi thôi em không dám đâu",
+   "thật sự em không xứng đâu ạ",
+   "ôi chết con ngượng quá",
+   "ủa sao mọi người nhìn em vậy"
+  ],
+  "uu_tien": 1
+ },
+ "shy_ear_scratch_eyes_down": {
+  "cum": [
+   "dạ em hiểu ý anh chị rồi",
+   "dạ em xin lỗi em sẽ sửa",
+   "dạ ừ em biết rồi ạ",
+   "thôi thì tại em chưa nghĩ kỹ",
+   "ừ em cũng tự thấy mình sai",
+   "ừ thì em cũng thấy vậy mà"
+  ],
+  "uu_tien": 1
+ },
+ "shy_hand_cover_mouth_look_away": {
+  "cum": [
+   "em nói bậy quá xá luôn",
+   "hehe em không nói nữa đâu",
+   "mà thôi khỏi em ngại lắm",
+   "thôi chết em lỡ miệng rồi",
+   "ôi trời em đỏ mặt rồi kìa",
+   "ủa sao em lại nói vậy nhỉ"
+  ],
+  "uu_tien": 1
+ },
+ "shy_retreat_half_step_hug_self": {
+  "cum": [
+   "em chưa sẵn sàng kể chuyện này",
+   "ủa mình phải nói điều đó không",
+   "ủa sao hỏi chuyện đó vậy",
+   "ừm chuyện đó hơi riêng tư á"
+  ],
+  "uu_tien": 1
+ },
+ "shy_weight_shift_finger_fidget": {
+  "cum": [
+   "anh chị cứ tự nhiên đi ạ",
+   "dạ em chưa biết nói gì",
+   "em ngồi đây được không ạ",
+   "hehe ừ em cũng không rành lắm",
+   "ừm dạ em tên là"
+  ],
+  "uu_tien": 1
+ },
+ "slow_scan_side_to_side": {
+  "cum": [
+   "cũng khó mà nói",
+   "hai cái đều có vấn đề",
+   "mình vẫn chưa chắc"
+  ],
+  "uu_tien": 1
+ },
+ "slow_shrug_head_tilt_doubtful": {
+  "cum": [
+   "chưa chắc đã đúng",
+   "chưa xác nhận được",
+   "có vẻ vậy nhưng mà",
+   "hình như là vậy",
+   "không chắc lắm đâu",
+   "mình nghe loáng thoáng thôi",
+   "nghe vậy mà",
+   "tôi cũng không dám nói"
+  ],
+  "uu_tien": 1
+ },
+ "slow_tilt_confused_processing": {
+  "cum": [
+   "chờ mình tý",
+   "cái này phức tạp nhỉ",
+   "khoan để mình hiểu lại",
+   "mình đang cố hiểu",
+   "nói nhanh quá mình không kịp",
+   "ý là à"
+  ],
+  "uu_tien": 1
+ },
+ "startle_lean_back_freeze": {
+  "cum": [
+   "không thể nào",
+   "ủa cái gì vậy"
+  ],
+  "uu_tien": 1
+ },
+ "startle_lean_back_hands_up_defensive": {
+  "cum": [
+   "không phải tôi",
+   "sao lại là tôi",
+   "tôi không có làm chuyện đó",
+   "xin lỗi anh đang nói gì vậy"
+  ],
+  "uu_tien": 1
+ },
+ "startle_slow_step_back_disbelief": {
+  "cum": [
+   "em nghe nhầm không",
+   "khoan khoan khoan",
+   "làm sao chuyện đó xảy ra được",
+   "thật sự hả anh",
+   "ý anh nói là cái đó"
+  ],
+  "uu_tien": 1
+ },
+ "step_back_cross_arms_light": {
+  "cum": [
+   "bạn cứ nói vậy nhưng",
+   "mình có quan điểm khác một chút",
+   "mình không muốn bạn hiểu lầm",
+   "mình nghe rồi nhưng thôi"
+  ],
+  "uu_tien": 1
+ },
+ "step_toes_in_both_hands_press_down": {
+  "cum": [
+   "chúng ta hãy dừng lại chút",
+   "giữ bình tĩnh sẽ tốt hơn",
+   "hạ nhiệt xuống một chút đi",
+   "không cần phải vội vàng",
+   "thở đi rồi mình nói tiếp"
+  ],
+  "uu_tien": 1
+ },
+ "storytelling_sway_buildup": {
+  "cum": [
+   "chưa hết đâu nghe tiếp đi",
+   "khoan khoan để tao kể từ từ",
+   "mà này mới là phần hay nè",
+   "tao đảm bảo mày sẽ không tin"
+  ],
+  "uu_tien": 1
+ },
+ "storytelling_sway_infectious": {
+  "cum": [
+   "mà cũng buồn cười thật nha",
+   "tao cũng không nhịn được luôn",
+   "thôi thôi bình tĩnh bình tĩnh",
+   "trời cười gì mà cười dữ vậy",
+   "ờ ờ mày cũng thấy vậy hả"
+  ],
+  "uu_tien": 1
+ },
+ "storytelling_sway_nostalgic_amused": {
+  "cum": [
+   "cái thời đó thiệt là",
+   "mà giờ nghĩ lại vẫn thấy vui",
+   "nhớ lại mà vẫn còn buồn cười"
+  ],
+  "uu_tien": 1
+ },
+ "storytelling_sway_triumphant": {
+  "cum": [
+   "hay không hay không",
+   "hiểu chưa hiểu chưa",
+   "tao biết mà tao biết trước mà",
+   "tao nói có sai không nào",
+   "thấy chưa tao nói mà",
+   "xong chưa cười đi cười đi"
+  ],
+  "uu_tien": 1
+ },
+ "symmetry_both_palms_outward_push": {
+  "cum": [
+   "không có ngoại lệ nào hết",
+   "tôi nói rõ một lần nữa"
+  ],
+  "uu_tien": 1
+ },
+ "thankful_bow_right_hand_chest": {
+  "cum": [
+   "anh tốt với em quá",
+   "cảm ơn chị đã nghĩ đến em",
+   "cảm ơn vì đã quan tâm",
+   "em cảm động lắm",
+   "em không biết nói gì hơn",
+   "thiệt lòng cảm ơn"
+  ],
+  "uu_tien": 1
+ },
+ "tired_lean_back_brace": {
+  "cum": [
+   "chúng ta nói chuyện lâu thế này",
+   "cái này phức tạp lắm",
+   "nói thật là tôi mệt lắm rồi",
+   "ừ thì vẫn còn đó"
+  ],
+  "uu_tien": 1
+ },
+ "tired_neck_roll_slack": {
+  "cum": [
+   "cứ nói đi",
+   "hôm nay dài quá",
+   "mình đang nói đến đâu nhỉ",
+   "à ý bạn là vậy hả",
+   "ừ thì thế",
+   "ừ ừ tôi nghe"
+  ],
+  "uu_tien": 1
+ },
+ "tired_weight_shift_exhale": {
+  "cum": [
+   "chịu không nổi nữa",
+   "hết sức luôn",
+   "nói mãi cũng vậy",
+   "thôi xong rồi",
+   "ừ thì biết rồi"
+  ],
+  "uu_tien": 1
+ },
+ "toe_press_stall": {
+  "cum": [
+   "cái đó hả",
+   "câu hỏi này",
+   "thì ờ",
+   "trả lời thế nào nhỉ",
+   "vấn đề là"
+  ],
+  "uu_tien": 1
+ },
+ "topic_shift_lean_forward": {
+  "cum": [
+   "chuyển sang chuyện khác một chút",
+   "mà nói đến đây tôi lại nghĩ",
+   "nhân tiện tôi muốn nói",
+   "thôi bỏ cái đó đi bây giờ",
+   "à mà này",
+   "ồ mà thôi nói đến chuyện"
+  ],
+  "uu_tien": 1
+ },
+ "topic_shift_pivot_both_hands": {
+  "cum": [
+   "cái chính là",
+   "nhưng mà điều này mới quan trọng",
+   "quan trọng hơn là",
+   "tôi muốn tập trung vào",
+   "điều tôi thực sự muốn nói",
+   "đây mới là điều tôi muốn hỏi"
+  ],
+  "uu_tien": 1
+ },
+ "topic_shift_weight_back_pause": {
+  "cum": [
+   "có điều này tôi muốn nói",
+   "khó nói lắm nhưng mà",
+   "không biết nói thế nào nhưng",
+   "mà thật sự thì",
+   "tôi phải thành thật"
+  ],
+  "uu_tien": 1
+ },
+ "turn_diagonal_uncertain": {
+  "cum": [
+   "anh chị ơi mình tìm cách nói",
+   "chỗ nào đó vậy",
+   "hơi khó nhớ lại",
+   "khoảng đâu đó",
+   "không biết giải thích sao",
+   "tại mình không chắc"
+  ],
+  "uu_tien": 1
+ },
+ "turn_front_emphasis": {
+  "cum": [
+   "bây giờ",
+   "dù sao thì",
+   "mà mình nói chuyện",
+   "nhưng thôi quay lại",
+   "sự thật là"
+  ],
+  "uu_tien": 1
+ },
+ "turn_invite_bow_slight": {
+  "cum": [
+   "bác cứ để chúng em lo ạ",
+   "dạ mời bác vào ạ",
+   "kính mời quý khách ạ",
+   "xin kính mời anh chị"
+  ],
+  "uu_tien": 1
+ },
+ "turn_invite_two_hands_guide": {
+  "cum": [
+   "chỗ ngồi bên tay phải ạ",
+   "em dẫn anh chị vào trong ạ",
+   "em sẽ đưa anh chị đến ngay",
+   "mời hai bác theo lối này",
+   "phía này anh chị ơi",
+   "để em chỉ đường cho ạ"
+  ],
+  "uu_tien": 1
+ },
+ "turn_left_gesture": {
+  "cum": [
+   "cái chỗ đó ở bên trái",
+   "nơi tôi từng sống",
+   "ở tây bộ"
+  ],
+  "uu_tien": 1
+ },
+ "turn_right_gesture": {
+  "cum": [
+   "cái nơi tươi sáng",
+   "phía bên phải kia",
+   "thành phố kia",
+   "ở phía đông"
+  ],
+  "uu_tien": 1
+ },
+ "two_foot_stance_crossed_arms_resist": {
+  "cum": [
+   "không có gì để bàn thêm đâu",
+   "thôi khỏi bàn cái đó nữa",
+   "ý kiến đó không ổn chút nào"
+  ],
+  "uu_tien": 1
+ },
+ "two_foot_stance_firm_denial": {
+  "cum": [
+   "anh chị hiểu lầm rồi",
+   "thôi được rồi dừng lại đi",
+   "tôi đã nói rõ ràng rồi mà",
+   "việc đó tôi không làm được"
+  ],
+  "uu_tien": 1
+ },
+ "two_foot_stance_lean_forward_challenge": {
+  "cum": [
+   "anh chị có dám nói lại không",
+   "thử nhìn thẳng vào vấn đề xem",
+   "tôi muốn nghe lý do chính đáng",
+   "vậy anh chị giải thích đi"
+  ],
+  "uu_tien": 1
+ },
+ "two_foot_stance_slow_headshake_weary": {
+  "cum": [
+   "anh chị vẫn cứ không chịu nghe",
+   "sao cứ phải như vậy hoài vậy",
+   "thôi tôi không muốn tranh luận nữa"
+  ],
+  "uu_tien": 1
+ },
+ "two_foot_stance_weight_back_skeptic": {
+  "cum": [
+   "bằng chứng đâu tôi chưa thấy",
+   "cái này khó tin quá đi",
+   "nghe có vẻ không thực tế lắm",
+   "điều đó có logic không vậy"
+  ],
+  "uu_tien": 1
+ },
+ "weight_back_head_tilt_smile": {
+  "cum": [
+   "bạn đừng buồn nhé mình không được",
+   "ôi bạn tốt quá nhưng thôi"
+  ],
+  "uu_tien": 1
+ },
+ "weight_shift_calm_conclude": {
+  "cum": [
+   "cũng không có gì phức tạp",
+   "hiểu rồi chứ vậy là xong",
+   "thế thôi đơn giản vậy thôi",
+   "vậy là ổn rồi đấy"
+  ],
+  "uu_tien": 1
+ },
+ "weight_shift_final_step_land": {
+  "cum": [
+   "bước kết thúc là",
+   "cuối cùng chúng ta",
+   "kết thúc bằng việc",
+   "sau cùng phải",
+   "và đó là bước cuối"
+  ],
+  "uu_tien": 1
+ },
+ "weight_shift_pause_left": {
+  "cum": [
+   "cái này hmm",
+   "khó nói lắm",
+   "ừm cái đó thì"
+  ],
+  "uu_tien": 1
+ },
+ "weight_shift_step_one": {
+  "cum": [
+   "mình bắt đầu bằng",
+   "trước hết phải",
+   "đầu tiên chúng ta cần"
+  ],
+  "uu_tien": 1
+ },
+ "weight_shift_step_pause_reflect": {
+  "cum": [
+   "bước này hơi phức tạp một chút",
+   "bước này nhiều người hay bỏ qua",
+   "cần chú ý là",
+   "lưu ý ở bước này",
+   "phải cẩn thận ở chỗ này"
+  ],
+  "uu_tien": 1
+ },
+ "weight_shift_step_two_open": {
+  "cum": [
+   "bước tiếp theo",
+   "kế đến",
+   "rồi đến phần",
+   "sang bước hai",
+   "sau đó chúng ta"
+  ],
+  "uu_tien": 1
+ },
+ "weight_sink_index_point_level": {
+  "cum": [
+   "anh nhìn vào đây này",
+   "chính cái này mới quan trọng",
+   "chỗ này mới sai",
+   "không phải chỗ đó",
+   "đúng điểm này tôi muốn nói"
+  ],
+  "uu_tien": 1
+ }
+}

@@ -1,0 +1,84 @@
+{
+ "_doc": "Ngưỡng DỊ DẠNG. Trục bản lề học bằng PCA véc-tơ xoay cục bộ trên mocap người thật; trần = max người thật x hệ số (ROM sát 1,0). TAY/ĐẦU từ BEAT; GỐI/CHÂN từ RPM idle+talking vì thân dưới BEAT là artefact (§7.7).",
+ "_he_so": {
+  "v_max": 1.5,
+  "nguoc_pct": 1.0,
+  "nguoc_max": 1.2,
+  "lech_p99": 1.3,
+  "buoc_max": 1.5,
+  "bien": 1.3,
+  "lo_lung_cm": 1.3,
+  "lun_san_cm": 1.3,
+  "chim_tong_cm": 1.1,
+  "co_tay_trai_gap": 1.02,
+  "co_tay_trai_ngua": 1.02,
+  "co_tay_trai_lech_cai": 1.02,
+  "co_tay_trai_lech_ut": 1.02,
+  "co_tay_phai_gap": 1.02,
+  "co_tay_phai_ngua": 1.02,
+  "co_tay_phai_lech_cai": 1.02,
+  "co_tay_phai_lech_ut": 1.02
+ },
+ "truc_ban_le": {
+  "khuyu_trai": [
+   0.09146248520567146,
+   0.002499166456088498,
+   0.9958053865926952
+  ],
+  "khuyu_phai": [
+   0.04419952530632074,
+   -0.0027179921835712717,
+   -0.9990190260856828
+  ],
+  "goi_trai": [
+   -0.9997306597050445,
+   0.022598672933918935,
+   -0.005282804874522853
+  ],
+  "goi_phai": [
+   -0.9993751270327672,
+   -0.034858138254703165,
+   0.005853688209729734
+  ]
+ },
+ "tran": {
+  "chan_lo_lung_cm": 3.0,
+  "chan_lun_san_cm": 1.0,
+  "co_tay_phai_gap": 80.0,
+  "co_tay_phai_lech_cai": 35.0,
+  "co_tay_phai_lech_ut": 35.0,
+  "co_tay_phai_ngua": 70.0,
+  "co_tay_trai_gap": 80.0,
+  "co_tay_trai_lech_cai": 35.0,
+  "co_tay_trai_lech_ut": 35.0,
+  "co_tay_trai_ngua": 70.0,
+  "goi_phai_buoc_max": 5.0,
+  "goi_phai_nguoc_max": 10.0,
+  "goi_phai_v_max": 300.0,
+  "goi_phai_xoan_buoc": 1.5,
+  "goi_phai_xoan_max": 15.0,
+  "goi_trai_buoc_max": 5.0,
+  "goi_trai_nguoc_max": 10.0,
+  "goi_trai_v_max": 300.0,
+  "goi_trai_xoan_buoc": 1.5,
+  "goi_trai_xoan_max": 15.0,
+  "hong_xoay_do": 90.0,
+  "khuyu_phai_buoc_max": 10.07,
+  "khuyu_phai_v_max": 609.65,
+  "khuyu_phai_xoan_buoc": 4.0,
+  "khuyu_phai_xoan_max": 80.0,
+  "khuyu_trai_buoc_max": 10.07,
+  "khuyu_trai_v_max": 609.65,
+  "khuyu_trai_xoan_buoc": 4.0,
+  "khuyu_trai_xoan_max": 80.0,
+  "tay_chim_tong_cm": 10.0,
+  "tay_xuyen_dau_cm": 3.0,
+  "tay_xuyen_dui_cm": 8.0,
+  "tay_xuyen_than_cm": 10.0,
+  "khuyu_trai_lech_phang_pct": 15.0,
+  "khuyu_phai_lech_phang_pct": 15.0
+ },
+ "_ghi_chu": {
+  "khuyu_lech_phang_pct": "28/08: hướng gập khuỷu trong hệ cục bộ cánh tay (tay.huong_gap_khuyu); người thật BEAT/IdleRpm 0% khung ngoài φ 210-330; ZKHalfTurnPointAway 57%. Sửa clip bằng tools/chuan_clip_kimodo.py · 29/08: trần 15% (người thật max 0,4%; sau tool + ống còn 3 clip đọng 10-11,7% sát mép, tolerance sản phẩm)"
+ }
+}

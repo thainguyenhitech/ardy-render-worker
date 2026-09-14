@@ -1,0 +1,41 @@
+{
+ "_doc": "Ngưỡng nghiệm thu motion, hiệu chuẩn từ 7 clip mocap BEAT trên rig Mira, lấy p90 của mocap làm trần. Mọi đạo hàm tính trên VÉC-TƠ XOAY liên tục và trên mốc thời gian GỐC của clip — đọc thẳng Euler thì góc quấn ±360° cho ra đỉnh giả (đã đánh trượt oan 326/671 clip), lấy mẫu mịn hơn dữ liệu thì mỗi khung gốc thành một góc cũng cho đỉnh giả.",
+ "_mocap_tham_chieu": {
+  "giat_p95": {
+   "trung_vi": 119.7,
+   "p90": 469.6,
+   "toi_da": 474.6
+  },
+  "giat_max": {
+   "trung_vi": 767.8,
+   "p90": 16063.9,
+   "toi_da": 17185.3
+  },
+  "d_omega_max": {
+   "trung_vi": 179.7,
+   "p90": 605.2,
+   "toi_da": 642.4
+  },
+  "tan_cao": {
+   "trung_vi": 0.001,
+   "p90": 0.0,
+   "toi_da": 0.0
+  },
+  "truot_chan_cm_s": {
+   "trung_vi": 53.0,
+   "p90": 81.3,
+   "toi_da": 105.0
+  },
+  "phang_li": {
+   "trung_vi": 0.155
+  }
+ },
+ "toi_da": {
+  "giat_p95": 470.0,
+  "giat_max": 16000.0,
+  "d_omega_max": 605.0,
+  "tan_cao": 0.01,
+  "truot_chan_cm_s": 82.0
+ },
+ "toi_thieu": {}
+}
