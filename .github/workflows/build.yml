@@ -48,18 +48,3 @@ jobs:
             docker.io/${{ secrets.DOCKERHUB_USERNAME }}/ardy-render:${{ github.sha }}
       - name: Kích thước image
         run: docker image inspect docker.io/${{ secrets.DOCKERHUB_USERNAME }}/ardy-render:${{ github.sha }} --format '{{.Size}}' | awk '{printf "image %.1f GB\n", $1/1e9}'
-
-  # Xoá repo image TTS cũ trên Docker Hub (user 14/09: "xoá sạch image tts cũ đi"). Chạy tay một lần.
-  xoa-tts-cu:
-    if: github.event_name == 'workflow_dispatch'
-    runs-on: ubuntu-latest
-    steps:
-      - name: Xoá docker.io/<user>/tts-gpu-worker
-        env:
-          U: ${{ secrets.DOCKERHUB_USERNAME }}
-          T: ${{ secrets.DOCKERHUB_TOKEN }}
-        run: |
-          JWT=$(curl -fsS -H 'Content-Type: application/json' -d "{\"username\":\"$U\",\"password\":\"$T\"}" https://hub.docker.com/v2/users/login/ | jq -r .token)
-          code=$(curl -s -o /tmp/out -w '%{http_code}' -X DELETE -H "Authorization: JWT $JWT" "https://hub.docker.com/v2/repositories/$U/tts-gpu-worker/")
-          echo "HTTP $code"; cat /tmp/out || true
-          [ "$code" = "202" ] || [ "$code" = "204" ] || [ "$code" = "404" ]

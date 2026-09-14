@@ -1,0 +1,19 @@
+# Chạy tay một lần: xoá repo image TTS cũ trên Docker Hub (user 14/09: "xoá sạch image tts cũ đi").
+name: xoa-tts-cu
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  xoa-tts-cu:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Xoá docker.io/<user>/tts-gpu-worker
+        env:
+          U: ${{ secrets.DOCKERHUB_USERNAME }}
+          T: ${{ secrets.DOCKERHUB_TOKEN }}
+        run: |
+          JWT=$(curl -fsS -H 'Content-Type: application/json' -d "{\"username\":\"$U\",\"password\":\"$T\"}" https://hub.docker.com/v2/users/login/ | jq -r .token)
+          code=$(curl -s -o /tmp/out -w '%{http_code}' -X DELETE -H "Authorization: JWT $JWT" "https://hub.docker.com/v2/repositories/$U/tts-gpu-worker/")
+          echo "HTTP $code"; cat /tmp/out || true
+          [ "$code" = "202" ] || [ "$code" = "204" ] || [ "$code" = "404" ]
