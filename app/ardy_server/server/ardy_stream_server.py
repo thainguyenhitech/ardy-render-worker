@@ -102,6 +102,8 @@ WARMUP = os.getenv("ARDY_WARMUP", "1") == "1"
 WARMUP_PROMPT = os.getenv("ARDY_WARMUP_PROMPT", "A person is walking.")
 MAX_KEEP_FRAMES = 600  # trim session history beyond this many model frames
 CROSSFADE_FRAMES = int(os.getenv("ARDY_CROSSFADE_FRAMES", "6"))  # model frames blended old->new after a prompt switch
+# generate_clip: khử trượt (post_process_motion) MỘT lần trên cả chuỗi như scripts/generate.py, không từng cửa sổ (15/09)
+PP_CA_CHUOI = os.getenv("ARDY_PP_CA_CHUOI", "1") != "0"
 TEXT_EMBEDDINGS = os.getenv("ARDY_TEXT_EMBEDDINGS", "")  # catalog .npz -> the text encoder is not loaded
 ROUND = 5  # decimals in JSON payloads
 
@@ -729,8 +731,17 @@ class Engine:
                 self.seed_session(s, model, cfg["history"], float(cfg.get("history_fps") or out_fps))
                 seeded = len(s.frames)
             need = seeded + int(math.ceil(duration * mfps))
+            # KHỬ TRƯỢT TRÊN CẢ CHUỖI (15/09): `generate_step` áp `post_process_motion` lên TỪNG CỬA SỔ mới sinh — pha chạm sàn
+            # kéo qua ranh hai cửa sổ không được khoá, mỗi miếng sửa độc lập; đo cùng câu cùng seed: bật/tắt gần như không
+            # đổi trôi cổ chân khi gót chạm (1,5–3 cm cả hai). scripts/generate.py của NVIDIA sinh XONG rồi khử trượt MỘT lần
+            # trên cả chuỗi — làm đúng như vậy. Đối chứng cách cũ: ARDY_PP_CA_CHUOI=0.
+            pp_ca_chuoi = s.postprocess and PP_CA_CHUOI
+            if pp_ca_chuoi:
+                s.postprocess = False
             while s.available() < need:
                 self.generate_step(s, replan=False)
+            if pp_ca_chuoi:
+                self._khu_truot_ca_chuoi(s, model)
         gen_ms = round((time.time() - t0) * 1000, 1)
 
         joints = list(model.skeleton.bone_order_names)
@@ -781,6 +792,33 @@ class Engine:
             "gen_ms": gen_ms,
             "windows": s.gen_count,
         }
+
+
+    def _khu_truot_ca_chuoi(self, s: "Session", model) -> None:
+        """Giải mã TOÀN BỘ `s.motion_tensor` (lịch sử + mọi cửa sổ) và chạy `post_process_motion` MỘT lần, thay `s.frames`.
+        Chỉ làm khi hai phía khớp chỉ số (không cắt bớt đầu); không khớp hoặc lỗi thì giữ nguyên và ghi log."""
+        torch = self.torch
+        with s.lock:
+            mt = s.motion_tensor
+            n_f = len(s.frames)
+            if mt is None or int(mt.shape[1]) != n_f or s.frame_offset != 0:
+                log.warning("khử trượt cả chuỗi bỏ qua cho %s: tensor %s khung, frames %d, offset %d",
+                            s.id, None if mt is None else int(mt.shape[1]), n_f, s.frame_offset)
+                return
+        try:
+            from ardy.postprocess import post_process_motion
+            with self.gen_lock, torch.no_grad():
+                out = model.motion_rep.inverse(model.motion_rep.unnormalize(mt), is_normalized=False)
+                corr = post_process_motion(out["local_rot_mats"], out["root_positions"],
+                                           out["foot_contacts"].float(), model.skeleton)
+                out.update(corr)
+                frames = self._to_frames(out)
+        except Exception as e:  # noqa: BLE001
+            log.warning("khử trượt cả chuỗi hỏng cho %s: %s", s.id, e)
+            return
+        with s.lock:
+            if len(frames) == len(s.frames):
+                s.frames = frames
 
     # ---- neo hai đầu ---------------------------------------------------------------
     def rang_buoc_cuoi(self, model, target_pose: dict, idx_cuoi: int, N: int):

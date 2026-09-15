@@ -70,6 +70,76 @@ def toan_than_noi_dung(clip: dict) -> bool:
     return False
 
 
+FPS_RA = 60           # hợp đồng khung gửi client (CLAUDE.md §4 bẫy 2: mọi tầng trên lưới 60 fps)
+
+
+def nang_luoi_60(clip: dict) -> dict:
+    """Clip kho render ở fps GỐC ARDY (20, `ardy_kho.FPS` 15/09 — theo tài liệu chính thức) → lưới đều 60 fps. Sửa TẠI
+    CHỖ, trả clip. Clip đã 60 fps (kho cũ) trả nguyên.
+
+    SPLINE BẬC BA C² (scipy, natural) qua CHÍNH các khung gốc — trên véc-tơ xoay LIÊN TỤC từng xương + `hips_pos`. Không
+    dùng `ong.luoi_chuan`: nó nội suy `hips_pos` TUYẾN TÍNH, và `dong_thoi_gian._mau_track` slerp tuyến tính giữa hai khung —
+    đưa clip 20 fps thẳng vào đó là tái tạo đúng lỗi gãy khúc mỗi 3 khung của service cũ (vọt gia tốc cổ chân 91–93 % một
+    pha, đo 15/09). Khung gốc giữ nguyên, Euler ghi ra nhánh liên tục."""
+    import math
+    import numpy as np
+    fps = float(clip.get("fps") or FPS_RA)
+    if fps >= FPS_RA - 1e-6:
+        return clip
+    b = clip.get("bones") or {}
+    if not b:
+        return clip
+    try:
+        from scipy.interpolate import CubicSpline
+    except ImportError:
+        logger.warning("kho ARDY: thiếu scipy — không nâng lưới %s fps lên 60", fps)
+        return clip
+    from loi.dong_thoi_gian import _q_sang_euler
+    from loi.goc_troi import _euler_sang_q
+    t_cuoi = max(float(tr[-1][0]) for tr in b.values() if tr)
+    moc = np.arange(int(math.floor(t_cuoi * FPS_RA + 1e-6)) + 1) / FPS_RA
+
+    def _log(q):
+        w = float(np.clip(q[0], -1.0, 1.0)); v = np.asarray(q[1:], float); s = float(np.linalg.norm(v))
+        return (2.0 * math.atan2(s, w) / s) * v if s > 1e-9 else np.zeros(3)
+
+    def _exp(r):
+        a = float(np.linalg.norm(r))
+        return (math.cos(a / 2), *((math.sin(a / 2) / a) * r)) if a > 1e-9 else (1.0, 0.0, 0.0, 0.0)
+
+    for ten, tr in b.items():
+        if len(tr) < 2:
+            continue
+        tt = np.array([float(f[0]) for f in tr])
+        R, q_truoc = [], None
+        for f in tr:
+            q = np.asarray(_euler_sang_q(f[1], f[2], f[3]), float)
+            if q_truoc is not None and float(np.dot(q, q_truoc)) < 0:
+                q = -q                                               # cùng bán cầu khung trước
+            q_truoc = q
+            R.append(_log(q))
+        R = np.array(R)
+        for i in range(1, len(R)):                                   # véc-tơ xoay liên tục (không nhảy nhánh 2π)
+            n_r = float(np.linalg.norm(R[i]))
+            if n_r > 1e-9 and np.linalg.norm(R[i] - R[i - 1]) > math.pi:
+                R[i] = R[i] * (1.0 - 2.0 * math.pi / n_r)
+        V = CubicSpline(tt, R, axis=0, bc_type="natural")(np.clip(moc, tt[0], tt[-1]))
+        gan, ra = None, []
+        for tm, v in zip(moc, V):
+            e = _q_sang_euler(_exp(v), gan)
+            ra.append([round(float(tm), 4), round(float(e[0]), 5), round(float(e[1]), 5), round(float(e[2]), 5)])
+            gan = e
+        b[ten] = ra
+    hp = clip.get("hips_pos") or []
+    if len(hp) >= 2:
+        ht = np.array([float(f[0]) for f in hp]); hv = np.array([f[1:4] for f in hp], float)
+        H = CubicSpline(ht, hv, axis=0, bc_type="natural")(np.clip(moc, ht[0], ht[-1]))
+        clip["hips_pos"] = [[round(float(tm), 4), *[round(float(x), 5) for x in h]] for tm, h in zip(moc, H)]
+    clip["fps"] = FPS_RA
+    clip["duration_s"] = round(float(moc[-1]), 4)
+    return clip
+
+
 class Kho:
     def __init__(self, duong: Path = KHO) -> None:
         self.duong = Path(duong)
@@ -123,18 +193,30 @@ class Kho:
 
     # -- lấy clip ----------------------------------------------------------------------------
     def _doc(self, tep: str) -> dict | None:
-        with self._khoa:
-            c = self._ram.get(tep)
-            if c is not None:
-                self._ram.move_to_end(tep)
-                return c
+        # Ô RAM KHOÁ THEO (tên, mtime): tệp cùng tên bị GHI ĐÈ tại chỗ (đồng bộ R2 tải bản mới, lô sửa kho như
+        # `lam_tron_kho` 15/09) thì đọc lại, không phục vụ bản cũ tới khi tiến trình chết. stat ~µs, rẻ hơn deepcopy.
+        p = self.duong / tep
         try:
-            c = json.loads((self.duong / tep).read_text())
+            mt = p.stat().st_mtime_ns
+        except OSError:
+            logger.warning("kho ARDY: không thấy %s", tep)
+            return None
+        with self._khoa:
+            o = self._ram.get(tep)
+            if o is not None and o[0] == mt:
+                self._ram.move_to_end(tep)
+                return o[1]
+        try:
+            c = json.loads(p.read_text())
         except Exception:  # noqa: BLE001
             logger.warning("kho ARDY: không đọc được %s", tep, exc_info=True)
             return None
+        try:
+            c = nang_luoi_60(c)          # kho render ở fps gốc ARDY (20) → lưới 60 fps một lần lúc nạp, rồi mới vào ô RAM
+        except Exception:  # noqa: BLE001
+            logger.warning("kho ARDY: nâng lưới 60 fps hỏng %s — dùng nguyên tệp", tep, exc_info=True)
         with self._khoa:
-            self._ram[tep] = c
+            self._ram[tep] = (mt, c)
             while len(self._ram) > RAM_MAX:
                 self._ram.popitem(last=False)
         return c

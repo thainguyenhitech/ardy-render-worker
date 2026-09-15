@@ -51,6 +51,7 @@ CHUNK_SECONDS = float(os.getenv("MOTION_CHUNK_SECONDS", "2.5"))
 DEFAULT_SECONDS = float(os.getenv("MOTION_SECONDS", "2.5"))  # chỉ dùng khi bên gọi ép `seconds`
 DEFAULT_FPS = int(os.getenv("MOTION_FPS", "20"))
 HISTORY_FRAMES = int(os.getenv("MOTION_HISTORY_FRAMES", "16"))
+POSTPROCESS = os.getenv("ARDY_POSTPROCESS", "1") != "0"
 ZV_DECAY = float(os.getenv("MOTION_ZV_DECAY", "0.5"))
 SESSION_TTL = float(os.getenv("MOTION_SESSION_TTL", "900"))
 # Trần AN TOÀN, không phải tham số thiết kế: động tác tuần hoàn (nhảy, chạy) không bao giờ lắng
@@ -322,6 +323,9 @@ class MotionService:
             "duration_s": seconds,
             "fps": fps,
             "format": "array",
+            # khử trượt chân chính thức của ARDY (post_process_motion) — scripts/generate.py của NVIDIA bật mặc định;
+            # service tắt suốt từ đầu (15/09). Tắt lại: ARDY_POSTPROCESS=0
+            "postprocess": POSTPROCESS,
         }
         # SỐ BƯỚC KHỬ NHIỄU: worker nhận `steps` (kẹp ≤ num_base_steps) nhưng service chưa hề
         # truyền xuống. Đây là knob tốc độ trực tiếp — thời gian sinh tỉ lệ THẲNG với số bước.

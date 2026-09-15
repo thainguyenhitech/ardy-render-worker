@@ -39,6 +39,11 @@ for _p in (GOC / "ardy_server", GOC / "backend" / "luong_clip" / "b1_render", GO
 log = logging.getLogger("ardy_render.nguon")
 
 MODEL = os.getenv("ARDY_MODEL", "core8")
+# Khử trượt chân chính thức của ARDY (post_process_motion). Đo 15/09 cùng câu cùng seed trong không gian ARDY: xoay gót
+# 3,4 → 2,0 cm, dậm tay 4,6 → 1,0 cm. Tắt: ARDY_POSTPROCESS=0.
+POSTPROCESS = os.getenv("ARDY_POSTPROCESS", "1") != "0"
+# Hãm vận tốc lịch sử (`ardy_service.app.brake`, zero-velocity padding) — không có trong tài liệu ARDY; mặc định TẮT.
+HAM_LICH_SU = os.getenv("ARDY_RENDER_HAM_LICH_SU", "0") == "1"
 DIM = 4096
 CO_DINH = Path(__file__).with_name("co_dinh")      # <sentence_hash>.f16 + chi_muc.json (câu công thức → hash catalog)
 DAI_MIEN_TOI_DA = 10.0                              # service kẹp chunk ≤ 10 s; ardy_kho chỉ xin 6/7/8 s và lối ra 3 s
@@ -160,10 +165,16 @@ class NguonTrong:
         vec = self.vector(cau)
         job: dict = {"model": MODEL, "prompt": cau,
                      "embedding": base64.b64encode(vec.astype(np.float16).tobytes()).decode(),
-                     "duration_s": giay, "fps": fps, "format": "array"}
+                     "duration_s": giay, "fps": fps, "format": "array",
+                     # KHỬ TRƯỢT CHÂN CHÍNH THỨC của ARDY (`ardy.postprocess.post_process_motion`, bộ giải C++
+                     # `motion_correction`) — `scripts/generate.py` của NVIDIA BẬT mặc định, ta tắt suốt từ đầu (15/09)
+                     "postprocess": POSTPROCESS}
         hist = normalize_history(than.get("history"), fps)
         if hist:
-            job["history"] = brake(hist)
+            # KHÔNG HÃM LỊCH SỬ theo tài liệu ARDY (15/09): lịch sử là chính chuyển động trước, `brake` (zero-velocity
+            # padding 0,5) là bước riêng của ta — A/B cùng seed 20 fps: nhảy múa mối ghép lối ra 9,5° ≈ bước thường 10,1°
+            # khi KHÔNG hãm. `ARDY_RENDER_HAM_LICH_SU=1` = bật lại.
+            job["history"] = brake(hist) if HAM_LICH_SU else hist
             job["history_fps"] = fps
             job["history_frames"] = HISTORY_FRAMES
         if than.get("target_pose"):

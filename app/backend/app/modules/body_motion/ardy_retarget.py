@@ -220,7 +220,7 @@ def sang_ardy(info: dict, goc_xoay: dict, root: list | None = None) -> dict:
     return {"quats": quats, "root": [float(x) for x in (root or [0.0, 0.0, 0.0])]}
 
 
-def retarget(info: dict, frames: list[dict], fps: float, nguon: str = "ardy") -> dict:
+def retarget(info: dict, frames: list[dict], fps: float, nguon: str = "ardy", thuoc_hong: str = "dau") -> dict:
     """frames = motion_frame của ARDY (format named, space local), đều `fps` khung/s.
     Trả clip dict đúng định dạng kho: fps, duration_s, bones{name:[[t,x,y,z]]},
     hips_pos[[t,dx,dy,dz]], contacts{LeftFoot/RightFoot:[[t0,t1]]}, nguon."""
@@ -246,6 +246,16 @@ def retarget(info: dict, frames: list[dict], fps: float, nguon: str = "ardy") ->
     cao_ardy = float(rpos[jidx["Head"]][1] - rpos[jidx["Hips"]][1]) if "Head" in jidx else 0.0
     cao_rig = float(tg["rest_world"][n2i["Head"]][1][1] - tg["rest_world"][n2i["Hips"]][1][1])
     k_hong = (cao_rig / cao_ardy) if cao_ardy > 0.2 else 1.0
+    # THƯỚC "chan" (15/09, tool kho ARDY): độ dời hông co giãn theo CHIỀU CAO HÔNG TRÊN CỔ CHÂN — chân mới là thứ đỡ
+    # thân trên sàn. Khớp "Head" của hai bộ xương KHÔNG cùng định nghĩa (hông→Head ARDY 73,0 cm, Mira 52,0) nên thước
+    # "dau" cho 0,712 trong khi chân dài như nhau (86,8 / 89,7 cm; hông trên cổ chân 89,6 / 91,0 → 1,016): hông rig chỉ
+    # đi 71 % quãng thật mà góc chân chép nguyên → bàn chân bị kéo lê. Đo cùng câu cùng seed: xoay gót 3,4 cm (ARDY) →
+    # 10,8 cm (thước đầu) → 3,1 cm (thước chân). Mặc định giữ "dau" cho đường 8000/8002 (hệ số `sua_do_doi` hiệu chuẩn trên nó).
+    if thuoc_hong == "chan" and "LeftFoot" in jidx and "LeftFoot" in n2i:
+        cao_a = float(rpos[jidx["Hips"]][1] - rpos[jidx["LeftFoot"]][1])
+        cao_r = float(tg["rest_world"][n2i["Hips"]][1][1] - tg["rest_world"][n2i["LeftFoot"]][1][1])
+        if cao_a > 0.3:
+            k_hong = cao_r / cao_a
     T = len(frames)
     bones = {n: [] for n in ten_xuong}
     hips_pos = []

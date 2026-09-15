@@ -19,6 +19,12 @@ import ardy_kho as AK
 
 TAI_SAN = Path(__file__).with_name("tai_san")
 _IDLE: tuple | None = None
+# THẾ NGHỈ CLIENT (15/09 tối): `khop_the_nghi`/`khop_goi_nghi` đọc IdleDung01 theo đường repo, mà image RunPod không chở kho clip
+# app (4 MB) — thiếu tệp thì hai bước đó IM LẶNG bỏ qua và worker ra clip kiểu cũ. Image chở bản cắt 2 khung trong `tai_san`.
+_THE_NGHI_TEP = TAI_SAN / "the_nghi_client.json"
+if not AK.GOI_NGHI_TEP and _THE_NGHI_TEP.exists() and \
+        not (Path(AK.__file__).resolve().parents[2] / "app/motion_clips/mira/IdleDung01.json").exists():
+    AK.GOI_NGHI_TEP = str(_THE_NGHI_TEP)
 
 
 def slug(cau: str) -> str:
@@ -55,6 +61,14 @@ def tu_kiem(clip: dict, idle_clip: dict) -> list[str]:
         loi.append("có giá trị không hữu hạn")
     tren = lambda p: {x: v for x, v in p.items() if x not in AK.CHAN}  # noqa: E731
     idle_pose = tren(AK.tu_the(idle_clip, len(idle_clip["bones"]["Hips"]) - 1))
+    if AK.THE_NGHI_S > 0:
+        # clip kết ở THẾ NGHỈ CLIENT (`khop_the_nghi`), không phải idle ARDY đóng băng (lệch nhau ~53° ở tay) — so idle ARDY là
+        # đánh trượt mọi clip; thiếu mốc thì KÊU, không lặng lẽ xuất clip chưa khớp
+        An = AK.the_nghi_client()
+        if An is None:
+            return ["thiếu mốc thế nghỉ client (tai_san/the_nghi_client.json) — clip chưa khớp đầu/cuối"]
+        idle_pose = tren({x: (AK._hips_khong_yaw(e) if x == "Hips" else AK._q(e)) for x, e in An["bones"].items()
+                          if not any(g in x for g in AK.NGON)})
     dau = AK.lech(tren(AK.tu_the(clip, 0)), idle_pose)[0]
     cuoi = AK.lech(tren(AK.tu_the(clip, n - 1)), idle_pose)[0]
     if dau > AK.KIEM_DAU_MAX:
