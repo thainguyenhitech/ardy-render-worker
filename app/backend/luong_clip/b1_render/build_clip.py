@@ -511,7 +511,7 @@ def _goc_giua(u, v):
     return float(np.arccos(np.clip(float(np.dot(u, v)) / (nu * nv), -1.0, 1.0)))
 
 
-def ik_hai_xuong(S, E, H, P, truc_on=None, huong_gap=None):
+def ik_hai_xuong(S, E, H, P, truc_on=None):
     """Trả (q_vai, q_khuyu) — hai phép xoay THÊM (world) để bàn tay H tới P.
 
     Chuẩn hai xương: gập khuỷu theo định lý cosin cho đúng khoảng cách, rồi
@@ -591,49 +591,12 @@ def ik_hai_xuong(S, E, H, P, truc_on=None, huong_gap=None):
     # Nghiệm: thử cả hai dấu, giữ dấu cho |S->tay| ĐÚNG bằng d cần đạt. Đây là
     # phép kiểm rẻ (vài phép nhân quaternion) và tự đúng cho mọi chuỗi.
     qv, qk, H2 = _thu(n)
-    if huong_gap is not None:
-        # CHIỀU GẬP THEO THAM CHIẾU (15/09 tối, render kho ARDY "skips forward"): chân gần duỗi thẳng thì CẢ HAI dấu đều tới đúng
-        # d, luật "giữ dấu cho |S->ngọn| đúng d" chọn tuỳ khung → gối lúc trước lúc sau đường háng–cổ chân (log IK: phía −1/+1/−1
-        # ba khung liền) = gối vọt 15–21 cm và xương chân xoay 33–82° đúng một khung, trong khi ARDY vào khâu chân trơn (gối
-        # 4–8 cm/khung). Có tham chiếu thì trong các nghiệm tới đúng d giữ nghiệm có gối lệch về phía `huong_gap`.
-        qv2, qk2, H2b = _thu(-n)
-        e1 = abs(float(np.linalg.norm(H2 - S)) - d)
-        e2 = abs(float(np.linalg.norm(H2b - S)) - d)
-        # Gối người không gập ngược: trong các nghiệm tới đích đủ gần (≤ max(5 mm, 1 % d)) LUÔN giữ nghiệm gối về phía
-        # `huong_gap`. Bản đầu chỉ xét khi hai nghiệm "hoà" (0,2 % d) → nguồn ARDY gối hơi sau đường háng–cổ chân (−0,3…−0,5
-        # cm) thì khung này giữ gối sau, khung sau đủ hoà lại chọn gối trước → gối nhảy 10,6 cm một khung (mẫu tim_lat_1).
-        # Chân gập rõ thì nghiệm ngược dấu lệch d rất xa, không lọt ngưỡng.
-        hg = np.asarray(huong_gap, float)
-        a_ = (P - S) / max(float(np.linalg.norm(P - S)), 1e-9)
-
-        def _phia(qv_, H_):
-            K = S + q_rot(q_mul(q_between(H_ - S, P - S), qv_), E - S)
-            v = (K - S) - float((K - S) @ a_) * a_
-            return float(v @ hg)
-        ung = [(e1, (qv, qk, H2)), (e2, (qv2, qk2, H2b))]
-        dat = [u for u in ung if u[0] <= max(5e-3, 0.01 * d)]
-        if dat:
-            qv, qk, H2 = max(dat, key=lambda u: _phia(u[1][0], u[1][2]))[1]
-        else:
-            qv, qk, H2 = min(ung, key=lambda u: u[0])[1]
-    elif abs(float(np.linalg.norm(H2 - S)) - d) > 1e-4:
+    if abs(float(np.linalg.norm(H2 - S)) - d) > 1e-4:
         qv2, qk2, H2b = _thu(-n)
         if abs(float(np.linalg.norm(H2b - S)) - d) < abs(float(np.linalg.norm(H2 - S)) - d):
             qv, qk, H2 = qv2, qk2, H2b
     q_huong = q_between(H2 - S, P - S)
-    q1, q2 = q_mul(q_huong, qv), qk
-    if huong_gap is not None and abs(float(np.linalg.norm(H2 - S)) - d) > 1e-4:
-        # Nghiệm "ngược dấu" của phép thử không phải nghiệm đối xứng mà là bước XOAY NGƯỢC từ tư thế hiện tại → lệch đích tới
-        # ~9 mm (3 mẫu lật: 145–248 khung > 3 mm). Giải lại MỘT lượt từ chính nghiệm đã chọn: bước còn lại nhỏ nên tới đúng d
-        # mà gối không đổi phía. Quy ước người gọi: gối' = S + q1·(E−S), cẳng' = q2·q1·(H−E).
-        E2 = S + q_rot(q1, E - S)
-        H3 = E2 + q_rot(q_mul(q2, q1), H - E)
-        r2 = ik_hai_xuong(S, E2, H3, P, truc_on=truc_on)
-        if r2 is not None:
-            q1b, q2b = r2
-            q2 = q_mul(q2b, q_mul(q1b, q_mul(q2, q_inv(q1b))))
-            q1 = q_mul(q1b, q1)
-    return q1, q2
+    return q_mul(q_huong, qv), qk
 
 
 def _muot_tiep_xuc(u):

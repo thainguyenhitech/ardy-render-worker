@@ -585,18 +585,107 @@ def buoc_chan_max(clip: dict) -> tuple[float, str, float]:
     return m, ten, t
 
 
-def huong_mui_chan(clip: dict, b: dict, moc, ks) -> dict:
-    """{chân: (len(ks),3)} hướng cổ chân→mũi bàn chân (world) của clip TRƯỚC IK — tham chiếu CHIỀU GẬP gối cho
-    `buoc_chan._giai_ik(huong_gap=)`. Gối người gập về phía mũi chân; không có tham chiếu thì IK chọn chiều theo từng khung và
-    chân gần thẳng nhảy gối trước/sau (15/09: "skips forward" lật 33–82°/khung, ARDY vào khâu chân trơn)."""
+def huong_goi_lien_tuc(U, K, F, lech_min: float = 0.01, sigma: float = 2.0) -> np.ndarray:
+    """(T,3) hướng gối LIÊN TỤC làm tham chiếu chiều + mặt phẳng gập cho IK: phần vuông góc trục háng→cổ chân của (gối − háng).
+    Khung gối lệch trục < `lech_min` (chân gần thẳng — hướng vô nghĩa) lấp bằng nội suy từ khung lân cận; GIỮ DẤU liên tục (gối
+    người không lật ra sau: ARDY đi qua điểm duỗi thẳng thì hướng đảo 164° trong một khung — 16/09 tim_lat2_1 k59); rồi Gauss σ.
+    Không khung nào đủ lệch thì trả mảng 0 (IK coi như không có tham chiếu)."""
+    from scipy.ndimage import gaussian_filter1d
+    U = np.asarray(U, float); K = np.asarray(K, float); F = np.asarray(F, float)
+    ax = F - U
+    ax /= np.maximum(np.linalg.norm(ax, axis=1), 1e-9)[:, None]
+    v = (K - U) - np.sum((K - U) * ax, 1)[:, None] * ax
+    lech = np.linalg.norm(v, axis=1)
+    tot = np.nonzero(lech >= lech_min)[0]
+    if len(tot) == 0:
+        return np.zeros_like(v)
+    vh = v / np.maximum(lech, 1e-12)[:, None]
+    for a, b in zip(tot[:-1], tot[1:]):
+        if float(vh[b] @ vh[a]) < 0:
+            vh[b] = -vh[b]
+    ra = np.zeros_like(vh)
+    for j in range(3):
+        ra[:, j] = np.interp(np.arange(len(vh)), tot, vh[tot, j])
+    ra = gaussian_filter1d(ra, sigma, axis=0, mode="nearest")
+    return ra / np.maximum(np.linalg.norm(ra, axis=1), 1e-12)[:, None]
+
+
+def ik_chan_cuc(clip: dict, b: dict, moc, ks, quy_dao, cuc: dict) -> float:
+    """IK hai xương GIẢI TÍCH với HƯỚNG GỐI (pole) cho trước — thay `buoc_chan._giai_ik` trong tool render (16/09).
+
+    Vì sao không dùng `_giai_ik`/`ik_hai_xuong`: IK đó xoay THEO BƯỚC từ tư thế nguồn quanh pháp tuyến đo từ chính nguồn rồi thử
+    hai dấu. Nguồn gần thẳng mà đích đòi gập (đích ngang ARDY × k ghép cao rig ngắn hơn chân ARDY 4–6 %) thì pháp tuyến là nhiễu,
+    chọn dấu tuỳ khung → gối văng 14 cm, cẳng chân xoắn 60–74°/khung ("is skipping forward"; RunPod L4 71°). Mọi vá heuristic quanh
+    nó (chiều gập theo mũi chân, mặt phẳng tham chiếu, nới đích) chỉ chữa từng lớp.
+    Ở đây: gối đặt ĐÚNG hình học — trên vòng tròn tới được đích, về phía `cuc[chân][i]` (hướng gối liên tục, xem
+    `huong_goi_lien_tuc`) — không nhánh, không thử dấu; đùi/cẳng chỉ XOAY TỐI THIỂU từ hướng hiện tại sang hướng mới (độ xoắn
+    theo nguồn, liên tục); bàn chân nhận đúng hướng đích. `quy_dao(chân, t)` → (vị trí world, hướng world wxyz) như `_giai_ik`.
+    Sửa `clip` tại chỗ; trả sai lệch cổ chân lớn nhất (m)."""
     from loi import buoc_chan as BC
+    from loi.dong_thoi_gian import _q_sang_euler
+    _eq, qmul, qrot, _m = BC._lo()
+    Bm = BC._rig()[0]
+    inv = lambda q: q * np.array([1.0, -1.0, -1.0, -1.0])  # noqa: E731
     fk = BC._fk(clip, b, moc, ks)
-    _eq, _qm, qr, _m = BC._lo()
-    _B, n2i, _par, _rr, rp, _x = BC._rig()
-    return {c: qr(np.asarray(fk[c]["qw_f"], float), np.array(rp[n2i[c.replace("Foot", "ToeBase")]], float)) for c in BC.CHAN}
+    n = len(ks)
+    sai = 0.0
+    moi: dict = {}
+    for c, (hip, goi, co) in BC._CHUOI.items():
+        F = fk[c]
+        S = np.asarray(F["p_u"], float); E0 = np.asarray(F["p_l"], float); H0 = np.asarray(F["p_f"], float)
+        qu = np.asarray(F["qw_u"], float); ql = np.asarray(F["qw_l"], float)
+        l1 = float(np.median(np.linalg.norm(E0 - S, axis=1))); l2 = float(np.median(np.linalg.norm(H0 - E0, axis=1)))
+        P = np.zeros((n, 3)); Qf = np.zeros((n, 4))
+        for i, k in enumerate(ks):
+            p_, q_ = quy_dao(c, float(moc[k]))
+            P[i] = np.asarray(p_, float); Qf[i] = np.asarray(q_, float)
+        cu = np.asarray(cuc[c], float) if cuc is not None and c in cuc else None
+        ru, rl, rf = np.zeros((n, 4)), np.zeros((n, 4)), np.zeros((n, 4))
+        b_truoc = None
+        for i in range(n):
+            v = P[i] - S[i]
+            dd = float(np.linalg.norm(v))
+            a = v / max(dd, 1e-9)
+            d = min(max(dd, abs(l1 - l2) + 1e-4), l1 + l2 - 1e-4)
+            x = (l1 * l1 - l2 * l2 + d * d) / (2.0 * d)
+            r = math.sqrt(max(l1 * l1 - x * x, 0.0))
+            ref = cu[i] if cu is not None and float(np.linalg.norm(cu[i])) > 1e-6 else (E0[i] - S[i])
+            # CHỞ hướng gối THEO TRỤC háng→cổ chân (16/09, quỳ gối 6 s: chân gập sâu, háng–cổ chân 13 cm mà đích thế nghỉ lệch
+            # ~10 cm → trục đích xoay xa trục nguồn, chiếu hướng gối ⊥ trục nguồn lên mặt phẳng mới đổi phía → gối văng 80 cm/khung).
+            # Xoay tối thiểu trục nguồn → trục đích giữ gối cùng phía so với chân, liên tục theo khung.
+            a_src = H0[i] - S[i]
+            if float(np.linalg.norm(a_src)) > 1e-6:
+                ref = qrot(np.asarray(Bm.q_between(a_src, a), float)[None], np.asarray(ref, float)[None])[0]
+            bb = ref - float(ref @ a) * a
+            if float(np.linalg.norm(bb)) < 1e-6:
+                bb = b_truoc if b_truoc is not None else np.cross(a, [0.0, 1.0, 0.0])
+            bb = bb / max(float(np.linalg.norm(bb)), 1e-9)
+            b_truoc = bb
+            K = S[i] + x * a + r * bb
+            Hn = S[i] + a * d
+            qs_u = np.asarray(Bm.q_between(E0[i] - S[i], K - S[i]), float)
+            qu2 = qmul(qs_u[None], qu[i][None])[0]
+            s1 = qrot(qs_u[None], (H0[i] - E0[i])[None])[0]
+            qs_l = np.asarray(Bm.q_between(s1, Hn - K), float)
+            ql2 = qmul(qs_l[None], qmul(qs_u[None], ql[i][None]))[0]
+            ru[i] = qmul(inv(np.asarray(fk["qw_h"], float)[i])[None], qu2[None])[0]
+            rl[i] = qmul(inv(qu2)[None], ql2[None])[0]
+            rf[i] = qmul(inv(ql2)[None], Qf[i][None])[0]
+            sai = max(sai, float(np.linalg.norm(Hn - P[i])))
+        moi[hip], moi[goi], moi[co] = ru, rl, rf
+    for ten, qn in moi.items():
+        tr = b[ten]
+        gan = tuple(tr[int(ks[0]) - 1][1:4]) if ks[0] > 0 else tuple(tr[int(ks[0])][1:4])
+        for i, k in enumerate(ks):
+            e = _q_sang_euler(tuple(float(v) for v in qn[i]), gan)
+            tr[int(k)][1], tr[int(k)][2], tr[int(k)][3] = e
+            gan = e
+    return sai
 
 
 GHIM_DOI_CM = 4.0     # bàn chân clip dời ngang ≤ ngần này VÀ không nhấc quá `NHAC_CHAN_NGUONG_M` → ghim đúng thế nghỉ suốt clip
+LECH_DUONG_HE = float(os.environ.get("ARDY_KHO_LECH_DUONG_HE", "4.0"))    # độ lệch tới thế nghỉ đổi hết trong quãng đi = hệ × |lệch|
+LECH_DUONG_MIN = float(os.environ.get("ARDY_KHO_LECH_DUONG_MIN", "3.0"))  # quãng đi < hệ × tổng lệch hai đầu → ghim (không mang nổi mà không trượt)
 
 
 def khop_the_nghi(clip: dict, toan_than: bool | None = None) -> dict:
@@ -619,6 +708,8 @@ def khop_the_nghi(clip: dict, toan_than: bool | None = None) -> dict:
     ra_cha = {"co_toan_than": toan_than, "ghim": ghim}
     kq = _khop_the_nghi(clip, not ghim)
     kq.update(ra_cha)
+    if "toan_than" in kq:
+        kq["ghim"] = not kq["toan_than"]      # nhánh lõi có thể chuyển sang ghim khi bàn chân không đủ quãng đi
     return kq
 
 
@@ -643,7 +734,41 @@ def _khop_the_nghi(clip: dict, toan_than: bool) -> dict:
     w1 = np.zeros(n)
     w1[n - nT:] = tat[::-1]
     nghich = lambda q: (float(q[0]), -float(q[1]), -float(q[2]), -float(q[3]))  # noqa: E731
+    thieu_duong = []
+
+    def _quang(P):
+        # quãng đi ngang TÍCH LUỸ chỉ tính lúc bàn chân THẬT SỰ ĐI (vận tốc ngang 0,10 → 0,30 m/s, smoothstep): bàn chân đang đứng
+        # mà rê chậm vài mm/khung không được mang độ lệch, không thì chính độ lệch làm chân trụ trôi (bản đầu: trôi pha đứng 0 → 1,5 cm)
+        d = np.linalg.norm(np.diff(P[:, [0, 2]], axis=0), axis=1)
+        u = np.clip((d * fps_c - 0.10) / 0.20, 0.0, 1.0)
+        return np.r_[0.0, np.cumsum(d * u * u * (3.0 - 2.0 * u))]
+
+    # bàn chân NGUỒN chụp TRƯỚC bước 1–2: kéo nghiêng hông/độ cao hông về thế nghỉ (tắt dần 0,5 s) quét cả chuỗi chân, lấy FK sau
+    # đó làm nguồn thì chân trụ đang đứng yên trôi theo 1,5 cm (16/09, bộ thử Mac — pha đứng đầu clip)
+    fk0 = BC._fk(clip, b, moc, np.arange(n))
+    if toan_than:
+        # ĐỦ QUÃNG ĐI ĐỂ MANG ĐỘ LỆCH? (16/09, bộ thử Mac: ngồi xổm bàn chân đi 8 cm mà lệch tới thế nghỉ 8,9 + 13,7 cm → luật
+        # nhấc chân cũ nạp cả 13,7 cm trong MỘT khung). Độ lệch chỉ được đổi khi bàn chân đi ngang (xem nhánh dưới); bàn chân đi
+        # chưa tới LECH_DUONG_MIN × tổng lệch thì không mang nổi mà không trượt → ghim như clip đứng một chỗ.
+        qh0 = np.asarray(fk0["qw_h"], float)
+        ph0 = np.asarray(fk0["p_h"], float)
+        for c in BC.CHAN:
+            rel, ya, _qr = A["chan"][c]
+            P0 = np.asarray(fk0[c]["p_f"], float)
+            lech = 0.0
+            for k in (0, n - 1):
+                qy = np.asarray(_q_yaw(float(_yaw_cua(tuple(float(v) for v in qh0[k])))), float)
+                p = ph0[k] + _xoay_v(qy, rel)
+                p[1] = ya
+                lech += float(np.linalg.norm(p - P0[k]))
+            duong = float(_quang(P0)[-1])
+            if duong < LECH_DUONG_MIN * lech:
+                thieu_duong.append((c[0], round(duong * 100, 1), round(lech * 100, 1)))
+        if thieu_duong:
+            toan_than = False
     ra: dict = {"toan_than": bool(toan_than)}
+    if thieu_duong:
+        ra["ghim_thieu_duong"] = thieu_duong
     # 1) thân trên + ngón + nghiêng hông: độ lệch tới A ở mỗi biên nhân TRÁI (hệ cha), tắt dần vào nội dung
     goc_max = 0.0
     for x, tr in b.items():
@@ -691,10 +816,15 @@ def _khop_the_nghi(clip: dict, toan_than: bool) -> dict:
     ph = np.asarray(fk["p_h"], float)
     g = np.array([_yaw_cua(tuple(float(v) for v in q)) for q in qh])
     dich, huong = {}, {}
+
+    def _b5(x):
+        u = np.clip(x, 0.0, 1.0)
+        return 10 * u ** 3 - 15 * u ** 4 + 6 * u ** 5
+
     for c in BC.CHAN:
         rel, ya, qrel = A["chan"][c]
-        P = np.asarray(fk[c]["p_f"], float)
-        Q = np.asarray(fk[c]["qw_f"], float)
+        P = np.asarray(fk0[c]["p_f"], float)
+        Q = np.asarray(fk0[c]["qw_f"], float)
 
         def tgt(k, rel=rel, ya=ya, qrel=qrel):
             qy = np.asarray(_q_yaw(float(g[k])), float)
@@ -717,33 +847,26 @@ def _khop_the_nghi(clip: dict, toan_than: bool) -> dict:
                                   _q_nhan(_q_slerp((1.0, 0.0, 0.0, 0.0), d0, float(a0[k])), tuple(float(v) for v in Q[k])))
                           for k in range(n)], float)
         else:
-            nhac = (P[:, 1] - min(float(P[:, 1].min()), ya)) > NHAC_CHAN_NGUONG_M
-            idx = np.nonzero(nhac)[0]
-            if len(idx):
-                a0 = np.ones(n)
-                k1 = int(idx[0])
-                dd = min(nT, n - k1)
-                a0[k1:k1 + dd] = _he_tat_dan(nT)[:dd]
-                a0[k1 + dd:] = 0.0
-                k2 = int(idx[-1]) + 1
-                s = k2 - 1
-                while s > 0 and nhac[s - 1]:
-                    s -= 1
-                L = max(1, min(nT, k2 - s))
-                a1 = np.zeros(n)
-                a1[k2 - L:k2] = _len5(L)
-                a1[k2:] = 1.0
-            else:
-                a1 = np.r_[0.0, _len5(n - 1)]
-                a0 = 1.0 - a1
+            # ĐỘ LỆCH ĐỔI THEO QUÃNG ĐI NGANG CỦA CHÍNH BÀN CHÂN (16/09). Bản trước bám "chân nhấc" = cao hơn điểm thấp nhất CẢ
+            # clip 2 cm: gót nhấc cả clip đọc thành một lần nhấc dài, một khung nhiễu cuối đọc thành lần nhấc cuối → nạp cả độ
+            # lệch cuối trong 1–2 khung (ngồi xổm cổ chân nhảy 13,7 cm/khung, bước ngang 4,3 cm/khung ở hai khung chót). Nay tiến
+            # độ = quãng đi tích luỹ: lệch đầu tắt trong LECH_DUONG_HE × |lệch| quãng đầu, lệch cuối nạp trong quãng cuối (bậc 5
+            # theo quãng) → bàn chân đứng yên thì độ lệch đứng yên, phần đổi mỗi khung ≤ 1,875/LECH_DUONG_MIN quãng khung đó.
             o0, o1 = p0 - P[0], p1 - P[-1]
+            C = _quang(P)
+            T = float(C[-1])
+            n0, n1 = float(np.linalg.norm(o0)), float(np.linalg.norm(o1))
+            B0 = max(1e-6, min(LECH_DUONG_HE * n0, T * n0 / max(n0 + n1, 1e-9)))
+            B1 = max(1e-6, min(LECH_DUONG_HE * n1, T * n1 / max(n0 + n1, 1e-9)))
+            a0 = 1.0 - _b5(C / B0)
+            a1 = _b5((C - (T - B1)) / B1)
             D = P + a0[:, None] * o0 + a1[:, None] * o1
             d0 = _q_nhan(tuple(float(v) for v in q0), nghich(Q[0]))
             d1 = _q_nhan(tuple(float(v) for v in q1), nghich(Q[-1]))
             H = np.array([_q_nhan(_q_slerp((1.0, 0.0, 0.0, 0.0), d1, float(a1[k])),
                                   _q_nhan(_q_slerp((1.0, 0.0, 0.0, 0.0), d0, float(a0[k])), tuple(float(v) for v in Q[k])))
                           for k in range(n)], float)
-            ra[f"{c[0]}_lech_cm"] = (round(float(np.linalg.norm(o0)) * 100, 1), round(float(np.linalg.norm(o1)) * 100, 1))
+            ra[f"{c[0]}_lech_cm"] = (round(n0 * 100, 1), round(n1 * 100, 1))
         dich[c] = _mem_tam_voi(fk[c], D)
         huong[c] = H
 
@@ -751,7 +874,8 @@ def _khop_the_nghi(clip: dict, toan_than: bool) -> dict:
         i = int(min(n - 1, max(0, round(float(t) * fps_c))))
         return dich[c][i], huong[c][i]
 
-    sai = BC._giai_ik(clip, b, moc, ks, np.ones(n), quy_dao, huong_gap=huong_mui_chan(clip, b, moc, ks))
+    tham = {c: huong_goi_lien_tuc(fk[c]["p_u"], fk[c]["p_l"], fk[c]["p_f"]) for c in BC.CHAN}   # hướng gối liên tục của clip sau IK theo ARDY
+    sai = ik_chan_cuc(clip, b, moc, ks, quy_dao, tham)
     ra["sai_ik_cm"] = round(sai * 100, 2)
     return ra
 
@@ -901,7 +1025,7 @@ def _chan_clip_ghep(hc: dict, tho: list, k_dau: int, k_cat: int, tho2: list, k_l
         s = len(A1["Hips"])
         n_noi = _so_khung_noi(len(A2["Hips"]))
         if n_noi:
-            for x in ("Hips", "LeftUpLeg", "RightUpLeg"):
+            for x in ("Hips", "LeftUpLeg", "RightUpLeg", "LeftLeg", "RightLeg"):
                 if x in A:
                     A[x] = _noi_quan_tinh_vi_tri(A[x], s, n_noi)
             for x in ("LeftFoot", "RightFoot"):
@@ -1099,7 +1223,7 @@ def _vi_tri_chan_ardy(named: list, info: dict) -> dict:
     """{LeftFoot/RightFoot/Hips: (T,3)} vị trí world trong không gian ARDY — FK T-pose danh tính (quat local xyzw)."""
     J = list(info["joints"]); PAR = info["parents"]; REST = np.asarray(info["rest_positions"], float)
     IX = {n: i for i, n in enumerate(J)}
-    ra = {n: [] for n in ("Hips", "LeftFoot", "RightFoot", "LeftUpLeg", "RightUpLeg")}
+    ra = {n: [] for n in ("Hips", "LeftFoot", "RightFoot", "LeftUpLeg", "RightUpLeg", "LeftLeg", "RightLeg")}
     for f in named:
         b = f["data"]["bones"]
         G = [None] * len(J); P = [None] * len(J)
@@ -1198,7 +1322,13 @@ def theo_chan_ardy(clip: dict, named: list, info: dict, A: dict | None = None) -
         i = int(min(n - 1, max(0, round(float(t) * fps_c))))
         return dich[c][i], huong[c][i]
 
-    sai = BC._giai_ik(clip, b, moc, ks, np.ones(n), quy_dao, huong_gap=huong_mui_chan(clip, b, moc, ks))
+    # tham chiếu chiều + mặt phẳng gập gối = hướng gối LIÊN TỤC của chính ARDY (16/09: hướng mũi chân suy biến khi chân nhấc cao)
+    tham = None
+    if all(f"{c[:-4]}Leg" in A and f"{c[:-4]}UpLeg" in A for c in BC.CHAN):
+        tham = {c: huong_goi_lien_tuc(A[c[:-4] + "UpLeg"], A[c[:-4] + "Leg"], A[c]) for c in BC.CHAN}
+    if tham is None:
+        tham = {c: huong_goi_lien_tuc(fk[c]["p_u"], fk[c]["p_l"], fk[c]["p_f"]) for c in BC.CHAN}
+    sai = ik_chan_cuc(clip, b, moc, ks, quy_dao, tham)
     clip["_theo_chan_ardy"] = {"sai_cm": round(sai * 100, 2), "k": round(k, 3)}
     return clip["_theo_chan_ardy"]
 
@@ -1385,7 +1515,7 @@ def render_mot(tag: str, prompt: str, giay: float, hist: list, dich: dict, idle_
             "quay_bien_do": round(float(ct["do"]["yw"].max() - ct["do"]["yw"].min()), 1),
             "song": bool(song), "song_do": {k: (round(v, 3) if isinstance(v, float) else v) for k, v in sd.items()},
             "sinh_s": round(time.time() - t0, 1)}
-    if d0 > 5.0:
+    if d0 > KIEM_DAU_MAX:                   # cùng trần với kiem_tai_ve.LECH_DAU_MAX (bộ thử 16/09: 4 clip vẫy/cúi/vươn 5,0–5,2° bị loại oan ở 5,0)
         return {"loi": f"khung 0 lệch idle {d0:.1f}° — idle đóng băng khác lịch sử?", "meta": meta}
     if not song:
         return {"loi": "cổng sống: không có động tác thật", "meta": meta}
