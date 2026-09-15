@@ -585,6 +585,17 @@ def buoc_chan_max(clip: dict) -> tuple[float, str, float]:
     return m, ten, t
 
 
+def huong_mui_chan(clip: dict, b: dict, moc, ks) -> dict:
+    """{chân: (len(ks),3)} hướng cổ chân→mũi bàn chân (world) của clip TRƯỚC IK — tham chiếu CHIỀU GẬP gối cho
+    `buoc_chan._giai_ik(huong_gap=)`. Gối người gập về phía mũi chân; không có tham chiếu thì IK chọn chiều theo từng khung và
+    chân gần thẳng nhảy gối trước/sau (15/09: "skips forward" lật 33–82°/khung, ARDY vào khâu chân trơn)."""
+    from loi import buoc_chan as BC
+    fk = BC._fk(clip, b, moc, ks)
+    _eq, _qm, qr, _m = BC._lo()
+    _B, n2i, _par, _rr, rp, _x = BC._rig()
+    return {c: qr(np.asarray(fk[c]["qw_f"], float), np.array(rp[n2i[c.replace("Foot", "ToeBase")]], float)) for c in BC.CHAN}
+
+
 GHIM_DOI_CM = 4.0     # bàn chân clip dời ngang ≤ ngần này VÀ không nhấc quá `NHAC_CHAN_NGUONG_M` → ghim đúng thế nghỉ suốt clip
 
 
@@ -740,7 +751,7 @@ def _khop_the_nghi(clip: dict, toan_than: bool) -> dict:
         i = int(min(n - 1, max(0, round(float(t) * fps_c))))
         return dich[c][i], huong[c][i]
 
-    sai = BC._giai_ik(clip, b, moc, ks, np.ones(n), quy_dao)
+    sai = BC._giai_ik(clip, b, moc, ks, np.ones(n), quy_dao, huong_gap=huong_mui_chan(clip, b, moc, ks))
     ra["sai_ik_cm"] = round(sai * 100, 2)
     return ra
 
@@ -1187,7 +1198,7 @@ def theo_chan_ardy(clip: dict, named: list, info: dict, A: dict | None = None) -
         i = int(min(n - 1, max(0, round(float(t) * fps_c))))
         return dich[c][i], huong[c][i]
 
-    sai = BC._giai_ik(clip, b, moc, ks, np.ones(n), quy_dao)
+    sai = BC._giai_ik(clip, b, moc, ks, np.ones(n), quy_dao, huong_gap=huong_mui_chan(clip, b, moc, ks))
     clip["_theo_chan_ardy"] = {"sai_cm": round(sai * 100, 2), "k": round(k, 3)}
     return clip["_theo_chan_ardy"]
 

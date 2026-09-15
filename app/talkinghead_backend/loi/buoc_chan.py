@@ -494,7 +494,8 @@ def di_chuyen_chan(clip: dict, cac_buoc: list[Buoc], t_bd: float | None = None,
     return bc
 
 
-def _giai_ik(clip: dict, b: dict, moc, ks, W, quy_dao) -> float:
+def _giai_ik(clip: dict, b: dict, moc, ks, W, quy_dao, truc: dict | None = None,
+             huong_gap: dict | None = None) -> float:
     """LÕI IK chân dùng chung (`di_chuyen_chan`, `khoa_truot`): kéo cổ chân từng khung `ks` về `quy_dao(chân, t)` =
     (vị trí world, hướng world) theo trọng số `W` (mảng chung hoặc {chân: mảng}). Sửa `clip` tại chỗ; trả sai lệch lớn
     nhất (m) ở những khung trọng số 1.
@@ -518,7 +519,8 @@ def _giai_ik(clip: dict, b: dict, moc, ks, W, quy_dao) -> float:
             pos, qq = quy_dao(c, float(moc[k]))
             dich = F["p_f"][i] + w * (np.asarray(pos, float) - F["p_f"][i])
             huong = _slerp(F["qw_f"][i], qq, w)
-            kq = B.ik_hai_xuong(F["p_u"][i], F["p_l"][i], F["p_f"][i], dich, truc_on=fk["truc"][i])
+            kq = B.ik_hai_xuong(F["p_u"][i], F["p_l"][i], F["p_f"][i], dich, truc_on=(truc[c][i] if truc is not None else fk["truc"][i]),
+                                     huong_gap=(huong_gap[c][i] if huong_gap is not None else None))
             if kq is None:
                 continue
             q1 = np.asarray(kq[0], float)
@@ -547,7 +549,8 @@ def _giai_ik(clip: dict, b: dict, moc, ks, W, quy_dao) -> float:
             pos, qq = quy_dao(c, float(moc[k]))
             dich = F0["p_f"][i] + w * (np.asarray(pos, float) - F0["p_f"][i])
             huong = _slerp(F0["qw_f"][i], qq, w)
-            kq = B.ik_hai_xuong(F2["p_u"][i], F2["p_l"][i], F2["p_f"][i], dich, truc_on=fk_m["truc"][i])
+            kq = B.ik_hai_xuong(F2["p_u"][i], F2["p_l"][i], F2["p_f"][i], dich, truc_on=(truc[c][i] if truc is not None else fk_m["truc"][i]),
+                                     huong_gap=(huong_gap[c][i] if huong_gap is not None else None))
             if kq is None:
                 continue
             qw_u2 = np.asarray(B.q_mul(np.asarray(kq[0], float), F2["qw_u"][i]), float)
