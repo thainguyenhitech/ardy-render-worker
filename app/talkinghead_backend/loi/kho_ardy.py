@@ -111,22 +111,20 @@ def nang_luoi_60(clip: dict) -> dict:
         if len(tr) < 2:
             continue
         tt = np.array([float(f[0]) for f in tr])
-        R, q_truoc = [], None
+        # spline trên THÀNH PHẦN quaternion (bán cầu liên tục) rồi chuẩn hoá — không trên véc-tơ xoay: ép bán cầu làm chuỗi mang
+        # w < 0 → |r| ≈ 2π, spline giữa hai véc-tơ như vậy khác trục đi qua phép quay rất lớn (ardy_kho._nang_tho, 15/09 tối)
+        Qs, q_truoc = [], None
         for f in tr:
             q = np.asarray(_euler_sang_q(f[1], f[2], f[3]), float)
             if q_truoc is not None and float(np.dot(q, q_truoc)) < 0:
                 q = -q                                               # cùng bán cầu khung trước
             q_truoc = q
-            R.append(_log(q))
-        R = np.array(R)
-        for i in range(1, len(R)):                                   # véc-tơ xoay liên tục (không nhảy nhánh 2π)
-            n_r = float(np.linalg.norm(R[i]))
-            if n_r > 1e-9 and np.linalg.norm(R[i] - R[i - 1]) > math.pi:
-                R[i] = R[i] * (1.0 - 2.0 * math.pi / n_r)
-        V = CubicSpline(tt, R, axis=0, bc_type="natural")(np.clip(moc, tt[0], tt[-1]))
+            Qs.append(q)
+        V = CubicSpline(tt, np.array(Qs), axis=0, bc_type="natural")(np.clip(moc, tt[0], tt[-1]))
+        V /= np.maximum(np.linalg.norm(V, axis=1, keepdims=True), 1e-12)
         gan, ra = None, []
         for tm, v in zip(moc, V):
-            e = _q_sang_euler(_exp(v), gan)
+            e = _q_sang_euler(tuple(float(c) for c in v), gan)
             ra.append([round(float(tm), 4), round(float(e[0]), 5), round(float(e[1]), 5), round(float(e[2]), 5)])
             gan = e
         b[ten] = ra

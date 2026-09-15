@@ -563,6 +563,28 @@ def _len5(n: int) -> np.ndarray:
     return 10 * u ** 3 - 15 * u ** 4 + 6 * u ** 5
 
 
+# CỔNG LẬT KHỚP CHÂN (15/09 tối, RunPod 20 câu): "skips forward" có cẳng chân xoay 70,6°/khung (đùi 44, bàn chân 47) trong khi
+# cổ chân đi đều 3 cm/khung và gối giữ 138° — hướng gối lật 44–87° quanh trục háng→cổ chân một khung lúc chân nhấc cao. Mọi
+# thước còn lại (đầu/cuối, trôi, kiem_tai_ve) đều ĐẠT. Người thật + 40 clip sạch (Mac 22, RunPod 18) bước lớn nhất ≤ 16,6°/khung.
+CHAN_LAT_MAX_DO = float(os.getenv("ARDY_KHO_CHAN_LAT_MAX_DO", "30"))
+
+
+def buoc_chan_max(clip: dict) -> tuple[float, str, float]:
+    """(bước quaternion lớn nhất °/khung, xương, mốc s) trên các xương chân của clip."""
+    b = clip.get("bones") or {}
+    m, ten, t = 0.0, "", 0.0
+    for x in ("LeftUpLeg", "LeftLeg", "LeftFoot", "RightUpLeg", "RightLeg", "RightFoot"):
+        tr = b.get(x)
+        if not tr or len(tr) < 2:
+            continue
+        Q = np.array([_q(f[1:4]) for f in tr])
+        d = np.degrees(2 * np.arccos(np.clip(np.abs(np.sum(Q[1:] * Q[:-1], 1)), 0.0, 1.0)))
+        k = int(d.argmax())
+        if d[k] > m:
+            m, ten, t = float(d[k]), x, float(tr[k + 1][0])
+    return m, ten, t
+
+
 GHIM_DOI_CM = 4.0     # bàn chân clip dời ngang ≤ ngần này VÀ không nhấc quá `NHAC_CHAN_NGUONG_M` → ghim đúng thế nghỉ suốt clip
 
 
@@ -788,18 +810,20 @@ def lam_tron_nut(clip: dict, buoc: int = 3) -> dict:
     for x, tr in b.items():
         if len(tr) != n:
             continue
-        R = []; gan = None
+        # thành phần quaternion (bán cầu liên tục) + chuẩn hoá, KHÔNG véc-tơ xoay — cùng lỗi lật của `_nang_tho` (15/09 tối)
+        Qs = []; q_truoc = None
         for f in tr:
-            r = _r_log(_q(f[1:4]))
-            if gan is not None and np.linalg.norm(r - gan) > math.pi:      # chọn nhánh gần khung trước
-                r = r * (1.0 - 2.0 * math.pi / max(float(np.linalg.norm(r)), 1e-9))
-            R.append(r); gan = r
-        out = cr(np.array(R))
+            q = _q(f[1:4])
+            if q_truoc is not None and float(np.dot(q, q_truoc)) < 0:
+                q = -q
+            Qs.append(q); q_truoc = q
+        out = cr(np.array(Qs))
         gan_e = None
         for i, f in enumerate(tr):
             if i % buoc == 0 or i == n - 1:
                 gan_e = tuple(f[1:4]); continue                              # nút giữ nguyên
-            e = _q_sang_euler(tuple(_r_exp(out[i])), gan_e or tuple(f[1:4]))
+            qn = out[i] / max(float(np.linalg.norm(out[i])), 1e-12)
+            e = _q_sang_euler(tuple(float(v) for v in qn), gan_e or tuple(f[1:4]))
             f[1:4] = [float(v) for v in e]; gan_e = e
     hp = clip.get("hips_pos") or []
     if len(hp) == n:
@@ -1023,7 +1047,12 @@ def _nang_tho(frames: list, fps_nguon: float, fps_dich: float) -> list:
     root = np.array([f["data"]["root"] for f in frames], float)
     Q = np.array([f["data"]["quats"] for f in frames], float)           # (n, J, 4) xyzw
     J = Q.shape[1]
-    R = np.zeros((n, J, 3))
+    # SPLINE TRÊN THÀNH PHẦN QUATERNION (bán cầu liên tục theo khung trước) rồi chuẩn hoá — KHÔNG trên véc-tơ xoay (15/09 tối,
+    # RunPod "skips forward": lật đùi 177°/khung). Ép cùng bán cầu làm cả chuỗi mang w < 0 → log cho |r| ≈ 2π dù phép quay chỉ
+    # vài độ; spline giữa hai véc-tơ |r| ≈ 2π khác trục đi qua phép quay RẤT LỚN (Hips: nút 6,3° và 4,6° mà khung nội suy
+    # 112°/109°) → cả người văng, IK kéo chân lật. Thành phần quaternion không có nhánh; bước 20→60 fps nhỏ nên chuẩn hoá lại
+    # gần như trùng spline trên log.
+    Qw = np.zeros((n, J, 4))
     for j in range(J):
         q_truoc = None
         for i in range(n):
@@ -1032,13 +1061,9 @@ def _nang_tho(frames: list, fps_nguon: float, fps_dich: float) -> list:
             if q_truoc is not None and float(np.dot(q, q_truoc)) < 0:
                 q = -q
             q_truoc = q
-            r = _r_log(q)
-            if i and np.linalg.norm(r - R[i - 1, j]) > math.pi:
-                nr = float(np.linalg.norm(r))
-                if nr > 1e-9:
-                    r = r * (1.0 - 2.0 * math.pi / nr)
-            R[i, j] = r
-    Rm = CubicSpline(tn, R, axis=0, bc_type="natural")(tm)
+            Qw[i, j] = q
+    Qm = CubicSpline(tn, Qw, axis=0, bc_type="natural")(tm)
+    Qm /= np.maximum(np.linalg.norm(Qm, axis=2, keepdims=True), 1e-12)
     Pm = CubicSpline(tn, root, axis=0, bc_type="natural")(tm)
     out = []
     for k in range(m):
@@ -1049,7 +1074,7 @@ def _nang_tho(frames: list, fps_nguon: float, fps_dich: float) -> list:
         else:
             quats = []
             for j in range(J):
-                w, x, y, z = _r_exp(Rm[k, j])
+                w, x, y, z = Qm[k, j]
                 quats.append([float(x), float(y), float(z), float(w)])
             data = {"root": [float(v) for v in Pm[k]], "quats": quats}
         f = {"t": round(float(tm[k]), 4), "data": data, "contacts": frames[i_gan].get("contacts")}
@@ -1321,6 +1346,9 @@ def render_mot(tag: str, prompt: str, giay: float, hist: list, dich: dict, idle_
                  if bat and not kq_chan.get(ten)]
         if thieu:
             return {"loi": f"khâu chân/thế nghỉ không chạy {thieu} — xem log 'IK chân clip ghép bỏ qua'"}
+    lat, lat_x, lat_t = buoc_chan_max(hc)
+    if lat > CHAN_LAT_MAX_DO:
+        return {"loi": f"lật khớp chân {lat:.0f}°/khung ở {lat_x} @{lat_t:.2f}s > {CHAN_LAT_MAX_DO:g}"}
     n = len(hc["bones"]["Hips"])
     dinh_hc = max(lech(tu_the(hc, k), idle_pose)[0] for k in range(0, n, 3))
     dinh_goc = float(ct["do"]["dd"].max())
