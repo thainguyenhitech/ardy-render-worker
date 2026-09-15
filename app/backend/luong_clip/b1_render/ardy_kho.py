@@ -1314,7 +1314,13 @@ def render_mot(tag: str, prompt: str, giay: float, hist: list, dich: dict, idle_
     k_dau = diem_dau(ct["do"]["dd"], int(ct["onset"]))
     hc = lap_ghep(clip, k_dau, k_cat, ra, k_lang, idle_clip, k_idle)
     if THEO_CHAN or NHAC_CHAN or THE_NGHI_S > 0:
-        _chan_clip_ghep(hc, tho, k_dau, k_cat, tho2, k_lang, toan_than=toan_than_theo_noi_dung(ct["do"]))
+        kq_chan = _chan_clip_ghep(hc, tho, k_dau, k_cat, tho2, k_lang, toan_than=toan_than_theo_noi_dung(ct["do"]))
+        # KHÂU CHÂN + THẾ NGHỈ LÀ BẮT BUỘC, không phải "cố gắng": `_chan_clip_ghep` nuốt ngoại lệ (chỉ log cảnh báo) nên máy
+        # thiếu một tệp/mốc (image RunPod không chở mô-đun import lười, thiếu IdleDung) sẽ LẶNG LẼ xuất clip kiểu cũ — loại luôn
+        thieu = [ten for ten, bat in (("theo", THEO_CHAN), ("the_nghi", THE_NGHI_S > 0), ("goi_nghi", GOI_NGHI_S > 0))
+                 if bat and not kq_chan.get(ten)]
+        if thieu:
+            return {"loi": f"khâu chân/thế nghỉ không chạy {thieu} — xem log 'IK chân clip ghép bỏ qua'"}
     n = len(hc["bones"]["Hips"])
     dinh_hc = max(lech(tu_the(hc, k), idle_pose)[0] for k in range(0, n, 3))
     dinh_goc = float(ct["do"]["dd"].max())
