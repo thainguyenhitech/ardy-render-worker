@@ -3,7 +3,10 @@
 # TRỌNG SỐ NƯỚNG VÀO IMAGE (user chốt 14/09): Llama-3-8B (LLM2Vec, ~15 GB) + ARDY core8 (~0,7 GB). Lớp trọng số đứng
 # TRƯỚC lớp mã nên sửa mã chỉ đẩy lại vài MB — registry đã có blob thì không tải lại.
 # Build context = thư mục do `dong_goi.sh` dựng (chỉ đúng các tệp tool cần), không phải gốc repo.
-FROM runpod/pytorch:1.0.2-cu1281-torch280-ubuntu2404
+# IMAGE NỀN GỌN (15/09, user "làm gọn đi"): `runpod/pytorch` 10,6 GB nén (ssh, jupyter, đủ thứ pod) → `pytorch/pytorch`
+# runtime 4,3 GB nén, CÙNG torch 2.8 cu128 nên hành vi số học không đổi; đã chứng minh cài được ardy trên họ image này
+# (máy vast dùng pytorch/pytorch:2.5.1-…-runtime). Trọng số 8B bf16 ~14 GB nén là phần không giảm được.
+FROM pytorch/pytorch:2.8.0-cuda12.8-cudnn9-runtime
 
 ENV PIP_NO_CACHE_DIR=1 \
     PYTHONUNBUFFERED=1 \
@@ -11,15 +14,14 @@ ENV PIP_NO_CACHE_DIR=1 \
     TEXT_ENCODERS_DIR=/opt/text_encoders \
     LOCAL_CACHE=true
 
+# Bộ dựng C++ (extension MotionCorrection của ARDY) chỉ cần lúc cài — cài, pip, rồi gỡ trong CÙNG một lớp để không
+# để lại ~300 MB. `cryptography` cài đè để tránh "uninstall-no-record-file" nếu image nền có bản apt.
 RUN apt-get update -qq && apt-get install -y -qq --no-install-recommends cmake build-essential git \
-    && rm -rf /var/lib/apt/lists/*
-
-# `cryptography` 41 của image nền là gói apt (không có RECORD) — pip không gỡ được ("uninstall-no-record-file") khi một
-# phụ thuộc mới đòi bản cao hơn (build thứ 3 15/09 hỏng đúng chỗ này dù hai build trước qua); cài đè không gỡ.
-RUN pip install --ignore-installed "cryptography>=42"
-# ARDY (ghim transformers 5.8.1, numpy<2, dựng extension C++ MotionCorrection) + phần tool cần
-RUN MAKEFLAGS=-j$(nproc) pip install "git+https://github.com/nv-tlabs/ardy.git" \
-    "fastapi>=0.110" "httpx>=0.27" "runpod>=1.7" "boto3>=1.34"
+    && pip install --ignore-installed "cryptography>=42" \
+    && MAKEFLAGS=-j$(nproc) pip install "git+https://github.com/nv-tlabs/ardy.git" \
+       "fastapi>=0.110" "httpx>=0.27" "runpod>=1.7" "boto3>=1.34" \
+    && apt-get purge -y -qq cmake build-essential && apt-get autoremove -y -qq \
+    && rm -rf /var/lib/apt/lists/* /root/.cache /tmp/*
 
 # ---- lớp TRỌNG SỐ (hiếm đổi) ----
 COPY ardy_server/prepare_text_encoder.py /opt/prepare_text_encoder.py

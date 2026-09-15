@@ -85,9 +85,9 @@ class NguonTrong:
             self.nap_s["encoder_thiet_bi"] = dev
             self.nap_s["encoder"] = round(time.time() - t1, 1)
             self._nap_co_dinh()
-            # LÀM NÓNG TRƯỚC KHI NHẬN JOB (đo 15/09 trên L4 worker đã nạp model xong): job đầu của tiến trình 2 câu mất
-            # 103 s trong khi render chỉ 9,5 s — ~90 s là lần chạy đầu của encoder 8B + ARDY trên GPU (khởi tạo kernel);
-            # job kế 1 câu chỉ 7,9 s. Trả trước ở đây để job nào cũng là job "ấm".
+            # LÀM NÓNG TRƯỚC KHI NHẬN JOB: đo lại 15/09 trên L4 chỉ 1,2 s — phần ~90 s của job đầu mỗi worker là NẠP
+            # encoder (76–84 s) mà job tới sớm phải chờ, không phải khởi tạo kernel như đoán ban đầu. Giữ vì rẻ và để
+            # `nap_s["lam_nong"]` chứng minh đường sinh chạy được trước khi báo `san_sang`.
             t2 = time.time()
             self.vector("A person waves the right hand.")
             self.motion({"text": "A person waves the right hand.", "seconds": 1.0, "fps": 60})
