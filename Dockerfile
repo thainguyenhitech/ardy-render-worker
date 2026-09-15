@@ -14,6 +14,9 @@ ENV PIP_NO_CACHE_DIR=1 \
 RUN apt-get update -qq && apt-get install -y -qq --no-install-recommends cmake build-essential git \
     && rm -rf /var/lib/apt/lists/*
 
+# `cryptography` 41 của image nền là gói apt (không có RECORD) — pip không gỡ được ("uninstall-no-record-file") khi một
+# phụ thuộc mới đòi bản cao hơn (build thứ 3 15/09 hỏng đúng chỗ này dù hai build trước qua); cài đè không gỡ.
+RUN pip install --ignore-installed "cryptography>=42"
 # ARDY (ghim transformers 5.8.1, numpy<2, dựng extension C++ MotionCorrection) + phần tool cần
 RUN MAKEFLAGS=-j$(nproc) pip install "git+https://github.com/nv-tlabs/ardy.git" \
     "fastapi>=0.110" "httpx>=0.27" "runpod>=1.7" "boto3>=1.34"
