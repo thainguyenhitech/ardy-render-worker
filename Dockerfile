@@ -19,7 +19,7 @@ ENV PIP_NO_CACHE_DIR=1 \
 RUN apt-get update -qq && apt-get install -y -qq --no-install-recommends cmake build-essential git \
     && pip install --ignore-installed "cryptography>=42" \
     && MAKEFLAGS=-j$(nproc) pip install "git+https://github.com/nv-tlabs/ardy.git" \
-       "fastapi>=0.110" "httpx>=0.27" "runpod>=1.7" "boto3>=1.34" \
+       "fastapi>=0.110" "httpx>=0.27" "runpod>=1.7" "boto3>=1.34" "scipy>=1.10" \
     && apt-get purge -y -qq cmake build-essential && apt-get autoremove -y -qq \
     && rm -rf /var/lib/apt/lists/* /root/.cache /tmp/*
 

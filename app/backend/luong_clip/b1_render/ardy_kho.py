@@ -50,6 +50,7 @@ KHO = Path(os.getenv("ARDY_KHO", Path.home() / "project/motion_trainer/ardy_kho"
 FPS = 60
 CAU_IDLE = "A person stands still."
 CAU_LOI_RA = "A person stands still with arms relaxed at the sides."
+LAM_TRON = os.getenv("ARDY_KHO_LAM_TRON", "1") == "1"   # Catmull-Rom giữa các nút 20 fps sau retarget (xem lam_tron_nut)
 GIAY_BIEN_THE = (6.0, 7.0, 8.0)      # mỗi biến thể xin một độ dài khác (ARDY KHÔNG tất định — đo 14/09 TB 10,5°; tool ardy_render gieo seed)
 GIAY_LOI_RA = 3.0
 CFG_LOI_RA = 3.0
@@ -247,6 +248,91 @@ def tron_ve_idle(bones: dict, idle_clip: dict, k_idle: int, fps: float, dau: boo
                 tr[k] = list(_q_sang_euler(np.asarray(q, float), tr[k]))
 
 
+NUT_FPS = 20.0                      # fps model ARDY: khung 60 fps chia hết cho 3 là khung model thật ("nút")
+
+
+def _r_log(q):
+    q = np.asarray(q, float)
+    w = float(np.clip(q[0], -1.0, 1.0)); v = q[1:]; s = float(np.linalg.norm(v))
+    return (2.0 * math.atan2(s, w) / s) * v if s > 1e-9 else np.zeros(3)
+
+
+def _r_exp(r):
+    a = float(np.linalg.norm(r))
+    return np.array([math.cos(a / 2), *((math.sin(a / 2) / a) * r)]) if a > 1e-9 else np.array([1.0, 0.0, 0.0, 0.0])
+
+
+def lam_tron_nut(clip: dict, buoc: int = 3) -> dict:
+    """LẤY MẪU LẠI giữa các NÚT model bằng Catmull-Rom (véc-tơ xoay từng xương + hips_pos). Sửa TẠI CHỖ, trả clip.
+
+    GỐC GIẬT của clip ARDY (đo 15/09): service sinh 20 fps rồi nội suy TUYẾN TÍNH (slerp giữa hai khung model) lên 60
+    fps → quỹ đạo gãy khúc tại mỗi khung thứ 3, gia tốc nhảy bậc = giật xung 20 Hz (tự tương quan giật theo khung đỉnh
+    ở lag 3 và 6: 0,42–0,66). Giật p95 clip kho 1.700–2.800 rad/s³ trong khi bao người thật (BEAT) 470. Đây là NỘI SUY
+    ĐÚNG HƠN chứ không phải lọc: giữ nguyên các nút, chỉ vẽ lại đường giữa hai nút — đo 4 clip kho: giật p95 → 600–770,
+    tốc độ tay p99 / biên độ / trượt chân KHÔNG đổi, KHÔNG trễ. Lọc thấp hay lò xo (đề xuất "pipeline 3 tầng") giảm giật
+    bằng cách cắt đỉnh tốc độ tay và thêm trễ — sai chỗ.
+    Nút = khung k với k % buoc == 0 (`generate_clip`: pos = seeded + k·20/60, a = 0 đúng tại các khung đó) + khung cuối.
+    Áp NGAY SAU retarget (idle, động tác, lối ra) trước khi cắt/trộn; và áp được lên tệp kho 60 fps có sẵn không cần
+    render lại vì nút còn nguyên trong tệp.
+    """
+    from loi.dong_thoi_gian import _q_sang_euler
+    b = clip.get("bones") or {}
+    n = len(next(iter(b.values()), []))
+    if n < 4:
+        return clip
+    nut = list(range(0, n, buoc))
+    if nut[-1] != n - 1:
+        nut.append(n - 1)
+    tn = np.array(nut, float)
+
+    # SPLINE BẬC BA C² (scipy, natural) qua các nút: gia tốc liên tục cả ở nút → giật p95 thấp hơn Catmull-Rom (chỉ C¹,
+    # gia tốc nhảy tại nút) thêm 15–20 % (đo 4 clip kho: 784→619, 752→662, 593→499, 2216→1805), tốc độ/biên độ tay không
+    # đổi. Thiếu scipy thì lùi về Catmull-Rom (cùng nút, cùng kết luận, chỉ kém mượt hơn ở nút).
+    try:
+        from scipy.interpolate import CubicSpline
+
+        def cr(P):
+            return CubicSpline(tn, P[nut], axis=0, bc_type="natural")(np.arange(n, dtype=float))
+    except ImportError:
+        he = []
+        for i in range(n):
+            k = int(min(max(np.searchsorted(tn, i, side="right") - 1, 0), len(nut) - 2))
+            u = (i - tn[k]) / max(tn[k + 1] - tn[k], 1e-9)
+            he.append((nut[max(k - 1, 0)], nut[k], nut[k + 1], nut[min(k + 2, len(nut) - 1)], u))
+
+        def cr(P):
+            out = np.empty((n, P.shape[1]))
+            for i, (i0, i1, i2, i3, u) in enumerate(he):
+                p0, p1, p2, p3 = P[i0], P[i1], P[i2], P[i3]
+                out[i] = 0.5 * (2 * p1 + (-p0 + p2) * u + (2 * p0 - 5 * p1 + 4 * p2 - p3) * u * u
+                                + (-p0 + 3 * p1 - 3 * p2 + p3) * u * u * u)
+            return out
+
+    for x, tr in b.items():
+        if len(tr) != n:
+            continue
+        R = []; gan = None
+        for f in tr:
+            r = _r_log(_q(f[1:4]))
+            if gan is not None and np.linalg.norm(r - gan) > math.pi:      # chọn nhánh gần khung trước
+                r = r * (1.0 - 2.0 * math.pi / max(float(np.linalg.norm(r)), 1e-9))
+            R.append(r); gan = r
+        out = cr(np.array(R))
+        gan_e = None
+        for i, f in enumerate(tr):
+            if i % buoc == 0 or i == n - 1:
+                gan_e = tuple(f[1:4]); continue                              # nút giữ nguyên
+            e = _q_sang_euler(tuple(_r_exp(out[i])), gan_e or tuple(f[1:4]))
+            f[1:4] = [float(v) for v in e]; gan_e = e
+    hp = clip.get("hips_pos") or []
+    if len(hp) == n:
+        out = cr(np.array([f[1:4] for f in hp], float))
+        for i, f in enumerate(hp):
+            if not (i % buoc == 0 or i == n - 1):
+                f[1:4] = [float(v) for v in out[i]]
+    return clip
+
+
 def lap_ghep(clip: dict, k_dau: int, k_cat: int, ra: dict, k_lang: int, idle_clip: dict, k_idle: int = 0) -> dict:
     """Luật 5–6: [k_dau..k_cat] của động tác + [0..k_lang] của lối ra, hips_pos lối ra dời tiếp theo khung cắt
     (retarget trừ root0 từng clip), rồi trộn TRON_S cuối về khung idle cho thân trên + xoay hông (chân giữ nguyên)."""
@@ -319,6 +405,8 @@ def _sinh(prompt: str, giay: float, history=None, dich=None, cfg_c=None):
     c0 = clips[0] if clips else {}
     clip = (retarget(info, tu_mang(list(c0.get("joints") or info["joints"]), frames), float(c0.get("fps") or FPS), nguon="ardy")
             if frames else None)
+    if clip is not None and LAM_TRON:
+        lam_tron_nut(clip)
     return frames, clip, str(c0.get("matched") or ""), float(c0.get("similarity") or 0.0)
 
 
@@ -341,6 +429,8 @@ def idle_dong_bang(kho: Path) -> tuple[list, dict, dict]:
     from app.modules.body_motion.ardy_retarget import retarget, tu_mang
     info = _info()
     clip = retarget(info, tu_mang(list(info["joints"]), tho), FPS, nguon="ardy")
+    if LAM_TRON:
+        lam_tron_nut(clip)
     return lich_su(tho), {"root": tho[-1]["data"]["root"], "quats": tho[-1]["data"]["quats"]}, clip
 
 
