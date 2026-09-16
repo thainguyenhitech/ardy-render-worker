@@ -60,6 +60,11 @@ def handler(job: dict) -> dict:
     from ardy_render import render
     from ardy_render.r2 import KhoR2
     giay = float(inp.get("giay") or 6.0)
+    # BIẾN THỂ (16/09, user: "render 6 biến thể cho lõi 360 câu"): `bien_the` chỉ đổi TÊN TỆP
+    # (`AK._ten_tep(tag, bien_the)`), còn seed = f(câu, giây) — nên muốn 6 clip KHÁC NHAU phải gửi 6 job
+    # với `giay` khác nhau VÀ `bien_the` khác nhau. Thiếu `bien_the` thì cả 6 cùng ghi `tag__0.json`
+    # và ghi đè nhau trên R2 (kho cũ 38k chỉ có 1 biến thể/tag chính vì đường này).
+    bien_the = int(inp.get("bien_the") or 0)
     ghi = bool(inp.get("ghi_r2", True))
     tra_clip = bool(inp.get("tra_clip", False))
     kho = KhoR2.mo() if ghi else None
@@ -67,7 +72,7 @@ def handler(job: dict) -> dict:
         return {"loi": "ghi_r2 bật mà worker thiếu biến R2 (R2_BUCKET, RCLONE_CONFIG_R2_*)"}
     ra = []
     for c in caus:
-        kq = render.render_cau(c, NGUON, giay)
+        kq = render.render_cau(c, NGUON, giay, bien_the)
         try:
             if kho is not None:
                 if kq["dat"]:
