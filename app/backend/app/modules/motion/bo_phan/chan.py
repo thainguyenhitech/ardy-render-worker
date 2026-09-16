@@ -18,8 +18,8 @@ from __future__ import annotations
 import math
 
 import numpy as _np_ct
-from app.modules.motion.bo_phan.co_so import (BoPhan, quan_tinh_hook,
-                                              trong_so_cua_so)
+from app.modules.motion.bo_phan.co_so import (BoPhan, la_ardy_toan_than,
+                                              quan_tinh_hook, trong_so_cua_so)
 from app.modules.motion.hinh_hoc import _rig
 
 
@@ -430,7 +430,7 @@ def ghim_contacts(clip, t, bp, ctx):
     # chân đầu khoảng là kéo chân đang vung về sàn (đúng cảnh báo §2 "foot-lock theo sổ
     # khoảng"). Đo: trượt lúc chống 0,14 m/s ở clip nguồn → 0,48 sau ống, và hệ số dời gốc
     # tối ưu đo lại trên đầu ra ống tụt về 0,5 (chân đã bị IK kéo lệch khỏi hông).
-    if clip.get("toan_than") and ng.startswith("ardy"):
+    if la_ardy_toan_than(clip, ctx):
         return
     tx = clip.get("contacts") or {}
     b = clip.get("bones") or {}

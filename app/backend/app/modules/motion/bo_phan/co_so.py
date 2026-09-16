@@ -94,7 +94,7 @@ def quan_tinh_hook(hz_mac_dinh: float):
         # chuyển động thật, không thì dập chính chuyển động". Đo clip chạy vòng tròn 07/09:
         # đùi 59°→43°, quãng bàn chân so hông 11,2→7,5 m, trong khi hông giữ nguyên 3,80 m →
         # chân bước ngắn mà người vẫn trôi xa = "chạy như bị lướt" (user 14:12).
-        if clip.get("toan_than") and str(ctx.get("nguon") or "").startswith("ardy"):
+        if la_ardy_toan_than(clip, ctx):
             return
         import numpy as np
         hz = float(t.get("quan_tinh_hz", hz_mac_dinh) or 0.0)
@@ -155,6 +155,25 @@ def quan_tinh_hook(hz_mac_dinh: float):
             for i, f in enumerate(b[x2]):
                 f[1], f[2], f[3] = float(e[i, 0]), float(e[i, 1]), float(e[i, 2])
     return quan_tinh
+
+
+def la_ardy_toan_than(clip: dict, ctx: dict) -> bool:
+    """Clip ARDY mà CHÂN LÀ NỘI DUNG (chạy/bước/nhảy/xoay) — ba tầng của ống phải nhường nó.
+
+    MỘT NGUỒN SỰ THẬT cho cả `quan_tinh`, `chan.ghim_contacts`, `hong.tran_toc_do`. Trước 16/09 mỗi
+    chỗ tự viết `clip.get("toan_than") and nguon.startswith("ardy")` — ĐÚNG cho demo ARDY sinh sống
+    (`ong_tien_trinh` đặt `nguon="ardy"` + cờ `toan_than`) nhưng KHÔNG BAO GIỜ đúng cho KHO CLIP: clip
+    kho mang cờ `_kho_toan_than` và `/api/clip_ong` chạy ống với `nguon="kho"`. Hệ quả đo trên chính
+    clip kho (user 16/09 "các motion toàn thân đều bị trôi chân"): xoay người bị giãn ×1,89 (7,43 →
+    14,05 s — `tran_toc_do` coi hông quay 3,12 rad/s là vượt trần NGƯỜI ĐANG NÓI) và chân trôi trong
+    pha đứng 0,57 → 3,71 cm (quán tính hông/chân lọc lại góc vừa giải). Nhận cả hai cờ và cả hai nguồn.
+    """
+    if str(clip.get("source") or "").startswith("ardy"):
+        return True          # MỌI clip ARDY: chân do model sinh trọn thân, kể cả clip "chạy tại chỗ"/"bước ngang"
+    if clip.get("toan_than") or clip.get("_kho_toan_than"):
+        ng = str(ctx.get("nguon") or "")
+        return ng.startswith("ardy") or ng.startswith("kho")
+    return False
 
 
 def yeu_cau_gian(ctx: dict, bp: "BoPhan", ly_do: str, he_so: float) -> None:

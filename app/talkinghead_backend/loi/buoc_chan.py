@@ -59,6 +59,20 @@ _TEN = ("Hips",) + tuple(x for c in _CHUOI.values() for x in c)
 _KHAC = {"LeftFoot": "RightFoot", "RightFoot": "LeftFoot"}
 # phần đầu/cuối của một bước chỉ đi theo phương ĐỨNG (nhấc lên / đặt xuống), xem `quy_dao`
 NHAC_TRUOC = 0.12
+# SÀN NHẤC CO THEO QUÃNG (16/09, user: "số 4 đi tới vài bước sao chân phải hơi giật lúc vừa rời sàn").
+# Bước CHỈNH TƯ THẾ ở mối nối vào clip chỉ đi ngang 1–3 cm, mà sàn `cao_min` 4 cm ép nhấc gấp ~3 lần quãng
+# → mắt đọc ra "nhấc chân lên rồi đặt xuống tại chỗ". Đo trên BẢN GỬI ĐI thật của lượt user bấm
+# (logs/di_dang/0916_103700__cuoi.json, sổ `_so_moi_noi` lệch 2,62 cm mà vẫn 2 bước nhấc 4,0 cm):
+# chân phải vọt 9,7× · nhấc–rơi 2,01 cm ngay 0,58 s, trong khi CHÍNH tệp clip sạch (vọt ≤1,4 · nấc 0,00).
+# Sàn nay không vượt quá chính quãng đi; bước dài (≥4 cm) giữ nguyên hành vi cũ. Tắt: TH_BUOC_CAO_SAN_QUANG=0.
+CAO_SAN_QUANG = os.getenv("TH_BUOC_CAO_SAN_QUANG", "1") == "1"
+CAO_SAN_MIN = 0.008          # m — dưới mức này bàn chân lê sát sàn thay vì nhấc
+# QUÃNG NHỎ = TRƯỢT PHẲNG, KHÔNG NHẤC (16/09). Một cú nhấc chân dù chỉ 2,4 cm vẫn là "rời sàn rồi đặt xuống"
+# mà mắt bắt được (user: "chân phải hơi giật lúc vừa rời sàn" → hạ nhấc 4,0 → 2,4 cm: "thấy vẫn bị").
+# Dưới ngưỡng này bước đi với cao = 0 và trải hết `dai_max`: dời 1,3 cm trong 0,6 s ≈ 2 cm/s, dưới xa mốc
+# trượt người thật 21,5 cm/s (CLAUDE.md §3) — và vẫn hoà hết độ lệch nên không có cú nhảy tại mốc vào clip.
+TRUOT_QUANG = float(os.getenv("TH_BUOC_TRUOT_CM", "4.0")) / 100.0
+
 
 
 @dataclass
@@ -315,8 +329,12 @@ def ke_hoach(clip: dict, t0: float, t1: float, dich: dict | None = None,
         return float(math.hypot(p2[0] - p[0], p2[2] - p[2])), _goc_do(q, q2)
 
     def dai_cao(d: float):
+        if CAO_SAN_QUANG and d < TRUOT_QUANG:
+            return ts.dai_max, 0.0          # trượt phẳng: không nhấc, trải dài cho chậm (xem TRUOT_QUANG)
+        # sàn nhấc: không cao hơn chính quãng đi (xem CAO_SAN_QUANG ở đầu tệp)
+        san = min(ts.cao_min, max(CAO_SAN_MIN, d)) if CAO_SAN_QUANG else ts.cao_min
         return (min(ts.dai_max, max(ts.dai_min, ts.dai_goc + ts.dai_he * d)),
-                min(ts.cao_max, max(ts.cao_min, ts.cao_he * d)))
+                min(ts.cao_max, max(san, ts.cao_he * d)))
 
     if giu:
         dung = {c: (np.asarray(giu[c][0], float).copy(), np.asarray(giu[c][1], float).copy())

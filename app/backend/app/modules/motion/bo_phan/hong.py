@@ -7,7 +7,8 @@ from __future__ import annotations
 
 import math
 
-from app.modules.motion.bo_phan.co_so import BoPhan, quan_tinh_hook, yeu_cau_gian
+from app.modules.motion.bo_phan.co_so import (BoPhan, la_ardy_toan_than,
+                                              quan_tinh_hook, yeu_cau_gian)
 from app.modules.motion.bo_phan.do_bo_phan import toc_goc
 
 hong = BoPhan(ten="hong", xuong=("Hips",), diem_do=("Hips",),
@@ -118,6 +119,12 @@ def kep_goc(clip, t, bp, ctx):
 
 @hong.hook
 def tran_toc_do(clip, t, bp, ctx):
+    # CLIP ARDY TOÀN THÂN: hông quay nhanh là NỘI DUNG (xoay người, chạy vòng), không phải "vượt trần
+    # người đang nói" — trần lấy từ mocap BEAT/IdleRpm vốn không chứa hành vi đó (CLAUDE.md §3). Đo
+    # 16/09 trên clip kho: "turns to the right" xin giãn ×1,85 vì hông 3,12 rad/s → clip 7,43 s phát
+    # thành 14,05 s, bước chân chậm mà quãng giữ nguyên = LẾT CHÂN trên sàn (user báo "trôi chân").
+    if la_ardy_toan_than(clip, ctx):
+        return
     g = toc_goc(clip, bp.xuong)
     k = 1.0
     tr = float(t.get("toc_goc_tran") or 0)

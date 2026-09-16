@@ -65,6 +65,10 @@ GIAY_BIEN_THE = (6.0, 7.0, 8.0)      # mỗi biến thể xin một độ dài k
 GIAY_LOI_RA = 3.0
 CFG_LOI_RA = 3.0
 CFG_LOI_RA_THU_LAI = float(os.getenv("ARDY_KHO_CFG_LOI_RA_THU_LAI", "5.0"))   # lối ra lần 2 (dài gấp đôi) khi lần 1 không lắng
+# XEM CLIP BỊ CỔNG LOẠI (16/09, user: "câu trượt hay không cho tôi xem và quyết định"): mặc định cổng loại thẳng nên
+# RunPod không trả clip nào để xem. Bật cờ này thì lối ra không lắng vẫn DỰNG clip (cắt ở khung chót như bản trước
+# 16/09) và đánh dấu `_truot_loi_ra` — chỉ để xem/quyết, KHÔNG được đẩy lên kho production.
+XUAT_TRUOT = os.getenv("ARDY_KHO_XUAT_TRUOT", "0") == "1"
 NGHI_DO = 15.0                       # khớp (không ngón) cách idle ≤ ngần này = "gần idle"
 NGHI_V = 90.0                        # °/s
 NGHI_QUAY = 30.0                     # °/s hướng quay
@@ -775,9 +779,21 @@ def _khop_the_nghi(clip: dict, toan_than: bool) -> dict:
             # 23°, hông dời cuối 6,8 cm. Quay/dời hơn thì giữ nhánh theo quãng đi (ngân sách = phần quãng đi có được).
             gy = np.unwrap([_yaw_cua(tuple(float(v) for v in q)) for q in qh0])
             quay = float(np.degrees(np.abs(gy - gy[0]).max()))
+            # HỎI CẢ HAI CÂU (16/09, user: "động tác cuối chào và lùi… thấy người nghiêng về sau không tự nhiên").
+            # "RỜI CHỖ và TRÔI là hai đại lượng" (CLAUDE.md §3) — điều kiện ghim cần cả hai, thiếu cái nào cũng sai:
+            #  · NET đầu↔cuối: "A person does a small bow while stepping back" lùi rồi VỀ CHỖ CŨ nên net = 0,0 cm,
+            #    lọt diện "đứng một chỗ" → ghim chân suốt clip trong khi hông đi xa nhất 59,3 cm và bàn chân chỉ đi
+            #    3,1/9,9 cm ⇒ hông ra sau 48,8 cm so trung điểm hai bàn chân = người ngả ngửa.
+            #  · XA NHẤT một mình cũng sai: bản đầu tôi đổi hẳn sang xa nhất mà giữ nguyên ngưỡng 12 cm (vốn hiệu
+            #    chuẩn cho net) → clip ĐỨNG MỘT CHỖ mà lắc hông/ngồi xổm có hông đi xa 14 cm bị rớt khỏi diện ghim,
+            #    bộ thử 99 clip: "shifts weight" trôi 0,11 → 8,65 cm · "dances energetically" 0,21 → 4,55 · "squats
+            #    down" 0,07 → 1,68. Nên xa nhất có ngưỡng RIÊNG, rộng hơn (đứng tại chỗ lắc/cúi/ngồi vẫn dời hông
+            #    tới ~20 cm), còn net giữ ngưỡng cũ.
             doi_hong = float(np.linalg.norm((ph0[-1] - ph0[0])[[0, 2]])) * 100
+            doi_hong_xa = float(np.max(np.linalg.norm((ph0 - ph0[0])[:, [0, 2]], axis=1))) * 100
             ghim_duoc = (quay <= float(os.getenv("ARDY_KHO_GHIM_QUAY_MAX_DO", "45"))
-                         and doi_hong <= float(os.getenv("ARDY_KHO_GHIM_HONG_DOI_CM", "12")))
+                         and doi_hong <= float(os.getenv("ARDY_KHO_GHIM_HONG_DOI_CM", "12"))
+                         and doi_hong_xa <= float(os.getenv("ARDY_KHO_GHIM_HONG_XA_CM", "25")))
             if ghim_duoc:
                 toan_than = False
             else:
@@ -1552,10 +1568,14 @@ def render_mot(tag: str, prompt: str, giay: float, hist: list, dich: dict, idle_
         k_lang = diem_lang_loi_ra(ra, idle_pose)
         if k_lang is not None:
             break
-    if k_lang is None:
-        return {"loi": f"lối ra không lắng sau {2.0 * GIAY_LOI_RA:.0f} s (thân/chân vẫn động — không kết được ở thế nghỉ)"}
-    noi = lech(tu_the(ra, 0), tu_the(clip, k_cat))[0]
     het_lang = False
+    if k_lang is None:
+        if not XUAT_TRUOT:
+            return {"loi": f"lối ra không lắng sau {2.0 * GIAY_LOI_RA:.0f} s (thân/chân vẫn động — không kết được ở thế nghỉ)"}
+        # chế độ XEM: cắt ở khung chót của lối ra, clip mang dấu trượt (meta `loi_ra_lang_s` = None nói đúng điều đó)
+        k_lang = len(ra["bones"]["Hips"]) - 1
+        het_lang = True
+    noi = lech(tu_the(ra, 0), tu_the(clip, k_cat))[0]
     k_dau = diem_dau(ct["do"]["dd"], int(ct["onset"]))
     hc = lap_ghep(clip, k_dau, k_cat, ra, k_lang, idle_clip, k_idle)
     if THEO_CHAN or NHAC_CHAN or THE_NGHI_S > 0:
