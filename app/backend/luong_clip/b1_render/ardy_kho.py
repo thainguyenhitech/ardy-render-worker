@@ -64,6 +64,7 @@ LAM_TRON = os.getenv("ARDY_KHO_LAM_TRON", "1") == "1"   # Catmull-Rom giữa cá
 GIAY_BIEN_THE = (6.0, 7.0, 8.0)      # mỗi biến thể xin một độ dài khác (ARDY KHÔNG tất định — đo 14/09 TB 10,5°; tool ardy_render gieo seed)
 GIAY_LOI_RA = 3.0
 CFG_LOI_RA = 3.0
+CFG_LOI_RA_THU_LAI = float(os.getenv("ARDY_KHO_CFG_LOI_RA_THU_LAI", "5.0"))   # lối ra lần 2 (dài gấp đôi) khi lần 1 không lắng
 NGHI_DO = 15.0                       # khớp (không ngón) cách idle ≤ ngần này = "gần idle"
 NGHI_V = 90.0                        # °/s
 NGHI_QUAY = 30.0                     # °/s hướng quay
@@ -686,6 +687,7 @@ def ik_chan_cuc(clip: dict, b: dict, moc, ks, quy_dao, cuc: dict) -> float:
 GHIM_DOI_CM = 4.0     # bàn chân clip dời ngang ≤ ngần này VÀ không nhấc quá `NHAC_CHAN_NGUONG_M` → ghim đúng thế nghỉ suốt clip
 LECH_DUONG_HE = float(os.environ.get("ARDY_KHO_LECH_DUONG_HE", "4.0"))    # độ lệch tới thế nghỉ đổi hết trong quãng đi = hệ × |lệch|
 LECH_DUONG_MIN = float(os.environ.get("ARDY_KHO_LECH_DUONG_MIN", "3.0"))  # quãng đi < hệ × tổng lệch hai đầu → ghim (không mang nổi mà không trượt)
+LECH_DUONG_SAN = float(os.environ.get("ARDY_KHO_LECH_DUONG_SAN", "1.2"))  # clip không ghim được mà quãng đi < sàn × tổng lệch → phần thiếu rải theo thời gian
 
 
 def khop_the_nghi(clip: dict, toan_than: bool | None = None) -> dict:
@@ -739,7 +741,9 @@ def _khop_the_nghi(clip: dict, toan_than: bool) -> dict:
     def _quang(P):
         # quãng đi ngang TÍCH LUỸ chỉ tính lúc bàn chân THẬT SỰ ĐI (vận tốc ngang 0,10 → 0,30 m/s, smoothstep): bàn chân đang đứng
         # mà rê chậm vài mm/khung không được mang độ lệch, không thì chính độ lệch làm chân trụ trôi (bản đầu: trôi pha đứng 0 → 1,5 cm)
-        d = np.linalg.norm(np.diff(P[:, [0, 2]], axis=0), axis=1)
+        # quãng đi 3D (có cả phương đứng): clip kết lúc bàn chân ARDY còn trên không (nhảy chân sáo kết giữa nhịp, cổ chân 21 cm)
+        # thì độ lệch cuối gồm cả hạ chân 8,6 cm — chỉ tính quãng ngang là nạp nó trong 3 khung (gối 139 → 163°, Δ² 12,9)
+        d = np.linalg.norm(np.diff(P, axis=0), axis=1)
         u = np.clip((d * fps_c - 0.10) / 0.20, 0.0, 1.0)
         return np.r_[0.0, np.cumsum(d * u * u * (3.0 - 2.0 * u))]
 
@@ -764,11 +768,23 @@ def _khop_the_nghi(clip: dict, toan_than: bool) -> dict:
             duong = float(_quang(P0)[-1])
             if duong < LECH_DUONG_MIN * lech:
                 thieu_duong.append((c[0], round(duong * 100, 1), round(lech * 100, 1)))
+        ghim_duoc = False
         if thieu_duong:
-            toan_than = False
+            # CHỈ GHIM ĐƯỢC KHI THÂN ĐỨNG MỘT CHỖ, MỘT HƯỚNG (16/09, bộ thử xoay: quay người 115–157° / 360° mà bàn chân đi 34–72 cm
+            # bị ghim → chân khoá ở chỗ đặt đầu clip trong khi hông quay, kết clip thế đứng lệch hông 23–27 cm). Ngồi xổm: quay max
+            # 23°, hông dời cuối 6,8 cm. Quay/dời hơn thì giữ nhánh theo quãng đi (ngân sách = phần quãng đi có được).
+            gy = np.unwrap([_yaw_cua(tuple(float(v) for v in q)) for q in qh0])
+            quay = float(np.degrees(np.abs(gy - gy[0]).max()))
+            doi_hong = float(np.linalg.norm((ph0[-1] - ph0[0])[[0, 2]])) * 100
+            ghim_duoc = (quay <= float(os.getenv("ARDY_KHO_GHIM_QUAY_MAX_DO", "45"))
+                         and doi_hong <= float(os.getenv("ARDY_KHO_GHIM_HONG_DOI_CM", "12")))
+            if ghim_duoc:
+                toan_than = False
+            else:
+                thieu_duong.append(("quay_do", round(quay, 1), "hong_doi_cm", round(doi_hong, 1)))
     ra: dict = {"toan_than": bool(toan_than)}
     if thieu_duong:
-        ra["ghim_thieu_duong"] = thieu_duong
+        ra["ghim_thieu_duong" if ghim_duoc else "thieu_duong_khong_ghim"] = thieu_duong
     # 1) thân trên + ngón + nghiêng hông: độ lệch tới A ở mỗi biên nhân TRÁI (hệ cha), tắt dần vào nội dung
     goc_max = 0.0
     for x, tr in b.items():
@@ -856,6 +872,14 @@ def _khop_the_nghi(clip: dict, toan_than: bool) -> dict:
             C = _quang(P)
             T = float(C[-1])
             n0, n1 = float(np.linalg.norm(o0)), float(np.linalg.norm(o1))
+            thieu = LECH_DUONG_SAN * (n0 + n1) - T
+            if thieu > 0.0:
+                # không ghim được (thân quay/dời) mà bàn chân GẦN NHƯ không đi: phần thiếu rải ĐỀU theo thời gian (bàn chân phải xoay/
+                # trượt theo thân — không tránh được) — không thì hai ngân sách co về 0, khung 0 nhận cả lệch cuối (test quay chậm: 10 cm).
+                # Chỉ dưới SÀN (không phải dưới LECH_DUONG_MIN): bộ thử v7 xoay trái 8 s bàn chân đi 1,7× lệch mà rải thời gian làm
+                # chân trụ trượt 5,6 cm trong pha đứng — đủ bước thì để độ lệch đi theo bước (nhanh hơn bước nguồn một chút)
+                C = C + thieu * np.arange(n, dtype=float) / max(n - 1, 1)
+                T = float(C[-1])
             B0 = max(1e-6, min(LECH_DUONG_HE * n0, T * n0 / max(n0 + n1, 1e-9)))
             B1 = max(1e-6, min(LECH_DUONG_HE * n1, T * n1 / max(n0 + n1, 1e-9)))
             a0 = 1.0 - _b5(C / B0)
@@ -1281,6 +1305,44 @@ def _mem_tam_voi(F: dict, D) -> np.ndarray:
     return D2
 
 
+CHAN_DUOI_THEO_ARDY = os.getenv("ARDY_KHO_CHAN_DUOI_THEO_ARDY", "1") == "1"
+
+
+def _duoi_theo_ardy(F: dict, D, goc_goi_ardy, fps: float) -> np.ndarray:
+    """CHẶN ĐỘ DUỖI ĐÍCH cổ chân ≤ độ duỗi mà GỐI ARDY cho phép (16/09, nhảy chân sáo gối Δ² 14–17°/khung² trên Mac lẫn RunPod,
+    ARDY thô 5–6). Đích = ngang ARDY × k ghép độ cao rig nên lúc ARDY duỗi gần thẳng đích vượt tới 1,044 chân: mềm tầm với giữ gối
+    ở 174° suốt 6 khung trong khi gối ARDY đã gập lại 174 → 161°, rồi gối rig phải đuổi 20°/khung.
+    Trần = khoảng háng–cổ chân mà hai xương RIG (l1, l2) cho ra đúng góc gối ARDY: d = √(l1² + l2² − 2·l1·l2·cos θ). Bản đầu chặn
+    theo TỈ LỆ duỗi ARDY — sai vì tỉ lệ đùi:cẳng hai rig khác nhau (cùng 0,966 thì gối ARDY 165° mà gối rig 150°) → gối rig võng rồi
+    đuổi (Δ² 14,3). Soft-min(đích, trần), chỉ gần duỗi thẳng (≥ 0,93 → 0,98 chân) và chỉ lúc bàn chân đang ĐI (vận tốc ngang
+    0,10 → 0,30 m/s, cùng ngưỡng pha đứng): chân trụ không bị kéo vào trong. `goc_goi_ardy[k]` = góc trong tại gối ARDY (rad);
+    đích chỉ dời DỌC trục háng→cổ chân."""
+    U = np.asarray(F["p_u"], float)
+    Lp = np.asarray(F["p_l"], float)
+    Fp = np.asarray(F["p_f"], float)
+    D = np.asarray(D, float)
+    th = np.asarray(goc_goi_ardy, float)
+    if not CHAN_DUOI_THEO_ARDY or len(th) != len(D):
+        return D
+    l1 = float(np.median(np.linalg.norm(U - Lp, axis=1)))
+    l2 = float(np.median(np.linalg.norm(Lp - Fp, axis=1)))
+    L = l1 + l2
+    ra = np.sqrt(np.maximum(l1 * l1 + l2 * l2 - 2.0 * l1 * l2 * np.cos(th), 0.0)) / L
+    V = D - U
+    d = np.linalg.norm(V, axis=1)
+    r = d / L
+    h = 0.004
+    smin = np.minimum(-h * np.logaddexp(-r / h, -ra / h), r)
+    w = np.clip((np.maximum(r, ra) - 0.93) / 0.05, 0.0, 1.0)
+    w = w * w * (3.0 - 2.0 * w)
+    v = np.r_[0.0, np.linalg.norm(np.diff(D[:, [0, 2]], axis=0), axis=1)] * fps
+    v = np.maximum(v, np.r_[v[1:], 0.0])
+    u = np.clip((v - 0.10) / 0.20, 0.0, 1.0)
+    w = w * u * u * (3.0 - 2.0 * u)
+    r2 = r + w * (smin - r)
+    return U + V * (r2 * L / np.maximum(d, 1e-9))[:, None]
+
+
 def theo_chan_ardy(clip: dict, named: list, info: dict, A: dict | None = None) -> dict:
     """IK hai chân rig theo quỹ đạo bàn chân ARDY. Sửa `clip` tại chỗ; trả {sai_cm, k}. `A` = quỹ đạo ARDY đã tính sẵn
     (clip ghép nhiều đoạn), bỏ trống thì FK từ `named`."""
@@ -1315,6 +1377,13 @@ def theo_chan_ardy(clip: dict, named: list, info: dict, A: dict | None = None) -
         for c in BC.CHAN:
             dich[c][:, 1] = np.asarray(fk[c]["p_f"], float)[:, 1]
     dich = {c: _mem_tam_voi(fk[c], dich[c]) for c in BC.CHAN}
+    if all(f"{c[:-4]}Leg" in A and f"{c[:-4]}UpLeg" in A for c in BC.CHAN):
+        _fps = float(clip.get("fps") or FPS)
+        for c in BC.CHAN:
+            _U, _K, _F = A[c[:-4] + "UpLeg"], A[c[:-4] + "Leg"], A[c]
+            _a, _b = _U - _K, _F - _K
+            _th = np.arccos(np.clip(np.sum(_a * _b, 1) / np.maximum(np.linalg.norm(_a, axis=1) * np.linalg.norm(_b, axis=1), 1e-12), -1.0, 1.0))
+            dich[c] = _duoi_theo_ardy(fk[c], dich[c], _th, _fps)
 
     fps_c = float(clip.get("fps") or FPS)           # fps CỦA CLIP, không phải hằng module (kho 20 fps / clip thử 60 fps)
 
@@ -1469,14 +1538,24 @@ def render_mot(tag: str, prompt: str, giay: float, hist: list, dich: dict, idle_
         # trước đó tới 2 khung 60 fps
         buoc_nut = max(1, int(round(FPS / FPS_ARDY)))
         k_cat = max(1, k_cat - k_cat % buoc_nut)
-    tho2, ra, _m2, _s2 = _sinh(CAU_LOI_RA, GIAY_LOI_RA, lich_su(tho, k_cat), dich, CFG_LOI_RA, theo=False)
-    if not ra:
-        return {"loi": "lối ra không có clip"}
-    noi = lech(tu_the(ra, 0), tu_the(clip, k_cat))[0]
-    k_lang = diem_lang_loi_ra(ra, idle_pose)
-    het_lang = k_lang is None
+    # LỐI RA PHẢI LẮNG — CẢ CHÂN (16/09, RunPod "skips forward"/"walks backward" + mọi mẫu nhảy chân sáo Mac: `loi_ra_lang_s`
+    # None nghĩa là ARDY vẫn nhảy/đi suốt 3 s lối ra; bản cũ vẫn cắt ở khung chót và xuất clip — bàn chân còn vung 1–7 m/s ở
+    # khung cuối, khâu thế nghỉ phải hạ chân 8,6 cm trong 3 khung → gối Δ² 13). Thử lại lối ra dài gấp đôi (một lần sinh liền
+    # mạch từ cùng lịch sử); vẫn không lắng thì LOẠI — không xuất clip kết giữa động tác.
+    # Lần thử lại dẫn MẠNH HƠN về thế nghỉ (cfg 5): thử 7 câu đi/chạy/nhảy chân sáo không lắng — cfg 3 dài 6 s 0/7, cfg 3 dài 9 s
+    # 1/7, cfg 5 dài 6 s 7/7 (lắng 4,9–5,9 s), cfg 5 dài 9 s 3/7 (clip vượt 12 s). Lần đầu giữ cfg 3 nên clip vốn lắng không đổi.
+    k_lang = None
+    for _giay_ra, _cfg_ra in ((GIAY_LOI_RA, CFG_LOI_RA), (2.0 * GIAY_LOI_RA, CFG_LOI_RA_THU_LAI)):
+        tho2, ra, _m2, _s2 = _sinh(CAU_LOI_RA, _giay_ra, lich_su(tho, k_cat), dich, _cfg_ra, theo=False)
+        if not ra:
+            return {"loi": "lối ra không có clip"}
+        k_lang = diem_lang_loi_ra(ra, idle_pose)
+        if k_lang is not None:
+            break
     if k_lang is None:
-        k_lang = len(ra["bones"]["Hips"]) - 1
+        return {"loi": f"lối ra không lắng sau {2.0 * GIAY_LOI_RA:.0f} s (thân/chân vẫn động — không kết được ở thế nghỉ)"}
+    noi = lech(tu_the(ra, 0), tu_the(clip, k_cat))[0]
+    het_lang = False
     k_dau = diem_dau(ct["do"]["dd"], int(ct["onset"]))
     hc = lap_ghep(clip, k_dau, k_cat, ra, k_lang, idle_clip, k_idle)
     if THEO_CHAN or NHAC_CHAN or THE_NGHI_S > 0:
