@@ -587,6 +587,84 @@ def _giai_ik(clip: dict, b: dict, moc, ks, W, quy_dao) -> float:
     return sai
 
 
+# GIỮ CHÂN QUA CẦU NỐI CÂU (17/09, user: *"chân bị trôi ở các chuyển động, có vẻ khoá hông làm chân bị trôi nhẹ"*). Đo 21
+# bản gửi đi của phiên test: câu đứng tại chỗ trôi 1,1–3,6 cm CHỈ trong 1,5 s đầu, phần sau ≤ 0,3 cm, và chỉ khi clip ARDY
+# mở câu; clip kho gốc bàn chân dời 0,04–0,06 cm. Thủ phạm: `hau_ky_cau_thuan` → `ong.noi`/`nuong_noi` hoà độ lệch bậc 5
+# TỪNG XƯƠNG (Hips, đùi, cẳng, `hips_pos`) trong ≤ 1,8 s — bàn chân ở cuối chuỗi bị kéo theo, clip ARDY không có IK giữ chân
+# (`TH_TAT_CHAN_ARDY=0`). Tái hiện trên clip kho + đuôi câu trước thật: nối đủ 12,2–13,5 cm, nối bỏ thân dưới 0,04 cm.
+# Nghiệm: vẫn hoà hông (bỏ nối thân dưới là giật hông), nhưng trong cửa sổ nối IK cổ chân về ĐÚNG chỗ + hướng của CHÍNH
+# clip trước khi nối. Không đổi nội dung chân của clip (clip đứng yên thì đứng yên, clip bước thì bước theo quỹ đạo của nó);
+# chỗ chân lệch câu trước vẫn do bộ bước (`moi_noi.xu_ly_cau`, chạy sau) lo. Tắt: `TH_GIU_CHAN_QUA_NOI=0`.
+GIU_CHAN_QUA_NOI = os.getenv("TH_GIU_CHAN_QUA_NOI", "1") != "0"
+QUA_NOI_MEP_S = 0.15                     # mép tắt trọng số cuối cửa sổ (bản nối đã gần trùng bản gốc)
+
+
+def giu_chan_qua_noi(clip: dict) -> dict:
+    """Dùng `clip["_truoc_noi"]` (bản chụp thân dưới trước cầu nối + `T`) — pop nó ra. Sửa `clip` tại chỗ; trả báo cáo.
+
+    ĐÍCH LIỀN MẠCH TẠI RANH CÂU (17/09, user sau bản đầu: *"chân đã cải thiện nhưng vẫn hơi rung nhẹ khi chuyển motion"*).
+    Bản đầu cho IK kéo cổ chân về chỗ CỦA CLIP ngay từ khung 0 — nhưng câu trước kết thúc với bàn chân ở chỗ khác 2–8 cm,
+    nên bản gửi câu sau gãy bậc ngay khung đầu (xương bàn chân 5,5–6,9°, đùi/cẳng 0,3–2°); client nối bậc đó bằng quán tính
+    TỪNG XƯƠNG ~0,2 s → trình duyệt đo bàn chân dời 0,7–2,2 cm mỗi ranh câu. Nay đích = quỹ đạo clip + ĐỘ LỆCH tại khung 0
+    (chỗ + hướng bàn chân câu trước để lại) tắt dần min-jerk suốt cửa sổ nối: khung 0 trùng câu trước, khung T trùng clip,
+    bàn chân lướt phần lệch êm trong 0,8–1,8 s thay vì bị cầu nối kéo lê hay nhảy bậc."""
+    truoc = clip.pop("_truoc_noi", None)
+    if not (BAT and GIU_CHAN_QUA_NOI) or not truoc:
+        return {}
+    T = float(truoc.get("T") or 0.0)
+    if T <= 1.0 / 60.0:
+        return {}
+    lu = _luoi(clip)
+    lu0 = _luoi(truoc)
+    if lu is None or lu0 is None:
+        return {"bo_qua": "lưới chân không thẳng hàng"}
+    b, moc = lu
+    b0, moc0 = lu0
+    ks = np.nonzero(moc <= T + 1e-6)[0]
+    if len(ks) < 4:
+        return {}
+    R = _rig()[0]
+    fk0 = _fk(truoc, b0, moc0, np.arange(len(moc0)))
+    P0 = {c: np.asarray(fk0[c]["p_f"], float) for c in CHAN}
+    Q0 = {c: np.asarray(fk0[c]["qw_f"], float) for c in CHAN}
+    fk = _fk(clip, b, moc, ks)
+    j0 = int(np.argmin(np.abs(moc0 - moc[ks[0]])))
+    lech_p = {c: np.asarray(fk[c]["p_f"], float)[0] - P0[c][j0] for c in CHAN}           # câu trước − clip, khung 0
+    lech_q = {c: np.asarray(R.q_mul(np.asarray(fk[c]["qw_f"], float)[0], R.q_inv(Q0[c][j0])), float) for c in CHAN}
+    lech = max(float(np.linalg.norm(np.asarray(fk[c]["p_f"], float)[i] - P0[c][int(np.argmin(np.abs(moc0 - moc[k])))]))
+               for c in CHAN for i, k in enumerate(ks))
+    if lech < 0.002:
+        return {"lech_cm": round(lech * 100, 2)}
+    dong = np.array([1.0, 0.0, 0.0, 0.0])                                    # quaternion đơn vị (w, x, y, z)
+    w = np.ones(len(ks))
+
+    def quy_dao(c: str, t: float):
+        i = int(np.argmin(np.abs(moc0 - t)))
+        con = 1.0 - _minjerk(float(t) / T)                                   # phần lệch còn lại: 1 → 0
+        dq = _slerp(dong, lech_q[c], con)
+        return P0[c][i] + lech_p[c] * con, np.asarray(R.q_mul(dq, Q0[c][i]), float)
+
+    sai = _giai_ik(clip, b, moc, ks, w, quy_dao)
+    bc = {"T": round(T, 2), "khung": int(len(ks)), "lech_cm": round(lech * 100, 2), "sai_cm": round(sai * 100, 2),
+          "dau_cm": round(max(float(np.linalg.norm(v)) for v in lech_p.values()) * 100, 2)}
+    clip["_giu_chan_qua_noi"] = bc
+    logger.info("giữ chân qua cầu nối: %.2fs · %d khung · cầu nối kéo chân %.1f cm → IK lệch ≤ %.2f cm · lệch đầu câu "
+                "%.1f cm lướt hết trong cửa sổ", T, bc["khung"], bc["lech_cm"], bc["sai_cm"], bc["dau_cm"])
+    return bc
+
+
+def chup_truoc_noi(clip: dict, T: float) -> dict | None:
+    """Bản chụp các khung t ≤ T + 0,1 s của MỌI xương + `hips_pos` (FK chân cần cả chuỗi từ gốc) — gọi TRƯỚC cầu nối."""
+    bo = clip.get("bones") or {}
+    if not bo or T <= 0:
+        return None
+    han = T + 0.1
+    cat = lambda tr: [list(f) for f in tr if float(f[0]) <= han + 1e-6]  # noqa: E731
+    return {"T": float(T), "fps": clip.get("fps"), "duration_s": han,
+            "bones": {n: cat(tr) for n, tr in bo.items() if tr},
+            "hips_pos": cat(clip.get("hips_pos") or [])}
+
+
 # KHOÁ TRƯỢT CHÂN TRONG CLIP TOÀN THÂN (15/09, user: *"chân bị trôi lúc chạy clip motion, rõ ràng clip có vấn đề"*).
 # Clip toàn thân (xoay gót, dậm, quay người tại chỗ, đi/chạy) để CHÂN LÀ NỘI DUNG (user chốt 12/09 "clip thì chân tự do")
 # nên foot-skating vốn có của ARDY hiện nguyên: đo kho, `pivot_heel_think` bàn chân thấp ≤3 cm ở 85–88 % khung mà vẫn trôi

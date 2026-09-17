@@ -15,6 +15,7 @@ import copy
 import json
 import logging
 import os
+import random
 import threading
 from collections import OrderedDict
 from pathlib import Path
@@ -312,11 +313,15 @@ class Kho:
                 logger.info("kho ARDY: %r (%s) → khớp nghĩa %r %.2f", ten, prompt[:40], gan[:50], sim)
             if TU_BO_SUNG:
                 self.bo_sung_nen(cue)
+        # BIẾN THỂ NGẪU NHIÊN (17/09, user chốt: "biến thể chọn ngẫu nhiên trong kho để tránh lặp lại nhàm chán"). Bản cũ xoay
+        # vòng từ `__0` mỗi tiến trình — log luôn thấy `__0` trước. Không lặp đúng biến thể vừa dùng của cùng động tác.
         khoa = ten or ds[0].get("prompt", "")
         with self._khoa:
-            i = self._dem.get(khoa, 0)
-            self._dem[khoa] = i + 1
-        m = ds[i % len(ds)]
+            truoc = self._dem.get(khoa)
+            chon = [j for j in range(len(ds)) if j != truoc] or [0]
+            i = random.choice(chon)
+            self._dem[khoa] = i
+        m = ds[i]
         c = self._doc(m["tep"])
         if c is None:
             return None

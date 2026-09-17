@@ -185,9 +185,64 @@ def diem_cat_dong_tac(clip: dict, idle_pose: dict, giu_s: float = GIU_S) -> dict
         i = j + 1
     if cat is not None:
         lap_sau = bool(cat + 1 < n and hoat[cat + 1:].max() > 0.5 * hoat.max())
+        bd = _cat_bieu_dien(vv, onset, cat) if lap_sau else None
+        if bd is not None:
+            return {"k_cat": bd, "loai": "bieu_dien", "onset": onset, "dinh1": dinh1, "cua_so_bac": bac, "lap_sau": True, "do": m}
         return {"k_cat": cat, "loai": "tu_nghi", "onset": onset, "dinh1": dinh1, "cua_so_bac": bac, "lap_sau": lap_sau, "do": m}
-    return {"k_cat": min(n - 1, dinh1 + int(giu_s * FPS)), "loai": "giu", "onset": onset, "dinh1": dinh1,
-            "cua_so_bac": bac, "lap_sau": False, "do": m}
+    cat = min(n - 1, dinh1 + int(giu_s * FPS))
+    bd = _cat_bieu_dien(vv, onset, cat)
+    if bd is not None:
+        return {"k_cat": bd, "loai": "bieu_dien", "onset": onset, "dinh1": dinh1, "cua_so_bac": bac, "lap_sau": True, "do": m}
+    return {"k_cat": cat, "loai": "giu", "onset": onset, "dinh1": dinh1, "cua_so_bac": bac, "lap_sau": False, "do": m}
+
+
+# ĐỘNG TÁC BIỂU DIỄN (17/09, user thử 72 động tác chuyên môn: "vài động tác không thực hiện hết mà kết thúc giữa chừng sau đó
+# người bị kéo về tư thế idle"). Luật cắt "đỉnh đầu + GIU_S" viết cho cử chỉ hội thoại (làm MỘT lần rồi giữ); 62/68 động tác
+# chuyên môn rơi vào nhánh đó và bị cắt ở 1,6–4 s trong khi ARDY diễn tiếp tới hết độ dài xin. Đo trên clip thô cùng seed
+# (vận tốc khớp TB trượt 0,15 s): SAU điểm cắt hip hop 423 °/s (trước 457) · thái rau 186 · CPR 177 · jumping jack 144 ·
+# squat 208 — còn cử chỉ giữ thật: chống hông 8 · khoanh tay 53 · guitar 61. Nên: sau điểm cắt cũ còn chuyển động ≥ V_BD
+# và ≥ TI_BD × mức trong [onset, cắt] thì là BIỂU DIỄN → giữ tới hết phần còn động, cắt ở THUNG LŨNG vận tốc (nhịp nghỉ giữa
+# hai lần lặp) trong BD_TIM_S cuối — không cắt giữa một cú đá/cú ép. Tắt: ARDY_KHO_CAT_BIEU_DIEN=0.
+CAT_BIEU_DIEN = os.getenv("ARDY_KHO_CAT_BIEU_DIEN", "1") != "0"
+V_BD = float(os.getenv("ARDY_KHO_BD_V", "120"))     # °/s
+TI_BD = 0.5
+V_BD_TV = float(os.getenv("ARDY_KHO_BD_V_TV", "40"))   # °/s trung vị — chuyển động đều nhỏ (nhạc cụ, khuấy, quét)
+BD_TV_PHU = 0.6
+BD_TIM_S = 1.5
+BD_TOI_DA_S = float(os.getenv("ARDY_KHO_BD_TOI_DA_S", "5.5"))
+
+
+def _cat_bieu_dien(vv, onset: int, cat: int):
+    """Điểm cắt mới cho động tác biểu diễn, hoặc None nếu clip không phải biểu diễn.
+
+    Hai cửa: (a) MẠNH — TB sau cắt ≥ V_BD và ≥ TI_BD × TB trong [onset, cắt] (nhảy, đấm, CPR); (b) ĐỀU — TRUNG VỊ sau cắt
+    ≥ V_BD_TV và ≥ BD_TV_PHU khung còn trên mức đó (gảy guitar 59 °/s, 97 % khung). Trung bình không tách được (b) khỏi cử
+    chỉ giữ: khoanh tay TB 53 do một cú gỡ tay, nhưng trung vị 10 · chống hông 7."""
+    n = len(vv)
+    if not CAT_BIEU_DIEN or onset is None or cat is None or cat + int(0.5 * FPS) >= n:
+        return None
+    w = max(1, int(0.15 * FPS))
+    v = np.convolve(np.asarray(vv, float), np.ones(w) / w, mode="same")
+    truoc = float(v[onset:cat + 1].mean())
+    duoi = v[cat + 1:]
+    sau, tv = float(duoi.mean()), float(np.median(duoi))
+    manh = sau >= V_BD and sau >= TI_BD * truoc
+    deu = tv >= V_BD_TV and float((duoi >= V_BD_TV).mean()) >= BD_TV_PHU
+    if not (manh or deu):
+        return None
+    moc = max(V_BD, TI_BD * truoc) if manh else max(0.5 * tv, 25.0)
+    con = np.where(duoi >= moc)[0]
+    if not len(con):
+        return None
+    het = cat + 1 + int(con.max())
+    # trần phần diễn tính từ onset: lối ra của đi/chạy/nhảy chân sáo dài 5–6 s nên giữ trọn 8 s là clip vượt cổng 12 s
+    # (bộ thử v11: skips in a circle 12,4 · walks backward 12,3/12,1 s bị loại, bản cũ đạt)
+    het = min(het, onset + int(BD_TOI_DA_S * FPS))
+    if het <= cat:
+        return None
+    a = max(cat + 1, het - int(BD_TIM_S * FPS))
+    k = a + int(np.argmin(v[a:het + 1]))
+    return int(min(n - 1, max(k, cat)))
 
 
 def diem_dau(dd, onset: int) -> int:
