@@ -183,17 +183,18 @@ def diem_cat_dong_tac(clip: dict, idle_pose: dict, giu_s: float = GIU_S, bieu_di
                 cat = a + int(GIU_NGHI_S * FPS * 0.5)
                 break
         i = j + 1
+    bd_do: dict = {}
     if cat is not None:
         lap_sau = bool(cat + 1 < n and hoat[cat + 1:].max() > 0.5 * hoat.max())
-        bd = _cat_bieu_dien(vv, onset, cat) if (lap_sau and bieu_dien) else None
-        if bd is not None:
-            return {"k_cat": bd, "loai": "bieu_dien", "onset": onset, "dinh1": dinh1, "cua_so_bac": bac, "lap_sau": True, "do": m}
-        return {"k_cat": cat, "loai": "tu_nghi", "onset": onset, "dinh1": dinh1, "cua_so_bac": bac, "lap_sau": lap_sau, "do": m}
+        bd = _cat_bieu_dien(vv, onset, cat, bd_do)
+        if bd is not None and lap_sau and bieu_dien:
+            return {"k_cat": bd, "loai": "bieu_dien", "onset": onset, "dinh1": dinh1, "cua_so_bac": bac, "lap_sau": True, "do": m, "bd_do": bd_do}
+        return {"k_cat": cat, "loai": "tu_nghi", "onset": onset, "dinh1": dinh1, "cua_so_bac": bac, "lap_sau": lap_sau, "do": m, "bd_do": bd_do}
     cat = min(n - 1, dinh1 + int(giu_s * FPS))
-    bd = _cat_bieu_dien(vv, onset, cat) if bieu_dien else None
-    if bd is not None:
-        return {"k_cat": bd, "loai": "bieu_dien", "onset": onset, "dinh1": dinh1, "cua_so_bac": bac, "lap_sau": True, "do": m}
-    return {"k_cat": cat, "loai": "giu", "onset": onset, "dinh1": dinh1, "cua_so_bac": bac, "lap_sau": False, "do": m}
+    bd = _cat_bieu_dien(vv, onset, cat, bd_do)
+    if bd is not None and bieu_dien:
+        return {"k_cat": bd, "loai": "bieu_dien", "onset": onset, "dinh1": dinh1, "cua_so_bac": bac, "lap_sau": True, "do": m, "bd_do": bd_do}
+    return {"k_cat": cat, "loai": "giu", "onset": onset, "dinh1": dinh1, "cua_so_bac": bac, "lap_sau": False, "do": m, "bd_do": bd_do}
 
 
 # ĐỘNG TÁC BIỂU DIỄN (17/09, user thử 72 động tác chuyên môn: "vài động tác không thực hiện hết mà kết thúc giữa chừng sau đó
@@ -212,7 +213,7 @@ BD_TIM_S = 1.5
 BD_TOI_DA_S = float(os.getenv("ARDY_KHO_BD_TOI_DA_S", "5.5"))
 
 
-def _cat_bieu_dien(vv, onset: int, cat: int):
+def _cat_bieu_dien(vv, onset: int, cat: int, ghi: dict | None = None):
     """Điểm cắt mới cho động tác biểu diễn, hoặc None nếu clip không phải biểu diễn.
 
     Hai cửa: (a) MẠNH — TB sau cắt ≥ V_BD và ≥ TI_BD × TB trong [onset, cắt] (nhảy, đấm, CPR); (b) ĐỀU — TRUNG VỊ sau cắt
@@ -226,8 +227,13 @@ def _cat_bieu_dien(vv, onset: int, cat: int):
     truoc = float(v[onset:cat + 1].mean())
     duoi = v[cat + 1:]
     sau, tv = float(duoi.mean()), float(np.median(duoi))
+    phu = float((duoi >= V_BD_TV).mean())
     manh = sau >= V_BD and sau >= TI_BD * truoc
-    deu = tv >= V_BD_TV and float((duoi >= V_BD_TV).mean()) >= BD_TV_PHU
+    deu = tv >= V_BD_TV and phu >= BD_TV_PHU
+    if ghi is not None:
+        # số đo ghi vào meta mọi clip: GPU và Mac cho mẫu khác nhau nên chẩn đoán luật trên RunPod phải đọc từ đây
+        ghi.update(truoc_tb=round(truoc), sau_tb=round(sau), sau_tv=round(tv), sau_phu=round(phu, 2), manh=manh, deu=deu,
+                   con_s=round((n - cat - 1) / FPS, 2))
     if not (manh or deu):
         return None
     moc = max(V_BD, TI_BD * truoc) if manh else max(0.5 * tv, 25.0)
@@ -1660,7 +1666,7 @@ def render_mot(tag: str, prompt: str, giay: float, hist: list, dich: dict, idle_
     song = ardy_song.song(hc)
     meta = {"tag": tag, "prompt": prompt, "khop": khop, "sim": round(sim, 3), "giay_xin": giay, "dai_s": hc["duration_s"],
             "loai": ct["loai"], "onset_s": round(ct["onset"] / FPS, 2), "dinh1_s": round(ct["dinh1"] / FPS, 2),
-            "cat_s": round(k_cat / FPS, 2), "cua_so_bac": ct["cua_so_bac"], "lap_sau": ct["lap_sau"],
+            "cat_s": round(k_cat / FPS, 2), "cua_so_bac": ct["cua_so_bac"], "lap_sau": ct["lap_sau"], "bd_do": ct.get("bd_do"),
             "khung0_lech_idle": round(d0, 1), "dau_lech_idle": round(float(ct["do"]["dd"][k_dau]), 1),
             "noi_loi_ra": round(noi, 1), "loi_ra_lang_s": None if het_lang else round(k_lang / FPS, 2),
             "dinh_do": round(dinh_hc, 1), "dinh_goc": round(dinh_goc, 1), "cuoi_lech_idle": round(cuoi, 2),
