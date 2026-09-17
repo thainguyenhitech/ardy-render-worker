@@ -146,7 +146,7 @@ def do_hoat_dong(clip: dict, idle_pose: dict) -> dict:
     return {"n": n, "dd": dd, "vv": vv, "yw": yw, "vy": vy, "vh": vh, "hoat": hoat, "xz": xz}
 
 
-def diem_cat_dong_tac(clip: dict, idle_pose: dict, giu_s: float = GIU_S) -> dict:
+def diem_cat_dong_tac(clip: dict, idle_pose: dict, giu_s: float = GIU_S, bieu_dien: bool = True) -> dict:
     """Luật 3. Trả {k_cat, loai, onset, dinh1, cua_so_bac, lap_sau}."""
     m = do_hoat_dong(clip, idle_pose)
     n, dd, vv, hoat = m["n"], m["dd"], m["vv"], m["hoat"]
@@ -185,12 +185,12 @@ def diem_cat_dong_tac(clip: dict, idle_pose: dict, giu_s: float = GIU_S) -> dict
         i = j + 1
     if cat is not None:
         lap_sau = bool(cat + 1 < n and hoat[cat + 1:].max() > 0.5 * hoat.max())
-        bd = _cat_bieu_dien(vv, onset, cat) if lap_sau else None
+        bd = _cat_bieu_dien(vv, onset, cat) if (lap_sau and bieu_dien) else None
         if bd is not None:
             return {"k_cat": bd, "loai": "bieu_dien", "onset": onset, "dinh1": dinh1, "cua_so_bac": bac, "lap_sau": True, "do": m}
         return {"k_cat": cat, "loai": "tu_nghi", "onset": onset, "dinh1": dinh1, "cua_so_bac": bac, "lap_sau": lap_sau, "do": m}
     cat = min(n - 1, dinh1 + int(giu_s * FPS))
-    bd = _cat_bieu_dien(vv, onset, cat)
+    bd = _cat_bieu_dien(vv, onset, cat) if bieu_dien else None
     if bd is not None:
         return {"k_cat": bd, "loai": "bieu_dien", "onset": onset, "dinh1": dinh1, "cua_so_bac": bac, "lap_sau": True, "do": m}
     return {"k_cat": cat, "loai": "giu", "onset": onset, "dinh1": dinh1, "cua_so_bac": bac, "lap_sau": False, "do": m}
@@ -1589,8 +1589,8 @@ def idle_dong_bang(kho: Path) -> tuple[list, dict, dict]:
 
 
 # ---- render một clip ---------------------------------------------------------------------------
-def render_mot(tag: str, prompt: str, giay: float, hist: list, dich: dict, idle_clip: dict) -> dict:
-    """Trả {"clip", "meta"} hoặc {"loi": ...}."""
+def render_mot(tag: str, prompt: str, giay: float, hist: list, dich: dict, idle_clip: dict, bieu_dien: bool = True) -> dict:
+    """Trả {"clip", "meta"} hoặc {"loi": ...}. `bieu_dien=False` = luật cắt cử chỉ cũ (đường lùi khi clip biểu diễn quá dài)."""
     from app.modules.body_motion import ardy_song
     k_idle = len(idle_clip["bones"]["Hips"]) - 1
     idle_pose = tu_the(idle_clip, k_idle)
@@ -1600,7 +1600,7 @@ def render_mot(tag: str, prompt: str, giay: float, hist: list, dich: dict, idle_
         return {"loi": "service không trả clip"}
     # khung 0 phải trùng idle (history là điều kiện cứng) — không trùng là idle đóng băng đã đổi
     d0 = lech(tu_the(clip, 0), idle_pose)[0]
-    ct = diem_cat_dong_tac(clip, idle_pose)
+    ct = diem_cat_dong_tac(clip, idle_pose, bieu_dien=bieu_dien)
     if ct["k_cat"] is None:
         return {"loi": f"không có động tác (khớp '{khop}' {sim:.2f})", "khop": khop, "sim": sim}
     k_cat = ct["k_cat"]
@@ -1676,6 +1676,13 @@ def render_mot(tag: str, prompt: str, giay: float, hist: list, dich: dict, idle_
     if dinh_hc < 0.6 * dinh_goc:
         return {"loi": f"đỉnh sau cắt {dinh_hc:.0f}° < 60 % bản gốc {dinh_goc:.0f}°", "meta": meta}
     if hc["duration_s"] > DAI_TOI_DA:
+        if ct["loai"] == "bieu_dien":
+            # ĐƯỜNG LÙI (17/09): giữ trọn biểu diễn + lối ra đi/chạy 5–6 s vượt cổng (bộ thử v11/v12: skips in a circle 12,4 ·
+            # walks backward 12,3/12,1 s — bản cắt cũ đạt). Trần theo onset không bắt được vì phần trước onset + lối ra
+            # không biết trước; sinh lại (cùng seed nên cùng clip thô) với luật cắt cũ thay vì loại động tác
+            import logging
+            logging.getLogger(__name__).info("clip biểu diễn %.1fs > %s — lùi về luật cắt cũ: %s", hc["duration_s"], DAI_TOI_DA, prompt[:60])
+            return render_mot(tag, prompt, giay, hist, dich, idle_clip, bieu_dien=False)
         return {"loi": f"dài {hc['duration_s']:.1f}s > {DAI_TOI_DA}", "meta": meta}
     # NGẮN HƠN CỬA SỔ TRỘN = KHÔNG CÓ ĐOẠN TRỘN NÀO (13/09). `lap_ghep` bỏ qua trộn khi `N <= nb + 1` để khỏi
     # vỡ chỉ số — an toàn cho máy nhưng clip xuất ra KHÔNG về idle, phá đúng bất biến mà cả kho dựa vào.
